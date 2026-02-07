@@ -1,15 +1,17 @@
-name = "solworld"
+name = "Solworld"
 author = "Snowriter"
 version = "1.0.0"
+description = "一个精心优化的 1.21.1 生存整合包。内置高性能渲染配置与基础生存增强，开箱即用。"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "24f0b3b29507aa7d90bc871d1795d00bd158ceb2fc6d24bf1426f4b6f038e75d"
+hash = "d9888912840faffc26dd3d4053088807ecbd9a4622fcaf9740a934f95faf9496"
 
 [versions]
 fabric = "0.18.4"
+java = "21"
 minecraft = "1.21.1"
 
 [options]
