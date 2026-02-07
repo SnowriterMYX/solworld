@@ -34,26 +34,26 @@
 2. 将生成的 `solworld.mrpack` 文件拖入 **XMCL** 或 **Prism Launcher**。
 3. 启动器会自动根据索引下载所有 Mod 及配置文件。
 
-### 方式 B：开发者同步 (本地测试)
-如果你在测试新的 Mod 组合：
-1. 确保 `mods/` 文件夹下只有 `.pw.toml`。
-2. 运行 `packwiz refresh` 确保索引最新。
-
 ---
 
 ## 🖥️ 服务端运维 (Linux VPS)
 
 Solworld 实现了服务端自动瘦身，部署时会自动跳过 Iris、Sodium 等客户端插件。
 
-### 1. 首次初始化
+### 1. 首次初始化 (安装核心与引导)
 ```bash
 # 创建目录
 mkdir solworld-server && cd solworld-server
 
-# 下载自动更新引导包
+# A. 下载并安装 Fabric 服务端核心
+wget https://maven.fabricmc.net/net/fabricmc/fabric-installer/1.0.1/fabric-installer-1.0.1.jar
+java -jar fabric-installer-1.0.1.jar server -mcversion 1.21.1 -downloadMinecraft
+echo "eula=true" > eula.txt
+
+# B. 下载 Packwiz 自动更新引导包
 wget https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar
 
-# 同步整合包数据 (关键参数: -s server)
+# C. 首次同步 Mod 数据 (关键参数: -s server)
 java -jar packwiz-installer-bootstrap.jar -g -s server https://raw.githubusercontent.com/SnowriterMYX/solworld/master/pack.toml
 ```
 
@@ -61,10 +61,11 @@ java -jar packwiz-installer-bootstrap.jar -g -s server https://raw.githubusercon
 推荐使用此脚本，每次重启服务器时都会自动检查并下载 GitHub 上的最新 Mod 更新：
 ```bash
 #!/bin/bash
-# 1. 自动同步更新
+# 1. 自动同步更新 (指向你的 GitHub Raw 链接)
 java -jar packwiz-installer-bootstrap.jar -s server https://raw.githubusercontent.com/SnowriterMYX/solworld/master/pack.toml
 
-# 2. 运行服务端 (根据内存调整 -Xmx)
+# 2. 运行服务端
+# 注意: 核心文件名必须与第一步生成的保持一致 (通常是 fabric-server-launch.jar)
 java -Xmx8G -jar fabric-server-launch.jar nogui
 ```
 
@@ -72,25 +73,20 @@ java -Xmx8G -jar fabric-server-launch.jar nogui
 
 ## 🔄 日常维护工作流
 
-当你需要添加新 Mod 或修改配置时，请遵循以下步骤：
-
 ### 1. 添加 Mod
 ```bash
 # 从 Modrinth 添加
 packwiz modrinth add <mod-slug>
 
-# 如果是客户端专用 Mod (如优化类、光影类)，必须标记分类
-# 手动修改 mods/<mod>.pw.toml，设置 side = "client"
+# 标记分类 (如果是客户端专用)
+# 修改 mods/<mod>.pw.toml，设置 side = "client"
 ```
 
 ### 2. 同步与上传
 ```bash
-# 刷新索引（Packwiz 会自动处理哈希值）
 packwiz refresh
-
-# 提交变更
 git add .
-git commit -m "docs: add deployment and maintenance guide"
+git commit -m "feat: update modpack"
 git push origin master
 ```
 
@@ -98,6 +94,6 @@ git push origin master
 
 ## ⚠️ 注意事项
 
-1. **Side 属性**: 务必确保所有渲染类 Mod（Iris, Sodium, DistantHorizons 等）在 .pw.toml 中被标记为 `side = "client"`。
-2. **本地 Jar**: 本项目 `.gitignore` 默认忽略所有 `.jar`。私有 Jar 需手动用 `git add -f` 强制添加。
-3. **GitHub Raw 延迟**: GitHub 的 Raw 内容同步约有 1-5 分钟缓存。
+1. **核心 JAR 丢失**: 如果报错 `Unable to access jarfile`，请确保已执行上述“安装 Fabric 服务端核心”的步骤。
+2. **Side 属性**: 渲染类 Mod 务必标记为 `side = "client"`，否则服务端崩溃。
+3. **GitHub Raw 延迟**: 推送后服务器端可能有 1-5 分钟的缓存延迟。
