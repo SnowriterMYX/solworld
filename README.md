@@ -62,7 +62,7 @@ while true
 do
     echo "--- 正在检查 Mod 更新 ---"
     # 添加 ?v=$RANDOM 强制绕过 GitHub Raw 缓存
-    java -jar packwiz-installer-bootstrap.jar -s server https://raw.githubusercontent.com/SnowriterMYX/solworld/master/pack.toml?v=$RANDOM
+    java -jar packwiz-installer-bootstrap.jar -s server "https://raw.githubusercontent.com/SnowriterMYX/solworld/master/pack.toml?v=$RANDOM"
 
     echo "--- 正在启动服务端 ---"
     # Aikar's Flags 优化参数 (适用于 8G 内存)
