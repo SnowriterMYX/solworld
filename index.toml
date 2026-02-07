@@ -1478,6 +1478,11 @@ hash = "a104f2f6044d43bbc5a5badc6f589b2f6f5a1b9c9e47e00dfbad5061aa3b51f4"
 metafile = true
 
 [[files]]
+file = "mods/goblin-traders.pw.toml"
+hash = "f272388b6a0b00e9ce7ddc5fbb029e9ad77afb5eb3925c020de42707e495ffe8"
+metafile = true
+
+[[files]]
 file = "mods/goblintradersfood.pw.toml"
 hash = "dee8b15ace4365fa73f1cd65573406ecb457f9dc9425850d89f19e0f5a33eff8"
 metafile = true
