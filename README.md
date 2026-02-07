@@ -11,28 +11,42 @@
 
 ---
 
-## 🛠️ 环境准备
+## 🛠️ 环境准备 (Java 21 安装)
 
-在开始之前，请确保你的系统已安装以下工具：
+运行 Minecraft 1.21.1 必须使用 Java 21。推荐以下两种安装方式：
 
-- **Java 21**: 运行 Minecraft 1.21.1 的必备版本。
-- **Packwiz CLI**: 
-  ```bash
-  paru -S packwiz  # Arch Linux 用户
-  ```
-- **Git**: 版本控制。
+### 方式 A：使用 `mise` 管理 (推荐 / 隔离环境)
+如果你希望像 Python 虚拟环境一样管理不同版本的 Java，推荐使用 `mise`：
+```bash
+# 安装 Java 21
+mise install java@openjdk-21
+
+# 在当前目录启用 (会生成 .mise.toml)
+mise use java@openjdk-21
+
+# 验证版本
+java -version
+```
+
+### 方式 B：系统级安装 (Arch Linux)
+直接通过系统包管理器安装：
+```bash
+sudo pacman -S jdk21-openjdk
+
+# 如果系统有多个 Java 版本，请切换默认版本
+sudo archlinux-java set java-21-openjdk
+```
 
 ---
 
 ## 💻 客户端部署
 
-### 方式 A：导出整合包 (推荐给朋友使用)
+### 导出整合包 (推荐给朋友使用)
 1. 在本地项目目录执行：
    ```bash
    packwiz modrinth export
    ```
-2. 将生成的 `solworld.mrpack` 文件拖入 **XMCL** 或 **Prism Launcher**。
-3. 启动器会自动根据索引下载所有 Mod 及配置文件。
+2. 将生成的 `solworld.mrpack` 文件拖入 **XMCL** 或 **Prism Launcher** 即可。
 
 ---
 
@@ -53,19 +67,17 @@ echo "eula=true" > eula.txt
 # B. 下载 Packwiz 自动更新引导包
 wget https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar
 
-# C. 首次同步 Mod 数据 (关键参数: -s server)
+# C. 首次同步 Mod 数据
 java -jar packwiz-installer-bootstrap.jar -g -s server https://raw.githubusercontent.com/SnowriterMYX/solworld/master/pack.toml
 ```
 
 ### 2. 编写启动脚本 `start.sh`
-推荐使用此脚本，每次重启服务器时都会自动检查并下载 GitHub 上的最新 Mod 更新：
 ```bash
 #!/bin/bash
-# 1. 自动同步更新 (指向你的 GitHub Raw 链接)
-java -jar packwiz-installer-bootstrap.jar -s server https://raw.githubusercontent.com/SnowriterMYX/solworld/master/pack.toml
+# 1. 自动同步更新 (添加 ?v=1 绕过 GitHub 缓存)
+java -jar packwiz-installer-bootstrap.jar -s server https://raw.githubusercontent.com/SnowriterMYX/solworld/master/pack.toml?v=1
 
 # 2. 运行服务端
-# 注意: 核心文件名必须与第一步生成的保持一致 (通常是 fabric-server-launch.jar)
 java -Xmx8G -jar fabric-server-launch.jar nogui
 ```
 
@@ -73,27 +85,19 @@ java -Xmx8G -jar fabric-server-launch.jar nogui
 
 ## 🔄 日常维护工作流
 
-### 1. 添加 Mod
-```bash
-# 从 Modrinth 添加
-packwiz modrinth add <mod-slug>
-
-# 标记分类 (如果是客户端专用)
-# 修改 mods/<mod>.pw.toml，设置 side = "client"
-```
-
-### 2. 同步与上传
-```bash
-packwiz refresh
-git add .
-git commit -m "feat: update modpack"
-git push origin master
-```
+1. **添加 Mod**: `packwiz modrinth add <slug>`
+2. **标记 Side**: 如果是渲染/优化类，手动修改 `.pw.toml` 为 `side = "client"`。
+3. **同步上传**:
+   ```bash
+   packwiz refresh
+   git add .
+   git commit -m "feat: update modpack"
+   git push origin master
+   ```
 
 ---
 
 ## ⚠️ 注意事项
 
-1. **核心 JAR 丢失**: 如果报错 `Unable to access jarfile`，请确保已执行上述“安装 Fabric 服务端核心”的步骤。
-2. **Side 属性**: 渲染类 Mod 务必标记为 `side = "client"`，否则服务端崩溃。
-3. **GitHub Raw 延迟**: 推送后服务器端可能有 1-5 分钟的缓存延迟。
+1. **缓存延迟**: GitHub Raw 链接有缓存。同步时若未刷出新 Mod，请在 URL 后添加 `?v=时间戳`。
+2. **依赖冲突**: 若服务端报错缺少依赖（如 Fusion），请检查该依赖的 `side` 属性是否被错误标记为 `client`。
