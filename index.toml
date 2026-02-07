@@ -1434,6 +1434,11 @@ hash = "7cb9e98526468233fbec6f949c78a8afc5ef29447868e1d11cb71293237966a2"
 metafile = true
 
 [[files]]
+file = "mods/dehydration.pw.toml"
+hash = "dc7635575c9131941b7efe57b68cd48843cb28f9799eba6907cc02010648368e"
+metafile = true
+
+[[files]]
 file = "mods/diagonal-fences.pw.toml"
 hash = "23b3bf6d1931acd2aa6daa5409b274b0d4ec9ec659c01d11454093d8fcd1e342"
 metafile = true
