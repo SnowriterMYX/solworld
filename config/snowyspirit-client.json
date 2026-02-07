@@ -1,0 +1,10 @@
+{
+  "particles": {
+    // Glow light particle mode. I made 2 variants of this so choose the one you like the most
+    // Accepted range: 1 to 3
+    "glow_particle_mode": 1,
+    // Increases sled sound volume
+    // Accepted range: 0.0 to 20.0
+    "sled_sound_volume": 1.2
+  }
+}

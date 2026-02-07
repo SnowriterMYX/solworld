@@ -1,0 +1,5 @@
+[debug]
+# Show additional information in server logs.
+debug = false
+# do not touch pls :)
+version = 2

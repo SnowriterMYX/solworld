@@ -1,0 +1,43 @@
+{
+  "hammock": {
+    // Completely turns off the animation
+    "animation": true,
+    // Swing animation parameters
+    "animation_parameters": {
+      "frequency": 0.25,
+      "collision_considers_entity_hitbox": true,
+      "collision_inertia": 1.0,
+      "collision_force": 1.0,
+      "min_angle": 4.999998,
+      "max_angle": 99.999985,
+      "damping": 0.2
+    },
+    // Intensity of velocity increment that is applied when controlling a hammock
+    // Accepted range: 0.0 to 10.0
+    "swing_force": 0.008,
+    // Camera roll intensity when swinging on a hammock. Set to 0 to turn it off entirely
+    // Accepted range: 0.0 to 1.0
+    "camera_roll_intensity": 1.0,
+    // Swinging too much on a hammock will make you fall. Disable to do a barrel roll
+    "hammock_fall": true
+  },
+  "dream_essence": {
+    // How subtle the effect will be essentially. Set to one for bring fancy particles
+    // Accepted range: 0.0 to 1.0
+    "particle_alpha": 0.1,
+    // Affects the plume height. lower to make the plume shorter
+    // Accepted range: 1 to 10000
+    "particle_lifetime": 380,
+    // Makes particles spawn more often. Set to 0 to disable
+    // Accepted range: 0.0 to 1.0
+    "particle_spawn_chance": 0.15,
+    "24h_time_format": true
+  },
+  "misc": {
+    "show_insomnia_timer": false,
+    "crossair_insomnia_cooldown": true,
+    "show_time_when_sleeping": true,
+    "sleeping_villagers_eyes": true,
+    "zzz_particles": true
+  }
+}

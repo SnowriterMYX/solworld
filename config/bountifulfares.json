@@ -1,0 +1,154 @@
+{
+  "INT_CONFIGS": [
+    {
+      "id": "millingTime",
+      "value": 4,
+      "min": 1,
+      "max": 10
+    },
+    {
+      "id": "fermentationTime",
+      "value": 300,
+      "min": 1,
+      "max": 600
+    },
+    {
+      "id": "infusedCandleRadius",
+      "value": 3,
+      "min": 1,
+      "max": 16
+    },
+    {
+      "id": "flourThrowingCooldown",
+      "value": 0,
+      "min": 0,
+      "max": 20
+    }
+  ],
+  "BOOL_CONFIGS": [
+    {
+      "a": "fruitReplaceWhenPicked",
+      "b": true
+    },
+    {
+      "a": "enableFlourThrowing",
+      "b": true
+    },
+    {
+      "a": "containerFoodsEatableOnDish",
+      "b": false
+    },
+    {
+      "a": "enablePlaceablePumpkinPie",
+      "b": true
+    },
+    {
+      "a": "cakeEatSounds",
+      "b": true
+    },
+    {
+      "a": "enableSweetBerryPips",
+      "b": true
+    },
+    {
+      "a": "enableHoarySeeds",
+      "b": true
+    },
+    {
+      "a": "enableLapisberrySeeds",
+      "b": true
+    },
+    {
+      "a": "grassLootTableOverride",
+      "b": true
+    },
+    {
+      "a": "enableGuardianSpongekinSeeds",
+      "b": true
+    },
+    {
+      "a": "showCompatItemsInRecipeViewers",
+      "b": true
+    },
+    {
+      "a": "fermentationBubbleParticles",
+      "b": true
+    },
+    {
+      "a": "restorationHeartOverlay",
+      "b": true
+    },
+    {
+      "a": "acidifiedEffectIconEffects",
+      "b": true
+    },
+    {
+      "a": "effectTooltips",
+      "b": true
+    },
+    {
+      "a": "tiffinCornerFoodIcon",
+      "b": false
+    },
+    {
+      "a": "showTiffinFoodInHand",
+      "b": false
+    },
+    {
+      "a": "addItemsToVanillaTabs",
+      "b": true
+    },
+    {
+      "a": "generateAppleTrees",
+      "b": true
+    },
+    {
+      "a": "generateOrangeTrees",
+      "b": true
+    },
+    {
+      "a": "generateLemonTrees",
+      "b": true
+    },
+    {
+      "a": "generatePlumTrees",
+      "b": true
+    },
+    {
+      "a": "generatePalmTrees",
+      "b": true
+    },
+    {
+      "a": "generateWalnutTrees",
+      "b": true
+    },
+    {
+      "a": "generateWildBeetroot",
+      "b": true
+    },
+    {
+      "a": "generateWildCarrots",
+      "b": true
+    },
+    {
+      "a": "generateWildLeeks",
+      "b": true
+    },
+    {
+      "a": "generateWildMaize",
+      "b": true
+    },
+    {
+      "a": "generateWildPotatoes",
+      "b": true
+    },
+    {
+      "a": "generateWildWheat",
+      "b": true
+    },
+    {
+      "a": "generateGrassyDirtPatches",
+      "b": true
+    }
+  ]
+}
