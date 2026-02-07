@@ -1414,6 +1414,11 @@ hash = "408151861cc1b1a4c4e9c8a3550662a2fc36d0ea96ee07b7e96c5d2a6afacf6f"
 metafile = true
 
 [[files]]
+file = "mods/farmers-delight-refabricated.pw.toml"
+hash = "debc633d962665af2873b7e4c74a5bd8da18d6a883971e73b9039f9612f457b7"
+metafile = true
+
+[[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "1d5799cd3b6ea714602c18546b99ba894e7511835b77803304792468fb7ee187"
 metafile = true
@@ -1779,6 +1784,11 @@ hash = "509a129f843e72b23f7269fb940bbd757a78716d6f2350f33ebe751c40bb77f8"
 metafile = true
 
 [[files]]
+file = "mods/simple-voice-chat.pw.toml"
+hash = "cc98ef15cb0fb331703af145ea92255765247a2b1d27b87d05a44ad0dc6d9b4e"
+metafile = true
+
+[[files]]
 file = "mods/simply-swords.pw.toml"
 hash = "15f247429100c92dec4e69697c94e39c0dd865251310e18bac7f3bb33c841186"
 metafile = true
@@ -1886,6 +1896,11 @@ metafile = true
 [[files]]
 file = "mods/waystones.pw.toml"
 hash = "d9b210470eeaca6109002dcc8c1442dbbef5468bbf7be516651e7fc25b3d5c5e"
+metafile = true
+
+[[files]]
+file = "mods/widgets_mod.pw.toml"
+hash = "826cf0f78ec5f8eb4adcafbc6ce4a2b93ca879c1bc48c7d024b575759d6d0fa9"
 metafile = true
 
 [[files]]
