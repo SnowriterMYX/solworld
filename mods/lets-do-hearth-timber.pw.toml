@@ -1,0 +1,13 @@
+name = "[Let's Do] Hearth & Timber"
+filename = "letsdo-hearth_and_timber-fabric-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/paO4gjmE/versions/IMDjqcHV/letsdo-hearth_and_timber-fabric-1.0.2.jar"
+hash-format = "sha512"
+hash = "51436b1da4c95ea50fe34194fa545727d42ac16405f46d0ee87b8de839fb00b5f9ab7196eb883f9cdf4c1831ed6e08cacea06b900addac55dc071c250fab8a1e"
+
+[update]
+[update.modrinth]
+mod-id = "paO4gjmE"
+version = "IMDjqcHV"

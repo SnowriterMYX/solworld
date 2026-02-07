@@ -1,0 +1,13 @@
+name = "Neutral window sills from Let's Do Farm and Charm"
+filename = "§eNeutral window sills§0_§8§0.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/5g4mT7Rt/versions/3IlHafmx/%C2%A7eNeutral%20window%20sills%C2%A70_%C2%A78%C2%A70.zip"
+hash-format = "sha512"
+hash = "c17dff65c87387d0ef3d220564f86ea3fa21e37140e63c335cc2f50842b7f337eb3eeac45345ca31f0912c995d52d2267393890cc278b74d13453d613fe651f2"
+
+[update]
+[update.modrinth]
+mod-id = "5g4mT7Rt"
+version = "3IlHafmx"

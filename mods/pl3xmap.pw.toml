@@ -1,0 +1,13 @@
+name = "Pl3xMap"
+filename = "Pl3xMap-1.21.1-508.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/34T8oVNY/versions/Z2GbpQcE/Pl3xMap-1.21.1-508.jar"
+hash-format = "sha512"
+hash = "0ab36fad23d4ba900ecae6048322f645aa0d2413f543193643218ba0ac9966efe664402185e5e09d4aff4b8a577144c53614ed2dbb6c7ed37c059c3ecc438582"
+
+[update]
+[update.modrinth]
+mod-id = "34T8oVNY"
+version = "Z2GbpQcE"

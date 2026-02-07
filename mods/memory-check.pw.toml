@@ -1,0 +1,13 @@
+name = "Memory Check"
+filename = "memory-check-1.5.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/8UopITFC/versions/cQNuW0j8/memory-check-1.5.jar"
+hash-format = "sha512"
+hash = "0bbd213a0ac4605a4d2e83511af4017f6d9a878e1c9aa8f77a6facbe6196ed3bebe9832770af3d3cb23b20290af34bab6ebf44f8b5a16614831b132420c7a7f4"
+
+[update]
+[update.modrinth]
+mod-id = "8UopITFC"
+version = "cQNuW0j8"

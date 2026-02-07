@@ -1,0 +1,13 @@
+name = "Mizuno's x Letsdo Farm and Charm"
+filename = "Mizuno's x Letsdo Farm and Charm.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/sauExrWx/versions/r8ZdadGf/Mizuno%27s%20x%20Letsdo%20Farm%20and%20Charm.zip"
+hash-format = "sha512"
+hash = "7198b90b46b47dc9cd2a0ad303af3681ecdaa99f88258633fda102f210144c7020d3edaf79462b832c936508bc4cf6a35c00927436e6dc8359993cdaadd177da"
+
+[update]
+[update.modrinth]
+mod-id = "sauExrWx"
+version = "r8ZdadGf"

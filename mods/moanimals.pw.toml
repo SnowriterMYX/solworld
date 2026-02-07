@@ -1,0 +1,13 @@
+name = "More Animals"
+filename = "MoAnimals-fabric-0.1.0-BETA.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/QQAM7AG8/versions/D33uixvu/MoAnimals-fabric-0.1.0-BETA.jar"
+hash-format = "sha512"
+hash = "6c70483932a35d572005b95dbd78317b4f7fdff616ee951f695ee6faaa86c0d888465c9f23ffb80f3b28ffb5fb73852877cc00af5ee7c495db09d1a2e2d73002"
+
+[update]
+[update.modrinth]
+mod-id = "QQAM7AG8"
+version = "D33uixvu"

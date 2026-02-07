@@ -1,0 +1,13 @@
+name = "Mizuno's x Letsdo Furniture"
+filename = "Mizuno's x Lets Do Furniture.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/IDP7hjgK/versions/3EFltd49/Mizuno%27s%20x%20Lets%20Do%20Furniture.zip"
+hash-format = "sha512"
+hash = "5751a7512dfca5b667cc517f2964846da11711d463d89b64dbc9d1f32df0ff557a02ac113b767195bc8cd8285b0e756722a57f9d259be9beb3368bc995ff8365"
+
+[update]
+[update.modrinth]
+mod-id = "IDP7hjgK"
+version = "3EFltd49"

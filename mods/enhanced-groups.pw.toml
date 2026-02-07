@@ -1,0 +1,13 @@
+name = "Simple Voice Chat Enhanced Groups"
+filename = "instantgroup-fabric-1.21.1-1.7.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cf3f4ce900285be55535dedf8c8cd9b61f9ae1c1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6131396
+project-id = 843309

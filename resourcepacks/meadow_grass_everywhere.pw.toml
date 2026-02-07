@@ -1,0 +1,13 @@
+name = "Meadow Grass Everywhere!"
+filename = "meadow_grass_everywhere.v1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/cAymu9B2/versions/jmsewPpg/meadow_grass_everywhere.v1.zip"
+hash-format = "sha512"
+hash = "3afba9837ec419e9c2a79f4aa9f24c5a701ae36e21aa8f1613252cb8a3283ca0a27c1017b58e0bf08dc76f9e0e17cc1147ce3c33c457c5ba2c5d46826b4d7d5d"
+
+[update]
+[update.modrinth]
+mod-id = "cAymu9B2"
+version = "jmsewPpg"

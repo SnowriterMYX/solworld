@@ -1,0 +1,13 @@
+name = "Sparkweave Engine"
+filename = "Sparkweave-Fabric-0.510.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/nf68xfAw/versions/UQuUW6MR/Sparkweave-Fabric-0.510.0.jar"
+hash-format = "sha512"
+hash = "2cff91a530266880bc2160927b0a69c70b0803bd130ddafc4d6064ff300e664f9f4d9f547051001ad57169c19cb1a749613d6e8a93936f7a43be4b6022f32a1b"
+
+[update]
+[update.modrinth]
+mod-id = "nf68xfAw"
+version = "UQuUW6MR"

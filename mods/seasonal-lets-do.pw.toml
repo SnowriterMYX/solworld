@@ -1,0 +1,13 @@
+name = "Seasonal Let's Do"
+filename = "seasonal_lets_do-fabric-1.4.0+1.21.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/yFIPn94r/versions/SgBvAGvG/seasonal_lets_do-fabric-1.4.0%2B1.21.jar"
+hash-format = "sha512"
+hash = "96eea2b44e17845615b65611f4c8a4b823410af0411ef74bb8c83076e871f1af537e9f96d3810c493bed69f28c71f8e951755934cb30f544b9caaacc635c9ea5"
+
+[update]
+[update.modrinth]
+mod-id = "yFIPn94r"
+version = "SgBvAGvG"

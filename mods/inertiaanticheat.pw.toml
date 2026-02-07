@@ -1,0 +1,13 @@
+name = "Inertia Anti Cheat"
+filename = "InertiaAntiCheat-1.0.4.2-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ljWczies/versions/xSsRgiGg/InertiaAntiCheat-1.0.4.2-1.21.1.jar"
+hash-format = "sha512"
+hash = "e1b15f8c3212ab922d5df7af23f7aa5dd3e117b5b83d6fe9223f9b69be5d360a3d43a2e816f729404847fbb94d4358be59c90d744badabfc9b43f3a9bb1bef0e"
+
+[update]
+[update.modrinth]
+mod-id = "ljWczies"
+version = "xSsRgiGg"
