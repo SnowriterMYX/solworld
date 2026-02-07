@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "2bf00a752d3a3369288b2cd9fdd922d49f63750f017291e13da22b432e8ece64"
+hash = "3471a0d83f06e3915db4683714756c775a1f35564241ceab190def1d7535f1fa"
 
 [[files]]
 file = "config/DistantHorizons.toml"
@@ -1237,6 +1237,10 @@ metafile = true
 file = "mods/balm.pw.toml"
 hash = "a9f6cf1a98bc318c887b672aecaff6ffdbf33a6ec06af5f2686b292988d0846e"
 metafile = true
+
+[[files]]
+file = "mods/beautify-2.0.0+1.21.1.jar"
+hash = "134da1a8e3841f0a14004e839bd1e0a9d091cc5769a82b0052cebda2804ac4fd"
 
 [[files]]
 file = "mods/better-combat.pw.toml"
