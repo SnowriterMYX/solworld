@@ -1605,7 +1605,7 @@ metafile = true
 
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
-hash = "ebc2028adcda30978da8834b5bd20aa5bd4c4fbb1ab773474a6d848eb680fbad"
+hash = "0aee156d2192ac57826b8c350748568baf9fb896da553c8d2d9a7ab3fa80aec4"
 metafile = true
 
 [[files]]
@@ -2140,7 +2140,7 @@ metafile = true
 
 [[files]]
 file = "mods/sleep-warp.pw.toml"
-hash = "a9adcfa8ef8eb848a913c9b7ffbab89c70b4df24a6ed075ed9c473b7b07a2166"
+hash = "5e82bea9bdad60e2a41ed8d16d71bc47978d8d25e3f84e134d05d4b6cb1613ac"
 metafile = true
 
 [[files]]
@@ -2246,11 +2246,6 @@ metafile = true
 [[files]]
 file = "mods/trash-cans.pw.toml"
 hash = "f79709f5695efb597d43457a3e21cc3bf1c7edce7a3258b6bbfcb456c9d08759"
-metafile = true
-
-[[files]]
-file = "mods/travelers-backpack-dehydration-upgrade.pw.toml"
-hash = "ad8ceb02da5086624ec24c4afe7a9dd86d91596c1cb78f5aa09cdf6036f3c536"
 metafile = true
 
 [[files]]
