@@ -1,0 +1,13 @@
+name = "[Moonsu] Better GUI Create Style for Travelers Backpack"
+filename = "[Moonsu] Better GUI for T.B. 2.0 1.21.X.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/yuQWiXvO/versions/YdUZZE7t/%5BMoonsu%5D%20Better%20GUI%20for%20T.B.%202.0%201.21.X.zip"
+hash-format = "sha512"
+hash = "af352978a31cc457573380fbf6731a31c017d5f15c16aae391715bfba5b43c0b78fb381bcc6b7ce83a636734886cbf8a401ae2fada10088a546a6cbc9b094157"
+
+[update]
+[update.modrinth]
+mod-id = "yuQWiXvO"
+version = "YdUZZE7t"

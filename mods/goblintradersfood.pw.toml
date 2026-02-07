@@ -1,0 +1,13 @@
+name = "Goblin Traders Food Config"
+filename = "goblintradersfood-1.0.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/DRM2r8fQ/versions/CKcE4IIj/goblintradersfood-1.0.0.jar"
+hash-format = "sha512"
+hash = "0ae811feea3d27b3ba3447dfa0a7c4fe95e5f36e665a96f3e0c4e293ae08d073d9ad6e9a7eaf4a0e1f918de45adb62f4e517f700ab91b31891a2a00b83c14179"
+
+[update]
+[update.modrinth]
+mod-id = "DRM2r8fQ"
+version = "CKcE4IIj"

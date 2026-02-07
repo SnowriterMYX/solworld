@@ -1,0 +1,13 @@
+name = "Bountiful Blocks"
+filename = "bountifulblocks-1.21-0.9.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/OmyoZPgm/versions/h9Sg8QoR/bountifulblocks-1.21-0.9.6.jar"
+hash-format = "sha512"
+hash = "355eada8e28f53c84cc06be6d179dcdb367724db2c85e46ff35cb961417ae45403e9b318c8d138f7bcd26bf175227834e41dd99239a4d88aa2087cb663f9f0a2"
+
+[update]
+[update.modrinth]
+mod-id = "OmyoZPgm"
+version = "h9Sg8QoR"
