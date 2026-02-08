@@ -1,6 +1,6 @@
 name = "Oracle Index"
 filename = "oracle_index-fabric-1.0.0.jar"
-side = "client"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/J8MMsNrL/versions/I3gZ6T42/oracle_index-fabric-1.0.0.jar"

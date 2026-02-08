@@ -1244,8 +1244,8 @@ file = "mods/beautify-2.0.0+1.21.1.jar"
 hash = "134da1a8e3841f0a14004e839bd1e0a9d091cc5769a82b0052cebda2804ac4fd"
 
 [[files]]
-file = "mods/beautify.pw.toml"
-hash = "7d092490e4bb4c29b4f65a7964a541e8ef347bd2950ee2c476aae16139d8f9cf"
+file = "mods/beautify-refabricated.pw.toml"
+hash = "fdd247219e0dbfd147cfd230ab53c7ea2fbfeda33bcf89e8890ed965bf024246"
 metafile = true
 
 [[files]]
@@ -1534,11 +1534,6 @@ hash = "722f94c721da0889916f43905a5536b2723e4da8a8dc69c592242d8e181ae1a8"
 metafile = true
 
 [[files]]
-file = "mods/farmers-delight-fabric.pw.toml"
-hash = "28649c624258849191a6c0b0a1ba5479870bf9c14748bd6cc08dafd3d42e110a"
-metafile = true
-
-[[files]]
 file = "mods/farmers-delight-refabricated.pw.toml"
 hash = "debc633d962665af2873b7e4c74a5bd8da18d6a883971e73b9039f9612f457b7"
 metafile = true
@@ -1715,7 +1710,7 @@ metafile = true
 
 [[files]]
 file = "mods/lets-do-addon-compat.pw.toml"
-hash = "352320bf7a097f668b472cc181b53009cc866124be4ef51ea7d054f9690afdde"
+hash = "e74c6794943574a85ca7e02d5655a73f35c1646b46d080d9a3a862587019e968"
 metafile = true
 
 [[files]]
@@ -1746,11 +1741,6 @@ metafile = true
 [[files]]
 file = "mods/lets-do-candlelight-farmcharm-compat.pw.toml"
 hash = "a4f066107058ba62f5e1ef3a588c16c51571f3555585ecee4dd3c4ffc65c6255"
-metafile = true
-
-[[files]]
-file = "mods/lets-do-candlelight.pw.toml"
-hash = "dd7444021a8c2cf41db887b989f76dedaeab9e1a02bab4db388e555243802d2b"
 metafile = true
 
 [[files]]
@@ -1985,7 +1975,7 @@ metafile = true
 
 [[files]]
 file = "mods/oracle-index.pw.toml"
-hash = "bc4e5acbfceb6b80f0565133a3f65d95639d174e0cbd7540d03a60d035896fa0"
+hash = "acec6bae6f300edacbd34c1efa442bfbe75ab54a2b8eaa50045e62c9ed09a487"
 metafile = true
 
 [[files]]
@@ -2065,7 +2055,7 @@ metafile = true
 
 [[files]]
 file = "mods/repurposed-structures-fabric.pw.toml"
-hash = "6c64f7670b6e583f2dd25c09b026f27b5bd07ed8afeb5df859116f9515ed2c1e"
+hash = "bf7c2f09a087fb3051081357991a8eaca626640c13437abe6e30221039f675f0"
 metafile = true
 
 [[files]]
@@ -2124,8 +2114,8 @@ hash = "a937ed97bb53d8f02b2debc9413dcaaad9235c28d44dfe7faa42b9cc0ef940c8"
 metafile = true
 
 [[files]]
-file = "mods/sleep-warp.pw.toml"
-hash = "5e82bea9bdad60e2a41ed8d16d71bc47978d8d25e3f84e134d05d4b6cb1613ac"
+file = "mods/sleep-warp-updated.pw.toml"
+hash = "065a6c92f489bce0ef6b27f0b05acde22920c5f5f15414171890ec5ea375fe16"
 metafile = true
 
 [[files]]
