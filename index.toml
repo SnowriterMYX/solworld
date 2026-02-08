@@ -1308,11 +1308,6 @@ hash = "4b6dbc5c43845e29f9a9e3c5a60c47b55f58982626f933d2bb53e1130ebfaaff"
 metafile = true
 
 [[files]]
-file = "mods/bountiful-fares.pw.toml"
-hash = "0e7436daf88b116f530fdf21bdc299d0ef7b4ee3c59a05fa1be20ef495523ba9"
-metafile = true
-
-[[files]]
 file = "mods/capes.pw.toml"
 hash = "c899acdc322ab52800a6e305a16427297f411c1c39d97983be96e8b6a34e157c"
 metafile = true
@@ -1740,6 +1735,11 @@ metafile = true
 [[files]]
 file = "mods/lets-do-candlelight-farmcharm-compat.pw.toml"
 hash = "a4f066107058ba62f5e1ef3a588c16c51571f3555585ecee4dd3c4ffc65c6255"
+metafile = true
+
+[[files]]
+file = "mods/lets-do-emi-compat.pw.toml"
+hash = "551d023b8227367bee3526b7456085e20d0ccb557a1d04d846cc37f3eae0c89e"
 metafile = true
 
 [[files]]
