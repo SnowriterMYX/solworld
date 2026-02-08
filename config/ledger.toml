@@ -1,0 +1,20 @@
+[database]
+queueTimeoutMin = 5
+queueCheckDelaySec = 10
+autoPurgeDays = -1
+batchSize = 1000
+batchDelay = 10
+location = ""
+logSQL = false
+
+[search]
+pageSize = 8
+purgePermissionLevel = 4
+timeZone = "UTC"
+
+[actions]
+# 尝试屏蔽可能导致错误的源和动作类型
+typeBlacklist = ["block-spread", "entity-spawn", "entity-despawn"]
+worldBlacklist = []
+objectBlacklist = []
+sourceBlacklist = ["system", "null", "internal", "Carpet"]
