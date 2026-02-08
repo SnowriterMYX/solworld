@@ -53,14 +53,6 @@ file = "config/bakery.json"
 hash = "b85fe0f367fdbfc8e707dbaf48b3a571f8cc7d46c5990210ea4eac1ffd32bd3b"
 
 [[files]]
-file = "config/bcc-common.json"
-hash = "ca7fb03c09749694a0c57df91c4a009123abdb7aa262eb2acc9147d311e2e83c"
-
-[[files]]
-file = "config/bcc-common.toml"
-hash = "f428f5de3137267cacb9d74792897123f986a1ebdc268bedee7f449916b25ad0"
-
-[[files]]
 file = "config/beachparty.json"
 hash = "f8f65dbe8bc0f26219a97c50b297306b69d0d53cc3cbd8eb14b9d25983248bb6"
 
@@ -813,22 +805,6 @@ file = "config/patchouli.json5"
 hash = "f025fe9200c89f808a4459ce10b332a2f763c3d6d9622de61b10278e54161117"
 
 [[files]]
-file = "config/polymer/client.json"
-hash = "d8a4e36c8c4df8c5612aa9485d6a2e7a43cb2aa7f1584a52bb6373d6c94037c4"
-
-[[files]]
-file = "config/polymer/common.json"
-hash = "310dee45deffb1f13169492bf25cee00503e91403daa8cffa653939feb76cc03"
-
-[[files]]
-file = "config/polymer/resource-pack.json"
-hash = "86a366174e53ebd0616e31c5b776e7d027c0c5d388bd20eea43aaea109f04f79"
-
-[[files]]
-file = "config/polymer/server.json"
-hash = "233d56a8a7228e1d85fec9080a0821e92c910807a3a80c4c7392f29f80850558"
-
-[[files]]
 file = "config/power_config.json5"
 hash = "309e7779a516dfb2c88a5d15e5ab7abb3ce56331b2cff24f6bdd89ca721f6d60"
 
@@ -1239,11 +1215,6 @@ metafile = true
 [[files]]
 file = "mods/better-combat.pw.toml"
 hash = "d8f4cdc8afe5541c4e2da796f9fb04d3f60bb24a7c79762eb6df5e0d7831e7eb"
-metafile = true
-
-[[files]]
-file = "mods/better-compatibility-checker.pw.toml"
-hash = "5335a88286ee7b6d8461605545211712773523468877c7edd4b04093aa808b78"
 metafile = true
 
 [[files]]
@@ -1989,11 +1960,6 @@ metafile = true
 [[files]]
 file = "mods/playeranimatorapi.pw.toml"
 hash = "c6c048cb96122678a89e2f58926f0de61c48188f36763aa7b363b3a36c15905e"
-metafile = true
-
-[[files]]
-file = "mods/polymer.pw.toml"
-hash = "1c13286be4f09e25c93ef1640335a951df1dd0f155f6d7a173dfc284831e09c3"
 metafile = true
 
 [[files]]
