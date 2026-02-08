@@ -1,6 +1,6 @@
 # 🌍 Solworld Modpack (1.21.1 Fabric)
 
-![Version](https://img.shields.io/badge/Version-1.0.0-blue)
+![Version](https://img.shields.io/badge/Version-0.1.0.2-blue)
 ![Loader](https://img.shields.io/badge/Loader-Fabric-orange)
 ![Java](https://img.shields.io/badge/Java-21-red)
 
@@ -64,11 +64,15 @@ while true
 do
     echo "--- 正在检查 Mod 更新 ---"
     # 添加 ?v=$RANDOM 强制绕过 GitHub Raw 缓存
-    java -jar packwiz-installer-bootstrap.jar -s server "https://raw.githubusercontent.com/SnowriterMYX/solworld/master/pack.toml?v=$RANDOM"
+    java -jar packwiz-installer-bootstrap.jar -no-gui -s server "https://raw.githubusercontent.com/SnowriterMYX/solworld/master/pack.toml?v=$RANDOM"
 
     echo "--- 正在启动服务端 ---"
-    # Aikar's Flags 优化参数 (适用于 8G 内存)
-    java -Xmx8G -Xms8G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true -jar fabric-server-launch.jar nogui
+    # ZGC 优化参数
+    java -Xms1G -Xmx10G \
+          -XX:+UseZGC \
+          -XX:+ZGenerational \
+          -XX:ZUncommitDelay=60 \
+          -jar fabric-server-launch.jar nogui
 
     echo "--- 服务器已关闭，5秒后重启 (Ctrl+C 退出) ---"
     sleep 5
