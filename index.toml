@@ -558,7 +558,11 @@ hash = "3be2d056db46e6bb1bd9113f5989ee35683074aabbd3383e092db236ff91029e"
 
 [[files]]
 file = "config/ftblibrary-client.snbt"
-hash = "f868ef1b21481a24128dd36efa07c5f6e8433b329f0d02b7339eb82627c2eee5"
+hash = "ea390b15f89bd95d2ccc3ce0e0aa4b43f4bce217ca1e2a2b580e10cc3c10268e"
+
+[[files]]
+file = "config/ftblibrary-common.snbt"
+hash = "6f0829dfca24db675a7837af94125b7cea4c7ed4fce822e68a90825e8517a569"
 
 [[files]]
 file = "config/ftbquests-client.snbt"
@@ -1306,11 +1310,6 @@ metafile = true
 [[files]]
 file = "mods/bountiful-fares.pw.toml"
 hash = "0e7436daf88b116f530fdf21bdc299d0ef7b4ee3c59a05fa1be20ef495523ba9"
-metafile = true
-
-[[files]]
-file = "mods/brewery.pw.toml"
-hash = "db7347654cd0474d4fe7d0e409d604dbf20c035d91e6f2bc2aa97deb2fd39104"
 metafile = true
 
 [[files]]
