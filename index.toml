@@ -557,18 +557,6 @@ file = "config/friendsandfoes.json"
 hash = "3be2d056db46e6bb1bd9113f5989ee35683074aabbd3383e092db236ff91029e"
 
 [[files]]
-file = "config/ftblibrary-client.snbt"
-hash = "ea390b15f89bd95d2ccc3ce0e0aa4b43f4bce217ca1e2a2b580e10cc3c10268e"
-
-[[files]]
-file = "config/ftblibrary-common.snbt"
-hash = "6f0829dfca24db675a7837af94125b7cea4c7ed4fce822e68a90825e8517a569"
-
-[[files]]
-file = "config/ftbquests-client.snbt"
-hash = "83b3c8c5548b8e419f97857e0694fac7ae08442ebd894f41868db4b30ae1030f"
-
-[[files]]
 file = "config/fzzy_config/keybinds.toml"
 hash = "26ac5810c9b5dc5c1968827357f0a58c58ac2b6f7b082630960228e16585062f"
 
@@ -1580,21 +1568,6 @@ metafile = true
 [[files]]
 file = "mods/friends-and-foes.pw.toml"
 hash = "bf1b6104f87a89ed7bc59ff839e0e5e588db035f8c68e8375790bfed0eb45375"
-metafile = true
-
-[[files]]
-file = "mods/ftb-library-fabric.pw.toml"
-hash = "79b607e23d078fc52a2a38977d5b0c244fb4415fac0d454c122c04fe77eec3b5"
-metafile = true
-
-[[files]]
-file = "mods/ftb-teams-fabric.pw.toml"
-hash = "c20b0c7c1f2fd04aeaff3e956244deb0bc242078dc2705a593154973907cdb93"
-metafile = true
-
-[[files]]
-file = "mods/ftbloader.pw.toml"
-hash = "2fc1a2e65a50e9e673acfbcc8a02a28b6f918ff1c558d58f1254609f77326372"
 metafile = true
 
 [[files]]
