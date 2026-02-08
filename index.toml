@@ -1258,8 +1258,18 @@ hash = "d8f4cdc8afe5541c4e2da796f9fb04d3f60bb24a7c79762eb6df5e0d7831e7eb"
 metafile = true
 
 [[files]]
+file = "mods/better-compatibility-checker.pw.toml"
+hash = "5335a88286ee7b6d8461605545211712773523468877c7edd4b04093aa808b78"
+metafile = true
+
+[[files]]
 file = "mods/better-fabric-console.pw.toml"
 hash = "3997b1025ae8c6593fc4140bafdf2639b058ec6184ea9b04b6fea3e4c8a741f1"
+metafile = true
+
+[[files]]
+file = "mods/better-sodium-video-settings-button.pw.toml"
+hash = "4101407348e916df20ce095af826bc1ad99c6dfdd335655877a36ed6a3f7166f"
 metafile = true
 
 [[files]]
@@ -1509,7 +1519,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "0364a64e7f6515dccf92e10512c81178b7afeb1ae031f8024620892769e69313"
+hash = "49884f2d7db0e731facf0aa70cf2038dd513624c450cba773a8ca7a47e53953b"
 metafile = true
 
 [[files]]
