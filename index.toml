@@ -1350,7 +1350,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "2dda36229536c02155b8bdc705598904b74b3e958e56bf7946785f59c3427a9b"
+hash = "a5f056e7c75be2ee7290e72aa8ffd880f7e130e559d02b0395a0a3aabf413000"
 metafile = true
 
 [[files]]
@@ -1525,7 +1525,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "49884f2d7db0e731facf0aa70cf2038dd513624c450cba773a8ca7a47e53953b"
+hash = "0364a64e7f6515dccf92e10512c81178b7afeb1ae031f8024620892769e69313"
 metafile = true
 
 [[files]]
@@ -1734,8 +1734,8 @@ hash = "352320bf7a097f668b472cc181b53009cc866124be4ef51ea7d054f9690afdde"
 metafile = true
 
 [[files]]
-file = "mods/lets-do-bakery.pw.toml"
-hash = "276fdf6e7e33b28400bc19369c829f1dd8500e027ed2e23d17f2545ae43ac0c6"
+file = "mods/lets-do-bakery-farmcharm-compat.pw.toml"
+hash = "12fb0dcc3181c6a40d582d85e0d593b3152d2e498ebd2818f92fffe20d404d4e"
 metafile = true
 
 [[files]]
@@ -1749,8 +1749,8 @@ hash = "cbd6ab46c55e4a4fc2abe00aeb3e076d5af0ea94676ea2d3c36bc54167d5caa3"
 metafile = true
 
 [[files]]
-file = "mods/lets-do-brewery.pw.toml"
-hash = "29ad7d0003dbb20003850ad8a7ec4da1bcd0c8a6d6ec36363f644dc9ba45a886"
+file = "mods/lets-do-brewery-farmcharm-compat.pw.toml"
+hash = "0c72bdf606643bd761fbda1d8b25fcde884daa9ad2ade5862a475c09d665699c"
 metafile = true
 
 [[files]]
@@ -1770,7 +1770,7 @@ metafile = true
 
 [[files]]
 file = "mods/lets-do-farm-charm.pw.toml"
-hash = "7b45a894b1a73d6ef60ee96dde62a98077da90f1d99db477eb6baa160452b508"
+hash = "7164b82d321b110530bf90a84efbf94cfdae224b5fb5f4a7de801f1e4e3c5de4"
 metafile = true
 
 [[files]]
@@ -1781,11 +1781,6 @@ metafile = true
 [[files]]
 file = "mods/lets-do-hearth-timber.pw.toml"
 hash = "77d566bc0de6ba34d6a171af20ac488a46d288dcd5d95a1757b05a8ecbf50724"
-metafile = true
-
-[[files]]
-file = "mods/lets-do-herbal-brews.pw.toml"
-hash = "8dee7ac041475744ff3b9a5d5745d274e5e02cdd8a393ffdc010e06dfbe98aaa"
 metafile = true
 
 [[files]]
@@ -2260,7 +2255,7 @@ metafile = true
 
 [[files]]
 file = "mods/trinkets.pw.toml"
-hash = "7b5e8074a47ad6a9e453a29853bb1527906ae0ced0d714fcd386c75ef1f0f00a"
+hash = "860812150cb54f0d9ee1bce7b72798b6cc5f752bb05709f0c60231d054ec281d"
 metafile = true
 
 [[files]]
