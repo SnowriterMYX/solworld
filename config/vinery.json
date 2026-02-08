@@ -154,22 +154,6 @@
           "count": 1,
           "maxUses": 2,
           "experience": 10
-        },
-        {
-          "item": "vinery:taiga_red_grape_seeds",
-          "type": "SELL",
-          "price": 2,
-          "count": 1,
-          "maxUses": 2,
-          "experience": 5
-        },
-        {
-          "item": "vinery:taiga_white_grape_seeds",
-          "type": "SELL",
-          "price": 2,
-          "count": 1,
-          "maxUses": 2,
-          "experience": 5
         }
       ]
     },
