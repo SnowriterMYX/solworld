@@ -4,7 +4,9 @@
 ![Loader](https://img.shields.io/badge/Loader-Fabric-orange)
 ![Java](https://img.shields.io/badge/Java-21-red)
 
-Solworld 是一个平衡了**极致性能**与**生存增强**的 Minecraft 1.21.1 整合包。采用 [Packwiz](https://packwiz.infra.link/) 元数据驱动，实现客户端与服务端的秒级同步。
+**Ciallo～(∠・ω< )⌒☆ 欢迎来到 Solworld！祝你在这个世界玩得开心！**
+
+Solworld 整合包采用 [Packwiz](https://packwiz.infra.link/) 元数据驱动，实现了客户端与服务端的秒级同步。
 
 ---
 
