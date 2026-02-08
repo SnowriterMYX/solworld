@@ -1078,7 +1078,7 @@ hash = "c4fb220488de3c1afc569f4b8a89d8e97f8b5504eeb59d9700b491f29718d2f9"
 
 [[files]]
 file = "config/vinery.json"
-hash = "8e80a537a77c465a3c3f1a0bc79c1cda54d99ac4d4eeba35bf61a002fbd09688"
+hash = "e5eb7293f28bfe7d6460b4f8a8684c7977302ab2b4d46348b9a575c23feafcea"
 
 [[files]]
 file = "config/visuality.json"
@@ -1192,11 +1192,6 @@ metafile = true
 [[files]]
 file = "mods/adventurez.pw.toml"
 hash = "b83be649099ba1f38968a9d331acbfb36e6a45863c290a0ddc8f55b010d74422"
-metafile = true
-
-[[files]]
-file = "mods/aesthetic-storage.pw.toml"
-hash = "c366a8d6bcc7612ca0dea3ee02abd6dcebdabb1ac3600b98713e7c36935b4264"
 metafile = true
 
 [[files]]
