@@ -8841,6 +8841,11 @@ file = "shaderpacks/Solas Shader V3.3.zip"
 hash = "c06d51c5b4c2047877a4ce25cabed504aef8e9107579b238add202ba4ab14960"
 
 [[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "b769a2f7ef2fa754224c5068491e79d02c0c85e0bc326fc05247f18315cc866b"
+metafile = true
+
+[[files]]
 file = "shaderpacks/photon_v1.2a.zip"
 hash = "a7134a10138f6e5fe523dafa23bd266ba2e53621ac65a5e23294fe9a125b9d73"
 
