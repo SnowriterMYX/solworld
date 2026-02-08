@@ -1,0 +1,7 @@
+# Common configuration for FTB Library
+
+{
+	# If true, client features like sidebar and mod check will be enabled.
+	# Default: true
+	client_features: false
+}

@@ -1,6 +1,7 @@
 # Client-specific configuration for FTB Library
 
 {
+	client_features: false
 	colorselector: {
 		# Colors recently selected in the color selector
 		# Default: []
@@ -9,37 +10,37 @@
 	sidebar: {
 		buttons: {
 			"ftbteams:my_team": {
-				enabled: true
+				enabled: false
 				x: 0
 				y: 1
 			}
 			"ftbquests:quests": {
-				enabled: true
+				enabled: false
 				x: 1
 				y: 1
 			}
 			"ftblibrary:toggle/night": {
-				enabled: true
+				enabled: false
 				x: 2
 				y: 0
 			}
 			"ftblibrary:toggle/gamemode": {
-				enabled: true
+				enabled: false
 				x: 0
 				y: 0
 			}
 			"ftblibrary:config": {
-				enabled: true
+				enabled: false
 				x: 1
 				y: 1
 			}
 			"ftblibrary:toggle/day": {
-				enabled: true
+				enabled: false
 				x: 1
 				y: 0
 			}
 			"ftblibrary:toggle/rain": {
-				enabled: true
+				enabled: false
 				x: 3
 				y: 0
 			}
@@ -47,7 +48,7 @@
 		
 		# Enable the sidebar
 		# Default: true
-		enabled: true
+		enabled: false
 		
 		# Position of the sidebar
 		# Default: "top_left"
