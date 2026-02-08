@@ -221,10 +221,6 @@ file = "config/cardinal-components-api.properties"
 hash = "8d3ae8c9240fc60475fbb98a87b7e2e0874703b173a449fb346fb0857ada7bba"
 
 [[files]]
-file = "config/carpet/default_carpet.conf"
-hash = "a1841d4e9d82126db89b205ac363478a3e3c3d1017e721a1b13a85a421325380"
-
-[[files]]
 file = "config/carryon-client.json"
 hash = "9909d01cf9427ea5d70a66b5c52d2fb7c5e414d410c2e20ae58460661e780de5"
 
@@ -1313,16 +1309,6 @@ metafile = true
 [[files]]
 file = "mods/cardinal-components-api.pw.toml"
 hash = "0c345c80310a4bd58c757e43d6060338a85d34eaffcb674a6e9cbf22ecbc9cb8"
-metafile = true
-
-[[files]]
-file = "mods/carpet-extra.pw.toml"
-hash = "1f604a5bbaa5b0e5a51e324742f8622a59b593d7de727a88e333a0ddca36e305"
-metafile = true
-
-[[files]]
-file = "mods/carpet.pw.toml"
-hash = "48c6a4e310601532ac6a9e7f2f814128f75af9a541aee5a6e39d2d5475d967af"
 metafile = true
 
 [[files]]
