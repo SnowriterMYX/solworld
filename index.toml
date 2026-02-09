@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".github/workflows/export.yml"
+hash = "f3e2b65578ae7447c7195719508fd94fa29420081bfcfdd548c9d8727855cfb6"
+
+[[files]]
+file = "GEMINI.md"
+hash = "a6574290a319af88b87be7a8823ef7e10db30a55a3be5a62e6dc0fabee5a7ddd"
+
+[[files]]
 file = "config/DistantHorizons.toml"
 hash = "00220889ba75e39311aec81a7cb097bd5980d96743da39bf0c765a25d824ee3d"
 
@@ -1408,11 +1416,6 @@ hash = "582070fa54fe1743a837c0351eee7ea4a79080e647d5438656d372ae9433b272"
 metafile = true
 
 [[files]]
-file = "mods/dynmap.pw.toml"
-hash = "be6830fa5178dc866ce73d86559a85ea69bc077b84fb1c7855f16e753e6f0539"
-metafile = true
-
-[[files]]
 file = "mods/easy-anvils.pw.toml"
 hash = "c03848ab316f8f8e07656e08c675541ce90f0ad729d5b31df336fe8f27a58b3f"
 metafile = true
@@ -2205,6 +2208,11 @@ metafile = true
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
 hash = "521af7d95e20564005fd6e6e2f6e0d49311648ff60c491f69145f3a2d89f4562"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "97a62d0b00bdb7f6a2ba51ad05b2ed8c3ebe06098ce893b3d638d59498addf7f"
 metafile = true
 
 [[files]]
@@ -8767,3 +8775,7 @@ hash = "a7134a10138f6e5fe523dafa23bd266ba2e53621ac65a5e23294fe9a125b9d73"
 [[files]]
 file = "shaderpacks/rethinking-voxels_r0.1-beta9.zip"
 hash = "a8cd9d4338c7d3d1fffecc4525348a31ea3d219ef31382c51d5ddc3b4b0114e1"
+
+[[files]]
+file = "start.sh"
+hash = "68fbf4b46656b215da61151e94d1b041910014aa486c2e38c6d0933dba029ddc"
