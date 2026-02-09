@@ -1,11 +1,12 @@
 #!/usr/bin/env bash
 
 # ==============================================================================
-# Solworld Server All-in-One Startup Script (Safe & Full Automation)
+# Solworld Server All-in-One Startup Script (Fixed Launcher Logic)
 # ==============================================================================
 
 SESSION_NAME="solworld"
-JAR_NAME="server.jar"
+# 更改为 fabric 默认的启动文件名，避免覆盖原版 server.jar
+LAUNCH_JAR="fabric-server-launch.jar"
 BOOTSTRAP_JAR="packwiz-installer-bootstrap.jar"
 FABRIC_INSTALLER="fabric-installer.jar"
 LOG_DIR="./logs/archive"
@@ -30,20 +31,25 @@ mise use --global java@openjdk-21
 
 # --- 3. 自动安装服务端核心 ---
 install_server_core() {
-    if [[ ! -f "$JAR_NAME" ]]; then
-        echo "--- 正在安装 Fabric 服务端 ---"
+    # 检查启动器是否存在
+    if [[ ! -f "$LAUNCH_JAR" ]]; then
+        echo "--- 正在安装 Fabric 服务端 (1.21.1) ---"
         local mc_ver=$(grep "minecraft =" pack.toml | cut -d'"' -f2 || echo "1.21.1")
         local fabric_ver=$(grep "fabric =" pack.toml | cut -d'"' -f2 || echo "0.16.7")
+        
         wget -q -O "$FABRIC_INSTALLER" https://maven.fabricmc.net/net/fabricmc/fabric-installer/1.0.1/fabric-installer-1.0.1.jar
+        
+        # 安装。这会生成 fabric-server-launch.jar 和一个原版的 server.jar
         java -jar "$FABRIC_INSTALLER" server -mcversion "$mc_ver" -loader "$fabric_ver" -downloadMinecraft
-        if [[ -f "fabric-server-launch.jar" ]]; then
-            mv fabric-server-launch.jar "$JAR_NAME"
-        else
-            echo "❌ Fabric 安装失败！"
+        
+        if [[ ! -f "$LAUNCH_JAR" ]]; then
+            echo "❌ Fabric 安装失败！未找到 $LAUNCH_JAR"
             exit 1
         fi
+        
         [[ ! -f "eula.txt" ]] && echo "eula=true" > eula.txt
         rm -f "$FABRIC_INSTALLER"
+        echo "✅ Fabric 服务端核心准备就绪。"
     fi
 }
 
@@ -54,13 +60,11 @@ sync_mods() {
         wget -q -O "$BOOTSTRAP_JAR" https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar
     fi
     
-    # 尝试同步并捕获退出码
     java -jar "$BOOTSTRAP_JAR" -no-gui -s server pack.toml
     local sync_status=$?
     
     if [ $sync_status -ne 0 ]; then
         echo "❌ [关键错误] Packwiz 同步失败！"
-        echo "提示: 请检查是否遗漏了 resourcepacks 或 shaderpacks 文件夹。"
         echo "为了保护存档，服务器将不会启动。1分钟后重试..."
         sleep 60
         return 1
@@ -85,11 +89,7 @@ run_server() {
     mkdir -p "$LOG_DIR"
     while true; do
         install_server_core
-        
-        # 如果同步失败，跳过本次启动循环
-        if ! sync_mods; then
-            continue
-        fi
+        if ! sync_mods; then continue; fi
 
         MEM_MB=$(calculate_memory)
         JAVA_OPTS="-Xms${MEM_MB}M -Xmx${MEM_MB}M \
@@ -110,14 +110,15 @@ run_server() {
             find "$LOG_DIR" -name "*.gz" -mtime +$MAX_LOG_RETAIN -delete
         fi
 
-        java $JAVA_OPTS -jar "$JAR_NAME" nogui
+        # 运行引导程序
+        java $JAVA_OPTS -jar "$LAUNCH_JAR" nogui
         
         local exit_code=$?
         if [ $exit_code -eq 0 ]; then
             echo "[$(date '+%Y-%m-%d %H:%M:%S')] 服务器已正常关闭。"
             break
         else
-            echo "[$(date '+%H:%m:%S')] 异常退出 (Exit Code: $exit_code)，${RESTART_DELAY}秒后重启..."
+            echo "[$(date '+%H:%M:%S')] 异常退出 (Exit Code: $exit_code)，${RESTART_DELAY}秒后重启..."
             sleep $RESTART_DELAY
         fi
     done
@@ -130,7 +131,7 @@ else
     if tmux has-session -t "$SESSION_NAME" 2>/dev/null; then
         echo "Solworld 已在后台运行。"
     else
-        echo "🚀 正在开启全自动初始化并后台启动 Solworld..."
+        echo "🚀 正在后台启动 Solworld..."
         eval "$(mise activate bash)"
         mise install java@openjdk-21 -q
         tmux new-session -d -s "$SESSION_NAME" "bash $0 run"
