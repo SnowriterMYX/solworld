@@ -1606,6 +1606,11 @@ hash = "5284f6d141a990f4ea021c12b851e07102f5cb22743cf7b33be6ad2eb4c8d3f5"
 metafile = true
 
 [[files]]
+file = "mods/item-descriptions.pw.toml"
+hash = "08cbbf5f9c5b7609f5e43f03005dd258fabb9a57e6eb33f9f192d70edc4462e0"
+metafile = true
+
+[[files]]
 file = "mods/jade.pw.toml"
 hash = "37a45ed98e4edc9c8224cb06f72be8914fae69687601d4e15009f1cb9f27563c"
 metafile = true
@@ -1682,7 +1687,7 @@ metafile = true
 
 [[files]]
 file = "mods/lets-do-emi-compat.pw.toml"
-hash = "551d023b8227367bee3526b7456085e20d0ccb557a1d04d846cc37f3eae0c89e"
+hash = "738c1ea31e5da9d536c433eaa2182407fd5730d04f4db33b9eccce64ea3c10fe"
 metafile = true
 
 [[files]]
@@ -2207,7 +2212,7 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "521af7d95e20564005fd6e6e2f6e0d49311648ff60c491f69145f3a2d89f4562"
+hash = "d7c23c5b2f03df76caa7a4d66ca7961a5a3d05c538e1bda65bfd93fb80a07c5e"
 metafile = true
 
 [[files]]
@@ -2319,6 +2324,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/mizunos-x-letsdo-furniture.pw.toml"
 hash = "656ce8454b3a448048d9e33804c3f0de5912d14d95dd82a179c2e7e34c1bc976"
+metafile = true
+
+[[files]]
+file = "resourcepacks/mod-descriptions.pw.toml"
+hash = "9a9f583b849eb7e703f46aa017abf6c193d14eeeb717b2c2638d9046686d6ba3"
 metafile = true
 
 [[files]]

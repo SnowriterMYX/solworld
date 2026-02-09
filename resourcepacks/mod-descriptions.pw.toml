@@ -1,0 +1,13 @@
+name = "Mod Descriptions"
+filename = "mod-descriptions-v8.1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/DkF7ssGR/versions/Jnj7BFGX/mod-descriptions-v8.1.zip"
+hash-format = "sha512"
+hash = "e6bac65e50dc9e13eb4649821bb59959cdebb17f67b2a550af5a2919b8e530cf86eff77c0960207ee7acac7060084e2a4072ee7a7bb35248d6b631b694db0d39"
+
+[update]
+[update.modrinth]
+mod-id = "DkF7ssGR"
+version = "Jnj7BFGX"
