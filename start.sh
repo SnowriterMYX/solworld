@@ -1,14 +1,7 @@
 #!/usr/bin/env bash
 
 # ==============================================================================
-# Solworld Server All-in-One Startup Script (Full Automation Edition)
-# ==============================================================================
-# 功能:
-# 1. Mise 环境初始化 (Java 21 自动安装)
-# 2. Fabric 服务端核心自动安装 (适配 pack.toml 版本)
-# 3. Packwiz 自动同步 (自动拉取/更新 Mods & Configs)
-# 4. 内存动态调优 (支持 ZRAM & 物理内存识别)
-# 5. Tmux 后台运行 & 崩溃自愈 & 日志归档
+# Solworld Server All-in-One Startup Script (Safe & Full Automation)
 # ==============================================================================
 
 SESSION_NAME="solworld"
@@ -31,71 +24,58 @@ if ! command -v tmux &> /dev/null; then
 fi
 
 # --- 2. Mise & Java 环境初始化 ---
-echo "--- 正在初始化 Java 环境 ---"
 eval "$(mise activate bash)"
 mise install java@openjdk-21 -q
 mise use --global java@openjdk-21
 
-# --- 3. 自动安装/检查服务端核心 ---
+# --- 3. 自动安装服务端核心 ---
 install_server_core() {
     if [[ ! -f "$JAR_NAME" ]]; then
-        echo "--- 未检测到 server.jar，正在自动安装 Fabric 服务端 ---"
-        
-        # 从 pack.toml 读取版本信息 (如果不存在则使用默认值)
+        echo "--- 正在安装 Fabric 服务端 ---"
         local mc_ver=$(grep "minecraft =" pack.toml | cut -d'"' -f2 || echo "1.21.1")
         local fabric_ver=$(grep "fabric =" pack.toml | cut -d'"' -f2 || echo "0.16.7")
-        
-        echo "目标版本: Minecraft $mc_ver, Fabric $fabric_ver"
-        
-        # 下载 Fabric Installer
         wget -q -O "$FABRIC_INSTALLER" https://maven.fabricmc.net/net/fabricmc/fabric-installer/1.0.1/fabric-installer-1.0.1.jar
-        
-        # 执行安装
         java -jar "$FABRIC_INSTALLER" server -mcversion "$mc_ver" -loader "$fabric_ver" -downloadMinecraft
-        
-        # 重命名
         if [[ -f "fabric-server-launch.jar" ]]; then
             mv fabric-server-launch.jar "$JAR_NAME"
-            echo "✅ Fabric 服务端安装完成。"
         else
-            echo "❌ 安装失败: 未生成 fabric-server-launch.jar"
+            echo "❌ Fabric 安装失败！"
             exit 1
         fi
-        
-        # 处理 EULA
-        if [[ ! -f "eula.txt" ]]; then
-            echo "eula=true" > eula.txt
-            echo "✅ 已自动同意 EULA。"
-        fi
-        
-        # 清理
+        [[ ! -f "eula.txt" ]] && echo "eula=true" > eula.txt
         rm -f "$FABRIC_INSTALLER"
     fi
 }
 
-# --- 4. Packwiz 同步 ---
+# --- 4. Packwiz 安全同步 ---
 sync_mods() {
-    echo "--- 正在同步 Modpack (Packwiz) ---"
+    echo "--- 正在同步资源 (Packwiz) ---"
     if [[ ! -f "$BOOTSTRAP_JAR" ]]; then
         wget -q -O "$BOOTSTRAP_JAR" https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar
     fi
-    # 同步本地 mods 和配置
+    
+    # 尝试同步并捕获退出码
     java -jar "$BOOTSTRAP_JAR" -no-gui -s server pack.toml
+    local sync_status=$?
+    
+    if [ $sync_status -ne 0 ]; then
+        echo "❌ [关键错误] Packwiz 同步失败！"
+        echo "提示: 请检查是否遗漏了 resourcepacks 或 shaderpacks 文件夹。"
+        echo "为了保护存档，服务器将不会启动。1分钟后重试..."
+        sleep 60
+        return 1
+    fi
+    return 0
 }
 
 # --- 5. 内存自动调优 ---
 calculate_memory() {
     local total_mem=$(free -m | awk '/^Mem:/{print $2}')
     local zram_check=$(zramctl --noheadings --output NAME 2>/dev/null | wc -l)
-    
     local reserved=1536 
-    if [ "$total_mem" -lt 4096 ]; then reserved=1024; fi
-    
+    [ "$total_mem" -lt 4096 ] && reserved=1024
     local xmx=$((total_mem - reserved))
-    if [ "$zram_check" -gt 0 ]; then
-        xmx=$((total_mem - 800))
-    fi
-
+    [ "$zram_check" -gt 0 ] && xmx=$((total_mem - 800))
     [ "$xmx" -lt 2048 ] && xmx=2048
     echo "$xmx"
 }
@@ -103,14 +83,15 @@ calculate_memory() {
 # --- 6. 核心运行逻辑 ---
 run_server() {
     mkdir -p "$LOG_DIR"
-    
     while true; do
-        # 依次执行：安装核心 -> 同步插件 -> 启动
         install_server_core
-        sync_mods
+        
+        # 如果同步失败，跳过本次启动循环
+        if ! sync_mods; then
+            continue
+        fi
 
         MEM_MB=$(calculate_memory)
-        # Aikar's 高性能参数
         JAVA_OPTS="-Xms${MEM_MB}M -Xmx${MEM_MB}M \
         -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 \
         -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch \
@@ -120,7 +101,7 @@ run_server() {
         -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem \
         -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true"
 
-        echo "[$(date '+%Y-%m-%d %H:%M:%S')] 启动 Solworld (Memory: ${MEM_MB}M)..."
+        echo "[$(date '+%H:%M:%S')] 启动 Solworld (Memory: ${MEM_MB}M)..."
         
         if [[ -f "logs/latest.log" ]]; then
             local timestamp=$(date '+%Y%m%d_%H%M%S')
@@ -136,7 +117,7 @@ run_server() {
             echo "[$(date '+%Y-%m-%d %H:%M:%S')] 服务器已正常关闭。"
             break
         else
-            echo "[$(date '+%Y-%m-%d %H:%M:%S')] 异常退出 (Exit Code: $exit_code)，${RESTART_DELAY}秒后重启..."
+            echo "[$(date '+%H:%m:%S')] 异常退出 (Exit Code: $exit_code)，${RESTART_DELAY}秒后重启..."
             sleep $RESTART_DELAY
         fi
     done
@@ -148,21 +129,12 @@ if [ "$1" == "run" ]; then
 else
     if tmux has-session -t "$SESSION_NAME" 2>/dev/null; then
         echo "Solworld 已在后台运行。"
-        echo "查看: tmux attach -t $SESSION_NAME"
     else
         echo "🚀 正在开启全自动初始化并后台启动 Solworld..."
         eval "$(mise activate bash)"
         mise install java@openjdk-21 -q
-        
         tmux new-session -d -s "$SESSION_NAME" "bash $0 run"
-        echo "✅ 任务已提交至后台 Tmux 会话！"
-        echo "--------------------------------------------------"
-        echo "首次运行会执行以下全自动化流程："
-        echo "1. Mise 安装 Java 21"
-        echo "2. 自动下载 Fabric 核心并同意 EULA"
-        echo "3. Packwiz 自动拉取全量 Mod 和配置"
-        echo "4. 动态分配内存并启动游戏"
-        echo "--------------------------------------------------"
+        echo "✅ 任务已提交至后台 Tmux！"
         echo "指令: tmux attach -t $SESSION_NAME"
     fi
 fi
