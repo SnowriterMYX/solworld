@@ -1,0 +1,43 @@
+name: Export Modpack
+
+on:
+  push:
+    branches:
+      - master
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: 'stable'
+
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Export .mrpack
+        run: |
+          VERSION=$(grep '^version =' pack.toml | cut -d '"' -f 2)
+          ~/go/bin/packwiz modrinth export -o "Solworld-${VERSION}.mrpack"
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: modpack-mrpack
+          path: Solworld-*.mrpack
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: Solworld-*.mrpack
+          generate_release_notes: true
