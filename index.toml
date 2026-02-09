@@ -401,6 +401,10 @@ file = "config/nyfsspiders-common.toml"
 hash = "60820a39813205cc37dbc9ee1b47ac73e8a8e454f98e060e3db37d46835a4834"
 
 [[files]]
+file = "config/origins-randomiser.toml"
+hash = "c9d988fda87e970fec4260588807867d7aac9627d6d6d20680f578e70572d882"
+
+[[files]]
 file = "config/particle_core_config.toml"
 hash = "9f78cd6740c669aceea023504efd2e600168af4bb41c2f0b12caa9988384b609"
 
@@ -775,7 +779,7 @@ metafile = true
 
 [[files]]
 file = "mods/cristel-lib.pw.toml"
-hash = "aa93474a654b0ad97c58f88939c522b668e0a249f146504ee3457f7ecd7b881b"
+hash = "636945a93f673014109dc9d3768b4b06e8c7506d067be68602478a7244ff98f9"
 metafile = true
 
 [[files]]
@@ -1115,7 +1119,7 @@ metafile = true
 
 [[files]]
 file = "mods/lets-do-bloomingnature.pw.toml"
-hash = "cbd6ab46c55e4a4fc2abe00aeb3e076d5af0ea94676ea2d3c36bc54167d5caa3"
+hash = "90c04ba418368a46be0a6e0904b6f288712c32f8e9439c71f9aaa1c5ebc8941b"
 metafile = true
 
 [[files]]
@@ -1140,7 +1144,7 @@ metafile = true
 
 [[files]]
 file = "mods/lets-do-farm-charm.pw.toml"
-hash = "7164b82d321b110530bf90a84efbf94cfdae224b5fb5f4a7de801f1e4e3c5de4"
+hash = "273b6d11e75018687a02e6b94342317d407250cadaed798b31074aaa283a96e9"
 metafile = true
 
 [[files]]
