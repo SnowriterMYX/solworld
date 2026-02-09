@@ -1239,7 +1239,7 @@ metafile = true
 
 [[files]]
 file = "mods/biolith.pw.toml"
-hash = "7d0c3e68465db061d57e3d2605eeececaa061d6b18dabd6968fcd7fa2ceb7bce"
+hash = "e58fa4558aa4cffdc56443752a6e7a3b91652eaa387013fd58db76a8496b8d94"
 metafile = true
 
 [[files]]
@@ -1593,11 +1593,6 @@ hash = "5f694b0c16bfbf69b05cb28eef7a553ae548e623bc2cbccc98e01d950d3611db"
 metafile = true
 
 [[files]]
-file = "mods/inertiaanticheat.pw.toml"
-hash = "830216a5574ce769a99b245418aae58ddebd0b18eb34b16f83209a975acfde3b"
-metafile = true
-
-[[files]]
 file = "mods/inventory-profiles-next.pw.toml"
 hash = "ec8051b38aeae6549713ed9c1951fea7f1fabf74fa49aad8c76dcae4cc874ebd"
 metafile = true
@@ -1744,7 +1739,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "38d5a309095c272b7cb305e63bea744ab60052b36bda04051bd48914386ddbf1"
+hash = "8e283abf30ab8acf96ce4fc0567c5e08303f65263d47abb1dbc0d0efaba17f0c"
 metafile = true
 
 [[files]]
