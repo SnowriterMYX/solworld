@@ -1,14 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".github/workflows/export.yml"
-hash = "f3e2b65578ae7447c7195719508fd94fa29420081bfcfdd548c9d8727855cfb6"
-
-[[files]]
-file = "GEMINI.md"
-hash = "a6574290a319af88b87be7a8823ef7e10db30a55a3be5a62e6dc0fabee5a7ddd"
-
-[[files]]
 file = "config/DistantHorizons.toml"
 hash = "00220889ba75e39311aec81a7cb097bd5980d96743da39bf0c765a25d824ee3d"
 
@@ -23,14 +15,6 @@ hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 [[files]]
 file = "config/adventurez.json5"
 hash = "5c757b52023a113b964a24f8e90060994f70e9c2a3aa10c8813c097528df5448"
-
-[[files]]
-file = "config/amendments-client.json"
-hash = "22a6a89524b15e752181b3be4940287b53d883cad07b265d636bf09380c81b50"
-
-[[files]]
-file = "config/amendments-common.json"
-hash = "657e3a8b972be80e2fe34f3f4aefdd32966320447898a69f176739482cc8b4db"
 
 [[files]]
 file = "config/appleskin.json5"
@@ -53,56 +37,16 @@ file = "config/artifacts/items.toml"
 hash = "0d4971e2356a4ceabc4c4b2d69c81c2d3fbcf4b46e384423098f3856dcd2689c"
 
 [[files]]
-file = "config/auditory.json"
-hash = "a928489de800a69e647c5903be813d38d3bb8ead3b1fd417ad74405071f08bd0"
-
-[[files]]
-file = "config/bakery.json"
-hash = "b85fe0f367fdbfc8e707dbaf48b3a571f8cc7d46c5990210ea4eac1ffd32bd3b"
-
-[[files]]
-file = "config/beachparty.json"
-hash = "f8f65dbe8bc0f26219a97c50b297306b69d0d53cc3cbd8eb14b9d25983248bb6"
-
-[[files]]
-file = "config/beautify.json"
-hash = "285f55d00f7e50b3e6191e22fc02083dd3648e1fe717da6a20a59bfc84044fab"
-
-[[files]]
 file = "config/bettercombat/client.json5"
 hash = "50496c3dcf7fe87e30acb9f5c7c9153f43576e02e58d9d216bca86266fbba51a"
-
-[[files]]
-file = "config/bettercombat/fallback_compatibility.json"
-hash = "754feb4474a3f4d9fe6bd08f38c248fd5a796ed51f38d7d5704680250f3a34ca"
 
 [[files]]
 file = "config/bettercombat/server.json5"
 hash = "b4d8fd935d23f528a177e95c8a45be52fa5f3e4cd2671802be1f44c80aef724a"
 
 [[files]]
-file = "config/bettercombat/weapon_trails.json"
-hash = "fd14cc025b6d6c54bc2ddff136f0298c0ba132dbe98c2c9c845b47b8286fc45c"
-
-[[files]]
 file = "config/betterdeserttemples-fabric-1_21.toml"
 hash = "06a1b8b7774df6bef4dc9b82e140a4211d41c93178ee0d9d25105d05a6c20566"
-
-[[files]]
-file = "config/betterdeserttemples/README.txt"
-hash = "65f27b868cd42591c8c0be68c73f95490a409e90c3005baa809c4b907a6a03c3"
-
-[[files]]
-file = "config/betterdeserttemples/fabric-1_21/README.txt"
-hash = "80ba474fdd1912739a1dc3326de6539ccfceb9d5c97f540131b567e295a7b112"
-
-[[files]]
-file = "config/betterdeserttemples/fabric-1_21/armorstands.json"
-hash = "6147d9c38e9721aa61218b5b43e8f299cee16b2f876a51c039908023ef2e59ff"
-
-[[files]]
-file = "config/betterdeserttemples/fabric-1_21/itemframes.json"
-hash = "6c003dd506fc63ced4c6d3129677b75df752a65d6a3393196d638ccdf35ad56a"
 
 [[files]]
 file = "config/betterdungeons-fabric-1_21.toml"
@@ -115,18 +59,6 @@ hash = "6469ab87a66387d64bfc51ffe2fb1365fcda9a28121a8fa9227626430c0c3505"
 [[files]]
 file = "config/betterfortresses-fabric-1_21.toml"
 hash = "c6f718e24389dd618b788ea1ef0c64d3689e9408fd9a482e67ecece0dc392ece"
-
-[[files]]
-file = "config/betterfortresses/README.txt"
-hash = "3efc54726c0702d0a4d4a91eb6436acdd3842598460e5781ffe365353ee36cc2"
-
-[[files]]
-file = "config/betterfortresses/fabric-1_21/README.txt"
-hash = "1175dbf9cd2e7c91b1c852a51e3c0203c68484917e877465b283e2370ad62864"
-
-[[files]]
-file = "config/betterfortresses/fabric-1_21/itemframes.json"
-hash = "9b0b9107e893bd355bca796812f1f3437296991126e9324bd3fb3fffe86ae745"
 
 [[files]]
 file = "config/betterjungletemples-fabric-1_21.toml"
@@ -145,40 +77,8 @@ file = "config/betterstrongholds-fabric-1_21.toml"
 hash = "6884b0d763e06d77fe7a2e8e9acbc201014fc8135c7dcba47be30fab9a634a11"
 
 [[files]]
-file = "config/betterstrongholds/README.txt"
-hash = "80929d21617faef8983985d92096ad903602a6d82106b5e845562814872da6c7"
-
-[[files]]
-file = "config/betterstrongholds/fabric-1_21/README.txt"
-hash = "c857bda54ab01ca5db21cfe085dc75dcbb13d26054463cf301c74023783612fc"
-
-[[files]]
-file = "config/betterstrongholds/fabric-1_21/armorstands.json"
-hash = "cce4b5878c32b55bbe577020b0e7b5f1e6484f7ee5d67ca65061628cd7c90b55"
-
-[[files]]
-file = "config/betterstrongholds/fabric-1_21/itemframes.json"
-hash = "a97654e2b5a5e2953d9fd87a0b67ceef6aaf641ac3663fc81a91b101ab4fb6ca"
-
-[[files]]
-file = "config/betterstrongholds/fabric-1_21/ores.json"
-hash = "f621c81ed7c4120b3279c0cd4d25dad643e045ab7032bf966817482a337aa789"
-
-[[files]]
-file = "config/betterstrongholds/fabric-1_21/rareblocks.json"
-hash = "d6a7ad89b872184a4f72d1dd58557f4855758f9f08be4f257960c80ab8dae376"
-
-[[files]]
 file = "config/betterwitchhuts-fabric-1_21.toml"
 hash = "063ce4f60934ab166dade45375ef5518df74be2c6c1e1f1a52ec181013803197"
-
-[[files]]
-file = "config/biolith/general.json"
-hash = "7f1e58be2cf7db18181869804bb09823ee93a4ea863d560036e8a05954bcf806"
-
-[[files]]
-file = "config/biomesoplenty/biome_toggles.json"
-hash = "83afb08d19dcc4dfa91405f2d5a9c773c512eee8fcbeaca5323b8d0c40f4c45e"
 
 [[files]]
 file = "config/biomesoplenty/gameplay.toml"
@@ -197,48 +97,16 @@ file = "config/bosses_of_mass_destruction.json5"
 hash = "27336e2dd538bb50f7a88981466280eeb09f958ff447693830ad3c29aaec6568"
 
 [[files]]
-file = "config/botanypots.json"
-hash = "4c2c8d447ff50ed3de32aaff6d16fc4cdbca4b4d9cb090b0c9795be1c327f124"
-
-[[files]]
-file = "config/bountifulfares.json"
-hash = "7c7ed5e27779d04bab1719e0972a637f5a2fac094e22d7d080321601fef20f03"
-
-[[files]]
 file = "config/c2me.toml"
 hash = "11978dc3ec3246674c25067823f4fdaeb2ab9bf2d3ddb03ce2cc57d36aea8553"
-
-[[files]]
-file = "config/camping.json"
-hash = "6319dbccf6ea2213ffde0479c45f5620c28608a2d6d7311eb0b7fdf666a956cd"
 
 [[files]]
 file = "config/capes.json5"
 hash = "21bd25aa96df30a7842d250ec7df088ea2b9d672510fdc272196ae7ba72cb00a"
 
 [[files]]
-file = "config/cardinal-components-api.properties"
-hash = "8d3ae8c9240fc60475fbb98a87b7e2e0874703b173a449fb346fb0857ada7bba"
-
-[[files]]
-file = "config/carryon-client.json"
-hash = "9909d01cf9427ea5d70a66b5c52d2fb7c5e414d410c2e20ae58460661e780de5"
-
-[[files]]
-file = "config/carryon-common.json"
-hash = "9aacfa29cc077a92f2e601daf6b60a2d85e8731aa5b239d1ac86f96e89461420"
-
-[[files]]
-file = "config/chalk.properties"
-hash = "a7204a67feac23416608d2c5d54afd2a9f827db52c34af9f6666ec9abb543617"
-
-[[files]]
 file = "config/chat_heads.json5"
 hash = "2e33e5590888ad9c37d35ef6ef29d50e8ab7430ee7fd572a69b3583428abebf9"
-
-[[files]]
-file = "config/chunky/config.json"
-hash = "c7384a22595488f79f3125b22cc175eb729267267807a084479419349797abc8"
 
 [[files]]
 file = "config/comforts-common.toml"
@@ -247,14 +115,6 @@ hash = "d1ff6e8f5aa2b77d6708b9d4a566d2de96e6f1ec594139742162b1dfdf92c476"
 [[files]]
 file = "config/comforts-server.toml"
 hash = "00097d03bb5a4016c869695ecce545a38391c7089d8bd9f80cd6feccbae9738e"
-
-[[files]]
-file = "config/connectivity.json"
-hash = "6b95731807c56659d67f5c439439493834d0c42ad33baf23ef60d45bb7e73202"
-
-[[files]]
-file = "config/continuity.json"
-hash = "00267a602028cbb037dcb0b5f803db31bed284235ca9c1ea189ad4179311a2f4"
 
 [[files]]
 file = "config/creeperoverhaul.jsonc"
@@ -429,22 +289,6 @@ file = "config/crittersandcompanions-common.toml"
 hash = "b41faec1c7b047a92f50c24dd0a03e8255974974440ad0442e0c6bcc5d33e252"
 
 [[files]]
-file = "config/cupboard.json"
-hash = "08bda8a4a20d302cb97d06bf11c4991e152a3a9e04c17302ea3b42aa77e6b028"
-
-[[files]]
-file = "config/do_a_barrel_roll-client.json"
-hash = "ee32faf303d3beaff76ee54091bc95788048046b6e948ea7795d1eb34f365607"
-
-[[files]]
-file = "config/do_a_barrel_roll-server.json"
-hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
-
-[[files]]
-file = "config/dynamic_fps.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
 file = "config/easyanvils-client.toml"
 hash = "60e86e56dd00882a281e8ee88800b75abd4119361edd91fc9948e7da13e2e473"
 
@@ -453,36 +297,12 @@ file = "config/easyanvils-common.toml"
 hash = "643de42a3b9cd02a9c0d82d2b2119daa3373d51b7394baeba6b98332de6ecb8d"
 
 [[files]]
-file = "config/easyanvils-server-1.toml.bak"
-hash = "514846393aae0657b0bbc5fbaef89cc89e9edced1dcf4eabaca02ace183b719b"
-
-[[files]]
 file = "config/easyanvils-server.toml"
 hash = "6c7fdd54b304b53556bc695b6a1e87eadb270836c5071efcce371aea3f7f1589"
 
 [[files]]
 file = "config/emi.css"
 hash = "6a7cae69cc98717d699fcca45a62a9a6d327b922cf51f2ce44da2025076362eb"
-
-[[files]]
-file = "config/enchdesc.json"
-hash = "7116b95a9b6797af8db84e410a2ca2fdf6f813461e37cd04bff5af933f31567b"
-
-[[files]]
-file = "config/enhanced_bes.properties"
-hash = "7cd68fb95935612f95968e1268b2d6a03b66f037e39356c04fc447e90ae9889b"
-
-[[files]]
-file = "config/enhancedgroups/enhancedgroups.properties"
-hash = "f532d0c0fecd0e99ed7ee53c8a1a0ed0f59c8ea272d2d86e599b804ecd49a7f2"
-
-[[files]]
-file = "config/entityculling.json"
-hash = "ceb5b3624c3269bef037b2914da8ab0d1c368abdd466156292a5d82db8803b0e"
-
-[[files]]
-file = "config/euphoria_patcher/data.json"
-hash = "55f27679086770c8ed992fdd0aa4b2afaab54978aa99ccca529a1c1c09cb7f3b"
 
 [[files]]
 file = "config/euphoria_patcher/settings.toml"
@@ -505,52 +325,12 @@ file = "config/extendeddrawersaddon.json5"
 hash = "df960b15b137715a2c512cba5b9941e85f2f9475ba74fb33a98d6bcc1047b8bb"
 
 [[files]]
-file = "config/fabric/indigo-renderer.properties"
-hash = "b9163d6c7310cc0feb6cb41aa9fdc38955cd311544be73ed7896161e467e6cba"
-
-[[files]]
-file = "config/fabrictailor.json"
-hash = "6052658aaed6f72798e7a0c60c792818cfdc24898fe206b812098dc4f0803bcf"
-
-[[files]]
-file = "config/fallingleaves.json"
-hash = "d3b1d95d9f4e7304d79202b0b26f51e5d33f461e1416ecda25cb9a2bc8effbe3"
-
-[[files]]
-file = "config/fallingleaves2.json"
-hash = "cb9d4d481a63cddaf7e90a3e3f8c5bb134cd0be8f1401b1f808c55bf0ab4572f"
-
-[[files]]
-file = "config/farm_and_charm.json"
-hash = "6e1e9104a603088cd97fe92dce2a5197f4b020b32ca9164fcbd50c56568cdfd2"
-
-[[files]]
-file = "config/farmersdelight-client.json"
-hash = "b68ada748cdab82dcf67d923c4608a3181dad70d40758588995261590a2235e9"
-
-[[files]]
-file = "config/farmersdelight-common.json"
-hash = "bdd90884cfbde8fad7593b041685789364ac6e6636602550f836e3e03818c2b0"
-
-[[files]]
-file = "config/ferritecore.mixin.properties"
-hash = "fddb9f45485b7ae24191e3d94aa6e94a31016a8d4938d970d7f9877c79235732"
-
-[[files]]
 file = "config/fireworkfrenzy.jsonc"
 hash = "a07a4d0ada94860e5421332897297c749a8e49f700f943822a3a308abbef2595"
 
 [[files]]
-file = "config/flan/flan_config.json"
-hash = "70b5a976a29592acda411a21b881da77907b08b15316bca16d4e2cd82acb6c66"
-
-[[files]]
 file = "config/forgeconfigapiport.toml"
 hash = "647ad92f7bdc5e0ccef37d6e7386b08f2a19715b77742202f2f9048fb14e0dec"
-
-[[files]]
-file = "config/friendsandfoes.json"
-hash = "3be2d056db46e6bb1bd9113f5989ee35683074aabbd3383e092db236ff91029e"
 
 [[files]]
 file = "config/fzzy_config/keybinds.toml"
@@ -561,116 +341,8 @@ file = "config/goblintraders-entities.toml"
 hash = "47c74e5b08ccacbd39330a1367813e9437660ed603af42923fec6182b2349bed"
 
 [[files]]
-file = "config/herbalbrews.json"
-hash = "bf1b1c14518b2b51868fd479749dc33658cb6921c70b68fe2c1f00c4e13503e5"
-
-[[files]]
 file = "config/illagerinvasion-server.toml"
 hash = "82de1c857bdfa233b180df2555e168c2d5d4dec63c32d9ea6aa094eea9f77bad"
-
-[[files]]
-file = "config/immediatelyfast.json"
-hash = "a6c9d147a51c9e432c5c74c00285cfc5ba8b6fa4a0c6686051a7168b158d0d7a"
-
-[[files]]
-file = "config/immersive_aircraft.json"
-hash = "19cd371408c63afa16764d7f792af8efbbd8cacd135d1154f207d64da88f6b00"
-
-[[files]]
-file = "config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json"
-hash = "ca413dea02cce69c69dccdc525fb0ec013236876eff2d142772c68db3d772d3a"
-
-[[files]]
-file = "config/inventoryprofilesnext/inventoryprofiles.json"
-hash = "1b2cd8eaee5b7ec9268e65324ae438dc9502794ff07f21e9fac68401fcb5aa13"
-
-[[files]]
-file = "config/inventoryprofilesnext/test/villager-trading-config-v2.json"
-hash = "d8159a94fc4562651a5c47dc83e46a7fd71dd70e143fca53d7b288393a87b4ef"
-
-[[files]]
-file = "config/inventoryprofilesnext/test2/villager-trading-config-v2.json"
-hash = "d8159a94fc4562651a5c47dc83e46a7fd71dd70e143fca53d7b288393a87b4ef"
-
-[[files]]
-file = "config/inventoryprofilesnext/test3/lockSlots.txt"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "config/inventoryprofilesnext/test3/villager-trading-config-v2.json"
-hash = "d8159a94fc4562651a5c47dc83e46a7fd71dd70e143fca53d7b288393a87b4ef"
-
-[[files]]
-file = "config/inventoryprofilesnext/test5/prev-villager-trading-config-v2.json"
-hash = "82702d7a3bc10bdcd915ae17bc1c9788dcabe2fb6ec16d426b88e82a02f840bc"
-
-[[files]]
-file = "config/inventoryprofilesnext/test5/villager-trading-config-v2.json"
-hash = "cd4341e632d28d529ae66b0145a54a218a2a049780cdaae1e1890a25ced4e63b"
-
-[[files]]
-file = "config/inventoryprofilesnext/test6/villager-trading-config-v2.json"
-hash = "d8159a94fc4562651a5c47dc83e46a7fd71dd70e143fca53d7b288393a87b4ef"
-
-[[files]]
-file = "config/inventoryprofilesnext/新的世界/villager-trading-config-v2.json"
-hash = "d8159a94fc4562651a5c47dc83e46a7fd71dd70e143fca53d7b288393a87b4ef"
-
-[[files]]
-file = "config/iris-excluded.json"
-hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
-
-[[files]]
-file = "config/iris.properties"
-hash = "ed0efe662633b4eb652b441cbc9a8cce4d5d12ab6130effb02f62be031f33ee6"
-
-[[files]]
-file = "config/jade/hide-blocks.json"
-hash = "881bebe1f34ae249fc7d83f6a0d97ce3598746c133bc369775fc48fdeb5e1a76"
-
-[[files]]
-file = "config/jade/hide-entities.json"
-hash = "4aa6e50e59ce75cc6e335e69ac98277f3d5afc1b016bb6c14aeece67a4ebb543"
-
-[[files]]
-file = "config/jade/hide-mob-effects.json"
-hash = "a5c36f4ed48b1262f7f7d7be731c87c18aa6fdb79aaddb54568f9f8d526925c7"
-
-[[files]]
-file = "config/jade/jade.json"
-hash = "5754114a0a663b321793a61f741bafa70c2a6dd649657260cdc096600763ad94"
-
-[[files]]
-file = "config/jade/plugins.json"
-hash = "3dbe3e64a02df9683ed951b409d5347be66648c85584689c672a0f998055b339"
-
-[[files]]
-file = "config/jade/profiles/1/jade.json"
-hash = "3dfe75dfce67ff2ecb771060d89710904374b7c962ae2e6dba7bbc5b6eae070f"
-
-[[files]]
-file = "config/jade/profiles/2/jade.json"
-hash = "1d477871b2881456d39005c30fed88f10243b7cc8a90e26fbbd6e9c7a23e8eae"
-
-[[files]]
-file = "config/jade/profiles/3/jade.json"
-hash = "95ff79b8f73a818bf948c7bba395aa29007bdd3a38767494eb62f81eebc4dea0"
-
-[[files]]
-file = "config/jade/server-plugin-overrides.json"
-hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
-
-[[files]]
-file = "config/jade/sort-order.json"
-hash = "a93c9bd30bd28eba0ac9d4e1650d80ca47a615e87baa4a7735828bff481331b4"
-
-[[files]]
-file = "config/jade/usernamecache.json"
-hash = "aa8f4cdc9639df4164c1c1a8cf6a09612da6bb779c23021c60df046e9980a4d2"
-
-[[files]]
-file = "config/jei/blacklist.json"
-hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
@@ -701,76 +373,20 @@ file = "config/jei/recipe-category-sort-order.ini"
 hash = "071cbf99c7d933fbd27e08753aa49711c020650cc971d547cb0af9c07d2ceebf"
 
 [[files]]
-file = "config/journeymap-server.json"
-hash = "2b77ff82093eb3698b79b2b953806855d1880d414544a8158f41b028d8e293ca"
-
-[[files]]
 file = "config/lambdynlights.toml"
 hash = "fdd6958ff17541c8d1c891bd1602088bb6888f41229e966387a07311f32ec6d9"
-
-[[files]]
-file = "config/languagereload.json"
-hash = "31813575fa89ef19f1458bcd2dfb495be7bfb28dd90f3adccb5cba76d7669c10"
-
-[[files]]
-file = "config/lingua_bib.json"
-hash = "986ed19ef024b1c4dd2ff7b31bef04eb5609bfa23bf1fa2b319258513c80e44a"
-
-[[files]]
-file = "config/lithium.properties"
-hash = "6cf6f83720071fd1657c8e79b357caf68d40f410ae123e5f922483eb1d1d25be"
-
-[[files]]
-file = "config/lithostitched.json"
-hash = "d8a63933ec4757186a594debea59dd35724a0a895fe601b324f96217c28312df"
-
-[[files]]
-file = "config/lootr.json"
-hash = "97fd6741fbd614069a38efafc5b343a80aebf7b4dfcd68eae1ab5c9782192294"
 
 [[files]]
 file = "config/macu_lib.toml"
 hash = "c72f5d85f948195a378a4733eb1bd11e0a33607dc55a7d3c476d762ab355f8cf"
 
 [[files]]
-file = "config/meadow.json"
-hash = "eda0d1ba7697a18858b2cccc07d93fd0279037a33e18d382371fb2746cd45c30"
-
-[[files]]
-file = "config/midnightlib.json"
-hash = "b14c45c6447f9ee5474d70784a2ef96731abbeca1e92485b7599e76e9dce1444"
-
-[[files]]
 file = "config/mighty_mail.server.toml"
 hash = "b4e8eb71c8dcb560d01a3f88a7aad5dba58c5816c12850eecca4befdce138df3"
 
 [[files]]
-file = "config/modernfix-mixins.properties"
-hash = "5d638483a8b6ce35fcba87578edc963515b6d9d4aa3fa53191e43b9dfd2eabe5"
-
-[[files]]
-file = "config/modmenu.json"
-hash = "16d20c40cc6c114faff5493b561873fe160a65047720bc19fb3a3dd64aa67f3b"
-
-[[files]]
-file = "config/moonlight-client.json"
-hash = "468730b66703fdbae23f71ee15a9d880f2a79ff8fe67abda746dcbf10f2f06ab"
-
-[[files]]
-file = "config/moonlight-common.json"
-hash = "086d653fa3de22f98771ab194d8f83d32d95cc157d536a35d03e1cdc742351a1"
-
-[[files]]
 file = "config/moreculling.toml"
 hash = "db63bd41fae1b92828f13b34b93215549ca167ccf44a4c09d050fe559fa203a5"
-
-[[files]]
-file = "config/morevillagers.json"
-hash = "832818b27a76df025a408d353f3aada9195a0a6f0eed5269ddb795d65501078a"
-
-[[files]]
-file = "config/notenoughanimations.json"
-hash = "564ba5619c468f07473450aabda417178e024556519a4a6cb420402c1ca16943"
 
 [[files]]
 file = "config/numismatic-overhaul.json5"
@@ -781,32 +397,8 @@ file = "config/nyfsspiders-common.toml"
 hash = "60820a39813205cc37dbc9ee1b47ac73e8a8e454f98e060e3db37d46835a4834"
 
 [[files]]
-file = "config/observable.json"
-hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
-
-[[files]]
-file = "config/origins_server.json"
-hash = "324eb177416412574e5ae2fd882664dd8fa930aea84515899632206a727dc4ae"
-
-[[files]]
-file = "config/packetfixer.properties"
-hash = "01a8f77de7e0264d35e469eeb6b2ea97243cb5ac83e443aa17669ffd82d5456f"
-
-[[files]]
-file = "config/pal.properties"
-hash = "5591a2a127f4f2a3e89d4b33d1f065b338c3ecfdc858c7841a75ea03514cf452"
-
-[[files]]
 file = "config/particle_core_config.toml"
 hash = "9f78cd6740c669aceea023504efd2e600168af4bb41c2f0b12caa9988384b609"
-
-[[files]]
-file = "config/particle_core_disabled_optimizations_v2.json"
-hash = "b7bc203723d72ea4be656397987c2994ead752d99677f003a8d2fd077f4a2e2a"
-
-[[files]]
-file = "config/particlerain.json"
-hash = "33f77174d1a0ce97be6f582d576e6d93bedc3c091066e077f6eb25252d7f2f8f"
 
 [[files]]
 file = "config/patchouli.json5"
@@ -817,28 +409,8 @@ file = "config/power_config.json5"
 hash = "309e7779a516dfb2c88a5d15e5ab7abb3ce56331b2cff24f6bdd89ca721f6d60"
 
 [[files]]
-file = "config/presencefootsteps/updater.json"
-hash = "1e7c61df09c105e1eeca8cf3dcbdfeb976700e9904bcb3983fc7791adb7fad2e"
-
-[[files]]
-file = "config/presencefootsteps/userconfig.json"
-hash = "8cf6192eda81b3a27737440cfdedc05c40a8c1b552583114c1aa6fb2673ca907"
-
-[[files]]
 file = "config/presencefootsteps/userconfig.json5"
 hash = "5083b68a0d0501e16c5fe99f2ca87d5c7ef880c36a647e4db6dfd31a82ac53d4"
-
-[[files]]
-file = "config/repurposed_structures.json"
-hash = "14e4fe1ded11fa49bfc3479a8e7efdda0e5bc7333d6c9723b44c87306619d8ab"
-
-[[files]]
-file = "config/resourceful-config-web.json"
-hash = "209ef74751243270cca3056ce85f90f55791f45b35e9bc1a06000ad681211abe"
-
-[[files]]
-file = "config/scalablelux.properties"
-hash = "c11609c3ff2b479f08daa6c4b91a84edb83a7773d7a9ee269275be6f12003ba0"
 
 [[files]]
 file = "config/sereneseasons/fertility.toml"
@@ -881,22 +453,6 @@ file = "config/simplyswords/weapon_attributes.toml"
 hash = "568b26ff541d820ab708c9e3c9a44a182dde85462aed6bd145d07b47bd89d732"
 
 [[files]]
-file = "config/skinlayers.json"
-hash = "45162f45aa2db525a0edc483959f35b6d958ba2e54066a4f87e7f3c3f0f99166"
-
-[[files]]
-file = "config/sleep_tight-client.json"
-hash = "aeca5371243ed236598ed0a89d3b3e2e25e2d3e1e1e03e778e4e7804d78e8414"
-
-[[files]]
-file = "config/sleep_tight-common.json"
-hash = "2ed94c8076046baddd965f5258a0f88e8397073094d63310d2b256fe90ac6fce"
-
-[[files]]
-file = "config/sleepwarp.json"
-hash = "397625e7d7d2bfbe12a96fa290bef8f2154e1c3d98fd168e819191d60f0f6b56"
-
-[[files]]
 file = "config/smallships-client.toml"
 hash = "cbe41dbce7f779c8f90ab0df83a3f013dee79c3dea2aba6d5fe212e93f858768"
 
@@ -905,84 +461,8 @@ file = "config/smallships-common.toml"
 hash = "0e491e204c34161b788ba9cfc4955a0d68c941f25d9f8d6809e7755afc8ef9dd"
 
 [[files]]
-file = "config/smoothboot.json"
-hash = "f12faa150cb54f565b8c26a4538650f9fb45d33dc39000b1149548a4670cce37"
-
-[[files]]
-file = "config/snowyspirit-client.json"
-hash = "c2f70b66b10d2a4bde292fbc9203f2312b118cbc8c99b6cbfa62674236debcd4"
-
-[[files]]
-file = "config/snowyspirit-common.json"
-hash = "45737b628225cd5785ea17567a3b01978b62db060d5604db368832b26df6b32f"
-
-[[files]]
-file = "config/sodium-extra-options.json"
-hash = "8f63ffc3da56dea003edba370e75cf13068bb57feb7de1b6f6bf1e9f237b44d4"
-
-[[files]]
-file = "config/sodium-extra.properties"
-hash = "a2f1b47c1eaa119ab34727f1d43c2506cb3d7f17ba8fb4efb49e20c8e0b58e70"
-
-[[files]]
-file = "config/sodium-fingerprint.json"
-hash = "2c25fb231d64b79ce7bc3d2d697346dc1a189351192d6a05bc041af0df49925e"
-
-[[files]]
-file = "config/sodium-mixins.properties"
-hash = "b627c4456e6fa0bc4b5f85e2f1cd949faedae3cb9afdaf2a5f52e6f3b6ae1f01"
-
-[[files]]
-file = "config/sodium-options.json"
-hash = "445a55bccce87dd8467f3265d1572827e8778e873e3bb70290adf0bb8a811e96"
-
-[[files]]
-file = "config/sound_physics_remastered/occlusion.properties"
-hash = "3f99e34acbcb1d8ba3b0af854b9a6f7af5f8ace70c037c3868ec4fb9b4f8b847"
-
-[[files]]
-file = "config/sound_physics_remastered/reflectivity.properties"
-hash = "bc029afc200ba2fba522a27245d65c8e5db0f20cd0eddd5873a316054d962923"
-
-[[files]]
-file = "config/sound_physics_remastered/sound_rates.properties"
-hash = "7bf3cd5f95016bce5992c2f72b56f3787e5354ea5fb5a1e17b16730eb17ddd52"
-
-[[files]]
-file = "config/sound_physics_remastered/soundphysics.properties"
-hash = "9573c64dd047712ef1c7ec7f8e2a2b442906f7272eb0c0c73986fc876a3e6235"
-
-[[files]]
-file = "config/spark/activity.json"
-hash = "47f8908fb70da6b2b48d1cc80a9037b8d30a14ee25bbf0221ae2ef842521463f"
-
-[[files]]
-file = "config/spark/config.json"
-hash = "992ba9f3a4a7ce3de112eb95575328956fdc3ce6781c455ebce7b23db7e7da42"
-
-[[files]]
-file = "config/spark/tmp-client/about.txt"
-hash = "8057ccf4540ea269b0fc332225859f44d8f3a55d891fa2e7a3447b6202658d2a"
-
-[[files]]
-file = "config/spark/tmp/about.txt"
-hash = "8057ccf4540ea269b0fc332225859f44d8f3a55d891fa2e7a3447b6202658d2a"
-
-[[files]]
 file = "config/structure_layout_optimizer.jsonc"
 hash = "5a9058652bc0b88b8810e0b94eba0e1a90cbff2472845c53a7e67442682a1579"
-
-[[files]]
-file = "config/supplementaries-client.json"
-hash = "3cccaae42a81f99794e10052dfded89c86984458a927affb805a7cd31e43db6c"
-
-[[files]]
-file = "config/supplementaries-common.json"
-hash = "054d6d321a6bb27d658f7fd145a5a377f2c25be54be8855f401663668f1cebee"
-
-[[files]]
-file = "config/tectonic.json"
-hash = "4e51c4762ed0843d5999f8597653dece1f0943d68f927cd5ad8fb04b2195a093"
 
 [[files]]
 file = "config/terrablender.toml"
@@ -993,10 +473,6 @@ file = "config/textile_backup.json5"
 hash = "030a83dbdb1909ac4e4d0b5773092ec39ced48378696981a70f2f47e45b14f39"
 
 [[files]]
-file = "config/toms_storage.json"
-hash = "fe9bba01d323a80ceb0752143bb717708110ab6d8d3c87b32055728f81366a0d"
-
-[[files]]
 file = "config/towns_and_towers/structure_enable_or_disable_new.json5"
 hash = "7c70e7df82d014a87dcb2defcf45d9654a22362283c7efe1f81f3b3c04290709"
 
@@ -1005,40 +481,8 @@ file = "config/towns_and_towers/structure_rarity_new.json5"
 hash = "fe4ca0974aca38b27c94e3f1dc092f1688b54f27d9eaa728d61c6ccae4ca1313"
 
 [[files]]
-file = "config/transition.json"
-hash = "6c0060c7301372bbc414f86a139b383e34fb620f0621badd71bb19efc3f26767"
-
-[[files]]
 file = "config/travelersbackpack.json5"
 hash = "731cabc337b42f909b1498ed5ae2b519fb2bf3b52fd3362ed674190d6fac7b4a"
-
-[[files]]
-file = "config/trender.json"
-hash = "0a282f3623f7f9443a1d10b5768865f69e58b74e000dcfb4f40399626b7a6124"
-
-[[files]]
-file = "config/universal-graves/config.json"
-hash = "b0a8ed28fbd71bb38c970314c108061dd7c72417924764e142f85f38a2e6e6b8"
-
-[[files]]
-file = "config/universal-graves/example_models/corpse_player.json"
-hash = "f1f86bd740c9bde120cca8769e900005cf46f67cfb076b65b50c339f47deb69e"
-
-[[files]]
-file = "config/universal-graves/example_models/corpse_zombie.json"
-hash = "dc1ee62c77ef7831f52c1c9a44c5dff3e5ccaa4094d43438e9fdbe1f41a06a17"
-
-[[files]]
-file = "config/universal-graves/example_models/default.json"
-hash = "c0f6c5e52fcfe066b1b300e9c4c738feb87dc1397ce45e58b99b63cb25e07167"
-
-[[files]]
-file = "config/universal-graves/example_models/player_head.json"
-hash = "c0f6c5e52fcfe066b1b300e9c4c738feb87dc1397ce45e58b99b63cb25e07167"
-
-[[files]]
-file = "config/universal-graves/example_models/soul.json"
-hash = "bd3c7cba512978e4d0f5632aed773b47d93e80e9243656fc092d6cc56ddc53e1"
 
 [[files]]
 file = "config/vanilla_structures/placement_structure_config.json5"
@@ -1049,48 +493,8 @@ file = "config/vanilla_structures/toggle_structure_config.json5"
 hash = "c4fb220488de3c1afc569f4b8a89d8e97f8b5504eeb59d9700b491f29718d2f9"
 
 [[files]]
-file = "config/vinery.json"
-hash = "e5eb7293f28bfe7d6460b4f8a8684c7977302ab2b4d46348b9a575c23feafcea"
-
-[[files]]
-file = "config/visuality.json"
-hash = "1561b99ae57ede995dfb64a91ac5b53dd877f57e4a8f1859526da84511bcec07"
-
-[[files]]
-file = "config/vmp.properties"
-hash = "4137e498961184054568845f60be4cddccbebe39d4eb370cd1e953f6063327fe"
-
-[[files]]
-file = "config/voicechat/category-volumes.properties"
-hash = "3747c48bcb3a60834f88f056ee9b3a025153b11f6ca88652b4bddebb77cea009"
-
-[[files]]
-file = "config/voicechat/player-volumes.properties"
-hash = "cd385ca1eeda4df612631e2713cc6d503793157ef8bd5518d736429e6c1ae474"
-
-[[files]]
-file = "config/voicechat/translations.properties"
-hash = "b258a94a5ed60fbf93b66c452c3d6e36b044f630741f90e5b13852a4805b235e"
-
-[[files]]
-file = "config/voicechat/username-cache.json"
-hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
-
-[[files]]
-file = "config/voicechat/voicechat-client.properties"
-hash = "9665ab81644994339da5d4e17b01b89aaed852be77678fae939de6a1080a984c"
-
-[[files]]
-file = "config/voicechat/voicechat-server.properties"
-hash = "2c34f12a80c2a543d43002bb25e689d85a0d9e54d910bb8b2f6b80547ab0e217"
-
-[[files]]
 file = "config/waystones-common.toml"
 hash = "29255d409aa090fdc9040c62fb829a424f06a35611cfe2c6f2361e9bcf4ccad4"
-
-[[files]]
-file = "config/wildernature.json"
-hash = "7bea6cc8cc83a66e1482764774661611c5c15bc276684a2eea660204a3bd86c9"
 
 [[files]]
 file = "config/xaero/lib/client.cfg"
@@ -1117,32 +521,12 @@ file = "config/xaero/minimap/common.cfg"
 hash = "2b49df024c03a369c62a303c72755e7fedeb4f4653ff53a12fd37bd83ccd4ed0"
 
 [[files]]
-file = "config/xaero/minimap/default_radar_categories_client.json"
-hash = "8ec85ecdff2a7b60389a80cbffa420876fcf83b3a72120e3564076da50dc3fca"
-
-[[files]]
-file = "config/xaero/minimap/default_radar_categories_server.json"
-hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
-
-[[files]]
 file = "config/xaero/minimap/profiles/default.cfg"
 hash = "db49c4dde15db318eb25e8a43fa06992778f0e17b3a963fff5cbee35da11fb81"
 
 [[files]]
-file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
-hash = "184e654fa1fc8ad09943c97c4e65ab78acb5b3cfca22417a831513d1b6d9bbc6"
-
-[[files]]
 file = "config/xaero/minimap/server_profiles/default.cfg"
 hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
-
-[[files]]
-file = "config/xaerohud.txt"
-hash = "cece60604b8de5e978141c981c1ed85227c8f30697a513869012b06dd15fcf02"
-
-[[files]]
-file = "config/xaeropatreon.txt"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/yacl.json5"
@@ -2354,52 +1738,12 @@ file = "shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip"
 hash = "f41db92acc585fe9ffe0cc124d6ecaea27cef9ded91129ebc2a8e60226947b2c"
 
 [[files]]
-file = "shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip.txt"
-hash = "f53ca27252a93650a17d2297ba20620c9e10c5293a786f3c454dc6ace12af9c7"
-
-[[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4 + Supplemental Patches/ComplementaryLicense.txt"
-hash = "68197060d55c2ee8ddf03411d66787d5e6d8c5b95efa0925d372a2e8698ac60d"
-
-[[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4 + Supplemental Patches/Credits.txt"
-hash = "26173b99b0c3d9988197562d17e4fad318afa5b6602f9394f6788cd3442dec1b"
-
-[[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4 + Supplemental Patches/EuphoriaPatchesLicense.txt"
-hash = "b2ff5826e1d6a7d53a0b95c437f8c11d273ba2fd422bfd3c8858cfd97dd18439"
-
-[[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4 + Supplemental Patches/InformationEuphoriaPatches.md"
 hash = "936d311eccf07dcb3668971a7136fde6afa8e78c41b91ed581c981422c835fdd"
 
 [[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4 + Supplemental Patches/Made for Complementary Shaders r5.7.1.txt"
-hash = "de5cc55e7420fa118038e6bebccea3570868420c56fda22539d96b433eab6678"
-
-[[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4 + Supplemental Patches/addedMods.md"
 hash = "733c2a5b31fc9d453631cfdd719e5371818283b56f95443be89e7d779aeaa7a7"
-
-[[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4 + Supplemental Patches/shaders/block.properties"
-hash = "7eebafd78bac831c7b66d4a0a3bd9e2a7c08bcddc95d879db55be5acab650e5a"
-
-[[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4 + Supplemental Patches/shaders/colorwheel.properties"
-hash = "bbe3b3302655f1c7160e62765b6b2881181b183c02951c7438c754aaf6566017"
-
-[[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4 + Supplemental Patches/shaders/dimension.properties"
-hash = "67d3dd53ec9c0b3488b86bb5f9e471166b7c66fdb78bcbabe42602328dde888e"
-
-[[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4 + Supplemental Patches/shaders/entity.properties"
-hash = "d75321365f1513c6af357c32363aafb30b7d4e79b4bbf004c72306fca5646bf1"
-
-[[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4 + Supplemental Patches/shaders/item.properties"
-hash = "48b374b739417a7389e1a2be55e6365009a164721d20e1ac53bb65c22a516031"
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4 + Supplemental Patches/shaders/lang/en_US.lang"
@@ -3406,16 +2750,8 @@ file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4 + Sup
 hash = "9bd6d7ae16ac0ed75eea1a0691967b6ce460ba3bb1b241f040e84c60674482f1"
 
 [[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4 + Supplemental Patches/shaders/pack.json"
-hash = "8c77280875b8660831c24849ee70abae8b0a80c67e346d2c8327ef006fdea437"
-
-[[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4 + Supplemental Patches/shaders/pack.png"
 hash = "e6bea12e30c993b3195c4be5991dc395d3105a5b248204596f38b14b2ee0e0e7"
-
-[[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4 + Supplemental Patches/shaders/palettes/INSTRUCTIONS.txt"
-hash = "863876f68ebe2c1c942616b22186ad57a0fb25a74bb092a8ffaa123194dbc27e"
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4 + Supplemental Patches/shaders/palettes/palette1.png"
@@ -3592,10 +2928,6 @@ hash = "29bbe981b7abfbd9dc4df7f876514f8970fa1ca724e1f94c3034925e575c29c4"
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4 + Supplemental Patches/shaders/program/template.glsl"
 hash = "bda2002c002ece65bbeb48aa9ee771ca17df1b4c43659c7d825dbe27c1f58659"
-
-[[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4 + Supplemental Patches/shaders/shaders.properties"
-hash = "b6a75ba9ed45d48b3191fd0d9312430ef8332bb9b41ea2f3389899f3b4c309b6"
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4 + Supplemental Patches/shaders/world-1/clrwl_gbuffers.fsh"
@@ -4490,48 +3822,12 @@ file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4 + Sup
 hash = "1ff2a3529f60f4cdf66e2e8ac09d90813ce479ef340c18440deeccf845141ff3"
 
 [[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4/ComplementaryLicense.txt"
-hash = "68197060d55c2ee8ddf03411d66787d5e6d8c5b95efa0925d372a2e8698ac60d"
-
-[[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4/Credits.txt"
-hash = "26173b99b0c3d9988197562d17e4fad318afa5b6602f9394f6788cd3442dec1b"
-
-[[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4/EuphoriaPatchesLicense.txt"
-hash = "b2ff5826e1d6a7d53a0b95c437f8c11d273ba2fd422bfd3c8858cfd97dd18439"
-
-[[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4/InformationEuphoriaPatches.md"
 hash = "936d311eccf07dcb3668971a7136fde6afa8e78c41b91ed581c981422c835fdd"
 
 [[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4/Made for Complementary Shaders r5.7.1.txt"
-hash = "de5cc55e7420fa118038e6bebccea3570868420c56fda22539d96b433eab6678"
-
-[[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4/addedMods.md"
 hash = "733c2a5b31fc9d453631cfdd719e5371818283b56f95443be89e7d779aeaa7a7"
-
-[[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4/shaders/block.properties"
-hash = "9afc0ff9dc05384317c315b3e5d3b7d4e4923263de897417013e3a9b0e9d3caf"
-
-[[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4/shaders/colorwheel.properties"
-hash = "bbe3b3302655f1c7160e62765b6b2881181b183c02951c7438c754aaf6566017"
-
-[[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4/shaders/dimension.properties"
-hash = "67d3dd53ec9c0b3488b86bb5f9e471166b7c66fdb78bcbabe42602328dde888e"
-
-[[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4/shaders/entity.properties"
-hash = "284b0d4d3380e1a41d61b0f8a776504755663fd831d41d49783ce707b8779d18"
-
-[[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4/shaders/item.properties"
-hash = "fba656aa237db11a16df5c79b9016014941206ca4e1b737ba2d4ee4068bd7943"
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4/shaders/lang/en_US.lang"
@@ -5538,16 +4834,8 @@ file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4/shade
 hash = "1d0cc51aaa67a5661d99ae01298b1c7f15cfd6e0c731d22efe3898cb4925e7e3"
 
 [[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4/shaders/pack.json"
-hash = "8c77280875b8660831c24849ee70abae8b0a80c67e346d2c8327ef006fdea437"
-
-[[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4/shaders/pack.png"
 hash = "e6bea12e30c993b3195c4be5991dc395d3105a5b248204596f38b14b2ee0e0e7"
-
-[[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4/shaders/palettes/INSTRUCTIONS.txt"
-hash = "863876f68ebe2c1c942616b22186ad57a0fb25a74bb092a8ffaa123194dbc27e"
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4/shaders/palettes/palette1.png"
@@ -5724,10 +5012,6 @@ hash = "06972e42c001125b08cf58c4b359b4416dad3f0d8eff23a60b485112015fc76e"
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4/shaders/program/template.glsl"
 hash = "bda2002c002ece65bbeb48aa9ee771ca17df1b4c43659c7d825dbe27c1f58659"
-
-[[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4/shaders/shaders.properties"
-hash = "d7765b1b714a087bdc2156951833f523617bc200043ca72825b044ddc6aef269"
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.7.1 + EuphoriaPatches_1.8.4/shaders/world-1/clrwl_gbuffers.fsh"
@@ -6626,48 +5910,12 @@ file = "shaderpacks/ComplementaryReimagined_r5.7.1.zip"
 hash = "24a20634a7832d422d3cd5023be16829f26840e25c69404dd418306ea79f63f0"
 
 [[files]]
-file = "shaderpacks/ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.4/ComplementaryLicense.txt"
-hash = "68197060d55c2ee8ddf03411d66787d5e6d8c5b95efa0925d372a2e8698ac60d"
-
-[[files]]
-file = "shaderpacks/ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.4/Credits.txt"
-hash = "26173b99b0c3d9988197562d17e4fad318afa5b6602f9394f6788cd3442dec1b"
-
-[[files]]
-file = "shaderpacks/ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.4/EuphoriaPatchesLicense.txt"
-hash = "b2ff5826e1d6a7d53a0b95c437f8c11d273ba2fd422bfd3c8858cfd97dd18439"
-
-[[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.4/InformationEuphoriaPatches.md"
 hash = "936d311eccf07dcb3668971a7136fde6afa8e78c41b91ed581c981422c835fdd"
 
 [[files]]
-file = "shaderpacks/ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.4/Made for Complementary Shaders r5.7.1.txt"
-hash = "de5cc55e7420fa118038e6bebccea3570868420c56fda22539d96b433eab6678"
-
-[[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.4/addedMods.md"
 hash = "733c2a5b31fc9d453631cfdd719e5371818283b56f95443be89e7d779aeaa7a7"
-
-[[files]]
-file = "shaderpacks/ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.4/shaders/block.properties"
-hash = "9afc0ff9dc05384317c315b3e5d3b7d4e4923263de897417013e3a9b0e9d3caf"
-
-[[files]]
-file = "shaderpacks/ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.4/shaders/colorwheel.properties"
-hash = "bbe3b3302655f1c7160e62765b6b2881181b183c02951c7438c754aaf6566017"
-
-[[files]]
-file = "shaderpacks/ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.4/shaders/dimension.properties"
-hash = "67d3dd53ec9c0b3488b86bb5f9e471166b7c66fdb78bcbabe42602328dde888e"
-
-[[files]]
-file = "shaderpacks/ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.4/shaders/entity.properties"
-hash = "284b0d4d3380e1a41d61b0f8a776504755663fd831d41d49783ce707b8779d18"
-
-[[files]]
-file = "shaderpacks/ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.4/shaders/item.properties"
-hash = "fba656aa237db11a16df5c79b9016014941206ca4e1b737ba2d4ee4068bd7943"
 
 [[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.4/shaders/lang/en_US.lang"
@@ -7674,16 +6922,8 @@ file = "shaderpacks/ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.4/shaders/
 hash = "1d0cc51aaa67a5661d99ae01298b1c7f15cfd6e0c731d22efe3898cb4925e7e3"
 
 [[files]]
-file = "shaderpacks/ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.4/shaders/pack.json"
-hash = "8c77280875b8660831c24849ee70abae8b0a80c67e346d2c8327ef006fdea437"
-
-[[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.4/shaders/pack.png"
 hash = "e6bea12e30c993b3195c4be5991dc395d3105a5b248204596f38b14b2ee0e0e7"
-
-[[files]]
-file = "shaderpacks/ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.4/shaders/palettes/INSTRUCTIONS.txt"
-hash = "863876f68ebe2c1c942616b22186ad57a0fb25a74bb092a8ffaa123194dbc27e"
 
 [[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.4/shaders/palettes/palette1.png"
@@ -7860,10 +7100,6 @@ hash = "06972e42c001125b08cf58c4b359b4416dad3f0d8eff23a60b485112015fc76e"
 [[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.4/shaders/program/template.glsl"
 hash = "bda2002c002ece65bbeb48aa9ee771ca17df1b4c43659c7d825dbe27c1f58659"
-
-[[files]]
-file = "shaderpacks/ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.4/shaders/shaders.properties"
-hash = "d7765b1b714a087bdc2156951833f523617bc200043ca72825b044ddc6aef269"
 
 [[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.7.1 + EuphoriaPatches_1.8.4/shaders/world-1/clrwl_gbuffers.fsh"
@@ -8785,7 +8021,3 @@ hash = "a7134a10138f6e5fe523dafa23bd266ba2e53621ac65a5e23294fe9a125b9d73"
 [[files]]
 file = "shaderpacks/rethinking-voxels_r0.1-beta9.zip"
 hash = "a8cd9d4338c7d3d1fffecc4525348a31ea3d219ef31382c51d5ddc3b4b0114e1"
-
-[[files]]
-file = "start.sh"
-hash = "68fbf4b46656b215da61151e94d1b041910014aa486c2e38c6d0933dba029ddc"

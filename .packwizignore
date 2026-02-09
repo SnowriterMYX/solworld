@@ -1,1 +1,17 @@
 README.md
+start.sh
+GEMINI.md
+.git
+.github
+startup.info
+logs
+backup
+world
+server.jar
+*.log
+*.bak
+*.txt
+*.json
+*.db
+*.properties
+*.info
