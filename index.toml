@@ -809,6 +809,11 @@ hash = "c03848ab316f8f8e07656e08c675541ce90f0ad729d5b31df336fe8f27a58b3f"
 metafile = true
 
 [[files]]
+file = "mods/easyauth.pw.toml"
+hash = "485707b2568573e00569c2bac74c9c7eed37727e1f065aeff5ed520dbb33ca8a"
+metafile = true
+
+[[files]]
 file = "mods/ebe.pw.toml"
 hash = "b1f89407254a20cde6c60994a6315bd841b7f562669a1d29b436ec97463ff2ae"
 metafile = true
