@@ -600,6 +600,11 @@ hash = "a9f6cf1a98bc318c887b672aecaff6ffdbf33a6ec06af5f2686b292988d0846e"
 metafile = true
 
 [[files]]
+file = "mods/bclib.pw.toml"
+hash = "2195df15cde85a2ec76bb9abec09597efc304e3fd1bca08fd4027ba053d86661"
+metafile = true
+
+[[files]]
 file = "mods/beautify-2.0.0+1.21.1.jar"
 hash = "134da1a8e3841f0a14004e839bd1e0a9d091cc5769a82b0052cebda2804ac4fd"
 
@@ -629,8 +634,18 @@ hash = "7b87ea6e0623ada323e65fa0420e0827f6e88689898a0454376e460ad8cbc5dc"
 metafile = true
 
 [[files]]
+file = "mods/betterend.pw.toml"
+hash = "f15c8cd06fb1e7ececdb01942d2b86a60a0eebaf9d88f9c3defda77c0a115496"
+metafile = true
+
+[[files]]
 file = "mods/betterf3.pw.toml"
 hash = "7d1815ec4f2098c4de8b01494373d84da8a5104accd5ae028a2a020595646082"
+metafile = true
+
+[[files]]
+file = "mods/betternether.pw.toml"
+hash = "2cf79d151d64ae6a26e037bc883c457eaec6089685df02c7474a1d130f6daaa7"
 metafile = true
 
 [[files]]
@@ -756,6 +771,11 @@ metafile = true
 [[files]]
 file = "mods/critters-and-companions.pw.toml"
 hash = "e27ff19b73147521eff10c9cf0d4d51e36a462d1e67f460ee33287e4356e3fe1"
+metafile = true
+
+[[files]]
+file = "mods/croptopia-refabricated.pw.toml"
+hash = "2d691de009500326031eb324c31b67e0ba62e114d9105b88e3db72db23ceb88f"
 metafile = true
 
 [[files]]
@@ -1631,6 +1651,11 @@ metafile = true
 [[files]]
 file = "mods/waystones.pw.toml"
 hash = "d9b210470eeaca6109002dcc8c1442dbbef5468bbf7be516651e7fc25b3d5c5e"
+metafile = true
+
+[[files]]
+file = "mods/worldweaver.pw.toml"
+hash = "d3dccbd68486d3b35054b5a716051fa01a916d808a2aa78a0ada72b31f08c428"
 metafile = true
 
 [[files]]

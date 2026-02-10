@@ -1,0 +1,13 @@
+name = "Croptopia Refabricated"
+filename = "croptopia-refabricated-0.1.0+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/unvZ692M/versions/1Sj2O4n1/croptopia-refabricated-0.1.0%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "2cd7971e0a62a3f5bc698e5d7dc9f8c1084bc425c8d3ff554a775732bc05343c3ca63ebd9eeebdc7f7e1f716d734fa3e647908e088d796b0015610bc1dff9a16"
+
+[update]
+[update.modrinth]
+mod-id = "unvZ692M"
+version = "1Sj2O4n1"
