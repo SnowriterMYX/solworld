@@ -1224,11 +1224,6 @@ hash = "117d08952827ca6c010f783453ab39de901916561d4255f0782eeda78cb683c3"
 metafile = true
 
 [[files]]
-file = "mods/medieval-origins-revival.pw.toml"
-hash = "2cd232c6e0cd523540e9b2ab271853929a4779037be0efbecdde0724bc686f30"
-metafile = true
-
-[[files]]
 file = "mods/memory-check.pw.toml"
 hash = "120b759ac9147ce691ff9da4fdf4419c738bd95eb5eb9b7ee7d21221737ceb10"
 metafile = true
@@ -1511,11 +1506,6 @@ metafile = true
 [[files]]
 file = "mods/sparkweave.pw.toml"
 hash = "f75bbec1a914e91da0c1b7a70ddca2201441c5fd5d7eb0c941a2f4c4af85b2dd"
-metafile = true
-
-[[files]]
-file = "mods/spell-engine.pw.toml"
-hash = "3b56db522dc1aea8ec56e0810919cf38069b18eb321a5ffecfee66cd6813a263"
 metafile = true
 
 [[files]]
