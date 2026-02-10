@@ -595,6 +595,11 @@ hash = "6bba42736ec89cf47af352b8759fbed389a2e9bd72a88320d85b5e48b62492ca"
 metafile = true
 
 [[files]]
+file = "mods/balm-fabric.pw.toml"
+hash = "3e020f352ab64f88d0bbbee740ae1784d17b44337c02e2fd670889bbdbfa4a9a"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "a9f6cf1a98bc318c887b672aecaff6ffdbf33a6ec06af5f2686b292988d0846e"
 metafile = true
@@ -704,6 +709,11 @@ hash = "29a90ec598079873af005a152123b17fdf81323b06640f73a25c8e2663b91cf6"
 metafile = true
 
 [[files]]
+file = "mods/charm.pw.toml"
+hash = "8ce142c4535288ca17820023665a98d023a2b5deef01c185343c41487c9b5cb3"
+metafile = true
+
+[[files]]
 file = "mods/chat-heads.pw.toml"
 hash = "a5f056e7c75be2ee7290e72aa8ffd880f7e130e559d02b0395a0a3aabf413000"
 metafile = true
@@ -756,6 +766,11 @@ metafile = true
 [[files]]
 file = "mods/controlling.pw.toml"
 hash = "eecdc8127f69c74ff55fd183d1f1d7d5ef3e714d73845a239fe9e086147a67b1"
+metafile = true
+
+[[files]]
+file = "mods/cooking-for-blockheads.pw.toml"
+hash = "7f361858a21c11df25c4b782c659159744927c8c36175efeb8cc5c1fb7dbbded"
 metafile = true
 
 [[files]]
