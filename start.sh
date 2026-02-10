@@ -54,7 +54,46 @@ install_server_core() {
 }
 
 # --- 4. Packwiz 安全同步 ---
+backup_on_update() {
+    local hash_file=".pack_hash"
+    local current_hash=""
+    
+    if [[ -f "pack.toml" ]]; then
+        current_hash=$(sha256sum pack.toml | awk '{print $1}')
+    else
+        return 0 # 没有 pack.toml 就不折腾了
+    fi
+
+    local do_backup=false
+    if [[ ! -f "$hash_file" ]]; then
+        do_backup=true
+    else
+        local last_hash=$(cat "$hash_file")
+        if [[ "$current_hash" != "$last_hash" ]]; then
+            do_backup=true
+        fi
+    fi
+
+    if [ "$do_backup" = true ]; then
+        echo "🔄 检测到 pack.toml 变更，正在执行更新前备份..."
+        local backup_dir="./backups/pre_update"
+        mkdir -p "$backup_dir"
+        local timestamp=$(date '+%Y%m%d_%H%M%S')
+        local backup_file="$backup_dir/backup_$timestamp.tar.gz"
+
+        # 备份关键目录，忽略非关键错误
+        tar -czf "$backup_file" mods config pack.toml index.toml 2>/dev/null || true
+        
+        echo "✅ 备份完成: $backup_file"
+        echo "$current_hash" > "$hash_file"
+        
+        # 清理旧备份 (保留最近 5 个)
+        find "$backup_dir" -name "backup_*.tar.gz" -type f -printf "%T@ %p\n" | sort -nr | tail -n +6 | cut -d' ' -f2- | xargs -r rm
+    fi
+}
+
 sync_mods() {
+    backup_on_update
     echo "--- 正在同步资源 (Packwiz) ---"
     if [[ ! -f "$BOOTSTRAP_JAR" ]]; then
         wget -q -O "$BOOTSTRAP_JAR" https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar
