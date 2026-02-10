@@ -1039,6 +1039,11 @@ hash = "5284f6d141a990f4ea021c12b851e07102f5cb22743cf7b33be6ad2eb4c8d3f5"
 metafile = true
 
 [[files]]
+file = "mods/iron-chests-modern-fabric.pw.toml"
+hash = "b4e37d5ab8298b048dd765d2b967c12adf878856d9d0645f2b0d1d38078bf339"
+metafile = true
+
+[[files]]
 file = "mods/item-descriptions.pw.toml"
 hash = "08cbbf5f9c5b7609f5e43f03005dd258fabb9a57e6eb33f9f192d70edc4462e0"
 metafile = true
@@ -1521,6 +1526,16 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "be0c8881821da897824770b2a71f0f3765a233eda69b295fa5b92ffe8a25014c"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-backpacks-(unoffical-fabric-port).pw.toml"
+hash = "a4eebb2bda9daccc5444b8bd2d91f4ee8ce2325dd51436cb785ca33530b98ecd"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-core-(unofficial-fabric-port).pw.toml"
+hash = "693fdc79c18086a2a939b45de97ca918d895d5a4247d2a0bba94bf53661bc705"
 metafile = true
 
 [[files]]
