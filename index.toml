@@ -555,6 +555,11 @@ hash = "b83be649099ba1f38968a9d331acbfb36e6a45863c290a0ddc8f55b010d74422"
 metafile = true
 
 [[files]]
+file = "mods/amecs.pw.toml"
+hash = "9ae1bd451fd42a33550abe508eec2f77a86e32b25d231fcaf0be31e2f644603a"
+metafile = true
+
+[[files]]
 file = "mods/amendments.pw.toml"
 hash = "48768390d0ed8904ef38ffb095ff612b1f6b28d2a8300b1d3e4c67d02a2caf53"
 metafile = true
@@ -796,6 +801,11 @@ metafile = true
 [[files]]
 file = "mods/debugify.pw.toml"
 hash = "7cb9e98526468233fbec6f949c78a8afc5ef29447868e1d11cb71293237966a2"
+metafile = true
+
+[[files]]
+file = "mods/default-options.pw.toml"
+hash = "6d1b30b228fc3cc57be30958b2ec40a2e11053fd209a4aff7be71c12fdca3efb"
 metafile = true
 
 [[files]]
