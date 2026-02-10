@@ -634,11 +634,6 @@ hash = "7b87ea6e0623ada323e65fa0420e0827f6e88689898a0454376e460ad8cbc5dc"
 metafile = true
 
 [[files]]
-file = "mods/betterend.pw.toml"
-hash = "f15c8cd06fb1e7ececdb01942d2b86a60a0eebaf9d88f9c3defda77c0a115496"
-metafile = true
-
-[[files]]
 file = "mods/betterf3.pw.toml"
 hash = "7d1815ec4f2098c4de8b01494373d84da8a5104accd5ae028a2a020595646082"
 metafile = true
@@ -864,6 +859,11 @@ hash = "f7bb88ccf59b362d533cef59b28b0cab3ef017ad7462dfbe0daae2a0aa30032e"
 metafile = true
 
 [[files]]
+file = "mods/endrem.pw.toml"
+hash = "389c30cfae2e35405bc8efe5c5e1eb853ab8b3e031d45e889b597c581632d420"
+metafile = true
+
+[[files]]
 file = "mods/enhanced-groups.pw.toml"
 hash = "d1b391fbc308dbf1afe27c11c4a3a6931d6d1452a648d9e91465ad1e2845ade3"
 metafile = true
@@ -910,7 +910,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "0364a64e7f6515dccf92e10512c81178b7afeb1ae031f8024620892769e69313"
+hash = "49884f2d7db0e731facf0aa70cf2038dd513624c450cba773a8ca7a47e53953b"
 metafile = true
 
 [[files]]
