@@ -709,8 +709,8 @@ hash = "29a90ec598079873af005a152123b17fdf81323b06640f73a25c8e2663b91cf6"
 metafile = true
 
 [[files]]
-file = "mods/charm.pw.toml"
-hash = "8ce142c4535288ca17820023665a98d023a2b5deef01c185343c41487c9b5cb3"
+file = "mods/charm-forked.pw.toml"
+hash = "f536270e4296967f665c3d2120e344c41e52b53a3cd9560f40cea03e67881f2c"
 metafile = true
 
 [[files]]
@@ -915,7 +915,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "49884f2d7db0e731facf0aa70cf2038dd513624c450cba773a8ca7a47e53953b"
+hash = "0364a64e7f6515dccf92e10512c81178b7afeb1ae031f8024620892769e69313"
 metafile = true
 
 [[files]]
