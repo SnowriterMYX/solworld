@@ -1529,11 +1529,6 @@ hash = "04d5cccae8671610cfcff582f7c1b490ba09622a476b53421cd078eb322f27ae"
 metafile = true
 
 [[files]]
-file = "mods/supplemental-patches.pw.toml"
-hash = "d77ef7cbb2b3d2f3411b05828ce04715a201300428bf68d724bd44ff3b407c22"
-metafile = true
-
-[[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "049c8ef911313123973beba0a9331406e642a46997918a568dce3aad26e292b7"
 metafile = true
