@@ -1,0 +1,21 @@
+# 主开关：开启随机起源
+randomiseOrigins = true
+# 首次加入自动随机（养老必备）
+randomiseOnFirstJoin = true
+# 死亡随机起源（核心！）
+deathRandomisesOrigin = true
+# 禁用生命系统：永不观战/spectator，直接无限复活
+enableLives = false
+# 不重置为人类：真随机（鱼人/末影人等惊喜）
+resetToHumanOrigin = false
+# 死亡无选择屏：直接复活
+showOriginScreenOnDeath = false
+# 广播新起源：全服看"XX复活为精灵！"（社交乐，设false静默）
+randomiserMessages = true
+# 随机所有层？false=只随机主起源层（简单）
+randomiseAllLayers = false
+# /randomise命令：OP用（玩家禁用）
+randomiseCommand = true
+limitCommandUses = false  # OP无限用
+# 睡眠不随机（可选false）
+sleepRandomisesOrigin = false

@@ -1324,6 +1324,16 @@ hash = "acec6bae6f300edacbd34c1efa442bfbe75ab54a2b8eaa50045e62c9ed09a487"
 metafile = true
 
 [[files]]
+file = "mods/origins-randomiser.pw.toml"
+hash = "d31f0dd6069005049a17c02862ccb9aedf7b215db52d7cf4e6e25b2ec789a2ad"
+metafile = true
+
+[[files]]
+file = "mods/origins.pw.toml"
+hash = "7c6d0be08b6650983ddb921903772e802735fb0f05d920d5dd2f7c9ffdab0302"
+metafile = true
+
+[[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "60a3d23eb73106ecb6ba5a391d4539e3557cbd9b1f3611a2de08052155d78b3a"
 metafile = true
@@ -1336,6 +1346,11 @@ metafile = true
 [[files]]
 file = "mods/patchouli.pw.toml"
 hash = "1c86eb0c48eb53d3e6aa704f7c52eb64946b488855f785ab07b0fd3112311288"
+metafile = true
+
+[[files]]
+file = "mods/pehkui.pw.toml"
+hash = "9e26bfad609bded0b1ed972a4cb6ed0bd66fdecd352970ffee6b50dd6a81b4fb"
 metafile = true
 
 [[files]]
