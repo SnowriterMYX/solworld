@@ -305,6 +305,10 @@ file = "config/emi.css"
 hash = "6a7cae69cc98717d699fcca45a62a9a6d327b922cf51f2ce44da2025076362eb"
 
 [[files]]
+file = "config/essential_commands.toml"
+hash = "c5dbf1c0126e072af85ee30cb371293f61a2bc1e2dbf30c6670f9a9db0a15899"
+
+[[files]]
 file = "config/euphoria_patcher/settings.toml"
 hash = "aa6da02cda6db4f2daec02307d0a0703daec6adc1ab8dc93447e189aa9dd69e9"
 
@@ -827,6 +831,11 @@ metafile = true
 [[files]]
 file = "mods/entityculling.pw.toml"
 hash = "1fbcec6fae4237b80bf2becfc06fb52a49512821f402b5928b1e2533c73b3142"
+metafile = true
+
+[[files]]
+file = "mods/essential-commands.pw.toml"
+hash = "4f128957cb3715a76e340e35273e9b38e474a0a3798a325f1b0a998db9d5c0c1"
 metafile = true
 
 [[files]]

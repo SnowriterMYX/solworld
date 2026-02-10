@@ -1,0 +1,44 @@
+# Essential Commands Config
+# https://github.com/John-Paul-R/Essential-Commands/wiki/Config
+
+[General]
+  # Enable the /home command.
+  enable_home = true
+  # Enable the /tpa command.
+  enable_tpa = true
+  # Enable the /back command.
+  enable_back = false
+  # Enable the /warp command.
+  enable_warp = false
+  # Enable the /rtp command.
+  enable_rtp = false
+  # Enable the /spawn command.
+  enable_spawn = false
+  # Enable the /fly command.
+  enable_fly = false
+  # Enable the /day command.
+  enable_day = false
+  # Enable the /night command.
+  enable_night = false
+  # Enable the /workbench command.
+  enable_workbench = false
+  # Enable the /enderchest command.
+  enable_enderchest = false
+  # Enable the /anvil command.
+  enable_anvil = false
+  # Enable the /invuln command.
+  enable_invuln = false
+
+[Teleportation]
+  # Teleport cooldown in seconds.
+  teleport_cooldown = 1800.0
+  # Teleport delay in seconds.
+  teleport_delay = 10.0
+  # Teleport request duration in seconds.
+  teleport_request_duration = 60
+  # Whether operators can bypass teleport rules.
+  ops_bypass_teleport_rules = true
+
+[Home]
+  # The default home limit for players.
+  home_limit = 1
