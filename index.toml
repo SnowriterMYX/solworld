@@ -849,6 +849,11 @@ hash = "11d1ab5f73dd83745da03049ae2f805f657f3bf01a03d11de9243ee69df4f405"
 metafile = true
 
 [[files]]
+file = "mods/even-more-origins-fabric.pw.toml"
+hash = "36f2db5cacdf7a85e0e26a65501e35280fe13381a7436e2e8f8630f195f15e3d"
+metafile = true
+
+[[files]]
 file = "mods/explorify.pw.toml"
 hash = "adcd67c419f4c88858298958287b1658e9a81b7d50c6794769ca01c8b856d3a6"
 metafile = true
@@ -1219,6 +1224,11 @@ hash = "117d08952827ca6c010f783453ab39de901916561d4255f0782eeda78cb683c3"
 metafile = true
 
 [[files]]
+file = "mods/medieval-origins-revival.pw.toml"
+hash = "2cd232c6e0cd523540e9b2ab271853929a4779037be0efbecdde0724bc686f30"
+metafile = true
+
+[[files]]
 file = "mods/memory-check.pw.toml"
 hash = "120b759ac9147ce691ff9da4fdf4419c738bd95eb5eb9b7ee7d21221737ceb10"
 metafile = true
@@ -1501,6 +1511,11 @@ metafile = true
 [[files]]
 file = "mods/sparkweave.pw.toml"
 hash = "f75bbec1a914e91da0c1b7a70ddca2201441c5fd5d7eb0c941a2f4c4af85b2dd"
+metafile = true
+
+[[files]]
+file = "mods/spell-engine.pw.toml"
+hash = "3b56db522dc1aea8ec56e0810919cf38069b18eb321a5ffecfee66cd6813a263"
 metafile = true
 
 [[files]]
