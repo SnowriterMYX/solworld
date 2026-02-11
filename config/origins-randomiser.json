@@ -21,8 +21,8 @@
   "advanced": {
     "randomiseOnFirstJoin": true,
     "allowDuplicateOrigins": false,
-    "deathRandomisesOrigin": false,
+    "deathRandomisesOrigin": true,
     "showOriginScreenOnDeath": true,
-    "resetToHumanOrigin": false
+    "resetToHumanOrigin": true
   }
 }
