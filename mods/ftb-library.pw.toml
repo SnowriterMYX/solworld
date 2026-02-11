@@ -1,0 +1,13 @@
+name = "FTB Library"
+filename = "ftb-library-fabric-2101.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/GYjtiicO/versions/AgCHhZ5s/ftb-library-fabric-2101.1.1.jar"
+hash-format = "sha512"
+hash = "a46c5b4b0566a287b7f07c9079745e40ca78c1f4ae3bcd3fbb3f4a79fe5a4456c9c8ba25d65a87b45373d851758ee0b7c0d6f696b243de1d28650c0510f81462"
+
+[update]
+[update.modrinth]
+mod-id = "GYjtiicO"
+version = "AgCHhZ5s"

@@ -1,0 +1,13 @@
+name = "FTB Teams"
+filename = "ftb-teams-fabric-2101.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/aC3cM3Vq/versions/lT1CcqrL/ftb-teams-fabric-2101.1.1.jar"
+hash-format = "sha512"
+hash = "a0e3189cf5df626b13c032132d99a4bbb20e5c4e1d61f5c5944c2356c2e249b500d925acc277f6c31dbb8f1c5dc486366cf79c5c1ceaa8a562a2e2f73ebb5c0d"
+
+[update]
+[update.modrinth]
+mod-id = "aC3cM3Vq"
+version = "lT1CcqrL"

@@ -9414,13 +9414,16 @@ file = "start.sh"
 hash = "f8d210ffd5faa13f92b870c859d5a0993d12ccfa7bb6d023661167618db3ee92"
 
 [[files]]
-file = "moonlight-global-datapacks/solworld-starter/pack.mcmeta"
-hash = "191f565e3c33e6bb69c128f72789a46ab70fc055488323531faa9a761f6c028d"
+file = "mods/ftb-library.pw.toml"
+hash = "bd1948553569c60a15ba02a6e9d34e792704ab01cc1ab6427052fbb42c85a563"
+metafile = true
 
 [[files]]
-file = "moonlight-global-datapacks/solworld-starter/data/minecraft/tags/functions/tick.json"
-hash = "126483cdb714e23cf53ecd959b3fd1b213071976d078c09abc2fd2fb46cf7ef4"
+file = "mods/ftb-quests.pw.toml"
+hash = "7b3ea2daf3cdb40744753ae4bf7e2652a216aa1670c4e8a5ad85e658a2720157"
+metafile = true
 
 [[files]]
-file = "moonlight-global-datapacks/solworld-starter/data/solworld/functions/starter.mcfunction"
-hash = "cae6e5538b49e28cdcbd4cbc9fc9d0e77aad76c1ed833314f8e88321416db02f"
+file = "mods/ftb-teams.pw.toml"
+hash = "ff42920e31764d789d2cc7d974c5eedd6b4b410589f112798042d2af9f46fc3a"
+metafile = true
