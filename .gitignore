@@ -1,16 +1,51 @@
-# 忽略所有 Mod 实体文件
-mods/*.jar
+# 忽略所有二进制和库
+*.jar
+*.db
+*.mv.db
+libraries/
+versions/
+.fabric/
+.mixin.out/
 
-# 忽略 Packwiz 自动生成的缓存
-.packwiz/
-
-# 允许追踪的文件
+# 忽略服务器运行时数据
+world/
+logs/
+backups/
+database.db
+EasyAuth/
+mods/
 !mods/*.pw.toml
-!index.toml
+
+# 忽略插件生成的动态内容和缓存
+better-fabric-console/
+dynamic-data-pack-cache/
+.packwiz/
+.pack_hash
+config/bStats/
+config/spark/
+config/xaero/world-map/server_profiles/
+config/pl3xmap/web/
+
+# 忽略服务器环境文件 (启动脚本会自动处理)
+server.properties
+eula.txt
+fabric-server-launcher.properties
+ops.json
+whitelist.json
+banned-ips.json
+banned-players.json
+usercache.json
+
+# 允许追踪的文件 (核心配置)
 !pack.toml
+!index.toml
 !config/
 !shaderpacks/
 !resourcepacks/
+!start.sh
+!README.md
+!GEMINI.md
+!.gitignore
 
 # 排除操作系统临时文件
 .DS_Store
