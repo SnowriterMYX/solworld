@@ -1,0 +1,13 @@
+name = "BACAP Language Pack"
+filename = "BACAP Language Pack 1.19.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/YX5bAAJN/versions/8Soroh9Q/BACAP%20Language%20Pack%201.19.zip"
+hash-format = "sha512"
+hash = "5d842178f97f589ff014a6dbd812044fd245fdb9c13610a56e5672d36ca58faf32fd1f4e773b2e25c8646ff58c770419c9a1abb333b7dd487edffca2b5af2d54"
+
+[update]
+[update.modrinth]
+mod-id = "YX5bAAJN"
+version = "8Soroh9Q"

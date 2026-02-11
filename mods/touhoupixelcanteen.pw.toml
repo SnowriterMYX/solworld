@@ -1,0 +1,13 @@
+name = "Gensokyo Izakaya"
+filename = "gensokyoizakaya-fabric-0.1.0a.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/inTiC56F/versions/rCpvoGvQ/gensokyoizakaya-fabric-0.1.0a.jar"
+hash-format = "sha512"
+hash = "8f499f790e467622ff28fa0891def0cd76b4602fd2966a94e0574663ff74501b41a6f2252c693eba0ef4a25c229be71ce75b3af6dcb40a7399bfbbfc0ebc6745"
+
+[update]
+[update.modrinth]
+mod-id = "inTiC56F"
+version = "rCpvoGvQ"
