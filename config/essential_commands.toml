@@ -3,9 +3,9 @@
 
 [General]
   # Enable the /home command.
-  enable_home = true
+  enable_home = false
   # Enable the /tpa command.
-  enable_tpa = true
+  enable_tpa = false
   # Enable the /back command.
   enable_back = false
   # Enable the /warp command.

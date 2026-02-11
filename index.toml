@@ -618,7 +618,7 @@ hash = "ceb5b3624c3269bef037b2914da8ab0d1c368abdd466156292a5d82db8803b0e"
 
 [[files]]
 file = "config/essential_commands.toml"
-hash = "c5dbf1c0126e072af85ee30cb371293f61a2bc1e2dbf30c6670f9a9db0a15899"
+hash = "79614ee82fe68f8bf93f6cb55dc744e573c3e27a25409d00512a95066e18b386"
 
 [[files]]
 file = "config/essentialcommands/rules.txt"
@@ -2176,6 +2176,11 @@ hash = "5e191142156533f1d94eb828787929c8dffb5dd441b2eb1905e2a9d4845a3d83"
 metafile = true
 
 [[files]]
+file = "mods/i18nupdatemod.pw.toml"
+hash = "f04025e377f675a974cce6bc9ff776ae85d5acf9ad70ccff2afb3e87b11d4119"
+metafile = true
+
+[[files]]
 file = "mods/illager-invasion.pw.toml"
 hash = "5b2241365555857a9878a938b6ee80210c02d4193468a58a253ae4c10b2b4762"
 metafile = true
@@ -2361,7 +2366,7 @@ hash = "b29c50a7e9a5752e6670770e105282af209ebe733aef4820f7806a3f76962914"
 
 [[files]]
 file = "mods/luckperms/yaml-storage/groups/default.yml"
-hash = "eeae068aa3a0a83444b15bfc097742ca286769faa9cb6aa6fb84fbc463e57969"
+hash = "ae795c66506f1dd532562e78856f3848fd6505cc217ff518b90c361be79d818d"
 
 [[files]]
 file = "mods/ly-graves.pw.toml"
@@ -9407,3 +9412,15 @@ hash = "a8cd9d4338c7d3d1fffecc4525348a31ea3d219ef31382c51d5ddc3b4b0114e1"
 [[files]]
 file = "start.sh"
 hash = "f8d210ffd5faa13f92b870c859d5a0993d12ccfa7bb6d023661167618db3ee92"
+
+[[files]]
+file = "moonlight-global-datapacks/solworld-starter/pack.mcmeta"
+hash = "191f565e3c33e6bb69c128f72789a46ab70fc055488323531faa9a761f6c028d"
+
+[[files]]
+file = "moonlight-global-datapacks/solworld-starter/data/minecraft/tags/functions/tick.json"
+hash = "126483cdb714e23cf53ecd959b3fd1b213071976d078c09abc2fd2fb46cf7ef4"
+
+[[files]]
+file = "moonlight-global-datapacks/solworld-starter/data/solworld/functions/starter.mcfunction"
+hash = "cae6e5538b49e28cdcbd4cbc9fc9d0e77aad76c1ed833314f8e88321416db02f"

@@ -1,13 +1,2 @@
 name: default
-permissions:
-- essentialcommands.tpa
-- essentialcommands.tpaccept
-- essentialcommands.tpahere
-- essentialcommands.tpdeny
-- essentialcommands.home
-- essentialcommands.sethome
-- essentialcommands.delhome
-- essentialcommands.homes
-- essentialcommands.spawn
-- essentialcommands.rtp
-- essentialcommands.back
+permissions: []
