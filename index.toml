@@ -698,15 +698,19 @@ hash = "3be2d056db46e6bb1bd9113f5989ee35683074aabbd3383e092db236ff91029e"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "b252c6542a02a2ef217d4662c64dc66c3265243e2d5322cfb0b53f452706e5d0"
+hash = "e57d8311aec9f524911ed1313cabf138bb7fa5a2d3ba985a00a2a267ff35ef78"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/solworld_starter.snbt"
-hash = "3f7e48664d600832a0547d94b477f72dae2540b04ade969e72cf56049cec6731"
+hash = "b2957e5a052ddd94e712e3abe0d384c8ef3fd12bccbae7ec82a5c5a38fcb804f"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "4f3cea6ae073f55300578f91e90c1d1b558080f13a9f209e5374a06b736ed9f9"
+hash = "a96f4993d7f121eff33aa5fcaf86589ab66a59b68cac7d47ace16350ca200b31"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us.snbt"
+hash = "ccdf7583631561fc7accf51e86e70e264c2b502fd3fb0a5e0997d3846c1de335"
 
 [[files]]
 file = "config/fzzy_config/keybinds.toml"
@@ -1386,7 +1390,7 @@ hash = "209ef74751243270cca3056ce85f90f55791f45b35e9bc1a06000ad681211abe"
 
 [[files]]
 file = "config/scalablelux.properties"
-hash = "9dc2e8f9a481295d4ea9572af4234a8d084a21403600361f9882100e08a75a5c"
+hash = "aebd8a2a795e97b2f39fbaa872c0d22e33e57ae95e90344d50d66745a300c2ae"
 
 [[files]]
 file = "config/sereneseasons/fertility.toml"
@@ -1610,7 +1614,7 @@ hash = "1561b99ae57ede995dfb64a91ac5b53dd877f57e4a8f1859526da84511bcec07"
 
 [[files]]
 file = "config/vmp.properties"
-hash = "30d51955904db94a4fc3e18f26e7eb598adc7a5ef74d40dc7ce9f5cf03ef2eaf"
+hash = "2688581cbebd3800ca8750b94e7dfdd7fd1fcb945b8c851c9b5176afb861adb8"
 
 [[files]]
 file = "config/voicechat/category-volumes.properties"
@@ -2571,6 +2575,11 @@ metafile = true
 [[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "60a3d23eb73106ecb6ba5a391d4539e3557cbd9b1f3611a2de08052155d78b3a"
+metafile = true
+
+[[files]]
+file = "mods/packet-fixer.pw.toml"
+hash = "84cb0dcad9ac46d22adba4fb7924951affa6ac5e46027a3b25fa9a0db8d91b2b"
 metafile = true
 
 [[files]]

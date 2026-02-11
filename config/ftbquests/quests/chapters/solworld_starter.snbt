@@ -1,47 +1,111 @@
 {
-  autofocus_id: "BDD640FB06671AD1"
-  default_hide_dependency_lines: false
-  default_quest_shape: ""
-  filename: "solworld_starter"
-  group: ""
-  id: "1C80317FA3B1799D"
-  order_index: 0
-  quest_links: [
-  ]
-  quests: [
-    {
-      id: "BDD640FB06671AD1"
-      title: "新手补给"
-      subtitle: "可领取"
-      description: [
-        "奖励包含：传送石、石碑、皮革套装、石头工具套装。",
-        "点击下方"
-      ]
-      icon: "waystones:warp_stone"
-      shape: "diamond"
-      size: 2.0d
-      tasks: [
-        {
-          id: "3EB13B9046685257"
-          title: "领取奖励"
-          type: "checkmark"
-        }
-      ]
-      rewards: [
-        { id: "23B8C1E9392456DE", item: { Count: 1, id: "waystones:warp_stone" }, type: "item" },
-        { id: "1A3D1FA7BC8960A9", item: { Count: 1, id: "waystones:waystone" }, type: "item" },
-        { id: "BD9C66B3AD3C2D6D", item: { Count: 1, id: "minecraft:leather_helmet" }, type: "item" },
-        { id: "8B9D2434E465E150", item: { Count: 1, id: "minecraft:leather_chestplate" }, type: "item" },
-        { id: "972A846916419F82", item: { Count: 1, id: "minecraft:leather_leggings" }, type: "item" },
-        { id: "0822E8F36C031199", item: { Count: 1, id: "minecraft:leather_boots" }, type: "item" },
-        { id: "17FC695A07A0CA6E", item: { Count: 1, id: "minecraft:stone_sword" }, type: "item" },
-        { id: "3B8FAA1837F8A88B", item: { Count: 1, id: "minecraft:stone_pickaxe" }, type: "item" },
-        { id: "9A1DE644815EF6D1", item: { Count: 1, id: "minecraft:stone_axe" }, type: "item" },
-        { id: "8FADC1A606CB0FB3", item: { Count: 1, id: "minecraft:stone_shovel" }, type: "item" },
-        { id: "B74D0FB132E70629", item: { Count: 1, id: "minecraft:stone_hoe" }, type: "item" }
-      ]
-      x: 0.0d
-      y: 0.0d
-    }
-  ]
+	autofocus_id: "BDD640FB06671AD1"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "solworld_starter"
+	group: ""
+	id: "1C80317FA3B1799D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "77783D885B17FC4D"
+		rewards: [
+			{
+				id: "23B8C1E9392456DE"
+				item: {
+					count: 1
+					id: "waystones:warp_stone"
+				}
+				type: "item"
+			}
+			{
+				id: "1A3D1FA7BC8960A9"
+				item: {
+					count: 1
+					id: "waystones:waystone"
+				}
+				type: "item"
+			}
+			{
+				id: "65DE4A210AD35F16"
+				item: {
+					count: 1
+					id: "minecraft:leather_helmet"
+				}
+				type: "item"
+			}
+			{
+				id: "3E036C122B07C0D4"
+				item: {
+					count: 1
+					id: "minecraft:leather_chestplate"
+				}
+				type: "item"
+			}
+			{
+				id: "6DF0508207636164"
+				item: {
+					count: 1
+					id: "minecraft:leather_leggings"
+				}
+				type: "item"
+			}
+			{
+				id: "0822E8F36C031199"
+				item: {
+					count: 1
+					id: "minecraft:leather_boots"
+				}
+				type: "item"
+			}
+			{
+				id: "17FC695A07A0CA6E"
+				item: {
+					count: 1
+					id: "minecraft:stone_sword"
+				}
+				type: "item"
+			}
+			{
+				id: "3B8FAA1837F8A88B"
+				item: {
+					count: 1
+					id: "minecraft:stone_pickaxe"
+				}
+				type: "item"
+			}
+			{
+				id: "109DF8C184FFBBC5"
+				item: {
+					count: 1
+					id: "minecraft:stone_axe"
+				}
+				type: "item"
+			}
+			{
+				id: "10039E161C1B152A"
+				item: {
+					count: 1
+					id: "minecraft:stone_shovel"
+				}
+				type: "item"
+			}
+			{
+				id: "26A71041F216994A"
+				item: {
+					count: 1
+					id: "minecraft:stone_hoe"
+				}
+				type: "item"
+			}
+		]
+		shape: "diamond"
+		size: 2.0d
+		tasks: [{
+			id: "3EB13B9046685257"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 }
