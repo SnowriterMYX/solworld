@@ -1390,7 +1390,7 @@ hash = "209ef74751243270cca3056ce85f90f55791f45b35e9bc1a06000ad681211abe"
 
 [[files]]
 file = "config/scalablelux.properties"
-hash = "338985b397c9b1876f2f85f465640bd2801c1e62d488d513e904a0d70fbc0691"
+hash = "82f2a4219ea74854c9ac37acaf413535baa9f735ca1b3f29318364197bcedc6c"
 
 [[files]]
 file = "config/sereneseasons/fertility.toml"
@@ -1614,7 +1614,7 @@ hash = "1561b99ae57ede995dfb64a91ac5b53dd877f57e4a8f1859526da84511bcec07"
 
 [[files]]
 file = "config/vmp.properties"
-hash = "eb426fa6bc8349f786575930ca19e683c213842b2f9a2108271ba904d7dbd04f"
+hash = "30f1e145549039f7a133edb2b005a9c420fdcfd05811bd9ced5810998d42d0c1"
 
 [[files]]
 file = "config/voicechat/category-volumes.properties"
@@ -1925,6 +1925,11 @@ hash = "8d1340abed5132384623f395abe4485bdfccc515008c204f85a4205c81755ff5"
 metafile = true
 
 [[files]]
+file = "mods/connectivity.pw.toml"
+hash = "b2e116a7b6991e03668f2cfddd84084daf267c37c7282b03bcac97f800bc0f71"
+metafile = true
+
+[[files]]
 file = "mods/continuity.pw.toml"
 hash = "4f97764f3cb4c74f84afbe32cf8a1d2cefecda129c0f1441906562dcb8f2b8cb"
 metafile = true
@@ -2147,21 +2152,6 @@ metafile = true
 [[files]]
 file = "mods/friends-and-foes.pw.toml"
 hash = "bf1b6104f87a89ed7bc59ff839e0e5e588db035f8c68e8375790bfed0eb45375"
-metafile = true
-
-[[files]]
-file = "mods/ftb-library-fabric.pw.toml"
-hash = "79b607e23d078fc52a2a38977d5b0c244fb4415fac0d454c122c04fe77eec3b5"
-metafile = true
-
-[[files]]
-file = "mods/ftb-quests-fabric.pw.toml"
-hash = "a48b07afe703a5abb16d89aa9e33936626ad93635bfe30bfd69cb710e3ed46f4"
-metafile = true
-
-[[files]]
-file = "mods/ftb-teams-fabric.pw.toml"
-hash = "c20b0c7c1f2fd04aeaff3e956244deb0bc242078dc2705a593154973907cdb93"
 metafile = true
 
 [[files]]
@@ -2875,11 +2865,6 @@ metafile = true
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
 hash = "97a62d0b00bdb7f6a2ba51ad05b2ed8c3ebe06098ce893b3d638d59498addf7f"
-metafile = true
-
-[[files]]
-file = "mods/xl-packets.pw.toml"
-hash = "1a293ed8538e66073527b48630395e0f03c80c651ded0af35b1ab4399d1973c5"
 metafile = true
 
 [[files]]
