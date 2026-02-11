@@ -24,3 +24,4 @@ config/xaero/world-map/server_profiles/
 *.jar
 *.db
 *.mv.db
+*.tar.gz
