@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".console_history"
+hash = "dedf3b7c0b2ef77ce78de0191e9de7763bf461139b5043544874b1ed55dc73f5"
+
+[[files]]
 file = ".github/workflows/export.yml"
 hash = "f3e2b65578ae7447c7195719508fd94fa29420081bfcfdd548c9d8727855cfb6"
 
@@ -1089,14 +1093,6 @@ file = "config/observable.json"
 hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
-file = "config/origins-randomiser.json"
-hash = "6c81490c324130da4d28565aa428a04008e4ba31ec6a7f08a56145c2838b2557"
-
-[[files]]
-file = "config/origins_server.json"
-hash = "324eb177416412574e5ae2fd882664dd8fa930aea84515899632206a727dc4ae"
-
-[[files]]
 file = "config/packetfixer.properties"
 hash = "01a8f77de7e0264d35e469eeb6b2ea97243cb5ac83e443aa17669ffd82d5456f"
 
@@ -1378,7 +1374,7 @@ hash = "209ef74751243270cca3056ce85f90f55791f45b35e9bc1a06000ad681211abe"
 
 [[files]]
 file = "config/scalablelux.properties"
-hash = "3225a10473ea0a323e25319d6c2b7fd6ed60bc6ad4bd64d5683d371d98f679d7"
+hash = "4ee44de9453ce5d8337133323b3b1f29d1807cd301e71ab2945fe514ba085087"
 
 [[files]]
 file = "config/sereneseasons/fertility.toml"
@@ -1602,7 +1598,7 @@ hash = "1561b99ae57ede995dfb64a91ac5b53dd877f57e4a8f1859526da84511bcec07"
 
 [[files]]
 file = "config/vmp.properties"
-hash = "cfd1d0bf09233e8d08d96615686f009c9892201c259abb79cfc0c87297790081"
+hash = "440dc72b0e26e92b304d8b983103ee2aeef4da657dcb58ec5ee21b01d5924f01"
 
 [[files]]
 file = "config/voicechat/category-volumes.properties"
@@ -1720,11 +1716,6 @@ metafile = true
 [[files]]
 file = "mods/adventurez.pw.toml"
 hash = "b83be649099ba1f38968a9d331acbfb36e6a45863c290a0ddc8f55b010d74422"
-metafile = true
-
-[[files]]
-file = "mods/altorigingui.pw.toml"
-hash = "3f12aba9637ec4cce473b215992a1ad501f661ed889f446c756835ddf086e8ad"
 metafile = true
 
 [[files]]
@@ -2063,11 +2054,6 @@ hash = "11d1ab5f73dd83745da03049ae2f805f657f3bf01a03d11de9243ee69df4f405"
 metafile = true
 
 [[files]]
-file = "mods/even-more-origins-fabric.pw.toml"
-hash = "36f2db5cacdf7a85e0e26a65501e35280fe13381a7436e2e8f8630f195f15e3d"
-metafile = true
-
-[[files]]
 file = "mods/explorify.pw.toml"
 hash = "adcd67c419f4c88858298958287b1658e9a81b7d50c6794769ca01c8b856d3a6"
 metafile = true
@@ -2085,11 +2071,6 @@ metafile = true
 [[files]]
 file = "mods/extendeddrawersaddon.pw.toml"
 hash = "e23322fa4502fcf33cafcce98ca920f6a69745db584b220f75fb192fd435bedb"
-metafile = true
-
-[[files]]
-file = "mods/extra-origins.pw.toml"
-hash = "1e798425ae488bc75394b02c116ba953b769eeb780bd10c5b2491ba81d033681"
 metafile = true
 
 [[files]]
@@ -2556,16 +2537,6 @@ hash = "acec6bae6f300edacbd34c1efa442bfbe75ab54a2b8eaa50045e62c9ed09a487"
 metafile = true
 
 [[files]]
-file = "mods/origins-randomiser.pw.toml"
-hash = "d31f0dd6069005049a17c02862ccb9aedf7b215db52d7cf4e6e25b2ec789a2ad"
-metafile = true
-
-[[files]]
-file = "mods/origins.pw.toml"
-hash = "7c6d0be08b6650983ddb921903772e802735fb0f05d920d5dd2f7c9ffdab0302"
-metafile = true
-
-[[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "60a3d23eb73106ecb6ba5a391d4539e3557cbd9b1f3611a2de08052155d78b3a"
 metafile = true
@@ -2949,6 +2920,10 @@ metafile = true
 file = "mods/yungs-menu-tweaks.pw.toml"
 hash = "486344643491c3745e4ccef40d98f987f4448345be36c34827b3b62ce8d2dd7e"
 metafile = true
+
+[[files]]
+file = "packwiz.json"
+hash = "e485f6ccd85ef7ba4cad326d1fd53109c0e33493429376b9c3c4c52e2d113cae"
 
 [[files]]
 file = "resourcepacks/Better-Leaves-9.5.zip"
