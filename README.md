@@ -1,6 +1,6 @@
 # 🌍 Solworld Modpack (1.21.1 Fabric)
 
-![Version](https://img.shields.io/badge/Version-0.1.0.27-blue)
+![Version](https://img.shields.io/badge/Version-0.1.0.28-blue)
 ![Loader](https://img.shields.io/badge/Loader-Fabric-orange)
 ![Java](https://img.shields.io/badge/Java-21-red)
 ![Mode](https://img.shields.io/badge/Status-Permanent_Survival-brightgreen)
