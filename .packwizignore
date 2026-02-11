@@ -25,3 +25,4 @@ config/xaero/world-map/server_profiles/
 *.db
 *.mv.db
 *.tar.gz
+mods/luckperms/yaml-storage/uuidcache.txt

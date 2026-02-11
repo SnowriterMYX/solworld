@@ -1089,8 +1089,8 @@ file = "config/observable.json"
 hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
-file = "config/origins-randomiser.toml"
-hash = "c9d988fda87e970fec4260588807867d7aac9627d6d6d20680f578e70572d882"
+file = "config/origins-randomiser.json"
+hash = "6c81490c324130da4d28565aa428a04008e4ba31ec6a7f08a56145c2838b2557"
 
 [[files]]
 file = "config/origins_server.json"
@@ -1378,7 +1378,7 @@ hash = "209ef74751243270cca3056ce85f90f55791f45b35e9bc1a06000ad681211abe"
 
 [[files]]
 file = "config/scalablelux.properties"
-hash = "6d8026ed0f73898e3b0c362a67662cf20f388a2a440a9fe9323496b9f540265e"
+hash = "3225a10473ea0a323e25319d6c2b7fd6ed60bc6ad4bd64d5683d371d98f679d7"
 
 [[files]]
 file = "config/sereneseasons/fertility.toml"
@@ -1602,7 +1602,7 @@ hash = "1561b99ae57ede995dfb64a91ac5b53dd877f57e4a8f1859526da84511bcec07"
 
 [[files]]
 file = "config/vmp.properties"
-hash = "3b6879609d0318c4cfd0f37d351030ed2a4a57b1f22d52c74b3869624769a976"
+hash = "cfd1d0bf09233e8d08d96615686f009c9892201c259abb79cfc0c87297790081"
 
 [[files]]
 file = "config/voicechat/category-volumes.properties"
@@ -1720,6 +1720,11 @@ metafile = true
 [[files]]
 file = "mods/adventurez.pw.toml"
 hash = "b83be649099ba1f38968a9d331acbfb36e6a45863c290a0ddc8f55b010d74422"
+metafile = true
+
+[[files]]
+file = "mods/altorigingui.pw.toml"
+hash = "3f12aba9637ec4cce473b215992a1ad501f661ed889f446c756835ddf086e8ad"
 metafile = true
 
 [[files]]
@@ -2058,6 +2063,11 @@ hash = "11d1ab5f73dd83745da03049ae2f805f657f3bf01a03d11de9243ee69df4f405"
 metafile = true
 
 [[files]]
+file = "mods/even-more-origins-fabric.pw.toml"
+hash = "36f2db5cacdf7a85e0e26a65501e35280fe13381a7436e2e8f8630f195f15e3d"
+metafile = true
+
+[[files]]
 file = "mods/explorify.pw.toml"
 hash = "adcd67c419f4c88858298958287b1658e9a81b7d50c6794769ca01c8b856d3a6"
 metafile = true
@@ -2075,6 +2085,11 @@ metafile = true
 [[files]]
 file = "mods/extendeddrawersaddon.pw.toml"
 hash = "e23322fa4502fcf33cafcce98ca920f6a69745db584b220f75fb192fd435bedb"
+metafile = true
+
+[[files]]
+file = "mods/extra-origins.pw.toml"
+hash = "1e798425ae488bc75394b02c116ba953b769eeb780bd10c5b2491ba81d033681"
 metafile = true
 
 [[files]]
@@ -2376,10 +2391,6 @@ file = "mods/luckperms/yaml-storage/groups/default.yml"
 hash = "eeae068aa3a0a83444b15bfc097742ca286769faa9cb6aa6fb84fbc463e57969"
 
 [[files]]
-file = "mods/luckperms/yaml-storage/uuidcache.txt"
-hash = "f24e2ad39448952c93669c88e1811e1098261dc207203bf08b754bbcba68c9e5"
-
-[[files]]
 file = "mods/ly-graves.pw.toml"
 hash = "a62f40c75bcefc80e1705c1669bd7ea9b795c78bf7eca52337dde0701498f547"
 metafile = true
@@ -2542,6 +2553,11 @@ metafile = true
 [[files]]
 file = "mods/oracle-index.pw.toml"
 hash = "acec6bae6f300edacbd34c1efa442bfbe75ab54a2b8eaa50045e62c9ed09a487"
+metafile = true
+
+[[files]]
+file = "mods/origins-randomiser.pw.toml"
+hash = "d31f0dd6069005049a17c02862ccb9aedf7b215db52d7cf4e6e25b2ec789a2ad"
 metafile = true
 
 [[files]]

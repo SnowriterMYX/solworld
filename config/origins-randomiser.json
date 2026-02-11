@@ -1,11 +1,11 @@
 {
   "general": {
-    "randomiseOrigins": true,
-    "randomiserMessages": true,
+    "randomiseOrigins": false,
+    "randomiserMessages": false,
     "randomiseAllLayers": false
   },
   "command": {
-    "randomiseCommand": true,
+    "randomiseCommand": false,
     "limitCommandUses": false,
     "randomiseCommandUses": 3
   },
@@ -19,9 +19,9 @@
     "sleepsBetweenRandomises": 1
   },
   "advanced": {
-    "randomiseOnFirstJoin": true,
+    "randomiseOnFirstJoin": false,
     "allowDuplicateOrigins": false,
-    "deathRandomisesOrigin": true,
+    "deathRandomisesOrigin": false,
     "showOriginScreenOnDeath": true,
     "resetToHumanOrigin": true
   }

@@ -1,0 +1,13 @@
+name = "Alternate Origin GUI"
+filename = "altorigingui-1.1.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "279784a7fdb98fd67ba3519d1c4171ec249baa29"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6324410
+project-id = 873788

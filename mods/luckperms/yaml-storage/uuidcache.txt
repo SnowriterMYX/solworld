@@ -1,0 +1,2 @@
+# LuckPerms UUID lookup cache
+ecea2fda-ecb7-4eb5-b350-b75482ee2e96:Snowriter

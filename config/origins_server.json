@@ -91,6 +91,44 @@
       "origins:strong_arms_break_speed": true,
       "origins:no_shield": true,
       "origins:more_exhaustion": true
+    },
+    "extraorigins:floran": {
+      "enabled": true,
+      "extraorigins:green_thumb": true,
+      "extraorigins:photosynthesis": true,
+      "extraorigins:absorbing": true,
+      "extraorigins:flammable": true,
+      "extraorigins:nectarivore": true
+    },
+    "extraorigins:inchling": {
+      "enabled": true,
+      "extraorigins:bite_sized": true,
+      "extraorigins:nimble": true,
+      "extraorigins:small_appetite": true,
+      "origins:climbing": true,
+      "extraorigins:jockey": true
+    },
+    "extraorigins:nucleon": {
+      "enabled": true,
+      "extraorigins:radioactive": true
+    },
+    "extraorigins:piglin": {
+      "enabled": true,
+      "extraorigins:all_that_glitters": true,
+      "extraorigins:crossbow_master": true,
+      "extraorigins:piglin_neutrality": true,
+      "origins:nether_spawn": true,
+      "extraorigins:homesick": true,
+      "extraorigins:golden_gluttony": true,
+      "extraorigins:flabby": true,
+      "extraorigins:soul_spooked": true
+    },
+    "extraorigins:truffle": {
+      "enabled": true,
+      "extraorigins:magic_spores": true,
+      "extraorigins:infestation": true,
+      "extraorigins:rooted": true,
+      "extraorigins:decomposition": true
     }
   }
 }
