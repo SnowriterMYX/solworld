@@ -1102,7 +1102,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "01a8f77de7e0264d35e469eeb6b2ea97243cb5ac83e443aa17669ffd82d5456f"
+hash = "f596e69268c137156d8cf987f984bb195db935baab9de77cf3f02a8b86c84be9"
 
 [[files]]
 file = "config/pal.properties"
@@ -1390,7 +1390,7 @@ hash = "209ef74751243270cca3056ce85f90f55791f45b35e9bc1a06000ad681211abe"
 
 [[files]]
 file = "config/scalablelux.properties"
-hash = "aebd8a2a795e97b2f39fbaa872c0d22e33e57ae95e90344d50d66745a300c2ae"
+hash = "808a8fb06ca9d1d19ee4bc52463605a876d7a2259a6ae15086a6114735265ab8"
 
 [[files]]
 file = "config/sereneseasons/fertility.toml"
@@ -1614,7 +1614,7 @@ hash = "1561b99ae57ede995dfb64a91ac5b53dd877f57e4a8f1859526da84511bcec07"
 
 [[files]]
 file = "config/vmp.properties"
-hash = "2688581cbebd3800ca8750b94e7dfdd7fd1fcb945b8c851c9b5176afb861adb8"
+hash = "5db555419fea9d7f9eb4f47c94ae589c2cbcd573ac94889d18fbb6d821d76fb6"
 
 [[files]]
 file = "config/voicechat/category-volumes.properties"
@@ -1922,11 +1922,6 @@ metafile = true
 [[files]]
 file = "mods/connected-glass.pw.toml"
 hash = "8d1340abed5132384623f395abe4485bdfccc515008c204f85a4205c81755ff5"
-metafile = true
-
-[[files]]
-file = "mods/connectivity.pw.toml"
-hash = "b2e116a7b6991e03668f2cfddd84084daf267c37c7282b03bcac97f800bc0f71"
 metafile = true
 
 [[files]]
