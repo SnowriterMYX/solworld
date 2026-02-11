@@ -1,14 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "GEMINI.md"
-hash = "45c69ff5167ce5ef5e70415cb42f5cfeecd62bc2e61e63e12da48902451153ae"
-
-[[files]]
-file = "README.md"
-hash = "e4891d34fd3f61551bd1f61a549099091a6d850c84e67969ca52a009b6c73ef0"
-
-[[files]]
 file = "config/DistantHorizons.toml"
 hash = "00220889ba75e39311aec81a7cb097bd5980d96743da39bf0c765a25d824ee3d"
 
@@ -2767,11 +2759,6 @@ metafile = true
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "55a727cabdd9d6e84fb0232b49d0dfa207751002e7f1f63b959baa35e2f29868"
-metafile = true
-
-[[files]]
-file = "mods/replaymod.pw.toml"
-hash = "452a0cef80ef10e0f8af550b34513e857a5c769842808ec2213aa554b8c59713"
 metafile = true
 
 [[files]]

@@ -24,6 +24,9 @@ config/spark/
 config/pl3xmap/web/tiles/
 config/xaero/world-map/server_profiles/
 .pack_hash
+GEMINI.md
+README.md
+.gemini/
 *.jar
 *.db
 *.mv.db
