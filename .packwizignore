@@ -22,6 +22,7 @@ banned-players.json
 config/bStats/
 config/spark/
 config/pl3xmap/web/tiles/
+config/pl3xmap/web/images/skins/
 config/xaero/world-map/server_profiles/
 .pack_hash
 GEMINI.md

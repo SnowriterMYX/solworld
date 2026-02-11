@@ -78,7 +78,7 @@ hash = "1d730bcf3c2084ac2931ba4300114befefbab25bb6f93d9d5b3f9d8370f8f4c9"
 
 [[files]]
 file = "config/FabricMail.properties"
-hash = "e13cfdec9ded88c01dd246e129a197f0b6dd7c1a92d94fbaded35be132be264d"
+hash = "77014e73143594219534ebdf2785f5b743202073ec7f360f9fdf8d0e4bcbc046"
 
 [[files]]
 file = "config/InertiaAntiCheat/InertiaAntiCheat.toml"
@@ -898,7 +898,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "a93c9bd30bd28eba0ac9d4e1650d80ca47a615e87baa4a7735828bff481331b4"
+hash = "548d1a65cb6e39cfdb33d9c2bf9cb37db8baf4110f6ba54bd329309a232c415f"
 
 [[files]]
 file = "config/jade/usernamecache.json"
@@ -1341,26 +1341,6 @@ file = "config/pl3xmap/web/images/og.png"
 hash = "6f6023cf48ef629b065b55e1a2f9d0bc94d5e1b1826088aea10cdff561547788"
 
 [[files]]
-file = "config/pl3xmap/web/images/skins/2D/ecea2fda-ecb7-4eb5-b350-b75482ee2e96.png"
-hash = "c8f21bef0c1390aa3e1b73d75e1ac2ba9fa54d5b951c7350b4d1e9392766dc03"
-
-[[files]]
-file = "config/pl3xmap/web/images/skins/2D/f92cffc1-16fb-3a5f-82b3-d37f8ed7cc17.png"
-hash = "56612c8fc87c4fd8a0fd0e350af6f9851d385cadaca97ea0772a143cae03357c"
-
-[[files]]
-file = "config/pl3xmap/web/images/skins/3D/ecea2fda-ecb7-4eb5-b350-b75482ee2e96.png"
-hash = "ab6805212393c8c4d89912b4ab2e4cdce741c5ea2f4e2d6fb0a0161a96452d30"
-
-[[files]]
-file = "config/pl3xmap/web/images/skins/3D/f92cffc1-16fb-3a5f-82b3-d37f8ed7cc17.png"
-hash = "cd6ef73447ed5dee09e1981e3346de4ba7d386aa0e3d4318beb3b8bb9d00459f"
-
-[[files]]
-file = "config/pl3xmap/web/images/skins/steve.png"
-hash = "e6120737dbcb1840207c176abb6e56758a60bafe9b9cfdf84ddc1df8b560d10e"
-
-[[files]]
 file = "config/pl3xmap/web/images/sky/nether.png"
 hash = "c6eb05d1c9ecbfb6398cd4c8ecf81327982b2c65c3fa7427cdb4c5d4ebae630c"
 
@@ -1458,7 +1438,7 @@ hash = "209ef74751243270cca3056ce85f90f55791f45b35e9bc1a06000ad681211abe"
 
 [[files]]
 file = "config/scalablelux.properties"
-hash = "0f8472d19814c1e0f87d3740e78b033a0d1305232942f17b30d77fa019d9d6b3"
+hash = "ae44282a670f4e612e1555a450259e0cfaf1ebe7277adca41683d1579fc0fcb6"
 
 [[files]]
 file = "config/sereneseasons/fertility.toml"
@@ -1657,6 +1637,10 @@ file = "config/touhou_little_maid-common.toml"
 hash = "eca24aceb940786bab3948e0b3f94f8be82f4b26b689669be5f9137874189fd3"
 
 [[files]]
+file = "config/touhou_little_maid-server.toml"
+hash = "311afb177579ea7af42806c73ec19bb41c28d589f2ec27e0b2498dd040f09807"
+
+[[files]]
 file = "config/touhou_little_maid/sites/llm.json"
 hash = "e69be04b3e060ef589356b04010cf3c4ca4235acf1308f8eb62dbd09471c011b"
 
@@ -1738,7 +1722,7 @@ hash = "db3a2a559ddbdb5a40c2e7e1b3afd88dd5def2fd35c0af17a1ba4bb967d9be88"
 
 [[files]]
 file = "config/vmp.properties"
-hash = "d7a55dabe9d799a943a94861c820dadd1bf2c164518febd2157f9972272009f4"
+hash = "713a63e0c70662de8cb5f67dfd473a7e81619ca3878a61a9023f9ef7c3eb7535"
 
 [[files]]
 file = "config/voicechat/category-volumes.properties"
