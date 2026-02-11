@@ -77,6 +77,10 @@ file = "config/EssentialCommands.properties"
 hash = "1d730bcf3c2084ac2931ba4300114befefbab25bb6f93d9d5b3f9d8370f8f4c9"
 
 [[files]]
+file = "config/FabricMail.properties"
+hash = "0e73c196cdd4dee6c8508a56d6166a1c1033130398572c47fb2f33e0c49c5a99"
+
+[[files]]
 file = "config/InertiaAntiCheat/InertiaAntiCheat.toml"
 hash = "47d4abd4e73854726e736dbe69354bd75c6a97f5b7a99e943c3f25fcb0c7a24d"
 
@@ -630,7 +634,7 @@ hash = "514846393aae0657b0bbc5fbaef89cc89e9edced1dcf4eabaca02ace183b719b"
 
 [[files]]
 file = "config/easyanvils-server.toml"
-hash = "6c7fdd54b304b53556bc695b6a1e87eadb270836c5071efcce371aea3f7f1589"
+hash = "7f94bbaa7082eca0f554f9ad22c2432bd87ddd6862acc487abdb466375bc98b7"
 
 [[files]]
 file = "config/easymagic-common.toml"
@@ -638,7 +642,7 @@ hash = "1831109fee7afc163f381d19d57f45db6ad9a8574da583437f5a1e91beb85478"
 
 [[files]]
 file = "config/easymagic-server.toml"
-hash = "887c00afdd5780ce901d398a9a06c3665edbc163071a823ac675ec3d32953a91"
+hash = "a62505b37aca3885d1685de63b091f3b491b90e0fe73b6fc3fb857196bf173f6"
 
 [[files]]
 file = "config/ecologics.json"
@@ -1446,7 +1450,7 @@ hash = "209ef74751243270cca3056ce85f90f55791f45b35e9bc1a06000ad681211abe"
 
 [[files]]
 file = "config/scalablelux.properties"
-hash = "1e7baceba82bbd02c82b736c08f39cc19420b2fe531df27263d4b6f64926448f"
+hash = "49eefd5c009540e25d1d07bd6606b9a0956bd594a3510e471c709ea9c16ad257"
 
 [[files]]
 file = "config/sereneseasons/fertility.toml"
@@ -1577,6 +1581,42 @@ file = "config/sound_physics_remastered/soundphysics.properties"
 hash = "9573c64dd047712ef1c7ec7f8e2a2b442906f7272eb0c0c73986fc876a3e6235"
 
 [[files]]
+file = "config/starterkit.json5"
+hash = "18c81c65c991801a3335ee10b63fb9db04b70decc17960263eed54e198f0a35c"
+
+[[files]]
+file = "config/starterkit/descriptions/Archer.txt"
+hash = "2ea003ce1408175d33f2bf55cb2de60b7aca7d652b922a84ec52d7d77eb99b64"
+
+[[files]]
+file = "config/starterkit/descriptions/Default.txt"
+hash = "19df01c903be0cc0216fbca05181ff06c2aff09f2ef213e78ea93f82d2cb1324"
+
+[[files]]
+file = "config/starterkit/descriptions/Lumberjack.txt"
+hash = "5091e1a2d5a2927fe1d8f6a6a233ace60f2407be05384f3140b839e9ad3a041a"
+
+[[files]]
+file = "config/starterkit/descriptions/Witch.txt"
+hash = "290f6b832794b6876aba9da963b585ba4e99e5e6a972aebb52810e9a256e2f65"
+
+[[files]]
+file = "config/starterkit/kits/Default.txt"
+hash = "d23d3d21be6c993b65243d3539a8c87332d933b38547a768b9fe72a9a63eb6ec"
+
+[[files]]
+file = "config/starterkit/kits/inactive/Archer.txt"
+hash = "0f00a01ce3bff3f33748f257761822b0553db478902f7d4dd03f198eb7e95a13"
+
+[[files]]
+file = "config/starterkit/kits/inactive/Lumberjack.txt"
+hash = "d80303242d592bce2450f488b4f5b85ddefce7167f36255086c7288072799862"
+
+[[files]]
+file = "config/starterkit/kits/inactive/Witch.txt"
+hash = "0d28e1544a862d8114f40dc2c7a829eae27ab353960fbe1ebc5db0e4f04b5d74"
+
+[[files]]
 file = "config/structure_layout_optimizer.jsonc"
 hash = "5a9058652bc0b88b8810e0b94eba0e1a90cbff2472845c53a7e67442682a1579"
 
@@ -1626,7 +1666,7 @@ hash = "0a282f3623f7f9443a1d10b5768865f69e58b74e000dcfb4f40399626b7a6124"
 
 [[files]]
 file = "config/universal-graves/config.json"
-hash = "70f72ce9aa6a0b0a309c71f83bffb8415e4cb1c0954b9036e90f709c68e7df17"
+hash = "12f1905052f7ef732546e1080f90daaa38fb1edfcc5af73b98ae8714a71b823d"
 
 [[files]]
 file = "config/universal-graves/example_models/corpse_player.json"
@@ -1674,7 +1714,7 @@ hash = "db3a2a559ddbdb5a40c2e7e1b3afd88dd5def2fd35c0af17a1ba4bb967d9be88"
 
 [[files]]
 file = "config/vmp.properties"
-hash = "19ce5b272670b7d58e3026778c36b27031839fe4593728449fad6bbe657bcea0"
+hash = "295c6706ef074fe3ac45881714160916f6687b3c5039e7e96f91797f976c17a5"
 
 [[files]]
 file = "config/voicechat/category-volumes.properties"
@@ -2260,7 +2300,7 @@ metafile = true
 
 [[files]]
 file = "mods/forge-config-api-port.pw.toml"
-hash = "238b3ceb4214a682480ce00eefae5d34efa299ff6ff667e4b2f2ed503c6e76ee"
+hash = "d0e586bf4b4f9f003b1de1a3e18f67540233a0295b487009047056198f694f0f"
 metafile = true
 
 [[files]]
@@ -2607,6 +2647,11 @@ hash = "151ffdedfdbfa60e3104159ea5c9e3258795563b7ec81bb37e6e96a51d20451c"
 metafile = true
 
 [[files]]
+file = "mods/modern-ui.pw.toml"
+hash = "1f9b12bb189ff57b610bcc4e92ebe8250b28229ca22ccc298c2ef23148a68eea"
+metafile = true
+
+[[files]]
 file = "mods/modernfix.pw.toml"
 hash = "b9651d06e56ad51c1cdcf4b03b6a34328b7dc941f263ff92b189ee26a47cc224"
 metafile = true
@@ -2659,6 +2704,11 @@ metafile = true
 [[files]]
 file = "mods/nexuslib.pw.toml"
 hash = "a6b995e6956ba4fb1f195d34ab8583d6c83e8197c4e3f0ed1a11e087376ecd65"
+metafile = true
+
+[[files]]
+file = "mods/no-chat-reports.pw.toml"
+hash = "f3c5cb21ff2e78c7e8cdbd14d1535e6edd464d5a436dbfa4e60b8ea91374674d"
 metafile = true
 
 [[files]]
@@ -2834,6 +2884,16 @@ metafile = true
 [[files]]
 file = "mods/small-ships.pw.toml"
 hash = "391cfcaddc727aca042186688aaa41bafa1666527a36499715e357432304bcf0"
+metafile = true
+
+[[files]]
+file = "mods/smooth-gui.pw.toml"
+hash = "3cc2f693db80c6a53289e33028d7fec3029c7b8f6a1721f9b0e1141ef13e2397"
+metafile = true
+
+[[files]]
+file = "mods/smooth-swapping.pw.toml"
+hash = "d1bf7f6b6033b5adcb0e3efe98e66edfb57c1263a10aa364c1fd6242e1252c7a"
 metafile = true
 
 [[files]]
