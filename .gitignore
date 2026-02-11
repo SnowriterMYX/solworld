@@ -49,6 +49,7 @@ usercache.json
 !config/EasyAuth/*.conf
 !shaderpacks/
 !resourcepacks/
+!server.properties
 !start.sh
 !README.md
 !GEMINI.md

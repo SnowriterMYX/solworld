@@ -1,14 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".console_history"
-hash = "dedf3b7c0b2ef77ce78de0191e9de7763bf461139b5043544874b1ed55dc73f5"
-
-[[files]]
-file = ".github/workflows/export.yml"
-hash = "f3e2b65578ae7447c7195719508fd94fa29420081bfcfdd548c9d8727855cfb6"
-
-[[files]]
 file = "GEMINI.md"
 hash = "2c3bd2ad9d783372195b6f6fe98c43de93724a379d94cadb6ede21b379c6e6f8"
 
@@ -2920,10 +2912,6 @@ metafile = true
 file = "mods/yungs-menu-tweaks.pw.toml"
 hash = "486344643491c3745e4ccef40d98f987f4448345be36c34827b3b62ce8d2dd7e"
 metafile = true
-
-[[files]]
-file = "packwiz.json"
-hash = "e485f6ccd85ef7ba4cad326d1fd53109c0e33493429376b9c3c4c52e2d113cae"
 
 [[files]]
 file = "resourcepacks/Better-Leaves-9.5.zip"

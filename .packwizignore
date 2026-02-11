@@ -1,5 +1,8 @@
 .fabric/
 .mixin.out/
+.github/
+.console_history
+packwiz.json
 backups/
 logs/
 world/

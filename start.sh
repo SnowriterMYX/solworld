@@ -13,16 +13,73 @@ LOG_DIR="./logs/archive"
 MAX_LOG_RETAIN=30
 RESTART_DELAY=10
 
+# --- 0. 通用工具函数 ---
+detect_distro() {
+    local distro="Unknown"
+    if [[ -f /etc/os-release ]]; then
+        # shellcheck disable=SC1091
+        . /etc/os-release
+        distro="${PRETTY_NAME:-$NAME}"
+    fi
+    echo "$distro"
+}
+
+run_as_root() {
+    if [[ "$EUID" -eq 0 ]]; then
+        "$@"
+        return $?
+    fi
+    if command -v sudo &> /dev/null; then
+        sudo "$@"
+        return $?
+    fi
+    return 1
+}
+
+ensure_tmux() {
+    if command -v tmux &> /dev/null; then
+        return 0
+    fi
+
+    local distro
+    distro=$(detect_distro)
+    echo "正在安装 tmux... (检测到: $distro)"
+
+    if command -v pacman &> /dev/null; then
+        run_as_root pacman -S --noconfirm tmux || { echo "安装失败，请手动执行: pacman -S tmux"; exit 1; }
+    elif command -v apt-get &> /dev/null; then
+        run_as_root apt-get update && run_as_root apt-get install -y tmux || { echo "安装失败，请手动执行: apt-get install tmux"; exit 1; }
+    elif command -v dnf &> /dev/null; then
+        run_as_root dnf install -y tmux || { echo "安装失败，请手动执行: dnf install tmux"; exit 1; }
+    elif command -v yum &> /dev/null; then
+        run_as_root yum install -y tmux || { echo "安装失败，请手动执行: yum install tmux"; exit 1; }
+    elif command -v zypper &> /dev/null; then
+        run_as_root zypper --non-interactive install tmux || { echo "安装失败，请手动执行: zypper install tmux"; exit 1; }
+    else
+        echo "未识别的发行版/包管理器，无法自动安装 tmux。请手动安装后重试。"
+        exit 1
+    fi
+}
+
+sha256() {
+    if command -v sha256sum &> /dev/null; then
+        sha256sum "$@"
+        return $?
+    fi
+    if command -v shasum &> /dev/null; then
+        shasum -a 256 "$@"
+        return $?
+    fi
+    return 1
+}
+
 # --- 1. 基础环境检查 ---
 if ! command -v mise &> /dev/null; then
     echo "错误: 未检测到 mise。请先安装 mise (https://mise.jdx.dev/)"
     exit 1
 fi
 
-if ! command -v tmux &> /dev/null; then
-    echo "正在安装 tmux..."
-    sudo pacman -S --noconfirm tmux || { echo "安装失败，请手动执行 sudo pacman -S tmux"; exit 1; }
-fi
+ensure_tmux
 
 # --- 2. Mise & Java 环境初始化 ---
 eval "$(mise activate bash)"
@@ -57,11 +114,17 @@ install_server_core() {
 backup_on_update() {
     local hash_file=".pack_hash"
     local current_hash=""
-    
-    if [[ -f "pack.toml" ]]; then
-        current_hash=$(sha256sum pack.toml | awk '{print $1}')
-    else
-        return 0 # 没有 pack.toml 就不折腾了
+
+    local files=()
+    [[ -f "pack.toml" ]] && files+=("pack.toml")
+    [[ -f "index.toml" ]] && files+=("index.toml")
+    if [[ ${#files[@]} -eq 0 ]]; then
+        return 0 # 没有核心索引就不折腾了
+    fi
+
+    if ! current_hash=$(sha256 "${files[@]}" 2>/dev/null | sha256 | awk '{print $1}'); then
+        echo "⚠️  无法计算哈希（缺少 sha256sum/shasum），跳过更新前备份。"
+        return 0
     fi
 
     local do_backup=false
