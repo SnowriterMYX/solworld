@@ -13,8 +13,14 @@ logs/
 backups/
 database.db
 EasyAuth/
-mods/
+
+# mods 目录处理：忽略内容但允许特定路径
+mods/*
 !mods/*.pw.toml
+!mods/luckperms/
+mods/luckperms/*
+!mods/luckperms/yaml-storage/
+!mods/luckperms/contexts.json
 
 # 忽略插件生成的动态内容和缓存
 better-fabric-console/
@@ -26,20 +32,21 @@ config/spark/
 config/xaero/world-map/server_profiles/
 config/pl3xmap/web/
 
-# 忽略服务器环境文件 (启动脚本会自动处理)
+# 忽略服务器环境文件 (保留核心定义，忽略缓存)
 server.properties
 eula.txt
 fabric-server-launcher.properties
-ops.json
-whitelist.json
-banned-ips.json
-banned-players.json
 usercache.json
+!ops.json
+!whitelist.json
+!banned-ips.json
+!banned-players.json
 
 # 允许追踪的文件 (核心配置)
 !pack.toml
 !index.toml
 !config/
+!config/EasyAuth/*.conf
 !shaderpacks/
 !resourcepacks/
 !start.sh

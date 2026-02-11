@@ -4,7 +4,7 @@
 	// Defines speed of dehydration, bigger value = slower depletion
 	"hydrating_factor": 8.0,
 	// Defines the rate of the thirst effect's drain, smaller variable = less draining
-	"thirst_effect_factor": 0.01,
+	"thirst_effect_factor": 0.009999999776482582,
 	"potion_thirst_quench": 2,
 	// 1.0F = 100%, 0.5F = 50%, 0.0F = 0%
 	"potion_bad_thirst_chance": 0.25,
