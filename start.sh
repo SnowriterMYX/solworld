@@ -174,6 +174,54 @@ sync_mods() {
     return 0
 }
 
+# --- 4.1 自动禁用未索引 MOD ---
+prune_unindexed_mods() {
+    if [[ ! -f "index.toml" ]]; then
+        echo "⚠️  未找到 index.toml，跳过未索引 MOD 清理。"
+        return 0
+    fi
+
+    declare -A allowed=()
+
+    # 允许所有被 index.toml 直接索引的 mods/ 文件
+    while IFS= read -r file_path; do
+        [[ -n "$file_path" ]] && allowed["$file_path"]=1
+    done < <(awk -F'"' '/^file = "mods\// {print $2}' index.toml)
+
+    # 允许被索引的 .pw.toml 中声明的 jar 文件
+    while IFS= read -r pw_meta; do
+        [[ -f "$pw_meta" ]] || continue
+        local jar_name
+        jar_name=$(awk -F'"' '/^filename = "/ {print $2; exit}' "$pw_meta")
+        if [[ -n "$jar_name" ]]; then
+            allowed["mods/$jar_name"]=1
+        fi
+    done < <(awk -F'"' '/^file = "mods\/.*\.pw\.toml"/ {print $2}' index.toml)
+
+    local disabled_dir="mods/_disabled"
+    mkdir -p "$disabled_dir"
+    local moved_count=0
+
+    # 仅处理 jar，避免误动其他资源文件
+    while IFS= read -r jar_path; do
+        if [[ -z "${allowed[$jar_path]:-}" ]]; then
+            local base_name
+            base_name=$(basename "$jar_path")
+            local dest_path="$disabled_dir/$base_name"
+            if [[ -e "$dest_path" ]]; then
+                dest_path="$disabled_dir/${base_name%.jar}-$(date '+%Y%m%d_%H%M%S').jar"
+            fi
+            mv "$jar_path" "$dest_path"
+            echo "🛑 未索引 MOD 已禁用: $jar_path -> $dest_path"
+            moved_count=$((moved_count + 1))
+        fi
+    done < <(find mods -maxdepth 1 -type f -name "*.jar" -print)
+
+    if [[ $moved_count -eq 0 ]]; then
+        echo "✅ 未发现未索引的 MOD。"
+    fi
+}
+
 # --- 5. 内存自动调优 ---
 calculate_memory() {
     local avail_kb=""
@@ -205,6 +253,7 @@ run_server() {
     while true; do
         install_server_core
         if ! sync_mods; then continue; fi
+        prune_unindexed_mods
 
         MEM_MB=$(calculate_memory)
         JAVA_OPTS="-Xms${MEM_MB}M -Xmx${MEM_MB}M \
