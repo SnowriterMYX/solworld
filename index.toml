@@ -1102,7 +1102,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "f596e69268c137156d8cf987f984bb195db935baab9de77cf3f02a8b86c84be9"
+hash = "773960eb3acbc8809efc450c68848f9b4d913f907a67648eb952e7e22e83fbd7"
 
 [[files]]
 file = "config/pal.properties"
@@ -1390,7 +1390,7 @@ hash = "209ef74751243270cca3056ce85f90f55791f45b35e9bc1a06000ad681211abe"
 
 [[files]]
 file = "config/scalablelux.properties"
-hash = "808a8fb06ca9d1d19ee4bc52463605a876d7a2259a6ae15086a6114735265ab8"
+hash = "338985b397c9b1876f2f85f465640bd2801c1e62d488d513e904a0d70fbc0691"
 
 [[files]]
 file = "config/sereneseasons/fertility.toml"
@@ -1614,7 +1614,7 @@ hash = "1561b99ae57ede995dfb64a91ac5b53dd877f57e4a8f1859526da84511bcec07"
 
 [[files]]
 file = "config/vmp.properties"
-hash = "5db555419fea9d7f9eb4f47c94ae589c2cbcd573ac94889d18fbb6d821d76fb6"
+hash = "eb426fa6bc8349f786575930ca19e683c213842b2f9a2108271ba904d7dbd04f"
 
 [[files]]
 file = "config/voicechat/category-volumes.properties"
@@ -2573,11 +2573,6 @@ hash = "60a3d23eb73106ecb6ba5a391d4539e3557cbd9b1f3611a2de08052155d78b3a"
 metafile = true
 
 [[files]]
-file = "mods/packet-fixer.pw.toml"
-hash = "84cb0dcad9ac46d22adba4fb7924951affa6ac5e46027a3b25fa9a0db8d91b2b"
-metafile = true
-
-[[files]]
 file = "mods/particle-core.pw.toml"
 hash = "97156c7cbfd94c3f457f5ef89ab65f1b963b1559f98fd3923ab40cf8cc21a905"
 metafile = true
@@ -2880,6 +2875,11 @@ metafile = true
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
 hash = "97a62d0b00bdb7f6a2ba51ad05b2ed8c3ebe06098ce893b3d638d59498addf7f"
+metafile = true
+
+[[files]]
+file = "mods/xl-packets.pw.toml"
+hash = "1a293ed8538e66073527b48630395e0f03c80c651ded0af35b1ab4399d1973c5"
 metafile = true
 
 [[files]]

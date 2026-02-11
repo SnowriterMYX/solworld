@@ -1,0 +1,13 @@
+name = "XL Packets"
+filename = "xlpackets-1.0.5-1.21.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/SeCuopwJ/versions/fllia1S2/xlpackets-1.0.5-1.21.jar"
+hash-format = "sha256"
+hash = "abb16ebdb2f23ea24294751e890e22604599b6b2c86a83c7a0a2a41d44773c37"
+
+[update]
+[update.modrinth]
+mod-id = "SeCuopwJ"
+version = "fllia1S2"
