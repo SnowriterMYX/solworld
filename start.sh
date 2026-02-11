@@ -176,12 +176,25 @@ sync_mods() {
 
 # --- 5. 内存自动调优 ---
 calculate_memory() {
-    local total_mem=$(free -m | awk '/^Mem:/{print $2}')
+    local avail_kb=""
+    if [[ -r /proc/meminfo ]]; then
+        avail_kb=$(awk '/MemAvailable:/{print $2}' /proc/meminfo)
+    fi
+
+    if [[ -z "$avail_kb" ]]; then
+        avail_kb=$(free -k | awk '/^Mem:/{print $7}')
+    fi
+
+    if [[ -z "$avail_kb" ]]; then
+        # Fallback to total memory if available cannot be detected
+        avail_kb=$(free -k | awk '/^Mem:/{print $2}')
+    fi
+
+    local avail_mb=$((avail_kb / 1024))
     local zram_check=$(zramctl --noheadings --output NAME 2>/dev/null | wc -l)
-    local reserved=1536 
-    [ "$total_mem" -lt 4096 ] && reserved=1024
-    local xmx=$((total_mem - reserved))
-    [ "$zram_check" -gt 0 ] && xmx=$((total_mem - 800))
+    local reserved=1024
+    local xmx=$((avail_mb - reserved))
+    [ "$zram_check" -gt 0 ] && xmx=$((xmx - 512))
     [ "$xmx" -lt 2048 ] && xmx=2048
     echo "$xmx"
 }
