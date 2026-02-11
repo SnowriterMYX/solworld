@@ -1446,7 +1446,7 @@ hash = "209ef74751243270cca3056ce85f90f55791f45b35e9bc1a06000ad681211abe"
 
 [[files]]
 file = "config/scalablelux.properties"
-hash = "0bfd59cbe6604f2d442e14eabad345bff2349f79c9e3864ed456dcd647861c79"
+hash = "1e7baceba82bbd02c82b736c08f39cc19420b2fe531df27263d4b6f64926448f"
 
 [[files]]
 file = "config/sereneseasons/fertility.toml"
@@ -1626,7 +1626,7 @@ hash = "0a282f3623f7f9443a1d10b5768865f69e58b74e000dcfb4f40399626b7a6124"
 
 [[files]]
 file = "config/universal-graves/config.json"
-hash = "b0a8ed28fbd71bb38c970314c108061dd7c72417924764e142f85f38a2e6e6b8"
+hash = "70f72ce9aa6a0b0a309c71f83bffb8415e4cb1c0954b9036e90f709c68e7df17"
 
 [[files]]
 file = "config/universal-graves/example_models/corpse_player.json"
@@ -1674,7 +1674,7 @@ hash = "db3a2a559ddbdb5a40c2e7e1b3afd88dd5def2fd35c0af17a1ba4bb967d9be88"
 
 [[files]]
 file = "config/vmp.properties"
-hash = "cfb0a8065fadf5284783823fa14d934c1a6f6c049e89a02d1275d5445b6f71fb"
+hash = "19ce5b272670b7d58e3026778c36b27031839fe4593728449fad6bbe657bcea0"
 
 [[files]]
 file = "config/voicechat/category-volumes.properties"
@@ -2211,6 +2211,11 @@ metafile = true
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
 hash = "408151861cc1b1a4c4e9c8a3550662a2fc36d0ea96ee07b7e96c5d2a6afacf6f"
+metafile = true
+
+[[files]]
+file = "mods/fabric-mail.pw.toml"
+hash = "c83ccbd5421724f277741582e4b49d0db124a21bee2a00ff34d9166ba2072c3e"
 metafile = true
 
 [[files]]
@@ -2869,6 +2874,11 @@ metafile = true
 [[files]]
 file = "mods/sparkweave.pw.toml"
 hash = "f75bbec1a914e91da0c1b7a70ddca2201441c5fd5d7eb0c941a2f4c4af85b2dd"
+metafile = true
+
+[[files]]
+file = "mods/starter-kit.pw.toml"
+hash = "ea33d99764a8bae0618db5fc2eebec624f72f49bd6189b9818eb214687f71a82"
 metafile = true
 
 [[files]]

@@ -2,7 +2,7 @@
   "_comment": "Before changing anything, see https://github.com/Patbox/UniversalGraves#configuration",
   "config_version": 4,
   "protection": {
-    "non_owner_protection_time": 900,
+    "non_owner_protection_time": 172800,
     "self_destruction_time": -1,
     "drop_items_on_expiration": true,
     "attackers_bypass_protection": false,
