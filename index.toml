@@ -1994,6 +1994,11 @@ hash = "d99fd98e6daf4ab8474c727d3e0a653ac800a714b3ef5799e7950129b4f255fe"
 metafile = true
 
 [[files]]
+file = "mods/calypsos-mobs.pw.toml"
+hash = "bc5b4c2c6e66b8ae73b6afc185a6d8c9314051e95b0de79f1cf37556c160c93d"
+metafile = true
+
+[[files]]
 file = "mods/capes.pw.toml"
 hash = "c899acdc322ab52800a6e305a16427297f411c1c39d97983be96e8b6a34e157c"
 metafile = true
@@ -2250,7 +2255,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "408151861cc1b1a4c4e9c8a3550662a2fc36d0ea96ee07b7e96c5d2a6afacf6f"
+hash = "c27a08b54ab9b474a57211f383f511d67fd0023035ee2e76d247667e15183e63"
 metafile = true
 
 [[files]]
@@ -2300,7 +2305,7 @@ metafile = true
 
 [[files]]
 file = "mods/forge-config-api-port.pw.toml"
-hash = "d0e586bf4b4f9f003b1de1a3e18f67540233a0295b487009047056198f694f0f"
+hash = "238b3ceb4214a682480ce00eefae5d34efa299ff6ff667e4b2f2ed503c6e76ee"
 metafile = true
 
 [[files]]
@@ -2325,7 +2330,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "fe2682e6dbdd4350863e1fcd3f5f211fb437cf7791539bedd50779745beb5232"
+hash = "53c50190307a3b206fc1a363197d713bc98f5bb8bc391f7f9827132e629643d3"
 metafile = true
 
 [[files]]
@@ -2341,6 +2346,11 @@ metafile = true
 [[files]]
 file = "mods/goblintradersfood.pw.toml"
 hash = "dee8b15ace4365fa73f1cd65573406ecb457f9dc9425850d89f19e0f5a33eff8"
+metafile = true
+
+[[files]]
+file = "mods/golem-overhaul.pw.toml"
+hash = "f18043f41634523faed916c0bff4275c114c21e9f3a290bc5f0c91b107fdcd56"
 metafile = true
 
 [[files]]
@@ -2887,6 +2897,11 @@ hash = "391cfcaddc727aca042186688aaa41bafa1666527a36499715e357432304bcf0"
 metafile = true
 
 [[files]]
+file = "mods/smartbrainlib.pw.toml"
+hash = "3b374f5c63d4994c976313e91f7f8c0c758b9923a0fb0e9f1c03a5dacf6e7b4f"
+metafile = true
+
+[[files]]
 file = "mods/smooth-gui.pw.toml"
 hash = "3cc2f693db80c6a53289e33028d7fec3029c7b8f6a1721f9b0e1141ef13e2397"
 metafile = true
@@ -2999,6 +3014,11 @@ metafile = true
 [[files]]
 file = "mods/toms-storage.pw.toml"
 hash = "348dd12cb5be40046c86b4467a522ab6973b6d612fbcc9a48fa9be2e0eea6487"
+metafile = true
+
+[[files]]
+file = "mods/touhoulittlemaid-orihime.pw.toml"
+hash = "34f26d3f416e9ce8a37f30268446df699445780d42003d9065ae471230136752"
 metafile = true
 
 [[files]]

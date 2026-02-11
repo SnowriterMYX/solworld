@@ -1,0 +1,13 @@
+name = "Calypso's Mobs"
+filename = "calypsos-mobs-0.2.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a9a832492c892fd2b1f90609d73e79eb65a857a6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7076580
+project-id = 1321832

@@ -1,0 +1,13 @@
+name = "Touhou Little Maid: Orihime"
+filename = "touhoulittlemaid-fabric-1.21.1-0.6.2-neo1.5.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Tv58SCnQ/versions/lANWbGC2/touhoulittlemaid-fabric-1.21.1-0.6.2-neo1.5.0.jar"
+hash-format = "sha512"
+hash = "4b3cca9ca5be3485af51763ba256e9a47ff183a3c7c23d35cb242311564a5213727c10f8be7a65c1995aac11dac05a3863ce8a0784249a5741fcb8f6dcbad422"
+
+[update]
+[update.modrinth]
+mod-id = "Tv58SCnQ"
+version = "lANWbGC2"
