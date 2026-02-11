@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "GEMINI.md"
-hash = "2c3bd2ad9d783372195b6f6fe98c43de93724a379d94cadb6ede21b379c6e6f8"
+hash = "f8e710352a37ec334e82cf487ce4030fe11ca9ecf43ebb93e454e176c5104608"
 
 [[files]]
 file = "README.md"
-hash = "67524921b7d92414e2018421d97fc7ef959c2486239b9a1ef002e78bab69be39"
+hash = "5d8ab67b30716486dcecaa32f48290157c77160d64fe083a3f90ef79ade79521"
 
 [[files]]
 file = "config/DistantHorizons.toml"
@@ -701,12 +701,12 @@ file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "b252c6542a02a2ef217d4662c64dc66c3265243e2d5322cfb0b53f452706e5d0"
 
 [[files]]
-file = "config/ftbquests/quests/data.snbt"
-hash = "4f3cea6ae073f55300578f91e90c1d1b558080f13a9f209e5374a06b736ed9f9"
+file = "config/ftbquests/quests/chapters/solworld_starter.snbt"
+hash = "3f7e48664d600832a0547d94b477f72dae2540b04ade969e72cf56049cec6731"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/solworld_starter.snbt"
-hash = "7d04af03287a51ff4f2dd45ebf6f1404d19482a40a63518f85d69eabcb65ec93"
+file = "config/ftbquests/quests/data.snbt"
+hash = "4f3cea6ae073f55300578f91e90c1d1b558080f13a9f209e5374a06b736ed9f9"
 
 [[files]]
 file = "config/fzzy_config/keybinds.toml"
@@ -1273,8 +1273,16 @@ file = "config/pl3xmap/web/images/skins/2D/ecea2fda-ecb7-4eb5-b350-b75482ee2e96.
 hash = "c8f21bef0c1390aa3e1b73d75e1ac2ba9fa54d5b951c7350b4d1e9392766dc03"
 
 [[files]]
+file = "config/pl3xmap/web/images/skins/2D/f92cffc1-16fb-3a5f-82b3-d37f8ed7cc17.png"
+hash = "56612c8fc87c4fd8a0fd0e350af6f9851d385cadaca97ea0772a143cae03357c"
+
+[[files]]
 file = "config/pl3xmap/web/images/skins/3D/ecea2fda-ecb7-4eb5-b350-b75482ee2e96.png"
 hash = "ab6805212393c8c4d89912b4ab2e4cdce741c5ea2f4e2d6fb0a0161a96452d30"
+
+[[files]]
+file = "config/pl3xmap/web/images/skins/3D/f92cffc1-16fb-3a5f-82b3-d37f8ed7cc17.png"
+hash = "cd6ef73447ed5dee09e1981e3346de4ba7d386aa0e3d4318beb3b8bb9d00459f"
 
 [[files]]
 file = "config/pl3xmap/web/images/skins/steve.png"
@@ -1378,7 +1386,7 @@ hash = "209ef74751243270cca3056ce85f90f55791f45b35e9bc1a06000ad681211abe"
 
 [[files]]
 file = "config/scalablelux.properties"
-hash = "d9ab7cff47604c0ac2cf36c30e3ed5b2fbe1f3f6aaf1035975a63534c0690984"
+hash = "9dc2e8f9a481295d4ea9572af4234a8d084a21403600361f9882100e08a75a5c"
 
 [[files]]
 file = "config/sereneseasons/fertility.toml"
@@ -1602,7 +1610,7 @@ hash = "1561b99ae57ede995dfb64a91ac5b53dd877f57e4a8f1859526da84511bcec07"
 
 [[files]]
 file = "config/vmp.properties"
-hash = "99db384aa8d9f477010cd1cf465838f434ae234b6c6379837331b119fd920307"
+hash = "30d51955904db94a4fc3e18f26e7eb598adc7a5ef74d40dc7ce9f5cf03ef2eaf"
 
 [[files]]
 file = "config/voicechat/category-volumes.properties"
@@ -1739,7 +1747,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "1102440dd2533ba3a154419bb95ff1f81b858201eb0c44d2a2eea486c74e565a"
+hash = "39792a11da59cebc770f3918dd0ad53637bcbd206dc19bfa6709392bfd2d1830"
 metafile = true
 
 [[files]]
@@ -1829,7 +1837,7 @@ metafile = true
 
 [[files]]
 file = "mods/bookshelf-lib.pw.toml"
-hash = "0b775ba140d7797e2456b8b09c7162f6a81de22abb7feb2e8437847cefd86d0a"
+hash = "6d4de3bf124c98a61c022477e07c8386940d4804001f5f71b322c9b1b74cb5c2"
 metafile = true
 
 [[files]]
@@ -2054,7 +2062,7 @@ metafile = true
 
 [[files]]
 file = "mods/euphoria-patches.pw.toml"
-hash = "11d1ab5f73dd83745da03049ae2f805f657f3bf01a03d11de9243ee69df4f405"
+hash = "ca0aa9881f791bf705b280f3f14f97d2fe3d53b3ef9111feb3efb2d676cd5a7e"
 metafile = true
 
 [[files]]
@@ -2079,7 +2087,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "49884f2d7db0e731facf0aa70cf2038dd513624c450cba773a8ca7a47e53953b"
+hash = "0364a64e7f6515dccf92e10512c81178b7afeb1ae031f8024620892769e69313"
 metafile = true
 
 [[files]]
@@ -2143,6 +2151,21 @@ hash = "bf1b6104f87a89ed7bc59ff839e0e5e588db035f8c68e8375790bfed0eb45375"
 metafile = true
 
 [[files]]
+file = "mods/ftb-library-fabric.pw.toml"
+hash = "79b607e23d078fc52a2a38977d5b0c244fb4415fac0d454c122c04fe77eec3b5"
+metafile = true
+
+[[files]]
+file = "mods/ftb-quests-fabric.pw.toml"
+hash = "a48b07afe703a5abb16d89aa9e33936626ad93635bfe30bfd69cb710e3ed46f4"
+metafile = true
+
+[[files]]
+file = "mods/ftb-teams-fabric.pw.toml"
+hash = "c20b0c7c1f2fd04aeaff3e956244deb0bc242078dc2705a593154973907cdb93"
+metafile = true
+
+[[files]]
 file = "mods/fusion-connected-textures.pw.toml"
 hash = "0aee156d2192ac57826b8c350748568baf9fb896da553c8d2d9a7ab3fa80aec4"
 metafile = true
@@ -2189,7 +2212,7 @@ metafile = true
 
 [[files]]
 file = "mods/i18nupdatemod.pw.toml"
-hash = "f04025e377f675a974cce6bc9ff776ae85d5acf9ad70ccff2afb3e87b11d4119"
+hash = "f596d49b8d8a5ce74b39bfb9dd140175ae97b30e822c113cdc5c093926177426"
 metafile = true
 
 [[files]]
@@ -2269,7 +2292,7 @@ metafile = true
 
 [[files]]
 file = "mods/lets-do-bakery-farmcharm-compat.pw.toml"
-hash = "12fb0dcc3181c6a40d582d85e0d593b3152d2e498ebd2818f92fffe20d404d4e"
+hash = "a4216ca7844e251e2dc2d0c9058031ee8c64f44f748cdd5e1707aa19fe84ae4e"
 metafile = true
 
 [[files]]
@@ -2304,7 +2327,7 @@ metafile = true
 
 [[files]]
 file = "mods/lets-do-farm-charm.pw.toml"
-hash = "273b6d11e75018687a02e6b94342317d407250cadaed798b31074aaa283a96e9"
+hash = "c08d9ecd05988d0eaa96bfc25c907b9bcc57a8768bd9955f1204095339046796"
 metafile = true
 
 [[files]]
@@ -9423,19 +9446,4 @@ hash = "a8cd9d4338c7d3d1fffecc4525348a31ea3d219ef31382c51d5ddc3b4b0114e1"
 
 [[files]]
 file = "start.sh"
-hash = "f8d210ffd5faa13f92b870c859d5a0993d12ccfa7bb6d023661167618db3ee92"
-
-[[files]]
-file = "mods/ftb-library.pw.toml"
-hash = "bd1948553569c60a15ba02a6e9d34e792704ab01cc1ab6427052fbb42c85a563"
-metafile = true
-
-[[files]]
-file = "mods/ftb-quests.pw.toml"
-hash = "7b3ea2daf3cdb40744753ae4bf7e2652a216aa1670c4e8a5ad85e658a2720157"
-metafile = true
-
-[[files]]
-file = "mods/ftb-teams.pw.toml"
-hash = "ff42920e31764d789d2cc7d974c5eedd6b4b410589f112798042d2af9f46fc3a"
-metafile = true
+hash = "903c2d5855f6f773dce09274229688fc09d7ad4cfc03432938250d4610f5e423"
