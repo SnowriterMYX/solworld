@@ -1962,11 +1962,6 @@ hash = "ddbb4bf26d15027847e52f5b30479470299b9a8c687697309f0535d658b9944b"
 metafile = true
 
 [[files]]
-file = "mods/blur-plus.pw.toml"
-hash = "1ea2272dd22c2a9b78b719441b53012d14e5b3a41175f562bc7482a56c74258c"
-metafile = true
-
-[[files]]
 file = "mods/bobby.pw.toml"
 hash = "8bc168948c5f92a10252f12ad4f41caeefbe508f0326fc4185217d60c4cb2292"
 metafile = true
@@ -2119,11 +2114,6 @@ metafile = true
 [[files]]
 file = "mods/cupboard.pw.toml"
 hash = "9e444b3cfef7e5874823dc34c529c3ab322fda7ec56d96a06dd3c763bad238df"
-metafile = true
-
-[[files]]
-file = "mods/dashloader.pw.toml"
-hash = "d5cf6e8f1f0963a1b0bbaf54f3afe9a429706572f47a86c30fa4f23b72d04594"
 metafile = true
 
 [[files]]
@@ -2374,6 +2364,11 @@ metafile = true
 [[files]]
 file = "mods/healing-campfire.pw.toml"
 hash = "38a63fb278b3cb4e91fa592240f7555a6c5798bb1648527fb6b7cf763c976036"
+metafile = true
+
+[[files]]
+file = "mods/i18nupdatemod.pw.toml"
+hash = "76bc3487ee8c8c9296d1ea0469f98806bfb3bec8fbedb0db381b9fb864174952"
 metafile = true
 
 [[files]]
@@ -9687,7 +9682,7 @@ hash = "a8cd9d4338c7d3d1fffecc4525348a31ea3d219ef31382c51d5ddc3b4b0114e1"
 
 [[files]]
 file = "start.sh"
-hash = "903c2d5855f6f773dce09274229688fc09d7ad4cfc03432938250d4610f5e423"
+hash = "d383012506f30efe8e1340cdfc14d69c8367816ef1ac8489f41e2e6d794dde96"
 
 [[files]]
 file = "tlm_custom_pack/touhou_little_maid-1.0.0/assets/authors_and_credits/animation/arm.js"
