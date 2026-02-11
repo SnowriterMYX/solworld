@@ -76,5 +76,8 @@
   "toms_storage:inventory_config": null,
   "toms_storage:inventory_connector": null,
   "toms_storage:inventory_hopper": null,
+  "touhou_little_maid:altar": null,
+  "touhou_little_maid:picnic_mat": null,
+  "touhou_little_maid:tombstone": null,
   "waystones:waystone": null
 }

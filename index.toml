@@ -2393,11 +2393,6 @@ hash = "38a63fb278b3cb4e91fa592240f7555a6c5798bb1648527fb6b7cf763c976036"
 metafile = true
 
 [[files]]
-file = "mods/i18nupdatemod.pw.toml"
-hash = "f596d49b8d8a5ce74b39bfb9dd140175ae97b30e822c113cdc5c093926177426"
-metafile = true
-
-[[files]]
 file = "mods/illager-invasion.pw.toml"
 hash = "5b2241365555857a9878a938b6ee80210c02d4193468a58a253ae4c10b2b4762"
 metafile = true
