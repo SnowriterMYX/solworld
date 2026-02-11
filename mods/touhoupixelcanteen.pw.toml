@@ -1,6 +1,6 @@
 name = "Gensokyo Izakaya"
 filename = "gensokyoizakaya-fabric-0.1.0a.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/inTiC56F/versions/rCpvoGvQ/gensokyoizakaya-fabric-0.1.0a.jar"

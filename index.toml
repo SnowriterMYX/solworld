@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "GEMINI.md"
-hash = "f8e710352a37ec334e82cf487ce4030fe11ca9ecf43ebb93e454e176c5104608"
+hash = "45c69ff5167ce5ef5e70415cb42f5cfeecd62bc2e61e63e12da48902451153ae"
 
 [[files]]
 file = "README.md"
-hash = "5d8ab67b30716486dcecaa32f48290157c77160d64fe083a3f90ef79ade79521"
+hash = "e4891d34fd3f61551bd1f61a549099091a6d850c84e67969ca52a009b6c73ef0"
 
 [[files]]
 file = "config/DistantHorizons.toml"
@@ -93,8 +93,32 @@ file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
 [[files]]
+file = "config/accessories.json5"
+hash = "b9f6a56acdb02a286de9aa06578dac5485656fb476adc819fb3c63dd49ad0785"
+
+[[files]]
 file = "config/adventurez.json5"
 hash = "5c757b52023a113b964a24f8e90060994f70e9c2a3aa10c8813c097528df5448"
+
+[[files]]
+file = "config/aether-client.toml"
+hash = "eda7e84eb4fea1058f8917bd68bac43bc63a6114534bc031a3a1f089cda7486b"
+
+[[files]]
+file = "config/aether-common.toml"
+hash = "67d50cb36d6b96c7cc47d613012c7d481cb6aef2b67540f8fb0ec5b7b7aa5ef2"
+
+[[files]]
+file = "config/aether-server.toml"
+hash = "578abca7702fcecdb39845a7043f6ec1c504f153f6d3b4af45daedb29df931de"
+
+[[files]]
+file = "config/aether-startup.toml"
+hash = "432879e99cd2acb05c86479487b28bca59d00ed4b1451cefffddb5c96fc155b9"
+
+[[files]]
+file = "config/aether/sun_altar_whitelist.json"
+hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
 file = "config/amendments-client.json"
@@ -341,6 +365,10 @@ file = "config/chunky/config.json"
 hash = "c7384a22595488f79f3125b22cc175eb729267267807a084479419349797abc8"
 
 [[files]]
+file = "config/collective.json5"
+hash = "b6243b955bf123f86c947510d9f8f3a4b5f7b8fe3775d834f458d60a3223847f"
+
+[[files]]
 file = "config/comforts-common.toml"
 hash = "d1ff6e8f5aa2b77d6708b9d4a566d2de96e6f1ec594139742162b1dfdf92c476"
 
@@ -367,6 +395,14 @@ hash = "d8088bd461dd7666552c4174bac6549e55112728e07aa3addd0e32a805c230fc"
 [[files]]
 file = "config/crepperoverhaul-client.jsonc"
 hash = "8ebd8ce17fd98dc18dde0d3271b9237fbc98d9664647940308c9a4d7804dc200"
+
+[[files]]
+file = "config/cristellib/aether/structure_placement_config.json5"
+hash = "3511bcac8a1b8403e94142aa60a5608a351087dfb6e6918d47328fb29726c315"
+
+[[files]]
+file = "config/cristellib/aether/structure_toggle_config.json5"
+hash = "1d290a7e637c87e9cdb636c23c9f2046106fdd457b1cdd06ed23771a0ac893cf"
 
 [[files]]
 file = "config/cristellib/auto_config_settings.json5"
@@ -463,6 +499,14 @@ hash = "1e337be6124c2f4f9374fcae0ad6c697dfd4a45677ffb3e357fc1f574857c6e4"
 [[files]]
 file = "config/cristellib/built_in_packs.json5"
 hash = "f1be3df3751749fc4f475c886553f4b6b998c1a9f68f7ec33ddebe6909bffb14"
+
+[[files]]
+file = "config/cristellib/dimdoors/structure_placement_config.json5"
+hash = "aa13c3c1ebe7bcba1d163258fd87c70baa2456d933106062c46a4a889a38162a"
+
+[[files]]
+file = "config/cristellib/dimdoors/structure_toggle_config.json5"
+hash = "88ddf808eaa3abd29a4152039f38b2f82b6785c6336b97ec0166b6361c6d3d85"
 
 [[files]]
 file = "config/cristellib/ecologics/structure_placement_config.json5"
@@ -565,6 +609,10 @@ file = "config/dehydration.json5"
 hash = "fa83b8f23c1b029f77a4566cc9cfd1fd0404480d1dfb585a74ecc289b2d97e44"
 
 [[files]]
+file = "config/dimdoors-config.json5"
+hash = "6c60db7553fa3046acc90d9f3f6f0d0c9a96a47afb1db7ca15611619429ab7a9"
+
+[[files]]
 file = "config/do_a_barrel_roll-client.json"
 hash = "ee32faf303d3beaff76ee54091bc95788048046b6e948ea7795d1eb34f365607"
 
@@ -591,6 +639,14 @@ hash = "514846393aae0657b0bbc5fbaef89cc89e9edced1dcf4eabaca02ace183b719b"
 [[files]]
 file = "config/easyanvils-server.toml"
 hash = "6c7fdd54b304b53556bc695b6a1e87eadb270836c5071efcce371aea3f7f1589"
+
+[[files]]
+file = "config/easymagic-common.toml"
+hash = "1831109fee7afc163f381d19d57f45db6ad9a8574da583437f5a1e91beb85478"
+
+[[files]]
+file = "config/easymagic-server.toml"
+hash = "887c00afdd5780ce901d398a9a06c3665edbc163071a823ac675ec3d32953a91"
 
 [[files]]
 file = "config/ecologics.json"
@@ -731,6 +787,10 @@ hash = "7e9cafebd085dbf8d6314c623bcfa212b68df911c610304ec77ce0c58e95b279"
 [[files]]
 file = "config/hangglider-server.toml"
 hash = "59f347223cf03955f61abfae7df6246ff66bc5c87cc44edaaf0fe6eeba8fa004"
+
+[[files]]
+file = "config/healingcampfire.json5"
+hash = "66cb4fa208703d9f68183988cc1d8bec10a9786683775e3c09da618bb59a35ae"
 
 [[files]]
 file = "config/herbalbrews.json"
@@ -1085,6 +1145,10 @@ file = "config/morevillagers.json"
 hash = "832818b27a76df025a408d353f3aada9195a0a6f0eed5269ddb795d65501078a"
 
 [[files]]
+file = "config/mousewheelie.hjson"
+hash = "48cdebe6d81b15c9d96c625c7901899741ac41fc78a6f5b8a863de0f3faed050"
+
+[[files]]
 file = "config/notenoughanimations.json"
 hash = "564ba5619c468f07473450aabda417178e024556519a4a6cb420402c1ca16943"
 
@@ -1390,7 +1454,7 @@ hash = "209ef74751243270cca3056ce85f90f55791f45b35e9bc1a06000ad681211abe"
 
 [[files]]
 file = "config/scalablelux.properties"
-hash = "44126aa8697f08afbf0291f9aaff9b6e1be49636a7333cf2459b7f456eee2d2e"
+hash = "0bfd59cbe6604f2d442e14eabad345bff2349f79c9e3864ed456dcd647861c79"
 
 [[files]]
 file = "config/sereneseasons/fertility.toml"
@@ -1613,8 +1677,12 @@ file = "config/visuality.json"
 hash = "1561b99ae57ede995dfb64a91ac5b53dd877f57e4a8f1859526da84511bcec07"
 
 [[files]]
+file = "config/visualworkbench-common.toml"
+hash = "db3a2a559ddbdb5a40c2e7e1b3afd88dd5def2fd35c0af17a1ba4bb967d9be88"
+
+[[files]]
 file = "config/vmp.properties"
-hash = "695dcf4da5511583617ae86b7a53a62bfb1c41036ae9443268b4663d916fb975"
+hash = "cfb0a8065fadf5284783823fa14d934c1a6f6c049e89a02d1275d5445b6f71fb"
 
 [[files]]
 file = "config/voicechat/category-volumes.properties"
@@ -1719,6 +1787,10 @@ hash = "17ae165475207f045d6102dc6113d8547209919d30cf5fdc546cd80a84f2302a"
 [[files]]
 file = "config/yungsmenutweaks-fabric-1_21.toml"
 hash = "eb1dfe20f3cb1ee88f21381f2f7825f83d3f60123c42975d3959dfb41345e986"
+
+[[files]]
+file = "datapacks/BlazeandCave's Advancements Pack 1.17.2.zip"
+hash = "2df9b3928c960814187d6b54da904dbce05b54818801a675c7b56d101922d510"
 
 [[files]]
 file = "datapacks/blazeandcaves-advancements-pack.pw.toml"
@@ -2874,7 +2946,7 @@ metafile = true
 
 [[files]]
 file = "mods/touhoupixelcanteen.pw.toml"
-hash = "ec95da3d2e9954ed1c348c30a3379e4844558bd352339e480beee55d1e327534"
+hash = "82e26984c127a66d81e11472180b665313b7e1f1b4f58e9f8e835f4da91c6636"
 metafile = true
 
 [[files]]
