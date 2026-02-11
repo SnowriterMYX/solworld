@@ -914,11 +914,7 @@ hash = "cf584d75acf8c6de300d2ffec58db7f3c2cbd9aaaf29cc2d3e704c1b91b540f3"
 
 [[files]]
 file = ".pack_hash"
-hash = "f3e0e34925e2269b3290890da93196b1db6f5b70295b69cf63a98a0988754fd2"
-
-[[files]]
-file = "backups/pre_update/backup_20260211_145944.tar.gz"
-hash = "a3201b29926ff55bf4ee72c8cfa6c90943270d6911111f865959cf97d77ab84c"
+hash = "68b3d00fcdd3f45fcfb59337c70e16bd46abb73740284981dfc4c361908f32ae"
 
 [[files]]
 file = "backups/pre_update/backup_20260211_154515.tar.gz"
@@ -935,6 +931,10 @@ hash = "30fc4940668cf865f2c65c9362514f87d84555df564bae984cf4f3acafe2dca8"
 [[files]]
 file = "backups/pre_update/backup_20260211_163400.tar.gz"
 hash = "da143ca2119b660b8e29e5bb9bc4a65c9dd5c97f18235c26fc995c0c7ea290c8"
+
+[[files]]
+file = "backups/pre_update/backup_20260211_165051.tar.gz"
+hash = "eb723a40b8dfaa6489c7e027db4996cc884de54b18b37ebcd576c51c6622f9b1"
 
 [[files]]
 file = "better-fabric-console/mappings-cache/data/mc-manifest.json.gz"
@@ -1654,15 +1654,15 @@ hash = "8b2afde8053580518d1517a53fdf550d5d4bd8555e597ff55155f6b20a7cab5a"
 
 [[files]]
 file = "config/pl3xmap/web/tiles/minecraft-overworld/.rms"
-hash = "48346984aa46e1f8b90c914e4a69e99d137cda18ddf61484d980c4c1e55c00e1"
+hash = "463f31161ce367d7144043c8d4132ff54718ffada080e131c0dd762b2b8d9c3b"
 
 [[files]]
 file = "config/pl3xmap/web/tiles/minecraft-overworld/0/blockinfo/-1_-1.pl3xmap.gz"
-hash = "14582fc52e837bfdff27f51e3517cd173ce516f856437dd4f38098259f221bc3"
+hash = "22c8bd71c8e12fc26e9d67d103ba95fb91a9346e918ace083dbd172951957e96"
 
 [[files]]
 file = "config/pl3xmap/web/tiles/minecraft-overworld/0/blockinfo/-1_0.pl3xmap.gz"
-hash = "12ed5ef9ebc7729f73b28961ef250ad8daa41ddf545cc472439d27116a0447e6"
+hash = "07e9dae49b975f8148d130b06dd377dd142ef32eb7346d49d46e3f44ae690014"
 
 [[files]]
 file = "config/pl3xmap/web/tiles/minecraft-overworld/0/blockinfo/0_-1.pl3xmap.gz"
@@ -1670,15 +1670,15 @@ hash = "dd11278bee082a7a893f2fe4128e59286eed0e05826702702f412933efaf4d42"
 
 [[files]]
 file = "config/pl3xmap/web/tiles/minecraft-overworld/0/blockinfo/0_0.pl3xmap.gz"
-hash = "bd05d166c630425788d3c20defd598783b92a7180dfcf6994f781bb1f7a613a5"
+hash = "a9539386cfb4b06ce2dccd50201e303a0c2d134c2ca47841a96d76e74a42b564"
 
 [[files]]
 file = "config/pl3xmap/web/tiles/minecraft-overworld/0/vintage_story/-1_-1.png"
-hash = "2cb8205b37bed987e0ec274c96984dcd6e33284fc235708b2cffa9e30945884d"
+hash = "cc1c7dff92d099a15d2ecefc11899ea334f3db63e2d063d7c6c93e05f0fc537c"
 
 [[files]]
 file = "config/pl3xmap/web/tiles/minecraft-overworld/0/vintage_story/-1_0.png"
-hash = "f85bc79137c29c41f70d367bd0713aaf8c983505da3bbff70b949c88189f4abe"
+hash = "1edda32bac0cdb0815394d6735b0634f03ef7a48ec3ab7e475deafd028b2e3a0"
 
 [[files]]
 file = "config/pl3xmap/web/tiles/minecraft-overworld/0/vintage_story/0_-1.png"
@@ -1686,15 +1686,15 @@ hash = "757070eeba5030be8c9c8db21ce50f2bd4e74ed7e827eff00c4ae7655e017991"
 
 [[files]]
 file = "config/pl3xmap/web/tiles/minecraft-overworld/0/vintage_story/0_0.png"
-hash = "eeecbffbf6b5b7de7dea1a797c21ea3af1d3249b8867c9c3a4186a97cedf30fa"
+hash = "d8653024931963596d4fdb086c715727c7f6364a6c93a42bc97b9bee9816fc59"
 
 [[files]]
 file = "config/pl3xmap/web/tiles/minecraft-overworld/1/blockinfo/-1_-1.pl3xmap.gz"
-hash = "818ae439d27a3d23753d0ec10aec67b7f11f8e633edd5defe1faa603c74bf02c"
+hash = "368c0fa099746d242737ac81d94667b15f1faed40fec258bdb146afce81d6ce8"
 
 [[files]]
 file = "config/pl3xmap/web/tiles/minecraft-overworld/1/blockinfo/-1_0.pl3xmap.gz"
-hash = "53fed6b91a97cff0c0d9b78d608849651c3fb3ce658f2b13a0c296917640b2d5"
+hash = "1c861756a539a99f930665c93806d0a5211b21f0e38adc5669b0ac73b91efacc"
 
 [[files]]
 file = "config/pl3xmap/web/tiles/minecraft-overworld/1/blockinfo/0_-1.pl3xmap.gz"
@@ -1702,15 +1702,15 @@ hash = "94b83f57a2f4d54258f9cca11155bb348e685d08197bf2f94e60f6995951c958"
 
 [[files]]
 file = "config/pl3xmap/web/tiles/minecraft-overworld/1/blockinfo/0_0.pl3xmap.gz"
-hash = "e8ca376fd0e570037e78709c3326ad33fb037b2f88f487e7929f43caa3133847"
+hash = "9420f80e5bee19f89f2a17964942a7adc0bbc9aa4cdacf39c1c1150c447cd415"
 
 [[files]]
 file = "config/pl3xmap/web/tiles/minecraft-overworld/1/vintage_story/-1_-1.png"
-hash = "0728eb975eea3b58d3ec4516ae3ebcf9dc0f8ccab3cf46c00066280251da3ba4"
+hash = "4c2333ddbb31cdef85b208adeafcc5da4d5c30f1be22b8e56277d0fd3498a6a5"
 
 [[files]]
 file = "config/pl3xmap/web/tiles/minecraft-overworld/1/vintage_story/-1_0.png"
-hash = "c07bd6f707a02a1ca2a4e943bd2ae18128fc8722787a3dab45f7536540d0f8e2"
+hash = "400ce1bbed9498f96ce693affce567d0f2b76f5db6871ec0e906aca0ae95427e"
 
 [[files]]
 file = "config/pl3xmap/web/tiles/minecraft-overworld/1/vintage_story/0_-1.png"
@@ -1718,11 +1718,11 @@ hash = "9e33abac96616884e585bc620a42345d5a0a688c99df5be76f2b8d188d26df67"
 
 [[files]]
 file = "config/pl3xmap/web/tiles/minecraft-overworld/1/vintage_story/0_0.png"
-hash = "8439ccf925a82234fa98ee3a7ede30644fd623fe05f7648e82c1e402ef59b7d0"
+hash = "1632492e5baf66ded27824856520ab96b3b84000f537a42fe5c1f28b5582a1da"
 
 [[files]]
 file = "config/pl3xmap/web/tiles/minecraft-overworld/2/blockinfo/-1_-1.pl3xmap.gz"
-hash = "465c87b2ebc8cda03a63425f83b93d554495edaddb27e0bbea4e1e6f93f0bc05"
+hash = "e07e45d8fce7845e086a93e0741a451ebea8fd16e536da6b793cc2c4f1edeb90"
 
 [[files]]
 file = "config/pl3xmap/web/tiles/minecraft-overworld/2/blockinfo/-1_0.pl3xmap.gz"
@@ -1734,15 +1734,15 @@ hash = "ae272aed0608c2fb2e2caf1daa139f195012fadc87734ac689ec8fc37c50a89a"
 
 [[files]]
 file = "config/pl3xmap/web/tiles/minecraft-overworld/2/blockinfo/0_0.pl3xmap.gz"
-hash = "f0f0fbcadb510ba836494a550821af4494d331b6e5fabace53f3dcd6e6ca59b5"
+hash = "366094c9da5a62fbd740eb848177819474200139eebcdedf087c562db90b66ba"
 
 [[files]]
 file = "config/pl3xmap/web/tiles/minecraft-overworld/2/vintage_story/-1_-1.png"
-hash = "f246edd9c91ca8f9ad558083d79cb307a98265b86e1ef3d26c67deecf770f988"
+hash = "373373912612b952607dcb7446cc4fba457750b176f34aedce1699655b802cea"
 
 [[files]]
 file = "config/pl3xmap/web/tiles/minecraft-overworld/2/vintage_story/-1_0.png"
-hash = "0f103ffbd337cc41420864ca69e820c941c39c0c77ec939e934094c598352662"
+hash = "dc7ca5938e8474015acb06339135b821a8e35cad0a0e61436ff6ae2aec90b948"
 
 [[files]]
 file = "config/pl3xmap/web/tiles/minecraft-overworld/2/vintage_story/0_-1.png"
@@ -1750,11 +1750,11 @@ hash = "d771fb82b0e96477de3a04bb4c13a71fcf14231519f02ecaf7ff5273958686d9"
 
 [[files]]
 file = "config/pl3xmap/web/tiles/minecraft-overworld/2/vintage_story/0_0.png"
-hash = "28893e693c8743d4b6296fc0a9945396da30998bf29389d4693a49bbf30a8b93"
+hash = "4f99358daccbd8808ec0612a7ab51902d8d91369aaeaee11b9426be10516a113"
 
 [[files]]
 file = "config/pl3xmap/web/tiles/minecraft-overworld/3/blockinfo/-1_-1.pl3xmap.gz"
-hash = "8d6b5364ec3639925f2cc128d16a841c4abb05f285247d24a3bd66c7c5fc40b6"
+hash = "bf4b5695eb4ca6c3e08a03485be89c9d610a3ef3da1395f204226ae2de84aea2"
 
 [[files]]
 file = "config/pl3xmap/web/tiles/minecraft-overworld/3/blockinfo/-1_0.pl3xmap.gz"
@@ -1770,11 +1770,11 @@ hash = "821ee00d47a82688592c6dcc52b2b2239278083b78da20806cd41c1dfc54ece2"
 
 [[files]]
 file = "config/pl3xmap/web/tiles/minecraft-overworld/3/vintage_story/-1_-1.png"
-hash = "a165aaf762167d5c8508e2d27dc40e87df33b8c8a84a2ace0c7351e619ea4207"
+hash = "b490ffb81325a8fb9fcfd30b1b82c4752143018c629eef48cce00d66d7d4e6cc"
 
 [[files]]
 file = "config/pl3xmap/web/tiles/minecraft-overworld/3/vintage_story/-1_0.png"
-hash = "d1aca6458df1dc77e0cd109cfefc3c3aa7496c2530cf5644df654990bed2cd1a"
+hash = "f3e805788cf113ec86b9cc5a2220807591795e5ef9717969e1ec1e8760e7e39f"
 
 [[files]]
 file = "config/pl3xmap/web/tiles/minecraft-overworld/3/vintage_story/0_-1.png"
@@ -1782,7 +1782,7 @@ hash = "fb7ef259b21dc7676b908e7f800c202122da7f80b74c463920b2041bd8fe8c43"
 
 [[files]]
 file = "config/pl3xmap/web/tiles/minecraft-overworld/3/vintage_story/0_0.png"
-hash = "5fa65b34f5ebd977be6a13d402931af6f3d1d4d37bd7d3d857f7d60ab61a479e"
+hash = "40687c3dd7e0624b61f4a3e830a561587e25de77cdf0f5aa42b566d418c7e256"
 
 [[files]]
 file = "config/pl3xmap/web/tiles/minecraft-overworld/biomes.gz"
@@ -2011,14 +2011,6 @@ hash = "20a722a82474b3491b31807e18d93f253c58e472c7c65c1913f921b78ee91063"
 [[files]]
 file = "config/sophisticatedcore-common.toml"
 hash = "cc42f41e3244c1858716f6e9531df8054cf54892f0debe2d00d999e367f2c8b7"
-
-[[files]]
-file = "config/spark/tmp-client/spark-b050da4cc07-libasyncProfiler.so.tmp"
-hash = "13c034cb1f6452de2892278de4c49df7d910499c37c275a32895e67a4fb2bc54"
-
-[[files]]
-file = "config/spark/tmp-client/spark-b21034cbfb2-profile-data.jfr.tmp"
-hash = "f06fac52f72f8c3534d182f4b622aa7b767da19d443d3b43527548f0c2fbbfe0"
 
 [[files]]
 file = "config/structure_layout_optimizer.jsonc"
