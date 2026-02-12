@@ -40,7 +40,7 @@
 	/* 
 	   Maximum number of backups to keep. If set to 0 then no backup will be deleted based their amount
 	*/
-	"backupsToKeep": 10,
+	"backupsToKeep": 5,
 	/* 
 	   Maximum age of backups to keep in seconds.
 	    If set to 0 then backups will not be deleted based their age 
