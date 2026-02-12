@@ -1,3 +1,2 @@
-tellraw @a {"text":"[DEBUG] Triggering Origins GUI...","color":"green"}
-origin gui @s
-origins gui @s
+# No-op fallback when Origins is not installed.
+# If Origins is present, overlay_origins will replace this function.
