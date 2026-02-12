@@ -77,10 +77,6 @@ file = "config/EssentialCommands.properties"
 hash = "1d730bcf3c2084ac2931ba4300114befefbab25bb6f93d9d5b3f9d8370f8f4c9"
 
 [[files]]
-file = "config/FabricMail.properties"
-hash = "77014e73143594219534ebdf2785f5b743202073ec7f360f9fdf8d0e4bcbc046"
-
-[[files]]
 file = "config/InertiaAntiCheat/InertiaAntiCheat.toml"
 hash = "47d4abd4e73854726e736dbe69354bd75c6a97f5b7a99e943c3f25fcb0c7a24d"
 
@@ -2024,6 +2020,11 @@ metafile = true
 [[files]]
 file = "mods/chat-heads.pw.toml"
 hash = "a5f056e7c75be2ee7290e72aa8ffd880f7e130e559d02b0395a0a3aabf413000"
+metafile = true
+
+[[files]]
+file = "mods/chinese-ime.pw.toml"
+hash = "4e5de3d3739b8a2def5e7157164fecdc199dac16a9e82ec7b919baf0c9b7e98f"
 metafile = true
 
 [[files]]

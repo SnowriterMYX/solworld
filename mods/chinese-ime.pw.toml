@@ -1,0 +1,13 @@
+name = "Chinese IME"
+filename = "chineseime-1.21-v1.1.8.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/hilng8VR/versions/XyhpanUE/chineseime-1.21-v1.1.8.jar"
+hash-format = "sha512"
+hash = "cd892375a32b6556292a5ca11510990b35f7ebf5702a752e707f48cd810e1b03528ce7fc6c44b3a6adc71bf4db00f4057b5d4c44246c6d84bf8e85ba5fd9c811"
+
+[update]
+[update.modrinth]
+mod-id = "hilng8VR"
+version = "XyhpanUE"
