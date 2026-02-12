@@ -82,7 +82,6 @@ warpRequirements = [
     "[is_not_interdimensional] scaled_add_xp_cost(distance, 0.01)", 
     "[is_interdimensional] add_xp_cost(27)", 
     "[source_is_warp_plate] multiply_xp_cost(0)", 
-    "[source_is_warp_stone] add_durability_cost(80)", 
     "[target_is_global] multiply_xp_cost(0)", 
     "min_xp_cost(0)", 
     "max_xp_cost(27)", 
@@ -114,4 +113,3 @@ wildWaystonesDimensionAllowList = [ "minecraft:the_end", "minecraft:overworld", 
 
 # List of dimensions that wild waystones are not allowed to spawn in. Only used if wildWaystonesDimensionAllowList is empty.
 wildWaystonesDimensionDenyList = [  ]
-
