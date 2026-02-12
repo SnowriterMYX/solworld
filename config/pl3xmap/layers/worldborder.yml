@@ -3,9 +3,9 @@ settings:
   enabled: true
   layer:
     # How often (in seconds) to update the marker.
-    update-interval: 30
+    update-interval: 300
     # Whether to push this layer through SSE or not.
-    live-update: true
+    live-update: false
     # Whether the vanilla world border layer control shows up in the layers list or not.
     show-controls: true
     # Whether the vanilla world border layer should be hidden (toggled off) by default.

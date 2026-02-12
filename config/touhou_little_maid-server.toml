@@ -6,8 +6,8 @@ MaidAITimeDebug = false
 #The interval time (in seconds) for the maid backup mechanism to back up maid data
 # Default: 180
 # Range: > 5
-MaidBackupIntervalSeconds = 180
+MaidBackupIntervalSeconds = 604800
 #The maximum number of backups for each player when the maid backup mechanism is enabled
 # Default: 3
 # Range: 1 ~ 64
-MaidBackupMaxCount = 3
+MaidBackupMaxCount = 1

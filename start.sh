@@ -239,12 +239,34 @@ calculate_memory() {
     fi
 
     local avail_mb=$((avail_kb / 1024))
-    local zram_check=$(zramctl --noheadings --output NAME 2>/dev/null | wc -l)
-    local reserved=1024
-    local xmx=$((avail_mb - reserved))
-    [ "$zram_check" -gt 0 ] && xmx=$((xmx - 512))
-    [ "$xmx" -lt 2048 ] && xmx=2048
+    local min_heap_mb="${SOLWORLD_MIN_HEAP_MB:-2048}"
+    local max_heap_mb="${SOLWORLD_MAX_HEAP_MB:-12288}"
+    local reserved_mb="${SOLWORLD_RESERVED_MB:-2048}"
+
+    [[ "$min_heap_mb" =~ ^[0-9]+$ ]] || min_heap_mb=2048
+    [[ "$max_heap_mb" =~ ^[0-9]+$ ]] || max_heap_mb=12288
+    [[ "$reserved_mb" =~ ^[0-9]+$ ]] || reserved_mb=2048
+    [ "$max_heap_mb" -lt "$min_heap_mb" ] && max_heap_mb="$min_heap_mb"
+
+    # 默认使用可用内存的 70%，并保留系统余量，防止把机器吃满。
+    local xmx=$((avail_mb * 70 / 100))
+    local max_by_free=$((avail_mb - reserved_mb))
+    [ "$max_by_free" -lt "$min_heap_mb" ] && max_by_free="$min_heap_mb"
+
+    [ "$xmx" -gt "$max_by_free" ] && xmx="$max_by_free"
+    [ "$xmx" -gt "$max_heap_mb" ] && xmx="$max_heap_mb"
+    [ "$xmx" -lt "$min_heap_mb" ] && xmx="$min_heap_mb"
+
     echo "$xmx"
+}
+
+calculate_initial_heap() {
+    local xmx_mb="$1"
+    local xms=$((xmx_mb / 4))
+    [ "$xms" -lt 1024 ] && xms=1024
+    [ "$xms" -gt 4096 ] && xms=4096
+    [ "$xms" -gt "$xmx_mb" ] && xms="$xmx_mb"
+    echo "$xms"
 }
 
 # --- 6. 核心运行逻辑 ---
@@ -255,17 +277,16 @@ run_server() {
         if ! sync_mods; then continue; fi
         prune_unindexed_mods
 
-        MEM_MB=$(calculate_memory)
-        JAVA_OPTS="-Xms${MEM_MB}M -Xmx${MEM_MB}M \
-        -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 \
-        -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch \
-        -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M \
-        -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 \
-        -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 \
-        -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem \
-        -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true"
+        MEM_XMX_MB=$(calculate_memory)
+        MEM_XMS_MB=$(calculate_initial_heap "$MEM_XMX_MB")
+        MEM_SOFT_MB=$((MEM_XMX_MB * 85 / 100))
+        [ "$MEM_SOFT_MB" -lt "$MEM_XMS_MB" ] && MEM_SOFT_MB="$MEM_XMS_MB"
 
-        echo "[$(date '+%H:%M:%S')] 启动 Solworld (Memory: ${MEM_MB}M)..."
+        JAVA_OPTS="-Xms${MEM_XMS_MB}M -Xmx${MEM_XMX_MB}M -XX:SoftMaxHeapSize=${MEM_SOFT_MB}M \
+        -XX:+UnlockExperimentalVMOptions -XX:+UseZGC -XX:+ZGenerational \
+        -XX:+DisableExplicitGC -XX:+PerfDisableSharedMem"
+
+        echo "[$(date '+%H:%M:%S')] 启动 Solworld (Xms: ${MEM_XMS_MB}M, Xmx: ${MEM_XMX_MB}M, SoftMax: ${MEM_SOFT_MB}M)..."
         
         if [[ -f "logs/latest.log" ]]; then
             local timestamp=$(date '+%Y%m%d_%H%M%S')

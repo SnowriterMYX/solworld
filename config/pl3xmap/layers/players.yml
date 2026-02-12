@@ -8,9 +8,9 @@ settings:
     spectators: true
   layer:
     # How often (in seconds) to update the marker.
-    update-interval: 0
+    update-interval: 120
     # Whether to push this layer through SSE or not.
-    live-update: true
+    live-update: false
     # Whether the players layer control shows up in the layers list or not.
     show-controls: true
     # Whether the players layer should be hidden (toggled off) by default.
