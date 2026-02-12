@@ -1626,7 +1626,7 @@ hash = "499d188162ddcf7fcf450cdcdc96bd41ac582501ecad5ed4a74dd9ed6b01990a"
 
 [[files]]
 file = "config/textile_backup.json5"
-hash = "030a83dbdb1909ac4e4d0b5773092ec39ced48378696981a70f2f47e45b14f39"
+hash = "c71cad1f3952c5fa95cdedbfc5dafe1b8340ab7a73b0982ec5dc7751ce8d92d5"
 
 [[files]]
 file = "config/toms_storage.json"
@@ -1634,7 +1634,7 @@ hash = "fe9bba01d323a80ceb0752143bb717708110ab6d8d3c87b32055728f81366a0d"
 
 [[files]]
 file = "config/touhou_little_maid-common.toml"
-hash = "eca24aceb940786bab3948e0b3f94f8be82f4b26b689669be5f9137874189fd3"
+hash = "991d658cf686071ac5a0f160ea48d71838cba9ab1b4972da141987f2317d446d"
 
 [[files]]
 file = "config/touhou_little_maid-server.toml"
@@ -1750,7 +1750,7 @@ hash = "2c34f12a80c2a543d43002bb25e689d85a0d9e54d910bb8b2f6b80547ab0e217"
 
 [[files]]
 file = "config/waystones-common.toml"
-hash = "29255d409aa090fdc9040c62fb829a424f06a35611cfe2c6f2361e9bcf4ccad4"
+hash = "614687d8fc24da4f6c8a86945abd4be53a106574d2c9eb8e14c9bfec4acce4bc"
 
 [[files]]
 file = "config/wildernature.json"
@@ -2424,6 +2424,16 @@ metafile = true
 [[files]]
 file = "mods/just-enough-characters.pw.toml"
 hash = "0c2b85c4621da6f11bac73e07c9a2aa1b342c4a1111d4aca020bd153e92141f9"
+metafile = true
+
+[[files]]
+file = "mods/kaleidoscope-cookery-refabricated.pw.toml"
+hash = "2af52bded72b3b34446ae3458ab5c376b4100449296fee7521786a99a6a342de"
+metafile = true
+
+[[files]]
+file = "mods/kaleidoscope-doll.pw.toml"
+hash = "3b3e9299060de444f2e128e4616fed7d275776e3744c220a1e48ab0eaa0e54d7"
 metafile = true
 
 [[files]]
@@ -9682,7 +9692,7 @@ hash = "a8cd9d4338c7d3d1fffecc4525348a31ea3d219ef31382c51d5ddc3b4b0114e1"
 
 [[files]]
 file = "start.sh"
-hash = "1c12ddf129ab1f53f3b75f5a3736f27f809318d4ab45e73132523572283f13bd"
+hash = "9c0b51020f1b2da3fa112367dbd6b919dc884f3c427d2686987b3bcc8947f915"
 
 [[files]]
 file = "tlm_custom_pack/touhou_little_maid-1.0.0/assets/authors_and_credits/animation/arm.js"

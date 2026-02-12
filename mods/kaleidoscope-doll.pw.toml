@@ -1,0 +1,13 @@
+name = "Kaleidoscope Doll"
+filename = "kaleidoscopedoll-1.21.1-fabric-1.0.9.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/vQLjjxNs/versions/4oeiQyIt/kaleidoscopedoll-1.21.1-fabric-1.0.9.jar"
+hash-format = "sha512"
+hash = "869cb6ddeb766a24d85370c4f01ee1d3ca701e8e29b94fba9c59791d59e0dcfef680553bd094f46e64c438a16ad61c69c99d1806bb4407503a049cf348f096d5"
+
+[update]
+[update.modrinth]
+mod-id = "vQLjjxNs"
+version = "4oeiQyIt"
