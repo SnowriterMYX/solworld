@@ -61,7 +61,7 @@
 	   Limit how many cores can be used for compression.
 	   0 means that all available cores will be used
 	*/
-	"compressionCoreCountLimit": 0,
+	"compressionCoreCountLimit": 1,
 	/* 
 	   Available formats are:
 	   ZIP - normal zip archive using standard deflate compression
