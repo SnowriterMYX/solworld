@@ -351,6 +351,21 @@ chmod +x start.sh
 - **后台持久化**: 自动创建 `tmux` 会话，即便关闭终端，服务器依然运行。
 - **智能运维**: 动态内存调优、崩溃 10 秒自启动、日志自动 Gzip 归档。
 
+### 1.1 JVM（Generational ZGC）内存策略
+`start.sh` 默认采用 Java 21 的分代 ZGC，并使用“硬上限 + 软上限”模型：
+- `SOLWORLD_MAX_HEAP_MB=16384`：硬上限（对应 `-Xmx`）
+- `SOLWORLD_SOFT_HEAP_MB=6144`：软上限（对应 `-XX:SoftMaxHeapSize`）
+- `SOLWORLD_INIT_HEAP_MB=1024`：初始堆（对应 `-Xms`）
+- `SOLWORLD_RESERVED_MB=2048`：系统保留内存（避免吃满宿主机）
+
+示例（16G 硬上限 + 6G 软上限）：
+```bash
+SOLWORLD_MAX_HEAP_MB=16384 \
+SOLWORLD_SOFT_HEAP_MB=6144 \
+SOLWORLD_INIT_HEAP_MB=1024 \
+./start.sh
+```
+
 ### 2. 控制台管理
 - **进入控制台**: `tmux attach -t solworld`
 - **退出控制台 (不停止服务器)**: 按 `Ctrl + B` 然后按 `D`。

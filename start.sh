@@ -222,51 +222,69 @@ prune_unindexed_mods() {
     fi
 }
 
-# --- 5. 内存自动调优 ---
-calculate_memory() {
+# --- 5. 内存与 GC 自动调优 ---
+get_available_memory_mb() {
     local avail_kb=""
     if [[ -r /proc/meminfo ]]; then
         avail_kb=$(awk '/MemAvailable:/{print $2}' /proc/meminfo)
     fi
 
-    if [[ -z "$avail_kb" ]]; then
+    if [[ -z "$avail_kb" ]] && command -v free &> /dev/null; then
         avail_kb=$(free -k | awk '/^Mem:/{print $7}')
     fi
 
-    if [[ -z "$avail_kb" ]]; then
-        # Fallback to total memory if available cannot be detected
+    if [[ -z "$avail_kb" ]] && command -v free &> /dev/null; then
         avail_kb=$(free -k | awk '/^Mem:/{print $2}')
     fi
 
-    local avail_mb=$((avail_kb / 1024))
+    [[ "$avail_kb" =~ ^[0-9]+$ ]] || avail_kb=0
+    echo $((avail_kb / 1024))
+}
+
+calculate_max_heap() {
+    local avail_mb
+    avail_mb=$(get_available_memory_mb)
+
     local min_heap_mb="${SOLWORLD_MIN_HEAP_MB:-2048}"
-    local max_heap_mb="${SOLWORLD_MAX_HEAP_MB:-12288}"
+    local max_heap_mb="${SOLWORLD_MAX_HEAP_MB:-16384}"
     local reserved_mb="${SOLWORLD_RESERVED_MB:-2048}"
 
     [[ "$min_heap_mb" =~ ^[0-9]+$ ]] || min_heap_mb=2048
-    [[ "$max_heap_mb" =~ ^[0-9]+$ ]] || max_heap_mb=12288
+    [[ "$max_heap_mb" =~ ^[0-9]+$ ]] || max_heap_mb=16384
     [[ "$reserved_mb" =~ ^[0-9]+$ ]] || reserved_mb=2048
     [ "$max_heap_mb" -lt "$min_heap_mb" ] && max_heap_mb="$min_heap_mb"
 
-    # 默认使用可用内存的 70%，并保留系统余量，防止把机器吃满。
-    local xmx=$((avail_mb * 70 / 100))
-    local max_by_free=$((avail_mb - reserved_mb))
-    [ "$max_by_free" -lt "$min_heap_mb" ] && max_by_free="$min_heap_mb"
-
-    [ "$xmx" -gt "$max_by_free" ] && xmx="$max_by_free"
-    [ "$xmx" -gt "$max_heap_mb" ] && xmx="$max_heap_mb"
+    local xmx=$((avail_mb - reserved_mb))
     [ "$xmx" -lt "$min_heap_mb" ] && xmx="$min_heap_mb"
-
+    [ "$xmx" -gt "$max_heap_mb" ] && xmx="$max_heap_mb"
     echo "$xmx"
 }
 
-calculate_initial_heap() {
+calculate_soft_heap() {
     local xmx_mb="$1"
-    local xms=$((xmx_mb / 4))
-    [ "$xms" -lt 1024 ] && xms=1024
-    [ "$xms" -gt 4096 ] && xms=4096
-    [ "$xms" -gt "$xmx_mb" ] && xms="$xmx_mb"
-    echo "$xms"
+    local soft_heap_mb="${SOLWORLD_SOFT_HEAP_MB:-6144}"
+    [[ "$soft_heap_mb" =~ ^[0-9]+$ ]] || soft_heap_mb=6144
+    [ "$soft_heap_mb" -lt 512 ] && soft_heap_mb=512
+    [ "$soft_heap_mb" -gt "$xmx_mb" ] && soft_heap_mb="$xmx_mb"
+    echo "$soft_heap_mb"
+}
+
+calculate_initial_heap() {
+    local soft_mb="$1"
+    local xmx_mb="$2"
+    local xms_mb="${SOLWORLD_INIT_HEAP_MB:-1024}"
+    [[ "$xms_mb" =~ ^[0-9]+$ ]] || xms_mb=1024
+    [ "$xms_mb" -lt 512 ] && xms_mb=512
+    [ "$xms_mb" -gt "$soft_mb" ] && xms_mb="$soft_mb"
+    [ "$xms_mb" -gt "$xmx_mb" ] && xms_mb="$xmx_mb"
+    echo "$xms_mb"
+}
+
+java_major_version() {
+    local major
+    major=$(java -version 2>&1 | awk -F'[\".]' '/version/ { if ($2 == "1") print $3; else print $2; exit }')
+    [[ "$major" =~ ^[0-9]+$ ]] || major=0
+    echo "$major"
 }
 
 # --- 6. 核心运行逻辑 ---
@@ -277,16 +295,57 @@ run_server() {
         if ! sync_mods; then continue; fi
         prune_unindexed_mods
 
-        MEM_XMX_MB=$(calculate_memory)
-        MEM_XMS_MB=$(calculate_initial_heap "$MEM_XMX_MB")
-        MEM_SOFT_MB=$((MEM_XMX_MB * 85 / 100))
-        [ "$MEM_SOFT_MB" -lt "$MEM_XMS_MB" ] && MEM_SOFT_MB="$MEM_XMS_MB"
+        MEM_XMX_MB=$(calculate_max_heap)
+        MEM_SOFT_MB=$(calculate_soft_heap "$MEM_XMX_MB")
+        MEM_XMS_MB=$(calculate_initial_heap "$MEM_SOFT_MB" "$MEM_XMX_MB")
 
-        JAVA_OPTS="-Xms${MEM_XMS_MB}M -Xmx${MEM_XMX_MB}M -XX:SoftMaxHeapSize=${MEM_SOFT_MB}M \
-        -XX:+UnlockExperimentalVMOptions -XX:+UseZGC -XX:+ZGenerational \
-        -XX:+DisableExplicitGC -XX:+PerfDisableSharedMem"
+        local java_major
+        java_major=$(java_major_version)
+        local z_uncommit_delay_s="${SOLWORLD_ZUNCOMMIT_DELAY_S:-120}"
+        [[ "$z_uncommit_delay_s" =~ ^[0-9]+$ ]] || z_uncommit_delay_s=120
 
-        echo "[$(date '+%H:%M:%S')] 启动 Solworld (Xms: ${MEM_XMS_MB}M, Xmx: ${MEM_XMX_MB}M, SoftMax: ${MEM_SOFT_MB}M)..."
+        local gc_label="G1GC"
+        local use_softmax=false
+        local -a gc_opts=()
+
+        if [ "$java_major" -ge 21 ]; then
+            gc_label="ZGC (Generational)"
+            use_softmax=true
+            gc_opts=(
+                "-XX:+UnlockExperimentalVMOptions"
+                "-XX:+UseZGC"
+                "-XX:+ZGenerational"
+                "-XX:+ZUncommit"
+                "-XX:ZUncommitDelay=${z_uncommit_delay_s}"
+            )
+        elif [ "$java_major" -ge 17 ]; then
+            gc_label="ZGC"
+            use_softmax=true
+            gc_opts=(
+                "-XX:+UseZGC"
+                "-XX:+ZUncommit"
+                "-XX:ZUncommitDelay=${z_uncommit_delay_s}"
+            )
+        else
+            gc_opts=("-XX:+UseG1GC")
+        fi
+
+        local -a java_opts=(
+            "-Xms${MEM_XMS_MB}M"
+            "-Xmx${MEM_XMX_MB}M"
+            "-XX:+DisableExplicitGC"
+            "-XX:+PerfDisableSharedMem"
+        )
+        if [ "$use_softmax" = true ]; then
+            java_opts+=("-XX:SoftMaxHeapSize=${MEM_SOFT_MB}M")
+        fi
+        java_opts+=("${gc_opts[@]}")
+
+        if [ "$use_softmax" = true ]; then
+            echo "[$(date '+%H:%M:%S')] 启动 Solworld (GC: ${gc_label}, Xms: ${MEM_XMS_MB}M, Xmx: ${MEM_XMX_MB}M, SoftMax: ${MEM_SOFT_MB}M)..."
+        else
+            echo "[$(date '+%H:%M:%S')] 启动 Solworld (GC: ${gc_label}, Xms: ${MEM_XMS_MB}M, Xmx: ${MEM_XMX_MB}M)..."
+        fi
         
         if [[ -f "logs/latest.log" ]]; then
             local timestamp=$(date '+%Y%m%d_%H%M%S')
@@ -296,7 +355,7 @@ run_server() {
         fi
 
         # 运行引导程序
-        java $JAVA_OPTS -jar "$LAUNCH_JAR" nogui
+        java "${java_opts[@]}" -jar "$LAUNCH_JAR" nogui
         
         local exit_code=$?
         if [ $exit_code -eq 0 ]; then
