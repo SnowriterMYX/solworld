@@ -67,7 +67,7 @@
 	#Percentage chance of replace Allays spawn in pillager outposts with Maids
 	# Default: 0.2
 	# Range: 0.0 ~ 1.0
-	ReplaceAllayPercent = 0.2
+	ReplaceAllayPercent = 0.05
 	#Enable maid random emoji/kaomoji feature
 	EnableEmoji = true
 	#The check rate (in ticks) for maid to display random emoji/kaomoji
@@ -124,7 +124,7 @@
 	#Maid fairy's spawn probability (zombie is 100, enderman is 10)
 	# Default: 70
 	# Range: > 0
-	MaidFairySpawnProbability = 70
+	MaidFairySpawnProbability = 20
 	#The following dimension do not spawn maid fairy
 	MaidFairyBlacklistDimension = ["minecraft:the_nether", "minecraft:the_end", "twilightforest:twilight_forest"]
 	#Loss power point after player death
