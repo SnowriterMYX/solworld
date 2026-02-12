@@ -1746,7 +1746,7 @@ hash = "2c34f12a80c2a543d43002bb25e689d85a0d9e54d910bb8b2f6b80547ab0e217"
 
 [[files]]
 file = "config/waystones-common.toml"
-hash = "614687d8fc24da4f6c8a86945abd4be53a106574d2c9eb8e14c9bfec4acce4bc"
+hash = "cfb359fc26ce7a1ea9dbf3b87a843df4c6db80d000eccc43c1033f213a39eec3"
 
 [[files]]
 file = "config/wildernature.json"
