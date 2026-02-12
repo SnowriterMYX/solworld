@@ -1,0 +1,16 @@
+{
+  "filters": [
+    {
+      "id": "dimdoors:rift_stabilizer"
+    },
+    {
+      "id": "dimdoors:rift_remover"
+    },
+    {
+      "id": "dimdoors:rift_signature"
+    },
+    {
+      "category": "/^dimdoors:tesselating\\/.*/"
+    }
+  ]
+}

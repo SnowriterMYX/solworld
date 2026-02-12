@@ -1,0 +1,20 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "celestial_artifacts"
+      ]
+    }
+  ],
+  "entities": [
+    "touhou_little_maid:maid"
+  ],
+  "slots": [
+    "tlm/scroll",
+    "tlm/pendant",
+    "tlm/heart",
+    "tlm/catastrophe",
+    "tlm/etching"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "l2artifacts"
+      ]
+    }
+  ],
+  "entities": [
+    "touhou_little_maid:maid"
+  ],
+  "slots": [
+    "tlm/artifact_head",
+    "tlm/artifact_necklace",
+    "tlm/artifact_bracelet",
+    "tlm/artifact_body",
+    "tlm/artifact_belt"
+  ]
+}

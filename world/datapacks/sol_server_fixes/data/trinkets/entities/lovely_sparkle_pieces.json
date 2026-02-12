@@ -1,0 +1,25 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "lovely_sparkle_pieces"
+      ]
+    }
+  ],
+  "entities": [
+    "touhou_little_maid:maid"
+  ],
+  "slots": [
+    "tlm/legendarycurios",
+    "tlm/unlegendarycurios",
+    "tlm/boot",
+    "tlm/set_source",
+    "tlm/set_diverse",
+    "tlm/set_unity",
+    "tlm/set_threshold",
+    "tlm/set_final",
+    "tlm/glasses",
+    "tlm/hipornament"
+  ]
+}

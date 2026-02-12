@@ -7,9 +7,12 @@ versions/
 .fabric/
 .mixin.out/
 
-# 忽略服务器运行时数据
-world/
+# 忽略服务器运行时数据（但纳管 world/datapacks）
+world/*
+!world/datapacks/
+!world/datapacks/**
 logs/
+backup/
 backups/
 database.db
 EasyAuth/

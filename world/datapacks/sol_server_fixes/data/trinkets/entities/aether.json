@@ -1,0 +1,21 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "aether"
+      ]
+    }
+  ],
+  "entities": [
+    "touhou_little_maid:maid"
+  ],
+  "slots": [
+    "tlm/aether_accessory",
+    "tlm/aether_cape",
+    "tlm/aether_gloves",
+    "tlm/aether_pendant",
+    "tlm/aether_ring",
+    "tlm/aether_shield"
+  ]
+}
