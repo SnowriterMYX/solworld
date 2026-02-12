@@ -33,3 +33,5 @@ README.md
 *.mv.db
 *.tar.gz
 mods/luckperms/yaml-storage/uuidcache.txt
+
+云服务器与实际玩家日志
