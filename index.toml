@@ -1626,7 +1626,7 @@ hash = "499d188162ddcf7fcf450cdcdc96bd41ac582501ecad5ed4a74dd9ed6b01990a"
 
 [[files]]
 file = "config/textile_backup.json5"
-hash = "c71cad1f3952c5fa95cdedbfc5dafe1b8340ab7a73b0982ec5dc7751ce8d92d5"
+hash = "61aa4fbf1d1ea7eb0b3ff58ea0a1f7f12839be7ae9e3147599ec620b09b9a17a"
 
 [[files]]
 file = "config/toms_storage.json"
@@ -2249,11 +2249,6 @@ metafile = true
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
 hash = "c27a08b54ab9b474a57211f383f511d67fd0023035ee2e76d247667e15183e63"
-metafile = true
-
-[[files]]
-file = "mods/fabric-mail.pw.toml"
-hash = "c83ccbd5421724f277741582e4b49d0db124a21bee2a00ff34d9166ba2072c3e"
 metafile = true
 
 [[files]]
