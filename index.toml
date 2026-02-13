@@ -1758,7 +1758,7 @@ hash = "2c34f12a80c2a543d43002bb25e689d85a0d9e54d910bb8b2f6b80547ab0e217"
 
 [[files]]
 file = "config/waystones-common.toml"
-hash = "cfb359fc26ce7a1ea9dbf3b87a843df4c6db80d000eccc43c1033f213a39eec3"
+hash = "b8beb283dd0d740318764c52933214b288fed2994f064cda21a11fb498403a53"
 
 [[files]]
 file = "config/wildernature.json"
@@ -2277,6 +2277,11 @@ metafile = true
 [[files]]
 file = "mods/falling-leaves-fabric.pw.toml"
 hash = "722f94c721da0889916f43905a5536b2723e4da8a8dc69c592242d8e181ae1a8"
+metafile = true
+
+[[files]]
+file = "mods/fallingtree.pw.toml"
+hash = "a2ce5d9240b5fdad251561213c2dd44943e8b75232a1b9ded1b02140ed994c78"
 metafile = true
 
 [[files]]
