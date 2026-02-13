@@ -1,13 +1,13 @@
 name = "Solworld"
 author = "Snowriter"
-version = "0.1.0.50"
+version = "0.1.0.51"
 description = "Ciallo～(∠・ω< )⌒☆ 欢迎来到 Solworld！祝你在这个世界玩得开心！"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "2c77df00421c5ec6d6e2258f0ecc67fad96b799eeecb9a49330f5ebc1e6cbe1a"
+hash = "96a983c245532574f4ea02614689e8a419785e2ed58732e5d0af6de93f36e52d"
 
 [versions]
 fabric = "0.18.4"

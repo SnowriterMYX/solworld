@@ -886,7 +886,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "548d1a65cb6e39cfdb33d9c2bf9cb37db8baf4110f6ba54bd329309a232c415f"
+hash = "66e1549d1322f7505b7be89b1276b21848f20d3a31a8b6f407ba6feacbc75f99"
 
 [[files]]
 file = "config/jade/usernamecache.json"
@@ -927,6 +927,14 @@ hash = "071cbf99c7d933fbd27e08753aa49711c020650cc971d547cb0af9c07d2ceebf"
 [[files]]
 file = "config/journeymap-server.json"
 hash = "2b77ff82093eb3698b79b2b953806855d1880d414544a8158f41b028d8e293ca"
+
+[[files]]
+file = "config/kaleidoscope_cookery-common.toml"
+hash = "4f51c08280f9c6416530ef56a1140b7e73c980b89a30c4bd19e501d54f1ade88"
+
+[[files]]
+file = "config/kaleidoscope_doll-common.toml"
+hash = "848870f819b4950f67cc2f00022ba7aa73a5ef7d3eebe847ae64328b75520de7"
 
 [[files]]
 file = "config/lambdynlights.toml"
@@ -1426,7 +1434,7 @@ hash = "209ef74751243270cca3056ce85f90f55791f45b35e9bc1a06000ad681211abe"
 
 [[files]]
 file = "config/scalablelux.properties"
-hash = "ae44282a670f4e612e1555a450259e0cfaf1ebe7277adca41683d1579fc0fcb6"
+hash = "17dc22c265087b9270ca62daa7a221401150a0d68991d0607a968f1adad4305c"
 
 [[files]]
 file = "config/sereneseasons/fertility.toml"
@@ -1614,7 +1622,7 @@ hash = "499d188162ddcf7fcf450cdcdc96bd41ac582501ecad5ed4a74dd9ed6b01990a"
 
 [[files]]
 file = "config/textile_backup.json5"
-hash = "61aa4fbf1d1ea7eb0b3ff58ea0a1f7f12839be7ae9e3147599ec620b09b9a17a"
+hash = "c4e24f55062fb2c63603366f3ebc6fa3ea26b87a23144f42d207cdd2b6fc2070"
 
 [[files]]
 file = "config/toms_storage.json"
@@ -1710,7 +1718,7 @@ hash = "db3a2a559ddbdb5a40c2e7e1b3afd88dd5def2fd35c0af17a1ba4bb967d9be88"
 
 [[files]]
 file = "config/vmp.properties"
-hash = "713a63e0c70662de8cb5f67dfd473a7e81619ca3878a61a9023f9ef7c3eb7535"
+hash = "68238b25621fc76fee92a3edbe187499570c8ac991d5d478cea715f5cfc5f240"
 
 [[files]]
 file = "config/voicechat/category-volumes.properties"
