@@ -577,6 +577,14 @@ file = "config/cristellib/terralith/structure_toggle_config.json5"
 hash = "b2b1510673394f1558f80f11c479a7619414a91691139a5cc43d5e3b3d233da1"
 
 [[files]]
+file = "config/cristellib/totw_modded/structure_placement_config.json5"
+hash = "ea6d1b7d369e04fada5a3ce88137f9bcc147983ffd02c405603d4517e3be9e1a"
+
+[[files]]
+file = "config/cristellib/totw_modded/structure_toggle_config.json5"
+hash = "6fcd73031f4e1493173cdb0b37f8233e255bb2705ce5c773917953c5fd9afee1"
+
+[[files]]
 file = "config/crittersandcompanions-common.toml"
 hash = "b41faec1c7b047a92f50c24dd0a03e8255974974440ad0442e0c6bcc5d33e252"
 
@@ -1434,7 +1442,7 @@ hash = "209ef74751243270cca3056ce85f90f55791f45b35e9bc1a06000ad681211abe"
 
 [[files]]
 file = "config/scalablelux.properties"
-hash = "1bea16c74775612d4be1305be59c7a82d53aa3f863a87313861493c315e7f400"
+hash = "6f7aad60432a40fec010ab396a348f3a35b537dc65be89552587ac66dcc55a41"
 
 [[files]]
 file = "config/sereneseasons/fertility.toml"
@@ -1661,6 +1669,10 @@ file = "config/transition.json"
 hash = "6c0060c7301372bbc414f86a139b383e34fb620f0621badd71bb19efc3f26767"
 
 [[files]]
+file = "config/trashslot-common.toml"
+hash = "3349153e9cb33227c5fd3b597fcea5ccbd480a6e5396b19004cbea07365ec433"
+
+[[files]]
 file = "config/travelersbackpack.json5"
 hash = "731cabc337b42f909b1498ed5ae2b519fb2bf3b52fd3362ed674190d6fac7b4a"
 
@@ -1718,7 +1730,7 @@ hash = "db3a2a559ddbdb5a40c2e7e1b3afd88dd5def2fd35c0af17a1ba4bb967d9be88"
 
 [[files]]
 file = "config/vmp.properties"
-hash = "0b419663a1fa28a9a3a97608c62e49fd79c4c367c8136335964f035414412251"
+hash = "ab7d2cfb7669c699bc7d1f14f26f5136e0ba8d341a672841261be6d3599ac4e3"
 
 [[files]]
 file = "config/voicechat/category-volumes.properties"
@@ -2175,11 +2187,6 @@ metafile = true
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "582070fa54fe1743a837c0351eee7ea4a79080e647d5438656d372ae9433b272"
-metafile = true
-
-[[files]]
-file = "mods/dynamiccrosshair.pw.toml"
-hash = "08154559c426512b546b5c270c6ab01cdabc09dad78b693e1213f5539e15f56c"
 metafile = true
 
 [[files]]
