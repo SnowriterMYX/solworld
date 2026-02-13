@@ -1434,7 +1434,7 @@ hash = "209ef74751243270cca3056ce85f90f55791f45b35e9bc1a06000ad681211abe"
 
 [[files]]
 file = "config/scalablelux.properties"
-hash = "de704875a61708bbb78992cb492178dae0acf982b166221729c1f16d124f55d7"
+hash = "2d6187abe74de25ae6b14cb6dd2c905f87bb69f092b5cc91e8ca7a2bbdc39329"
 
 [[files]]
 file = "config/sereneseasons/fertility.toml"
@@ -1718,7 +1718,7 @@ hash = "db3a2a559ddbdb5a40c2e7e1b3afd88dd5def2fd35c0af17a1ba4bb967d9be88"
 
 [[files]]
 file = "config/vmp.properties"
-hash = "e5249b93beee014bec8539bee4710039fbcb9933e5abf523ddc74b6a0ce09448"
+hash = "1d8ea024edbfa0c5b94e10f7d478f3281a6e810bf7aac638dea8ed558aca5bf3"
 
 [[files]]
 file = "config/voicechat/category-volumes.properties"
@@ -2818,6 +2818,11 @@ metafile = true
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "55a727cabdd9d6e84fb0232b49d0dfa207751002e7f1f63b959baa35e2f29868"
+metafile = true
+
+[[files]]
+file = "mods/regsyncfix.pw.toml"
+hash = "8c5e091f9ba1228c91ce49d5da218751ba48522fd0d587aff8774fc2ba7c1bfc"
 metafile = true
 
 [[files]]
