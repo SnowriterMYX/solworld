@@ -1855,16 +1855,6 @@ hash = "bd0848389894ffe9850efb36210060ff0ac3cc31c74af7f80a897de05df4caa2"
 metafile = true
 
 [[files]]
-file = "mods/_disabled/emi.pw.toml"
-hash = "60e6720aafdfa3304b086f7465917179485a3b2463230505728bd24d54113de3"
-metafile = true
-
-[[files]]
-file = "mods/_disabled/lets-do-emi-compat.pw.toml"
-hash = "738c1ea31e5da9d536c433eaa2182407fd5730d04f4db33b9eccce64ea3c10fe"
-metafile = true
-
-[[files]]
 file = "mods/adventurez.pw.toml"
 hash = "b83be649099ba1f38968a9d331acbfb36e6a45863c290a0ddc8f55b010d74422"
 metafile = true
