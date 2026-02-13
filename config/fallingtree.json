@@ -29,14 +29,22 @@
     "trunkLootPercentage": 1.0
   },
   "tools": {
-    "allowed": [],
-    "denied": [],
+    "allowed": [
+      "minecraft:golden_axe"
+    ],
+    "denied": [
+      "minecraft:wooden_axe",
+      "minecraft:stone_axe",
+      "minecraft:iron_axe",
+      "minecraft:diamond_axe",
+      "minecraft:netherite_axe"
+    ],
     "durabilityMode": "NORMAL",
     "ignoreTools": false,
     "damageMultiplicand": 1.0,
     "damageRounding": "ROUND_DOWN",
     "speedMultiplicand": 0.1,
-    "forceToolUsage": false
+    "forceToolUsage": true
   },
   "player": {
     "allowedTags": []
@@ -44,7 +52,7 @@
   "enchantment": {
     "requireEnchantment": false
   },
-  "sneakMode": "SNEAK_ENABLE",
+  "sneakMode": "SNEAK_DISABLE",
   "breakInCreative": false,
   "lootInCreative": true,
   "notificationMode": "ACTION_BAR"
