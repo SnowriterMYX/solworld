@@ -1730,7 +1730,7 @@ hash = "db3a2a559ddbdb5a40c2e7e1b3afd88dd5def2fd35c0af17a1ba4bb967d9be88"
 
 [[files]]
 file = "config/vmp.properties"
-hash = "ab7d2cfb7669c699bc7d1f14f26f5136e0ba8d341a672841261be6d3599ac4e3"
+hash = "b7a3a04ce444ee4e449d7375df8c80fd1d999d53661a9c73d0f359789bb2f081"
 
 [[files]]
 file = "config/voicechat/category-volumes.properties"
@@ -2281,7 +2281,7 @@ metafile = true
 
 [[files]]
 file = "mods/fallingtree.pw.toml"
-hash = "a2ce5d9240b5fdad251561213c2dd44943e8b75232a1b9ded1b02140ed994c78"
+hash = "7d61ad815f97afb27f7e97475e80376aa19fecf25a1b04a500a4c3a6e5055973"
 metafile = true
 
 [[files]]
