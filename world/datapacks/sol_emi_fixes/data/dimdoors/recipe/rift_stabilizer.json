@@ -1,18 +1,22 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "key": {
-    "#": {
-      "tag": "dimdoors:diamonds"
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
     },
-    "X": {
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
       "item": "minecraft:ender_pearl"
     }
-  },
-  "pattern": [
-    " # ",
-    "#X#",
-    " # "
   ],
   "result": {
     "count": 1,

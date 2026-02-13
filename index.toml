@@ -1434,7 +1434,7 @@ hash = "209ef74751243270cca3056ce85f90f55791f45b35e9bc1a06000ad681211abe"
 
 [[files]]
 file = "config/scalablelux.properties"
-hash = "17dc22c265087b9270ca62daa7a221401150a0d68991d0607a968f1adad4305c"
+hash = "de704875a61708bbb78992cb492178dae0acf982b166221729c1f16d124f55d7"
 
 [[files]]
 file = "config/sereneseasons/fertility.toml"
@@ -1718,7 +1718,7 @@ hash = "db3a2a559ddbdb5a40c2e7e1b3afd88dd5def2fd35c0af17a1ba4bb967d9be88"
 
 [[files]]
 file = "config/vmp.properties"
-hash = "68238b25621fc76fee92a3edbe187499570c8ac991d5d478cea715f5cfc5f240"
+hash = "e5249b93beee014bec8539bee4710039fbcb9933e5abf523ddc74b6a0ce09448"
 
 [[files]]
 file = "config/voicechat/category-volumes.properties"
@@ -1840,6 +1840,16 @@ hash = "bf6bb4517e9ce2122892bc60cde36073d5bb84c6302f4e991295731fa9616772"
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "bd0848389894ffe9850efb36210060ff0ac3cc31c74af7f80a897de05df4caa2"
+metafile = true
+
+[[files]]
+file = "mods/_disabled/emi.pw.toml"
+hash = "60e6720aafdfa3304b086f7465917179485a3b2463230505728bd24d54113de3"
+metafile = true
+
+[[files]]
+file = "mods/_disabled/lets-do-emi-compat.pw.toml"
+hash = "738c1ea31e5da9d536c433eaa2182407fd5730d04f4db33b9eccce64ea3c10fe"
 metafile = true
 
 [[files]]
@@ -2183,11 +2193,6 @@ hash = "f3048ad9d895d2abd7bde8012a29d1ea5359a16ffd5d7de70784a9a720828057"
 metafile = true
 
 [[files]]
-file = "mods/emi.pw.toml"
-hash = "60e6720aafdfa3304b086f7465917179485a3b2463230505728bd24d54113de3"
-metafile = true
-
-[[files]]
 file = "mods/enchantment-descriptions.pw.toml"
 hash = "f7bb88ccf59b362d533cef59b28b0cab3ef017ad7462dfbe0daae2a0aa30032e"
 metafile = true
@@ -2485,11 +2490,6 @@ metafile = true
 [[files]]
 file = "mods/lets-do-candlelight-farmcharm-compat.pw.toml"
 hash = "a4f066107058ba62f5e1ef3a588c16c51571f3555585ecee4dd3c4ffc65c6255"
-metafile = true
-
-[[files]]
-file = "mods/lets-do-emi-compat.pw.toml"
-hash = "738c1ea31e5da9d536c433eaa2182407fd5730d04f4db33b9eccce64ea3c10fe"
 metafile = true
 
 [[files]]
@@ -3239,6 +3239,10 @@ metafile = true
 [[files]]
 file = "resourcepacks/§d§lHide Armor§8§o §8v1.4.0.zip"
 hash = "0105e155d3113c4621ba441dbb9c6fdf40d8604b426b9df98662627430b7ee6d"
+
+[[files]]
+file = "scripts/strip-server-only-mods.sh"
+hash = "d4fd890546cc7c783a8b1840bbda72e96f966822a60f9447647479431556b258"
 
 [[files]]
 file = "shaderpacks/BSL_v10.1.zip"
