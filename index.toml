@@ -3107,6 +3107,11 @@ hash = "20d3e099a09985abf7aa79d5483c5464f141ef3006987dda0061c53657257a26"
 metafile = true
 
 [[files]]
+file = "mods/vanilla-permissions.pw.toml"
+hash = "9f3e865adc7318ec2072cd02a9d7f3dad9e4c1214249c04ebfdefcc39336b2e7"
+metafile = true
+
+[[files]]
 file = "mods/villagerapi.pw.toml"
 hash = "05c79320986967fad6288a8c002f8dd94abd326e52740ee2d39ebb25981b8a8c"
 metafile = true
