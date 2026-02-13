@@ -378,7 +378,7 @@ hash = "18021e8f7a032a03f4901b45cf1be5b87275e4797f906318504071bf21c3d4e2"
 
 [[files]]
 file = "config/creeperoverhaul.jsonc"
-hash = "d8088bd461dd7666552c4174bac6549e55112728e07aa3addd0e32a805c230fc"
+hash = "c7868e757d7842e0c8076a1a9aa5ecf74d0b56cc8b90ae2a264859ea72774839"
 
 [[files]]
 file = "config/crepperoverhaul-client.jsonc"
@@ -715,6 +715,10 @@ hash = "d3b1d95d9f4e7304d79202b0b26f51e5d33f461e1416ecda25cb9a2bc8effbe3"
 [[files]]
 file = "config/fallingleaves2.json"
 hash = "cb9d4d481a63cddaf7e90a3e3f8c5bb134cd0be8f1401b1f808c55bf0ab4572f"
+
+[[files]]
+file = "config/fallingtree.json"
+hash = "08bd2820e1e77359c3b146a33af87b2514c3a4d99edfe3f3b06039653a429b09"
 
 [[files]]
 file = "config/farm_and_charm.json"
@@ -1442,7 +1446,7 @@ hash = "209ef74751243270cca3056ce85f90f55791f45b35e9bc1a06000ad681211abe"
 
 [[files]]
 file = "config/scalablelux.properties"
-hash = "6f7aad60432a40fec010ab396a348f3a35b537dc65be89552587ac66dcc55a41"
+hash = "2857f61c96021139f784357c76edded14cae7b2244046e971d1447a354439442"
 
 [[files]]
 file = "config/sereneseasons/fertility.toml"
@@ -1730,7 +1734,7 @@ hash = "db3a2a559ddbdb5a40c2e7e1b3afd88dd5def2fd35c0af17a1ba4bb967d9be88"
 
 [[files]]
 file = "config/vmp.properties"
-hash = "b7a3a04ce444ee4e449d7375df8c80fd1d999d53661a9c73d0f359789bb2f081"
+hash = "b5f37ea0d4162f5aa11ccb9e69832f703aa964df7e36ca6431a8b91777975e84"
 
 [[files]]
 file = "config/voicechat/category-volumes.properties"
@@ -2105,6 +2109,11 @@ hash = "7f361858a21c11df25c4b782c659159744927c8c36175efeb8cc5c1fb7dbbded"
 metafile = true
 
 [[files]]
+file = "mods/creeper-no-break-blocks.pw.toml"
+hash = "52e98ec388bcf2283bd11fb0b8095da4c2cd3653c5211c564e001f86560e30b7"
+metafile = true
+
+[[files]]
 file = "mods/creeper-overhaul.pw.toml"
 hash = "992fd54a7f8c0b61a0dc59458cb09b965eb5f3d7cf06a256a81970424a70332a"
 metafile = true
@@ -2261,7 +2270,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "0364a64e7f6515dccf92e10512c81178b7afeb1ae031f8024620892769e69313"
+hash = "49884f2d7db0e731facf0aa70cf2038dd513624c450cba773a8ca7a47e53953b"
 metafile = true
 
 [[files]]
