@@ -1434,7 +1434,7 @@ hash = "209ef74751243270cca3056ce85f90f55791f45b35e9bc1a06000ad681211abe"
 
 [[files]]
 file = "config/scalablelux.properties"
-hash = "4a23adcdc6cc5118d00509beadb6562521fae7d6e7ff33324ce6bcf3d2e03dd4"
+hash = "1bea16c74775612d4be1305be59c7a82d53aa3f863a87313861493c315e7f400"
 
 [[files]]
 file = "config/sereneseasons/fertility.toml"
@@ -1718,7 +1718,7 @@ hash = "db3a2a559ddbdb5a40c2e7e1b3afd88dd5def2fd35c0af17a1ba4bb967d9be88"
 
 [[files]]
 file = "config/vmp.properties"
-hash = "5622243a54bc1d2891f6d5062878f7804e4ffc133f2412d6b85c3cbf3ca730cc"
+hash = "0b419663a1fa28a9a3a97608c62e49fd79c4c367c8136335964f035414412251"
 
 [[files]]
 file = "config/voicechat/category-volumes.properties"
@@ -1978,6 +1978,11 @@ hash = "6d4de3bf124c98a61c022477e07c8386940d4804001f5f71b322c9b1b74cb5c2"
 metafile = true
 
 [[files]]
+file = "mods/bookshelf.pw.toml"
+hash = "c029c45f0f8566179de05ce57a72c0feb492523d9b90828bb27b81239031f662"
+metafile = true
+
+[[files]]
 file = "mods/bosses-of-mass-destruction.pw.toml"
 hash = "fad01ec8fe750cdb84c278965b12132c24111ef40bd99824c00216c409f0526e"
 metafile = true
@@ -2000,6 +2005,11 @@ metafile = true
 [[files]]
 file = "mods/brb.pw.toml"
 hash = "d99fd98e6daf4ab8474c727d3e0a653ac800a714b3ef5799e7950129b4f255fe"
+metafile = true
+
+[[files]]
+file = "mods/bridging-mod.pw.toml"
+hash = "8e4a7b379a7bf59a434ef62a8d4f2fa0e57c9606f43ca4477ecf8d770265c5b1"
 metafile = true
 
 [[files]]
@@ -2168,6 +2178,11 @@ hash = "582070fa54fe1743a837c0351eee7ea4a79080e647d5438656d372ae9433b272"
 metafile = true
 
 [[files]]
+file = "mods/dynamiccrosshair.pw.toml"
+hash = "08154559c426512b546b5c270c6ab01cdabc09dad78b693e1213f5539e15f56c"
+metafile = true
+
+[[files]]
 file = "mods/easy-anvils.pw.toml"
 hash = "c03848ab316f8f8e07656e08c675541ce90f0ad729d5b31df336fe8f27a58b3f"
 metafile = true
@@ -2194,7 +2209,7 @@ metafile = true
 
 [[files]]
 file = "mods/enchantment-descriptions.pw.toml"
-hash = "f7bb88ccf59b362d533cef59b28b0cab3ef017ad7462dfbe0daae2a0aa30032e"
+hash = "b116aa5c24c335312737e1a816359496da7fbc9cb41b303e836827eea56ab362"
 metafile = true
 
 [[files]]
@@ -2244,7 +2259,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "49884f2d7db0e731facf0aa70cf2038dd513624c450cba773a8ca7a47e53953b"
+hash = "0364a64e7f6515dccf92e10512c81178b7afeb1ae031f8024620892769e69313"
 metafile = true
 
 [[files]]
@@ -2807,7 +2822,7 @@ metafile = true
 
 [[files]]
 file = "mods/prickle.pw.toml"
-hash = "122659d423e8fe5c47b4121bf382e5ceea0ea2c644cd0a08d577cf58ef55d495"
+hash = "910b7d375f82f0f733cd90246ba6f67b9a05e9363880163555dc5ffeebff84e0"
 metafile = true
 
 [[files]]
@@ -3011,6 +3026,11 @@ hash = "348dd12cb5be40046c86b4467a522ab6973b6d612fbcc9a48fa9be2e0eea6487"
 metafile = true
 
 [[files]]
+file = "mods/totw-modded.pw.toml"
+hash = "f7c14947970c8de4dfbaf32e48cba47cf504fccaf89562d078f7eebab45d1e6a"
+metafile = true
+
+[[files]]
 file = "mods/touhoulittlemaid-orihime.pw.toml"
 hash = "34f26d3f416e9ce8a37f30268446df699445780d42003d9065ae471230136752"
 metafile = true
@@ -3028,6 +3048,16 @@ metafile = true
 [[files]]
 file = "mods/trash-cans.pw.toml"
 hash = "f79709f5695efb597d43457a3e21cc3bf1c7edce7a3258b6bbfcb456c9d08759"
+metafile = true
+
+[[files]]
+file = "mods/trashslot.pw.toml"
+hash = "db272744a92c1392cce55a0da903016f05e9c53f7e11a5582309fbfa9b1a72b5"
+metafile = true
+
+[[files]]
+file = "mods/travelers-titles.pw.toml"
+hash = "ffbe86f7b3e1108d5abae3d1a53a7d1ea62dc5a4ec83ed440781ddec228139a3"
 metafile = true
 
 [[files]]
