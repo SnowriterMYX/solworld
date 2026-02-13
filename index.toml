@@ -337,14 +337,6 @@ file = "config/cardinal-components-api.properties"
 hash = "8d3ae8c9240fc60475fbb98a87b7e2e0874703b173a449fb346fb0857ada7bba"
 
 [[files]]
-file = "config/carryon-client.json"
-hash = "9909d01cf9427ea5d70a66b5c52d2fb7c5e414d410c2e20ae58460661e780de5"
-
-[[files]]
-file = "config/carryon-common.json"
-hash = "9aacfa29cc077a92f2e601daf6b60a2d85e8731aa5b239d1ac86f96e89461420"
-
-[[files]]
 file = "config/chalk.properties"
 hash = "a7204a67feac23416608d2c5d54afd2a9f827db52c34af9f6666ec9abb543617"
 
@@ -2000,11 +1992,6 @@ metafile = true
 [[files]]
 file = "mods/cardinal-components-api.pw.toml"
 hash = "0c345c80310a4bd58c757e43d6060338a85d34eaffcb674a6e9cbf22ecbc9cb8"
-metafile = true
-
-[[files]]
-file = "mods/carry-on.pw.toml"
-hash = "6a492387f6348192bcb9e2ee15f9be142100648ce60080a75f980185cb66ee13"
 metafile = true
 
 [[files]]
