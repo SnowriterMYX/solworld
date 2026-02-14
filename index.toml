@@ -1233,182 +1233,6 @@ file = "config/pl3xmap/locale/lang-pl.yml"
 hash = "9c71ef416190c68aab4bec1449810d2fb160a6d6899e4a319269355322ac211c"
 
 [[files]]
-file = "config/pl3xmap/web/favicon.ico"
-hash = "14ab271b0fda2b76fc652cf30858c738f82ac4a5961c373033236cfc95c27ccd"
-
-[[files]]
-file = "config/pl3xmap/web/images/armor.png"
-hash = "3f8b9d740fac87067ff215ef4760be07ef340ebcba45aa534583957213c0585d"
-
-[[files]]
-file = "config/pl3xmap/web/images/clear.png"
-hash = "3eb10792d1f0c7e07e7248273540f1952d9a5a2996f4b5df70ab026cd9f05517"
-
-[[files]]
-file = "config/pl3xmap/web/images/foliage.png"
-hash = "e6de003a6ccb84c05d5f19bf337d7b86a987e689007363f13627ad87977a3ed0"
-
-[[files]]
-file = "config/pl3xmap/web/images/grass.png"
-hash = "1450fdf2f4fd6d4571fe19641b6d412d850014e9fdc10f5a33e21f446a7d4ac4"
-
-[[files]]
-file = "config/pl3xmap/web/images/health.png"
-hash = "a4329ac567c6a678f67ef275f90b27741a8151b4f9bc555a2b763c1ec1036a7d"
-
-[[files]]
-file = "config/pl3xmap/web/images/icon/flowermap.png"
-hash = "cebd3870516dd1006ecd8e879f381f5b6d5fd4f3c3ca7b0f772b285d70e06963"
-
-[[files]]
-file = "config/pl3xmap/web/images/icon/inhabited.png"
-hash = "87c2a3e1e71172548134bcdd2de67007409160e302600558de41f298cd384ad4"
-
-[[files]]
-file = "config/pl3xmap/web/images/icon/marker-icon.png"
-hash = "574c3a5cca85f4114085b6841596d62f00d7c892c7b03f28cbfa301deb1dc437"
-
-[[files]]
-file = "config/pl3xmap/web/images/icon/marker-shadow.png"
-hash = "264f5c640339f042dd729062cfc04c17f8ea0f29882b538e3848ed8f10edb4da"
-
-[[files]]
-file = "config/pl3xmap/web/images/icon/nether_basic.png"
-hash = "79e0c55d6e5637027ed2a53ddce8ff63747074cf2b46323d35b3d149826a1fb5"
-
-[[files]]
-file = "config/pl3xmap/web/images/icon/nether_biomes.png"
-hash = "7e1dca922280b7b67d57c5ae396a9e8fea5af87ba9511abea85e90ece02e964c"
-
-[[files]]
-file = "config/pl3xmap/web/images/icon/nether_night.png"
-hash = "f535d4729e2cd29d823ab6ef32785729c21f7e5128da84727537ddd8d0930401"
-
-[[files]]
-file = "config/pl3xmap/web/images/icon/nether_roof.png"
-hash = "1315035b77c4095c7635a7eb784ca8a42ba09a56159f522f3302ad865c342bfa"
-
-[[files]]
-file = "config/pl3xmap/web/images/icon/overworld_basic.png"
-hash = "0b067960c327004bd2f76cf0453002daa7a6198a5b2671a3cfcd898ec417a754"
-
-[[files]]
-file = "config/pl3xmap/web/images/icon/overworld_biomes.png"
-hash = "2965a53eccc5ed399ae331569d257cdf0c12f8ddc1e81e9c47cc795d88bb3380"
-
-[[files]]
-file = "config/pl3xmap/web/images/icon/overworld_night.png"
-hash = "fb62b1359c0b91800f09945c2fab42354c3f274eb6be17c2f516d3832a032ef2"
-
-[[files]]
-file = "config/pl3xmap/web/images/icon/players.png"
-hash = "2a16106c664611227774899b3ff390b766e4301aa7febedb15ebca6616483f5d"
-
-[[files]]
-file = "config/pl3xmap/web/images/icon/registered/nether_basic.png"
-hash = "551cff0c0c8d7dfa5499f8c19dec868cb61fc27464715d537bdeb56c5c4b72f6"
-
-[[files]]
-file = "config/pl3xmap/web/images/icon/registered/overworld_basic.png"
-hash = "cfd1219f6b5b396f07e89391a2f56b572b1d1afb85724abe99490d6f44b67c72"
-
-[[files]]
-file = "config/pl3xmap/web/images/icon/registered/players.png"
-hash = "0be72e9375a3e992768a372921f72ae3e97392313a52258780c9f3b26cb9cd34"
-
-[[files]]
-file = "config/pl3xmap/web/images/icon/registered/spawn.png"
-hash = "9eb8295f8636d67b843cf62b526cebea0e25d90a2650cd54ecd6b063d2d6c0dc"
-
-[[files]]
-file = "config/pl3xmap/web/images/icon/registered/the_end_basic.png"
-hash = "2ed4ad73bbf425c6c6ab3569303d3b9ac17853441366439c246ca40c5e9226ac"
-
-[[files]]
-file = "config/pl3xmap/web/images/icon/spawn.png"
-hash = "ba2155bd3479286bc37b5cba45d362833ca530d3a14a65cb6621da2a096baf23"
-
-[[files]]
-file = "config/pl3xmap/web/images/icon/the_end_basic.png"
-hash = "61ff6a2906a794b7b7feee03b11af4c9493322c1eaf82a33eadf8acef56191fc"
-
-[[files]]
-file = "config/pl3xmap/web/images/icon/the_end_biomes.png"
-hash = "6d3ba7a23f7591598e3320ba6c727a5d1e6e4301707b98b1be2963ce39cfc9d8"
-
-[[files]]
-file = "config/pl3xmap/web/images/icon/the_end_night.png"
-hash = "87789533c9f429fe6cde77a5bc80a32a37838636ea11cf54e19ef51f7d180d00"
-
-[[files]]
-file = "config/pl3xmap/web/images/icon/vanilla.png"
-hash = "578ad21b84498cb97a117d88d2bdb0d1085cc803c3f7f1691566401c1e3eb38d"
-
-[[files]]
-file = "config/pl3xmap/web/images/og.png"
-hash = "6f6023cf48ef629b065b55e1a2f9d0bc94d5e1b1826088aea10cdff561547788"
-
-[[files]]
-file = "config/pl3xmap/web/images/sky/nether.png"
-hash = "c6eb05d1c9ecbfb6398cd4c8ecf81327982b2c65c3fa7427cdb4c5d4ebae630c"
-
-[[files]]
-file = "config/pl3xmap/web/images/sky/overworld.png"
-hash = "b97ff383a87ce41345b62672e7cf4ebb2c9842759a1eba98bfbb475e619f40a5"
-
-[[files]]
-file = "config/pl3xmap/web/images/sky/the_end.png"
-hash = "d530954824c3f74365aca0773df1635b9df45a36e4fbdd8a355d58cfec6dff54"
-
-[[files]]
-file = "config/pl3xmap/web/index.html"
-hash = "2bb2988fa18c562ca6c46e2e9cae6885d36379b098a0e7b0aef52c906f7073a7"
-
-[[files]]
-file = "config/pl3xmap/web/lang/en_pt.json"
-hash = "2f234202e701b21bd4f551985c9db397f24f200fe985ffc7e4a869b1ae166e51"
-
-[[files]]
-file = "config/pl3xmap/web/lang/en_us.json"
-hash = "23b13a89add749b5d5f60e365247639fdda5051798af1967bfeb8c9b6e1634e4"
-
-[[files]]
-file = "config/pl3xmap/web/lang/pl_pl.json"
-hash = "266706ec2b2a500637547234a87b33c90100c2e2b3c03ca4c536cc0b56394dfe"
-
-[[files]]
-file = "config/pl3xmap/web/leaflet.css"
-hash = "8019239da4581f1f6e252ab09e0066697ce592dd88b060fc0455b33a0089b26d"
-
-[[files]]
-file = "config/pl3xmap/web/leaflet.js"
-hash = "6e7819d4d290bc3663a328ae91969b07912f9fa8cfd268295e62cada70c0bb49"
-
-[[files]]
-file = "config/pl3xmap/web/leaflet.js.map"
-hash = "600a10dc5cd110de0699510d322afcbe01c7ca90b4c5f48adc20314c70aac753"
-
-[[files]]
-file = "config/pl3xmap/web/modern-normalize.css"
-hash = "b1d568614de51d01f622d45caf58699ca88c252241b6942f0b9d390be5efc64c"
-
-[[files]]
-file = "config/pl3xmap/web/pl3xmap.js"
-hash = "5db3942d052deb914c0b95049ea0db13f2c5df6294177b563c493e72ca2417a3"
-
-[[files]]
-file = "config/pl3xmap/web/pl3xmap.js.map"
-hash = "f1c578940a2cc56a6bff57253a9ab483aef39c20dfe0913740e84970dc22b230"
-
-[[files]]
-file = "config/pl3xmap/web/styles.css"
-hash = "65ff7c20e80f50266c6f0f9e6f3fef1da623a31d9e32a57b32b63b9c39d86255"
-
-[[files]]
-file = "config/pl3xmap/web/styles.css.map"
-hash = "ac18c2fb4a831590529390b4f9c4e167a06dc0587475607a910e81395c4569c2"
-
-[[files]]
 file = "config/polymer/common.json"
 hash = "310dee45deffb1f13169492bf25cee00503e91403daa8cffa653939feb76cc03"
 
@@ -1848,10 +1672,6 @@ hash = "2df9b3928c960814187d6b54da904dbce05b54818801a675c7b56d101922d510"
 file = "datapacks/blazeandcaves-advancements-pack.pw.toml"
 hash = "5c6a762d84b87b19b50e3e9ab89a0d0e446f7d915e9b1f7ee40379a90826e929"
 metafile = true
-
-[[files]]
-file = "fabric-server-launcher.properties"
-hash = "bf6bb4517e9ce2122892bc60cde36073d5bb84c6302f4e991295731fa9616772"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -3124,11 +2944,6 @@ metafile = true
 [[files]]
 file = "mods/visuality.pw.toml"
 hash = "39426bfeeab22ea17f94fd3904dd9b78f9a3c9b4ddcb732b734ddbfd0e3568af"
-metafile = true
-
-[[files]]
-file = "mods/vmp-fabric.pw.toml"
-hash = "99cc4bdfa44196b887c0b6ea48622f89a6a004866a9af47b929dabe5331e2605"
 metafile = true
 
 [[files]]
