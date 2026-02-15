@@ -3,11 +3,11 @@ filename = "Villager-API-1.21.1-fabric-1.26.1.3.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "9961a1027daa4dc3f9731bc6ebc04ab3169cfc5d"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/9Tp2Becg/versions/5cNuAKiT/Villager-API-1.21.1-fabric-1.26.1.3.jar"
+hash-format = "sha512"
+hash = "71841fe1ecdb17fc5273c20e7490ba8a068706d1597d12eebb1bdabf0dd524afd41292076b3479f521dd362c92734f28b26f7bb7a4186853f1a204de6a60b0de"
 
 [update]
-[update.curseforge]
-file-id = 7533483
-project-id = 1396381
+[update.modrinth]
+mod-id = "9Tp2Becg"
+version = "5cNuAKiT"

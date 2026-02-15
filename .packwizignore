@@ -12,6 +12,9 @@ better-fabric-console/
 dynamic-data-pack-cache/
 libraries/
 versions/
+output/
+.packwiz-cache/
+.tmp/
 server.properties
 eula.txt
 usercache.json

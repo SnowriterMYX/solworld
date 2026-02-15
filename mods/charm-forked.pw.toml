@@ -3,11 +3,11 @@ filename = "charm-fabric-1.21.1-7.0.42-forked.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "8eceee41a7a378d27e4685f996c159c1476f9831"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/lz0ymQav/versions/Cgl4TjDT/charm-fabric-1.21.1-7.0.42-forked.jar"
+hash-format = "sha512"
+hash = "50b5c170a07b5f407df16bc3895e4e6afad1bc98129a1b079383e306d0a9ff9c66eac5647ddada0707dd1e9315430a942400b92923133dd890898bfe9ee8f89c"
 
 [update]
-[update.curseforge]
-file-id = 6143797
-project-id = 1016482
+[update.modrinth]
+mod-id = "lz0ymQav"
+version = "Cgl4TjDT"

@@ -3,11 +3,11 @@ filename = "cookingforblockheads-fabric-1.21.1-21.1.17.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "2ade253af12149fa377920950cfd16b60a297e4b"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/vJnhuDde/versions/O6E1qlSM/cookingforblockheads-fabric-1.21.1-21.1.17.jar"
+hash-format = "sha512"
+hash = "ac0eba8533e68a54255b6b02c3a54a4f9f4bd028354827f2e0482c6f105e21d4f0b4bdd03a1cb593c9c74c3b925d46990447ca8f88e4003439e1337d1eed0f17"
 
 [update]
-[update.curseforge]
-file-id = 6975905
-project-id = 231484
+[update.modrinth]
+mod-id = "vJnhuDde"
+version = "O6E1qlSM"

@@ -3,11 +3,11 @@ filename = "extendeddrawersaddon-1.1.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "24c3fe2b8eeb71a537e4947c93fe9a7090c89584"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/daHYok8P/versions/Togcm2bs/extendeddrawersaddon-1.1.0.jar"
+hash-format = "sha512"
+hash = "8664caafb810dee06821d741923b6c43ab36bea29361d8057ed75e21324ec9c0110ce96ba246045e6a201e798638d1dc1b8155332c59bd4ce2ac1eb311e76b82"
 
 [update]
-[update.curseforge]
-file-id = 5711200
-project-id = 936864
+[update.modrinth]
+mod-id = "daHYok8P"
+version = "Togcm2bs"
