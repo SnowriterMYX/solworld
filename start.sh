@@ -336,6 +336,7 @@ run_server() {
         local gc_label="G1GC"
         local use_softmax=false
         local -a gc_opts=()
+        local -a registry_debug_opts=()
 
         if [ "$java_major" -ge 21 ]; then
             gc_label="ZGC (Generational)"
@@ -365,6 +366,12 @@ run_server() {
             "-XX:+DisableExplicitGC"
             "-XX:+PerfDisableSharedMem"
         )
+        if [[ "${SOLWORLD_REGISTRY_DEBUG:-1}" == "1" ]]; then
+            registry_debug_opts=(
+                "-Dfabric.registry.debug=true"
+                "-Dfabric.registry.debug.writeContentsAsCsv=true"
+            )
+        fi
         if [ "$use_softmax" = true ]; then
             java_opts+=("-XX:SoftMaxHeapSize=${MEM_SOFT_MB}M")
         fi
@@ -384,7 +391,7 @@ run_server() {
         fi
 
         # 运行引导程序
-        java "${java_opts[@]}" -jar "$LAUNCH_JAR" nogui
+        java "${java_opts[@]}" "${registry_debug_opts[@]}" -jar "$LAUNCH_JAR" nogui
         
         local exit_code=$?
         if [ $exit_code -eq 0 ]; then

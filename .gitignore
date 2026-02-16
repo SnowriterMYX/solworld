@@ -14,6 +14,8 @@ world/*
 logs/
 backup/
 backups/
+world_ab_clean/
+debug/
 database.db
 EasyAuth/
 
@@ -30,6 +32,7 @@ better-fabric-console/
 dynamic-data-pack-cache/
 .packwiz/
 .pack_hash
+scripts/switch-level-name.sh
 config/bStats/
 config/spark/
 config/xaero/world-map/server_profiles/

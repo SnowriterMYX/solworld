@@ -366,7 +366,7 @@ hash = "00097d03bb5a4016c869695ecce545a38391c7089d8bd9f80cd6feccbae9738e"
 
 [[files]]
 file = "config/connectivity.json"
-hash = "6b95731807c56659d67f5c439439493834d0c42ad33baf23ef60d45bb7e73202"
+hash = "03553bb8e1ac6e18ccd505bd5f69f92b56e0d82efe84709d76e9592e729bac12"
 
 [[files]]
 file = "config/continuity.json"
@@ -1410,7 +1410,7 @@ hash = "ac18c2fb4a831590529390b4f9c4e167a06dc0587475607a910e81395c4569c2"
 
 [[files]]
 file = "config/polymer/common.json"
-hash = "310dee45deffb1f13169492bf25cee00503e91403daa8cffa653939feb76cc03"
+hash = "ee088c4c186a6a84aa2a65c866be79c1353ad1cb95d46db13425e3a4cb0379a9"
 
 [[files]]
 file = "config/polymer/resource-pack.json"
@@ -1418,7 +1418,7 @@ hash = "b711c9dd6dd77f48bd31dbab5fee2011ee7d58b0cc3f598490d61dac5f63e256"
 
 [[files]]
 file = "config/polymer/server.json"
-hash = "233d56a8a7228e1d85fec9080a0821e92c910807a3a80c4c7392f29f80850558"
+hash = "a2ff047da67b45840d2553ff01c4fe680db6a9ecbcf2dd009a0d5d23e76ed7b7"
 
 [[files]]
 file = "config/power_config.json5"
@@ -1446,7 +1446,7 @@ hash = "209ef74751243270cca3056ce85f90f55791f45b35e9bc1a06000ad681211abe"
 
 [[files]]
 file = "config/scalablelux.properties"
-hash = "51e28d6f1e9b6be4ce183cb2d33f0fcc766aafe44f1e668052664c793e5b0553"
+hash = "09cb9a30196ca89edb267da3b20fafe3360837a8f9a5e328620a6946841a20d3"
 
 [[files]]
 file = "config/sereneseasons/fertility.toml"
@@ -2164,11 +2164,6 @@ hash = "23b3bf6d1931acd2aa6daa5409b274b0d4ec9ec659c01d11454093d8fcd1e342"
 metafile = true
 
 [[files]]
-file = "mods/dimensionaldoors.pw.toml"
-hash = "c6feefb9e0797a0b391a8898c57eeaf1cedd46fb6730b594259a850bccbe8093"
-metafile = true
-
-[[files]]
 file = "mods/distanthorizons.pw.toml"
 hash = "6560846037ae82e0b88ee10e39cab6bcf92cceb031bd59615a8da12deb0e9574"
 metafile = true
@@ -2605,11 +2600,6 @@ hash = "b29c50a7e9a5752e6670770e105282af209ebe733aef4820f7806a3f76962914"
 [[files]]
 file = "mods/luckperms/yaml-storage/groups/default.yml"
 hash = "ae795c66506f1dd532562e78856f3848fd6505cc217ff518b90c361be79d818d"
-
-[[files]]
-file = "mods/ly-graves.pw.toml"
-hash = "a62f40c75bcefc80e1705c1669bd7ea9b795c78bf7eca52337dde0701498f547"
-metafile = true
 
 [[files]]
 file = "mods/macaws-bridges.pw.toml"
@@ -3092,6 +3082,16 @@ hash = "860812150cb54f0d9ee1bce7b72798b6cc5f752bb05709f0c60231d054ec281d"
 metafile = true
 
 [[files]]
+file = "mods/universal-graves.pw.toml"
+hash = "695176ca996e639044d0d526cd6c56a95c9897e85e7a8119a2d14a712f755733"
+metafile = true
+
+[[files]]
+file = "mods/universal-shops.pw.toml"
+hash = "6b1e2140887555afae9381ea360f56430253957c03d7cbbc31433bfa7a30d18f"
+metafile = true
+
+[[files]]
 file = "mods/unnamed-framework.pw.toml"
 hash = "20d3e099a09985abf7aa79d5483c5464f141ef3006987dda0061c53657257a26"
 metafile = true
@@ -3114,6 +3114,11 @@ metafile = true
 [[files]]
 file = "mods/visuality.pw.toml"
 hash = "39426bfeeab22ea17f94fd3904dd9b78f9a3c9b4ddcb732b734ddbfd0e3568af"
+metafile = true
+
+[[files]]
+file = "mods/voice-chat-interaction.pw.toml"
+hash = "388ad48f4bd97f7391bfcedd485fe5faa2c6ecffd3369dd7d3cbf031b7b04551"
 metafile = true
 
 [[files]]
@@ -9723,7 +9728,7 @@ hash = "a8cd9d4338c7d3d1fffecc4525348a31ea3d219ef31382c51d5ddc3b4b0114e1"
 
 [[files]]
 file = "start.sh"
-hash = "9c0b51020f1b2da3fa112367dbd6b919dc884f3c427d2686987b3bcc8947f915"
+hash = "bc077ec6334a04d4a6a045998e2b944277daa512b486f0ce8ea54aac0b87a919"
 
 [[files]]
 file = "tlm_custom_pack/touhou_little_maid-1.0.0/assets/authors_and_credits/animation/arm.js"

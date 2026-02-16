@@ -4,8 +4,11 @@
 .console_history
 packwiz.json
 backups/
+backup/
 logs/
 world/
+world_ab_clean/
+debug/
 database.db
 EasyAuth/
 better-fabric-console/
@@ -36,5 +39,6 @@ README.md
 *.mv.db
 *.tar.gz
 mods/luckperms/yaml-storage/uuidcache.txt
+scripts/switch-level-name.sh
 
 云服务器与实际玩家日志
