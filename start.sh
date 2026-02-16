@@ -251,40 +251,141 @@ force_disable_selected_mods() {
 }
 
 # --- 5. 内存与 GC 自动调优 ---
-get_available_memory_mb() {
+get_total_physical_memory_mb() {
+    local total_kb=""
+    if [[ -r /proc/meminfo ]]; then
+        total_kb=$(awk '/MemTotal:/{print $2; exit}' /proc/meminfo)
+    fi
+    if [[ -z "$total_kb" ]] && command -v free &> /dev/null; then
+        total_kb=$(free -k | awk '/^Mem:/{print $2}')
+    fi
+    [[ "$total_kb" =~ ^[0-9]+$ ]] || total_kb=0
+    echo $((total_kb / 1024))
+}
+
+# 仅使用物理内存数据（不计算 swap/虚拟内存）
+get_available_physical_memory_mb() {
     local avail_kb=""
     if [[ -r /proc/meminfo ]]; then
-        avail_kb=$(awk '/MemAvailable:/{print $2}' /proc/meminfo)
+        avail_kb=$(awk '/MemAvailable:/{print $2; exit}' /proc/meminfo)
+        if [[ -z "$avail_kb" ]]; then
+            # 兼容极旧内核：近似可用物理内存，不含 swap
+            local mem_free_kb cached_kb sreclaimable_kb
+            mem_free_kb=$(awk '/MemFree:/{print $2; exit}' /proc/meminfo)
+            cached_kb=$(awk '/^Cached:/{print $2; exit}' /proc/meminfo)
+            sreclaimable_kb=$(awk '/SReclaimable:/{print $2; exit}' /proc/meminfo)
+            [[ "$mem_free_kb" =~ ^[0-9]+$ ]] || mem_free_kb=0
+            [[ "$cached_kb" =~ ^[0-9]+$ ]] || cached_kb=0
+            [[ "$sreclaimable_kb" =~ ^[0-9]+$ ]] || sreclaimable_kb=0
+            avail_kb=$((mem_free_kb + cached_kb + sreclaimable_kb))
+        fi
     fi
-
     if [[ -z "$avail_kb" ]] && command -v free &> /dev/null; then
+        # free 的 available 列也是物理可用内存估算，不包含 swap
         avail_kb=$(free -k | awk '/^Mem:/{print $7}')
     fi
-
-    if [[ -z "$avail_kb" ]] && command -v free &> /dev/null; then
-        avail_kb=$(free -k | awk '/^Mem:/{print $2}')
-    fi
-
     [[ "$avail_kb" =~ ^[0-9]+$ ]] || avail_kb=0
     echo $((avail_kb / 1024))
 }
 
+get_cgroup_available_memory_mb() {
+    local limit_bytes=""
+    local usage_bytes=""
+
+    if [[ -r /sys/fs/cgroup/memory.max && -r /sys/fs/cgroup/memory.current ]]; then
+        # cgroup v2
+        limit_bytes=$(cat /sys/fs/cgroup/memory.max)
+        usage_bytes=$(cat /sys/fs/cgroup/memory.current)
+        if [[ "$limit_bytes" == "max" ]]; then
+            echo "-1"
+            return 0
+        fi
+    elif [[ -r /sys/fs/cgroup/memory/memory.limit_in_bytes && -r /sys/fs/cgroup/memory/memory.usage_in_bytes ]]; then
+        # cgroup v1
+        limit_bytes=$(cat /sys/fs/cgroup/memory/memory.limit_in_bytes)
+        usage_bytes=$(cat /sys/fs/cgroup/memory/memory.usage_in_bytes)
+    else
+        echo "-1"
+        return 0
+    fi
+
+    [[ "$limit_bytes" =~ ^[0-9]+$ ]] || { echo "-1"; return 0; }
+    [[ "$usage_bytes" =~ ^[0-9]+$ ]] || usage_bytes=0
+
+    # 兼容 cgroup v1 “无限制”哨兵值（非常大的整数）
+    if [ "$limit_bytes" -ge 1152921504606846976 ]; then
+        echo "-1"
+        return 0
+    fi
+
+    local remain_bytes=$((limit_bytes - usage_bytes))
+    [ "$remain_bytes" -lt 0 ] && remain_bytes=0
+    echo $((remain_bytes / 1024 / 1024))
+}
+
+get_effective_available_memory_mb() {
+    local host_avail_mb cgroup_avail_mb
+    host_avail_mb=$(get_available_physical_memory_mb)
+    cgroup_avail_mb=$(get_cgroup_available_memory_mb)
+
+    if [[ "$host_avail_mb" -le 0 ]]; then
+        host_avail_mb=$(get_total_physical_memory_mb)
+    fi
+    [[ "$host_avail_mb" -gt 0 ]] || host_avail_mb=4096
+
+    if [[ "$cgroup_avail_mb" -ge 0 && "$cgroup_avail_mb" -lt "$host_avail_mb" ]]; then
+        echo "$cgroup_avail_mb"
+    else
+        echo "$host_avail_mb"
+    fi
+}
+
 calculate_max_heap() {
-    local avail_mb
-    avail_mb=$(get_available_memory_mb)
+    local avail_mb="${1:-}"
+    if [[ -z "$avail_mb" ]]; then
+        avail_mb=$(get_effective_available_memory_mb)
+    fi
 
     local min_heap_mb="${SOLWORLD_MIN_HEAP_MB:-2048}"
     local max_heap_mb="${SOLWORLD_MAX_HEAP_MB:-16384}"
     local reserved_mb="${SOLWORLD_RESERVED_MB:-2048}"
+    local heap_percent="${SOLWORLD_HEAP_PERCENT:-80}"
+    local hard_floor_mb="${SOLWORLD_HARD_FLOOR_MB:-512}"
 
     [[ "$min_heap_mb" =~ ^[0-9]+$ ]] || min_heap_mb=2048
     [[ "$max_heap_mb" =~ ^[0-9]+$ ]] || max_heap_mb=16384
     [[ "$reserved_mb" =~ ^[0-9]+$ ]] || reserved_mb=2048
-    [ "$max_heap_mb" -lt "$min_heap_mb" ] && max_heap_mb="$min_heap_mb"
+    [[ "$heap_percent" =~ ^[0-9]+$ ]] || heap_percent=80
+    [[ "$hard_floor_mb" =~ ^[0-9]+$ ]] || hard_floor_mb=512
 
-    local xmx=$((avail_mb - reserved_mb))
-    [ "$xmx" -lt "$min_heap_mb" ] && xmx="$min_heap_mb"
+    [ "$heap_percent" -lt 50 ] && heap_percent=50
+    [ "$heap_percent" -gt 95 ] && heap_percent=95
+    [ "$hard_floor_mb" -lt 256 ] && hard_floor_mb=256
+    [ "$max_heap_mb" -lt "$min_heap_mb" ] && max_heap_mb="$min_heap_mb"
+    [ "$avail_mb" -le 0 ] && avail_mb=4096
+
+    # 策略：物理可用内存百分比与固定预留取更保守者，避免在低内存下超配。
+    local by_percent=$((avail_mb * heap_percent / 100))
+    local by_reserved=$((avail_mb - reserved_mb))
+    local xmx="$by_percent"
+
+    if [ "$by_reserved" -gt 0 ] && [ "$by_reserved" -lt "$xmx" ]; then
+        xmx="$by_reserved"
+    fi
+
+    if [ "$xmx" -lt "$hard_floor_mb" ]; then
+        xmx="$hard_floor_mb"
+    fi
+
+    # 仅在“预留后仍有余量”时尝试满足期望最小堆，防止低内存强行抬高 Xmx。
+    if [ "$by_reserved" -ge "$min_heap_mb" ] && [ "$xmx" -lt "$min_heap_mb" ]; then
+        xmx="$min_heap_mb"
+    fi
+
+    [ "$xmx" -lt 256 ] && xmx=256
     [ "$xmx" -gt "$max_heap_mb" ] && xmx="$max_heap_mb"
+    [ "$xmx" -gt "$avail_mb" ] && xmx="$avail_mb"
+    [ "$xmx" -lt 128 ] && xmx=128
     echo "$xmx"
 }
 
@@ -324,7 +425,12 @@ run_server() {
         prune_unindexed_mods
         force_disable_selected_mods
 
-        MEM_XMX_MB=$(calculate_max_heap)
+        local mem_total_mb mem_avail_mb cgroup_avail_mb
+        mem_total_mb=$(get_total_physical_memory_mb)
+        mem_avail_mb=$(get_effective_available_memory_mb)
+        cgroup_avail_mb=$(get_cgroup_available_memory_mb)
+
+        MEM_XMX_MB=$(calculate_max_heap "$mem_avail_mb")
         MEM_SOFT_MB=$(calculate_soft_heap "$MEM_XMX_MB")
         MEM_XMS_MB=$(calculate_initial_heap "$MEM_SOFT_MB" "$MEM_XMX_MB")
 
@@ -364,6 +470,7 @@ run_server() {
             "-Xms${MEM_XMS_MB}M"
             "-Xmx${MEM_XMX_MB}M"
             "-XX:+DisableExplicitGC"
+            "-XX:+ExitOnOutOfMemoryError"
             "-XX:+PerfDisableSharedMem"
         )
         if [[ "${SOLWORLD_REGISTRY_DEBUG:-1}" == "1" ]]; then
@@ -381,6 +488,11 @@ run_server() {
             echo "[$(date '+%H:%M:%S')] 启动 Solworld (GC: ${gc_label}, Xms: ${MEM_XMS_MB}M, Xmx: ${MEM_XMX_MB}M, SoftMax: ${MEM_SOFT_MB}M)..."
         else
             echo "[$(date '+%H:%M:%S')] 启动 Solworld (GC: ${gc_label}, Xms: ${MEM_XMS_MB}M, Xmx: ${MEM_XMX_MB}M)..."
+        fi
+        if [[ "$cgroup_avail_mb" -ge 0 ]]; then
+            echo "[$(date '+%H:%M:%S')] 内存探测: 物理总内存=${mem_total_mb}M, 可用物理内存=${mem_avail_mb}M, cgroup可用=${cgroup_avail_mb}M (不计入 swap)"
+        else
+            echo "[$(date '+%H:%M:%S')] 内存探测: 物理总内存=${mem_total_mb}M, 可用物理内存=${mem_avail_mb}M (不计入 swap)"
         fi
         
         if [[ -f "logs/latest.log" ]]; then
