@@ -1,7 +1,7 @@
 #The default model ID when a player first enters the game
-DefaultModelId = "default"
+DefaultModelId = ""
 #The default model texture when a player first enters the game
-DefaultModelTexture = "default"
+DefaultModelTexture = ""
 #Whether or not players are allowed to switch models
 CanSwitchModel = true
 #Models that are not displayed on the client model selection screen
