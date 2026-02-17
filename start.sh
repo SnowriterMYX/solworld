@@ -13,11 +13,6 @@ LOG_DIR="./logs/archive"
 MAX_LOG_RETAIN=30
 RESTART_DELAY=10
 
-# 临时对照测试：每次同步后强制禁用这些 MOD（可随时恢复）
-FORCED_DISABLED_JARS=(
-    "carryon-fabric-1.21.1-2.2.4.4.jar"
-)
-
 # --- 0. 通用工具函数 ---
 detect_distro() {
     local distro="Unknown"
@@ -227,29 +222,6 @@ prune_unindexed_mods() {
     fi
 }
 
-force_disable_selected_mods() {
-    local disabled_dir="mods/_disabled"
-    mkdir -p "$disabled_dir"
-    local moved_count=0
-
-    for jar_name in "${FORCED_DISABLED_JARS[@]}"; do
-        local mod_path="mods/$jar_name"
-        if [[ -f "$mod_path" ]]; then
-            local dest_path="$disabled_dir/$jar_name"
-            if [[ -e "$dest_path" ]]; then
-                dest_path="$disabled_dir/${jar_name%.jar}-$(date '+%Y%m%d_%H%M%S').jar"
-            fi
-            mv "$mod_path" "$dest_path"
-            echo "🛑 已按测试策略禁用 MOD: $mod_path -> $dest_path"
-            moved_count=$((moved_count + 1))
-        fi
-    done
-
-    if [[ $moved_count -eq 0 ]]; then
-        echo "✅ 强制禁用清单中的 MOD 当前已处于禁用状态。"
-    fi
-}
-
 # --- 5. 内存与 GC 自动调优 ---
 get_total_physical_memory_mb() {
     local total_kb=""
@@ -423,7 +395,6 @@ run_server() {
         install_server_core
         if ! sync_mods; then continue; fi
         prune_unindexed_mods
-        force_disable_selected_mods
 
         local mem_total_mb mem_avail_mb cgroup_avail_mb
         mem_total_mb=$(get_total_physical_memory_mb)
