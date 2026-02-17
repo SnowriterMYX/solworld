@@ -3939,16 +3939,6 @@ hash = "76a2560989102413693bbfbea83570287b3dce4f6ed40dc69aacbd3268633fe7"
 metafile = true
 
 [[files]]
-file = "mods/journey-pac.pw.toml"
-hash = "fad423f58d5e70bde347256e8e6b22a925682bf264c1d33b7d09a7ef1c9949c7"
-metafile = true
-
-[[files]]
-file = "mods/journeymap.pw.toml"
-hash = "89303b44678c8e619f379545e80ad2e257801327b1065cd3320c9fe61cac7cf5"
-metafile = true
-
-[[files]]
 file = "mods/joy-of-painting.pw.toml"
 hash = "250a60ad345454a739a4ed90779501c31c90f5be387c3e52816ced6713012e98"
 metafile = true
@@ -4172,6 +4162,11 @@ hash = "117d08952827ca6c010f783453ab39de901916561d4255f0782eeda78cb683c3"
 metafile = true
 
 [[files]]
+file = "mods/maplink.pw.toml"
+hash = "45ebdbf82a143c365f4057f50ba1eca440fb7ddd6cab4a49e5b3da106e8ad5fd"
+metafile = true
+
+[[files]]
 file = "mods/mcqoy.pw.toml"
 hash = "21e7b044769bec86617cb335296c1ab8c44b2ff374a8c3b214fea8e23466786b"
 metafile = true
@@ -4319,6 +4314,11 @@ metafile = true
 [[files]]
 file = "mods/pehkui.pw.toml"
 hash = "43b4a9ca9aaac5a16ed067aee92cafaf30d6166d62d7fa851179c6257ed75b59"
+metafile = true
+
+[[files]]
+file = "mods/pl3xmap.pw.toml"
+hash = "39302f07ddcbce16a5bfb6eacc014e9c69cc583fccf9b22ac4d8b0bfa47a1185"
 metafile = true
 
 [[files]]
@@ -4659,6 +4659,16 @@ metafile = true
 [[files]]
 file = "mods/worldweaver.pw.toml"
 hash = "d3dccbd68486d3b35054b5a716051fa01a916d808a2aa78a0ada72b31f08c428"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap.pw.toml"
+hash = "d7c23c5b2f03df76caa7a4d66ca7961a5a3d05c538e1bda65bfd93fb80a07c5e"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "97a62d0b00bdb7f6a2ba51ad05b2ed8c3ebe06098ce893b3d638d59498addf7f"
 metafile = true
 
 [[files]]
