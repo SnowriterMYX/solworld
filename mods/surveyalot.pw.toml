@@ -1,0 +1,13 @@
+name = "Surveyalot"
+filename = "surveyalot-0.2.0+1.20.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/bC31uIRb/versions/M11ypgcS/surveyalot-0.2.0%2B1.20.jar"
+hash-format = "sha512"
+hash = "d54e7547ffc58147ef64c3113ae4b26abff9a95f579c748c62fe1a1f676179a6f8e66e4026b3d207555d93625ba269cc81f1af611c21f3269797ccc9f3a12de5"
+
+[update]
+[update.modrinth]
+mod-id = "bC31uIRb"
+version = "M11ypgcS"

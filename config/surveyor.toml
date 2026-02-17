@@ -97,7 +97,7 @@ forceUpdateLandmarks = true
 	recordToMapItems = "EXPLORER"
 
 	[builtins.recordIcons]
-		"minecraft:player" = false
-		"minecraft:player_off_map" = false
-		"minecraft:player_off_limits" = false
 		"minecraft:frame" = false
+		"minecraft:player_off_limits" = false
+		"minecraft:player_off_map" = false
+		"minecraft:player" = false

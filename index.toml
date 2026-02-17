@@ -1418,7 +1418,7 @@ hash = "ad26f875dee8e060407e2f6bdaad69f9a3e406a4a1a712425705fafb0b0c168a"
 
 [[files]]
 file = "config/polymer/resource-pack.json"
-hash = "6761febcbda1b52ed3e5671c9cf644db0950e17622ec971f7d0a3582396c813e"
+hash = "b711c9dd6dd77f48bd31dbab5fee2011ee7d58b0cc3f598490d61dac5f63e256"
 
 [[files]]
 file = "config/polymer/server.json"
@@ -1450,7 +1450,7 @@ hash = "209ef74751243270cca3056ce85f90f55791f45b35e9bc1a06000ad681211abe"
 
 [[files]]
 file = "config/scalablelux.properties"
-hash = "c2028f3ddeb003ee167109e8a8c3bf9e764bd4bfa89df8082df528e63eda6507"
+hash = "74798f4f9f3ef2621d33929122f2ff0804e64bf8341b7224931a2a84c4c862e9"
 
 [[files]]
 file = "config/sereneseasons/fertility.toml"
@@ -1630,7 +1630,7 @@ hash = "054d6d321a6bb27d658f7fd145a5a377f2c25be54be8855f401663668f1cebee"
 
 [[files]]
 file = "config/surveyor.toml"
-hash = "e161eac84b489fd97bb9cbe40af749eb49ea19c277e77d1b0c8ad9a27ddade58"
+hash = "a8a1b6bb389daaff1ffda9408373f43738d2327c57b8d1df7ee1e3342bb5b770"
 
 [[files]]
 file = "config/tectonic.json"
@@ -1779,62 +1779,6 @@ hash = "7bea6cc8cc83a66e1482764774661611c5c15bc276684a2eea660204a3bd86c9"
 [[files]]
 file = "config/wover/main.json"
 hash = "50e9b9c108e2e40a33fa61248cedb32737a58b5bb828a1bee14599baed859507"
-
-[[files]]
-file = "config/xaero/lib/client.cfg"
-hash = "43ed9dbfa5b4d6f0f3d2e8c2ced17ad298164b22c68ff11d415257a39b074336"
-
-[[files]]
-file = "config/xaero/lib/common.cfg"
-hash = "98f698d96a6d21d830a455b4ad045b70516fa63c298021742d8499e7f0366cd2"
-
-[[files]]
-file = "config/xaero/lib/profiles/default.cfg"
-hash = "34ae854b17d896d7cb853bdc28c27231a3947e91cb9f0991f372846ee3c2a907"
-
-[[files]]
-file = "config/xaero/lib/server_profiles/default.cfg"
-hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
-
-[[files]]
-file = "config/xaero/minimap/client.cfg"
-hash = "c0915eff5d1a7905cd1038d646eb9086fd1a29e2f637d53535e4da161de17b9f"
-
-[[files]]
-file = "config/xaero/minimap/common.cfg"
-hash = "2b49df024c03a369c62a303c72755e7fedeb4f4653ff53a12fd37bd83ccd4ed0"
-
-[[files]]
-file = "config/xaero/minimap/default_radar_categories_client.json"
-hash = "8ec85ecdff2a7b60389a80cbffa420876fcf83b3a72120e3564076da50dc3fca"
-
-[[files]]
-file = "config/xaero/minimap/default_radar_categories_server.json"
-hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
-
-[[files]]
-file = "config/xaero/minimap/profiles/default.cfg"
-hash = "db49c4dde15db318eb25e8a43fa06992778f0e17b3a963fff5cbee35da11fb81"
-
-[[files]]
-file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
-hash = "184e654fa1fc8ad09943c97c4e65ab78acb5b3cfca22417a831513d1b6d9bbc6"
-
-[[files]]
-file = "config/xaero/minimap/server_profiles/default.cfg"
-hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
-
-[[files]]
-file = "config/xaero/world-map/common.cfg"
-hash = "0c229eb0daf85bd09af51f21eeeb99497a3bd50a825d5ab1ca695fb21bf6cf9d"
-
-[[files]]
-file = "config/xaerohud.txt"
-hash = "cece60604b8de5e978141c981c1ed85227c8f30697a513869012b06dd15fcf02"
-
-[[files]]
-file = "config/xaeropatreon.txt"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/yacl.json5"
@@ -3995,6 +3939,16 @@ hash = "76a2560989102413693bbfbea83570287b3dce4f6ed40dc69aacbd3268633fe7"
 metafile = true
 
 [[files]]
+file = "mods/journey-pac.pw.toml"
+hash = "fad423f58d5e70bde347256e8e6b22a925682bf264c1d33b7d09a7ef1c9949c7"
+metafile = true
+
+[[files]]
+file = "mods/journeymap.pw.toml"
+hash = "89303b44678c8e619f379545e80ad2e257801327b1065cd3320c9fe61cac7cf5"
+metafile = true
+
+[[files]]
 file = "mods/joy-of-painting.pw.toml"
 hash = "250a60ad345454a739a4ed90779501c31c90f5be387c3e52816ced6713012e98"
 metafile = true
@@ -4368,11 +4322,6 @@ hash = "43b4a9ca9aaac5a16ed067aee92cafaf30d6166d62d7fa851179c6257ed75b59"
 metafile = true
 
 [[files]]
-file = "mods/pl3xmap.pw.toml"
-hash = "39302f07ddcbce16a5bfb6eacc014e9c69cc583fccf9b22ac4d8b0bfa47a1185"
-metafile = true
-
-[[files]]
 file = "mods/placeholder-api.pw.toml"
 hash = "2e2c1b47b513663871e71c89a699c66ac9fcc97633f007ed064ce4410f220f5a"
 metafile = true
@@ -4573,6 +4522,11 @@ hash = "049c8ef911313123973beba0a9331406e642a46997918a568dce3aad26e292b7"
 metafile = true
 
 [[files]]
+file = "mods/surveyalot.pw.toml"
+hash = "bea4a23ba36cb50747e12ffbf3b878cdaaa3ae369fd6780f3a9110b7bf388216"
+metafile = true
+
+[[files]]
 file = "mods/surveyor.pw.toml"
 hash = "e9f69ba1846ad87fbc1b30c067bc7f296bf394dbb38353f5497158376383bb83"
 metafile = true
@@ -4705,16 +4659,6 @@ metafile = true
 [[files]]
 file = "mods/worldweaver.pw.toml"
 hash = "d3dccbd68486d3b35054b5a716051fa01a916d808a2aa78a0ada72b31f08c428"
-metafile = true
-
-[[files]]
-file = "mods/xaeros-minimap.pw.toml"
-hash = "d7c23c5b2f03df76caa7a4d66ca7961a5a3d05c538e1bda65bfd93fb80a07c5e"
-metafile = true
-
-[[files]]
-file = "mods/xaeros-world-map.pw.toml"
-hash = "97a62d0b00bdb7f6a2ba51ad05b2ed8c3ebe06098ce893b3d638d59498addf7f"
 metafile = true
 
 [[files]]
