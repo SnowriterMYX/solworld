@@ -1218,7 +1218,7 @@ hash = "bfe9627ba9ff158eaba5b61db4c35d995b80a616911657fac833a7bc306b394d"
 
 [[files]]
 file = "config/pl3xmap/layers/players.yml"
-hash = "07d2b01f0b6b0d3e8df91fc4f56fd4e9f01596850d5c20862d1fa8e9ae45c7e0"
+hash = "fc575fe3367e8c32de1d22f092352e1414301a617182c073bf63116b36f30159"
 
 [[files]]
 file = "config/pl3xmap/layers/spawn.yml"
@@ -1450,7 +1450,7 @@ hash = "209ef74751243270cca3056ce85f90f55791f45b35e9bc1a06000ad681211abe"
 
 [[files]]
 file = "config/scalablelux.properties"
-hash = "74798f4f9f3ef2621d33929122f2ff0804e64bf8341b7224931a2a84c4c862e9"
+hash = "74f886e6b9aada9f9c6c2033cd62a443cfe6925a74573ed4a5bcde47b95af60d"
 
 [[files]]
 file = "config/sereneseasons/fertility.toml"
@@ -1781,12 +1781,32 @@ file = "config/wover/main.json"
 hash = "50e9b9c108e2e40a33fa61248cedb32737a58b5bb828a1bee14599baed859507"
 
 [[files]]
+file = "config/xaero/lib/common.cfg"
+hash = "98f698d96a6d21d830a455b4ad045b70516fa63c298021742d8499e7f0366cd2"
+
+[[files]]
+file = "config/xaero/lib/server_profiles/default.cfg"
+hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
+
+[[files]]
+file = "config/xaero/minimap/common.cfg"
+hash = "2b49df024c03a369c62a303c72755e7fedeb4f4653ff53a12fd37bd83ccd4ed0"
+
+[[files]]
+file = "config/xaero/minimap/server_profiles/default.cfg"
+hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
+
+[[files]]
+file = "config/xaero/world-map/common.cfg"
+hash = "0c229eb0daf85bd09af51f21eeeb99497a3bd50a825d5ab1ca695fb21bf6cf9d"
+
+[[files]]
 file = "config/yacl.json5"
 hash = "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e"
 
 [[files]]
 file = "config/yes_steve_model-client.toml"
-hash = "8e955531d33edd81d1611eea1e3a6918c9d0028e382c05fb8b3866d6130456a6"
+hash = "7554c46f486062f6f649d6754bd8d305bc6ca75a706e2f2d3b3a9bfab9b020d2"
 
 [[files]]
 file = "config/yes_steve_model-server.toml"
