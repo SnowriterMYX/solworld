@@ -30,6 +30,9 @@ config/spark/
 config/pl3xmap/web/tiles/
 config/pl3xmap/web/images/skins/
 config/xaero/world-map/server_profiles/
+config/yes_steve_model/cache/
+config/yes_steve_model/cache/server/
+config/yes_steve_model/cache/server_index
 .pack_hash
 GEMINI.md
 README.md

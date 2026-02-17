@@ -1177,6 +1177,10 @@ file = "config/observable.json"
 hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
+file = "config/openpartiesandclaims-server.toml"
+hash = "af46bd4123759552ac36a5589dd496c55767bd3d5f14ed62f2c1261db52c0bcd"
+
+[[files]]
 file = "config/packetfixer.properties"
 hash = "773960eb3acbc8809efc450c68848f9b4d913f907a67648eb952e7e22e83fbd7"
 
@@ -1410,15 +1414,15 @@ hash = "ac18c2fb4a831590529390b4f9c4e167a06dc0587475607a910e81395c4569c2"
 
 [[files]]
 file = "config/polymer/common.json"
-hash = "ee088c4c186a6a84aa2a65c866be79c1353ad1cb95d46db13425e3a4cb0379a9"
+hash = "ad26f875dee8e060407e2f6bdaad69f9a3e406a4a1a712425705fafb0b0c168a"
 
 [[files]]
 file = "config/polymer/resource-pack.json"
-hash = "b711c9dd6dd77f48bd31dbab5fee2011ee7d58b0cc3f598490d61dac5f63e256"
+hash = "6761febcbda1b52ed3e5671c9cf644db0950e17622ec971f7d0a3582396c813e"
 
 [[files]]
 file = "config/polymer/server.json"
-hash = "a2ff047da67b45840d2553ff01c4fe680db6a9ecbcf2dd009a0d5d23e76ed7b7"
+hash = "a7a1fa66e7e27980a42c18a94dc0ec3620607b54e64f2fb02e6b4b58eb61812c"
 
 [[files]]
 file = "config/power_config.json5"
@@ -1446,7 +1450,7 @@ hash = "209ef74751243270cca3056ce85f90f55791f45b35e9bc1a06000ad681211abe"
 
 [[files]]
 file = "config/scalablelux.properties"
-hash = "09cb9a30196ca89edb267da3b20fafe3360837a8f9a5e328620a6946841a20d3"
+hash = "c2028f3ddeb003ee167109e8a8c3bf9e764bd4bfa89df8082df528e63eda6507"
 
 [[files]]
 file = "config/sereneseasons/fertility.toml"
@@ -1623,6 +1627,10 @@ hash = "3cccaae42a81f99794e10052dfded89c86984458a927affb805a7cd31e43db6c"
 [[files]]
 file = "config/supplementaries-common.json"
 hash = "054d6d321a6bb27d658f7fd145a5a377f2c25be54be8855f401663668f1cebee"
+
+[[files]]
+file = "config/surveyor.toml"
+hash = "e161eac84b489fd97bb9cbe40af749eb49ea19c277e77d1b0c8ad9a27ddade58"
 
 [[files]]
 file = "config/tectonic.json"
@@ -1833,6 +1841,1554 @@ file = "config/yacl.json5"
 hash = "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e"
 
 [[files]]
+file = "config/yes_steve_model-client.toml"
+hash = "8e955531d33edd81d1611eea1e3a6918c9d0028e382c05fb8b3866d6130456a6"
+
+[[files]]
+file = "config/yes_steve_model-server.toml"
+hash = "425f14fd9a92da577118cdeb3aef41f3797e5948fca177d5100b50bd82c4b6d0"
+
+[[files]]
+file = "config/yes_steve_model/blacklist.txt"
+hash = "ad8ab1abd7efc226127f6114d55bb0b7212f609d323743236591b326079a5905"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/animations/arm.animation.json"
+hash = "842feaa47347bb7fa9a53f31bf76dcf74aff618e7b52cc1637380333812a87cb"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/animations/arrow.animation.json"
+hash = "01902bc329af43baf925d67eb6861c5f4e2dd5355258c96819533ed7d94239ba"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/animations/boat.animation.json"
+hash = "f40524137ed91be2a0e7ff6b12b73e4aa46574053e6d9f1e2e3df6da0fedb6fd"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/animations/carryon.animation.json"
+hash = "fe28bda145b9a8f8acfd3aa1d85b267a55e5c6538f595161dbd2161bbebd8bda"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/animations/extra.animation.json"
+hash = "febebf03a70fca55ac3138c7e97fd24a0c83cdf54b27c3d3a091e8a6bb2ad1cb"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/animations/fp.arm.animation.json"
+hash = "6030836fffd11cc9883b495cc01e314c377db9f428bd0d76578f3431898a3b9a"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/animations/im.animation.json"
+hash = "63891b691a327ad8fa18b55805f315e5d595d4c8dcf5c0489b8d0c10647f236a"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/animations/iss.animation.json"
+hash = "37cc6952c62fbe24376a1effdca702a015ae224c4cde5c042e2ed70a94987fb9"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/animations/main.animation.json"
+hash = "47f07b6b0506e47a1b1963ae568cabb83fea82ac33b0ba2671ca26a0c4005e02"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/animations/parcool.animation.json"
+hash = "5407ef2708e8849b9ffbeaac4dd81cbb6943a3cef53d6cd6e13f22c2426f1d98"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/animations/slashblade.animation.json"
+hash = "af05ec10f7e23dd7148f6a72bdba8abd0e4899dd9e7bf6d65cc42e4feba118fb"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/animations/swem.animation.json"
+hash = "b0018f5a7e88c21f78b75ff18c98966428ac691c46f716950d2a8f2a0815abb3"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/animations/tac.animation.json"
+hash = "4594de398c4d34311d540caa2c1b314f631307fd68d810dfc84a8ac1552b3e88"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/animations/tlm.animation.json"
+hash = "353dc14cd77017092bc969500977609c5585fe71db258cf57ae703d9cdb00641"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/avatar/arekya.jpg"
+hash = "899a5d78be8178bbb58815841ed279dd471e249d6e4977d20f5e2b3d18289544"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/avatar/dm.png"
+hash = "5d28f00fd947e31f361da9cab6c16693d80f25988515822e078cea1f5ef08a60"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/avatar/gsl.png"
+hash = "0bf76a1ba896f709839f9c35bb62852350b4b0f110bc9a1c4c4c5acc99f25188"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/avatar/hl.png"
+hash = "80f61d49f385faf974b8b3e579b6b307b9046992f1d3ae32647e8676102d5fa3"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/avatar/lmg.png"
+hash = "0d05a6be0b1ffb32f6497265f7411b7741f18ae89a82e82a4982e39ba4183fa4"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/avatar/tzz.png"
+hash = "5067ef9a1ccad6acc4807d464f46358afd5f092ff78cf17a66ea82c613469e1e"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/lang/en_us.json"
+hash = "4f7d0984d24b8c2072c2b61be7bc66ee8a95834619a383c994fdba3fac972855"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/lang/zh_cn.json"
+hash = "ff91b7d1374d3a798a2b2a4843ada31d20840a083c9e82b7defe90b5f14d04a9"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/models/arm.json"
+hash = "7adf7883bf15673450a139cc0b5281f421365fd55481be9a6f4c35a754bccc70"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/models/arrow.json"
+hash = "4f04aa3cb1327346ae1f63b4f960571c990dc7fd2e0ad93965c9b130d1eff324"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/models/boat.json"
+hash = "9e4d7cf3d6c22753a52c54aef3c32b5976b03fac93e73cc6b100ad51c67f572f"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/models/chest_boat.json"
+hash = "8f438703a822083e48080ded16145947b50f57856b6d04e436e1964fd3fefbe3"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/models/firework_rocket.json"
+hash = "21e86847c32325b8158d0f92965b84a53d3b1730613c0854c5f7c8f8078899dd"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/models/fishing_bobber.json"
+hash = "9fac3cb452683c2f8164b7a118babfabb5bcc3362715e7d7352d1ff29b0cd2f1"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/models/main.json"
+hash = "8a6794aac944330fbff1cd85f52e859250473f9c6464459b5cce70371ae5c94e"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/models/minecart.json"
+hash = "4ee627e87958ec1235206cca85d06d3b3c473a7b2ae896a8c4fe9b95cb2fd736"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/models/trident.json"
+hash = "c4fe22b907f29f99d3973a8111ce8267153f980bc85a1ed6b6a29c3bb39bd1d2"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/textures/arrow.png"
+hash = "0ecda6c1557cf3571289a3212c93e125d8b075cc37ac62f14dad852d83a576ec"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/textures/blue.png"
+hash = "e8d13cbd9f432bcc58a9d954125bca35b19e9bee84151872a9643d37d2151263"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/textures/boat.png"
+hash = "ae83a6dff32901c63f01acf7256cbe8c36595685c3a8a6737b15d5c0ad417e14"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/textures/default.png"
+hash = "7145bb7042e2a47da62ca4bb9197089bacaf7a254acb4e99da261e42429f1b5f"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/textures/firework_rocket.png"
+hash = "1c2570249547a5f60259852572369112a092ff9f81b5c05dc782dde8856aa3dc"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/textures/fishing_bobber.png"
+hash = "14e65b95c519f47578b63a915744b96359d87dc9bc2822dd9ba203a228c53191"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/textures/gui/background.png"
+hash = "d13cc65035f3979c81f16763d49d8bb56e86a9d1921b2d3909def3c05b0c8d13"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/textures/gui/foreground.png"
+hash = "43d7c8b33fe33fd381e5e43791fb7e28749cae52b87f35b1c5fc19557a1e4c10"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/textures/minecart.png"
+hash = "277e32e4980b846be5dee52180a625d84b79cd01476a761005c2d0fe76be465f"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/textures/trident.png"
+hash = "e3679462ebd3b8114373d1d167316c0a57b8491a43e360f4177b3bfc3f2a6252"
+
+[[files]]
+file = "config/yes_steve_model/builtin/default/ysm.json"
+hash = "efa9238543a3b9c23c02f9d0d050bea3ccf4fe3fc3465f7eb818318247e9ce99"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/1_alex/animations/main.animation.json"
+hash = "e4736d2062ba7d9deedd72430e459a9d8963c975d1982e1fbf2b0f8c9e84abca"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/1_alex/animations/tac.animation.json"
+hash = "50af465909f60bb972f9fd0bc5fb0b0d5e850a95e7dee5ffb87c59e49e950ac0"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/1_alex/avatar/dm.png"
+hash = "5d28f00fd947e31f361da9cab6c16693d80f25988515822e078cea1f5ef08a60"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/1_alex/avatar/gsl.png"
+hash = "0bf76a1ba896f709839f9c35bb62852350b4b0f110bc9a1c4c4c5acc99f25188"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/1_alex/avatar/tzz.png"
+hash = "5067ef9a1ccad6acc4807d464f46358afd5f092ff78cf17a66ea82c613469e1e"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/1_alex/lang/en_us.json"
+hash = "f59fd09b8300ba28f9cbf450537bf680548f40fc27144f56a1155bd5a8a92609"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/1_alex/lang/zh_cn.json"
+hash = "1207bb15025e6721c332a5d41a98c1a804fdc761a0c57a5c8e08f4d38cdb736c"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/1_alex/models/arm.json"
+hash = "fadf6e019dabd194242e4e2145130e13c1f82d3807ead3e647fa7c19c2163e3b"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/1_alex/models/main.json"
+hash = "e6116e2e01f0a3e5a86105caa933afc60687b5e4b7571d27fb0708908fb7f783"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/1_alex/textures/gsl.png"
+hash = "b93dcdb3acd5fd1269118048099720f38484460f3b756314822fca954b3b1668"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/1_alex/ysm.json"
+hash = "3e7a6270c4a2973b900f0509f199444fe78052f414c27d2f6d4f33b1176b626d"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/2_steve/animations/main.animation.json"
+hash = "d03d0cdfdb80e0d02fc927945128abc770b77aea54f1ed719255206086ae3295"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/2_steve/animations/tac.animation.json"
+hash = "6a3c6f14026dbd6744ac94ee4c03f5487646450f6baf010fb26fa33527394127"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/2_steve/avatar/dm.png"
+hash = "5d28f00fd947e31f361da9cab6c16693d80f25988515822e078cea1f5ef08a60"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/2_steve/avatar/gsl.png"
+hash = "0bf76a1ba896f709839f9c35bb62852350b4b0f110bc9a1c4c4c5acc99f25188"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/2_steve/avatar/tzz.png"
+hash = "5067ef9a1ccad6acc4807d464f46358afd5f092ff78cf17a66ea82c613469e1e"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/2_steve/lang/en_us.json"
+hash = "aa34cd589b69c655b8a0585624df7e8702ec1190e59df54c8df2936108ac407c"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/2_steve/lang/zh_cn.json"
+hash = "70bb7af5c2ffaf683f4be222126fda270b39526f3c435b136cc3bc0f9de87ebd"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/2_steve/models/arm.json"
+hash = "d9bce1f5cb35dd61de20b98e065c68eb2e5990445f7a81070ea6ffe6e092918a"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/2_steve/models/main.json"
+hash = "568a7e2dad1656d839ca6c81f27e5b97236aa6d3c4ed241af6947fa90b1e08dc"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/2_steve/textures/tartaric_acid.png"
+hash = "bd1f4877e31c18412f5ea5d2ed54953c472c23480d541856f977da3cf9b8e7fb"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/2_steve/ysm.json"
+hash = "82140d02f22ad772cedea0caf273cf7b58d5643b74a7f22746fbef186303164d"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/3_default_boy/animations/main.animation.json"
+hash = "5542bec68f8d35d14120cae85e96785708623e8b315dca550e95025c6084f0dc"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/3_default_boy/animations/tac.animation.json"
+hash = "cd9eab2dac8e0071268a1eb078a25f5d542f025c3ac7a150f66ec29eb66210a6"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/3_default_boy/avatar/dm.png"
+hash = "5d28f00fd947e31f361da9cab6c16693d80f25988515822e078cea1f5ef08a60"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/3_default_boy/avatar/gsl.png"
+hash = "0bf76a1ba896f709839f9c35bb62852350b4b0f110bc9a1c4c4c5acc99f25188"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/3_default_boy/lang/en_us.json"
+hash = "55cafaa7a3ac5838e2f1021c3380ead7d917b60b8b9cf13e4d3d5e20a2f0b5bd"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/3_default_boy/lang/zh_cn.json"
+hash = "cd63b1aa814a7861a70ef9f12c97996e3ed2159a06407b6e6e3d46302ba5bc2d"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/3_default_boy/models/arm.json"
+hash = "93d4fc7249d4a47f95c393345d87c36042ea30c3eb19155283141609681fb948"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/3_default_boy/models/main.json"
+hash = "28ee6898bfef37fa3cf4a6e4f34bafe721782a4cff2b2cfd66dfb0b97963b34a"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/3_default_boy/textures/blue.png"
+hash = "ff7872dfbdd72d2453fec5ad1903272a119ec0c2b9b28482c1bb27787972a4c0"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/3_default_boy/textures/red.png"
+hash = "5a667b5fae29820c86646e01d7197b0db99c491ce7127ce0bcbe082fef28f4d6"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/3_default_boy/ysm.json"
+hash = "dfd4fae1b37261bf41ca9fbb6c35cc78adfb0b5baea0b2c73b76c86fe812f907"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/4_default_controllers/animations/arm.animation.json"
+hash = "8ac75b84b71a5c01ae0b4a11bcd2ab68bf399df5e97501a6a505ea06a4a673d7"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/4_default_controllers/animations/main.animation.json"
+hash = "b1257f32b8b8b1222e5ff7b3652f43a50f58695b25625c589981153c31a6d345"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/4_default_controllers/animations/tac.animation.json"
+hash = "e99340dfeb8f73fa6dedb6f715ac4585229067b7ecc42ff8291e04cd824ef03e"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/4_default_controllers/avatar/gsl.png"
+hash = "85b211d42625da77688d0c1708fc172dc12e16ff33bdadd1401a50b27e75807b"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/4_default_controllers/avatar/hl.png"
+hash = "03d609e8d022ca022796b1cf2683efc1a9cf22e111a78b47ee3424caffad8536"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/4_default_controllers/controller/main_controllers.json"
+hash = "b5b6c66973767875b0d76d43dddfbcf99b61ffc63098f7326a29c3c6f94239ae"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/4_default_controllers/lang/en_us.json"
+hash = "1280573959c74f535e03341e38ed62a72982a73d0460293012553457fe0ff01f"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/4_default_controllers/lang/zh_cn.json"
+hash = "288ac5466161e4345313ec4a4657a11ed587138fbd899f93e20b8b1432b97177"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/4_default_controllers/models/arm.json"
+hash = "544ad34a021ccd1cc11220340f44ad9b1d89aa2c21d4b7f019821a833c794e15"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/4_default_controllers/models/main.json"
+hash = "f3e5f22abb291e4d98ced6d20f693113043326a63fb33e95be39c9d8913593a5"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/4_default_controllers/textures/texture.png"
+hash = "6c6d0b9958c3e5beb289c540e5ba18f1f29d09ad33da00651e96933b94dbb304"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/4_default_controllers/ysm.json"
+hash = "c6be0e59409e96694a100f7275d006e144342455d71684c7ad7c9de70708919e"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/ysm-pack.json"
+hash = "dd7ffdfc2f552886875857d7e32ffa125831af5d770c5b6351171bb6e0b1206f"
+
+[[files]]
+file = "config/yes_steve_model/builtin/misc/ysm-pack.png"
+hash = "58328f1ca97c3f33123cd428f65d1d96b0f69f1201f14e983092d0b583d15c31"
+
+[[files]]
+file = "config/yes_steve_model/builtin/notice.txt"
+hash = "3b4af702f6e24db200a35f015230605c2f284b894f25d9de798b6e1d3ecd5141"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/animations/arrow.animation.json"
+hash = "7920d5f25a5f639cecfe5e980ea6bd35fa43f1747c0f4afd418ab66b8fcb3313"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/animations/carryon.animation.json"
+hash = "5371aee783c07a9d441d3b9a88666c349e692c2461bd07037ecf274423ca376e"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/animations/extra.animation.json"
+hash = "9933f5fe80d55f81b43fa5d87a144c91793ef538684d634303a29c611fea9ff9"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/animations/fp.arm.animation.json"
+hash = "17b10e3b6c163069d61c4e26cf778b2d9d5f9fa3b90265866dd09426252e13a2"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/animations/main.animation.json"
+hash = "2fdb908b1b77845008dc8e8f882e71827af4f496d46972bf7418ed9a04c4362b"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/animations/tac.animation.json"
+hash = "204180ac35bf6bd61f6f44cb616e4de49f4fe5a316b0a8813c4535376abee92a"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/animations/tlm.animation.json"
+hash = "f8d09b38d362cde2f018e28930c586ecce57a55e248015a874018c88ce685b10"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/animations/vehicle/horse.animation.json"
+hash = "372d5c0819f74c9a80e92c8bb6e0cb7acc4a24e5a649c552e37c3a6dd8159f18"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/avatar/bfxm.jpg"
+hash = "41fb944b9d083ff69e1edc2ba69cf44d444f5645a4e1114026f1c9ad3ef6025f"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/avatar/gsl.png"
+hash = "dbfee9f254d512bad28db7f7e23d631d4aa450cbe42a31d1e2ed3a756f16f4a1"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/avatar/hl.png"
+hash = "80f61d49f385faf974b8b3e579b6b307b9046992f1d3ae32647e8676102d5fa3"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/avatar/hys.png"
+hash = "6dda47283fff88a4ed4ec07509de852b473cc97170e560b71f10339c2ab14ecf"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/avatar/lmg.png"
+hash = "0d05a6be0b1ffb32f6497265f7411b7741f18ae89a82e82a4982e39ba4183fa4"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/avatar/maks.jpg"
+hash = "836e8432f93fd41b5e6d19eb97a89027faf78e1ffa3758b489592f7f4a86ec9c"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/avatar/mrsy.png"
+hash = "1d5f4b48bda1349a1f5f7ceb5de981dfc4590f6a766574d3db5323290e4010eb"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/avatar/nico.png"
+hash = "c4dc33bb154086be5c4ea25c3638257de58713a7ba5e198b05235e4252074f09"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/avatar/wmdj.jpg"
+hash = "ffabb00e0bb3328749e1d5ac542a8d2f36ce8dba291469976068e36b6fb9b8c7"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/avatar/wool.png"
+hash = "98eb2c163ca5c7beac09a80d892df1fd414ff102dd8f85c428d99ff15f85ea9d"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/controller/wine_fox.animation_controllers.json"
+hash = "6cfffe227e58f254d5001cfc473ef32cafa9cabfd8c6be30ece71add58f5692d"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/lang/en_us.json"
+hash = "417edfd996633b7a406e172cc5bda1ef21c4fd5b92587ca5ee61b3bf706f1933"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/lang/zh_cn.json"
+hash = "27842b53991ef32ba06a4f987f6d0027662e7fa59531761a66aba5ce6866080f"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/models/arm.json"
+hash = "50014b87b2cd05acda0e3edf426fe4d90decff9274ec25e57de87639cf0a5214"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/models/arrow.json"
+hash = "13fd9a38830571238aa6a45338b188d9626229dbc1a73f81aefd04af53b36d5a"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/models/boat.json"
+hash = "2c1632097fb60194852c3b128ce5405d3318f343c8e23a884c15a7568674f480"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/models/horse.json"
+hash = "5144f14b9d33cb9b171799b2cad72a980c9f761731c838948909fe0a43922a70"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/models/main.json"
+hash = "a1525e7a88b4d77c7b0dc35116cf4fba6a3f32a288691d7f983b9ecf999f08ee"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/models/minecart.json"
+hash = "03e79239cab5bf591eb17bc59dfa3120853a7f889bf4a6a56838dfe56006e140"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/models/trident.json"
+hash = "b87fecf17e6dd1069b6d0cb7c1822f3d9c7166dfb296d9bd0ff29763396bdebd"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/sounds/car_idle.ogg"
+hash = "906d2c14001168b1387c87623b0335c43dc2d49309f382f084f822966c32aa1a"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/sounds/car_run.ogg"
+hash = "70ec38e95609d72c24ad5a7ca3a592b6da805e9952f03c86dc4902abe3fc8e23"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/sounds/get_down.ogg"
+hash = "63dbf11be085953b3232710552f049df9465c1a15327cd083ecaa0f726cba86c"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/sounds/otoko_wa_tsurai_yo.ogg"
+hash = "53dc18199056bc254a8e664483b4adbcf3317bee5d1182435323c6cc4960b191"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/sounds/zufolo_impazzito.ogg"
+hash = "ee80cfe3f9ad70f2bd6b3b735d65c5c356c1119c67c8da4d812c838058ca6990"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/textures/arrow.png"
+hash = "0d4435fe0620372d92279e07af771b1e96cdd5d6c3e1628a538336195d47eaaf"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/textures/boat.png"
+hash = "447c0e2d1ca0f29099294b68fc1d61c2b39a51372692cd9126219486d095cf51"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/textures/horse.png"
+hash = "68d969e91563e630ae80adf0873a661caf3926e57ca7601266ab957631d65220"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/textures/minecart.png"
+hash = "71f80b4165c2e055362c500cb387061ae3afaf5a90aa74de012c98917afdb515"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/textures/skin.png"
+hash = "77010882e37f727dd0cd18249485e94d702aedda206ef725fe3d7c657e72df8f"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/textures/skin_white.png"
+hash = "9d6e8d421adcf4c9eb75a120e9ffc7ee55c8528ee1dd02a9f4e6f2339e72b430"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/textures/trident.png"
+hash = "eac28c315c1e5c69b01af28b8bf505a24670e658f926ba9e258d7d5147678e82"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/01_taisho_maid/ysm.json"
+hash = "e463f21488afcd003d38468abf8dd3fcb2c5d2d161ce05b83eaf6b41ccfabd62"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/02_new_year/animations/arrow.animation.json"
+hash = "bc6cff221fc2c751de765c6ffdbd24115bca062b5d19fa4f8f716fdbf6c27389"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/02_new_year/animations/carryon.animation.json"
+hash = "5371aee783c07a9d441d3b9a88666c349e692c2461bd07037ecf274423ca376e"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/02_new_year/animations/extra.animation.json"
+hash = "8fb05745cf26fded7ea3a2ab372fb179cb9c1fb5952899e9b958235181abcbc5"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/02_new_year/animations/main.animation.json"
+hash = "888fca8166766b5108c3c592b8441f0943c028412175861a431d294e9a8b7867"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/02_new_year/animations/tac.animation.json"
+hash = "204180ac35bf6bd61f6f44cb616e4de49f4fe5a316b0a8813c4535376abee92a"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/02_new_year/avatar/hl.png"
+hash = "80f61d49f385faf974b8b3e579b6b307b9046992f1d3ae32647e8676102d5fa3"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/02_new_year/avatar/zb.avif"
+hash = "3454087a917e39176ad6c2aa64ea2db80a397b786d6dd91244dee6d34439715c"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/02_new_year/lang/en_us.json"
+hash = "497fde8cbbcb0ec6cf396a62d84839d60c6c64c7045f4c3c79040bb4b34772ea"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/02_new_year/lang/zh_cn.json"
+hash = "b7087e6d9a884b9748b8f7fea92f285f4d53230a341a4aa59e66e1cec414b77e"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/02_new_year/models/arm.json"
+hash = "b334e8ccd94fb630a48b732e8255b239e8c2102a4798aae8f4fe2415a1b3cec3"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/02_new_year/models/arrow.json"
+hash = "13fd9a38830571238aa6a45338b188d9626229dbc1a73f81aefd04af53b36d5a"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/02_new_year/models/main.json"
+hash = "38520531321177b20897237f3f64d8d0fb435a0c28a7dc14179b965e3e1fd077"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/02_new_year/textures/arrow.png"
+hash = "0d4435fe0620372d92279e07af771b1e96cdd5d6c3e1628a538336195d47eaaf"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/02_new_year/textures/skin.png"
+hash = "37f10b36cf7b4e9bf946ee59dc2aefae674da3b99e25446772085d3e73f66127"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/02_new_year/ysm.json"
+hash = "b7e61aea31fdd98f210fdb795989481fdb981db72776aa1904bf6a9b9e6c0b7d"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/03_astronaut/animations/arm.animation.json"
+hash = "a96091b4c5d62368f47ceacace1694ecf53ff4f9893cef371b4a70c057bdbbc4"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/03_astronaut/animations/arrow.animation.json"
+hash = "bc6cff221fc2c751de765c6ffdbd24115bca062b5d19fa4f8f716fdbf6c27389"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/03_astronaut/animations/carryon.animation.json"
+hash = "5371aee783c07a9d441d3b9a88666c349e692c2461bd07037ecf274423ca376e"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/03_astronaut/animations/extra.animation.json"
+hash = "b18894cbd4d70e31806a62d8bdb762926fd45951e68eed0119d4d529fd11dc38"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/03_astronaut/animations/main.animation.json"
+hash = "8ca4aa4c3b7b011a19ba0f6dba981ff12c872e5da81bafbf4276b43877f2e489"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/03_astronaut/animations/tac.animation.json"
+hash = "63ee720953376de7948caed9c303c6ca9ba2a054c6afb796e4cdce1fd4ba6859"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/03_astronaut/avatars/af.avif"
+hash = "6359c8dbb9f0f8c0d2e7723be2289cfced5e2ae39e08180badea913afcdb3614"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/03_astronaut/avatars/gsl.png"
+hash = "dbfee9f254d512bad28db7f7e23d631d4aa450cbe42a31d1e2ed3a756f16f4a1"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/03_astronaut/avatars/hl.png"
+hash = "03d609e8d022ca022796b1cf2683efc1a9cf22e111a78b47ee3424caffad8536"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/03_astronaut/avatars/hys.png"
+hash = "734a8f179cb3c19ee402c1720526e3a1e9c8c6fd93207ccc9c19a0f036a3342a"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/03_astronaut/controller/controller.json"
+hash = "3fe15544afa2febef510328e3dc61a682e1d2c9a1138aea259bd3f73855fc83f"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/03_astronaut/lang/en_us.json"
+hash = "78b69c2fa78f22e4df4101e2eed5776a0d58622c1efae46ace919ddf3b2d0dfc"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/03_astronaut/lang/zh_cn.json"
+hash = "bbd7f9e4652992519157d2dfad712f409fe88134acdb3a7ee15b384ef505eaf2"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/03_astronaut/models/arm.json"
+hash = "ceccd6e3fc442a8bea7ab30391a647636683b36f7435cb8b23360c438eeb955a"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/03_astronaut/models/arrow.json"
+hash = "13fd9a38830571238aa6a45338b188d9626229dbc1a73f81aefd04af53b36d5a"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/03_astronaut/models/main.json"
+hash = "33ce85097261700d03b727136484dc53fc0935a4a0b30c13163dd0d3848e253e"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/03_astronaut/textures/arrow.png"
+hash = "0d4435fe0620372d92279e07af771b1e96cdd5d6c3e1628a538336195d47eaaf"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/03_astronaut/textures/skin.png"
+hash = "028d5e613e9cc625f5737cee6383cb00bff21ae6edeb143fe331d8765766afab"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/03_astronaut/ysm.json"
+hash = "e9c279611e0dff1fad886a9e8f85651e9b5d2f54a42dccf400b407b8dbc721be"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/04_kongfu/animations/carryon.animation.json"
+hash = "5371aee783c07a9d441d3b9a88666c349e692c2461bd07037ecf274423ca376e"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/04_kongfu/animations/main.animation.json"
+hash = "25724066a6e2c56b91605d4f48e3c7abcefb0b8f103a45eddf53c3a5a03c10b4"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/04_kongfu/animations/tac.animation.json"
+hash = "204180ac35bf6bd61f6f44cb616e4de49f4fe5a316b0a8813c4535376abee92a"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/04_kongfu/animations/tlm.animation.json"
+hash = "f8d09b38d362cde2f018e28930c586ecce57a55e248015a874018c88ce685b10"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/04_kongfu/avatar/gsl.png"
+hash = "dbfee9f254d512bad28db7f7e23d631d4aa450cbe42a31d1e2ed3a756f16f4a1"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/04_kongfu/lang/en_us.json"
+hash = "8f2cfe2e1b4a8294405e06daf994da231072bae9163f70866a3794975ee61d86"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/04_kongfu/lang/zh_cn.json"
+hash = "8e9e40a87037ee4c5aa45b2aabeeb3084e3770a936f6aa8b78dc09f623b8193a"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/04_kongfu/models/arm.json"
+hash = "99d829ce63177aa3ff8819597f3abe0a96f967c47041815fe5e32d6740dd113c"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/04_kongfu/models/main.json"
+hash = "85541bc069905799c8c42c39701c0b1c514c09dd5800240d9bb602f966a19938"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/04_kongfu/textures/black.png"
+hash = "7e113de3a8c3dce4543e59ac4d5048203a76af633cc5f803ce96759ed09b2808"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/04_kongfu/textures/default.png"
+hash = "8d054b15c41c8e40bc2d139fda07cf6ff61459f4ba45973faa32b4d7c1b4be93"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/04_kongfu/textures/default_red.png"
+hash = "fec357fcf6dd2e3f5993b78eae3e90c7c0f63c4bd20add70589cad8ceec50b4b"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/04_kongfu/textures/red.png"
+hash = "94d4a5e0f208b3cf976e63486e3f5246f773a147d971fbe9b6a2ff172a8c1220"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/04_kongfu/textures/red_more.png"
+hash = "127b3a4596712ae249a3a717a4720e12e738ad7cf2d905cf4d008b42d53e9d9c"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/04_kongfu/textures/yellow.png"
+hash = "0e9384ba11bc87da981e07db74d7ac548ba218abef332269aa66930c09f6ee8d"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/04_kongfu/ysm.json"
+hash = "6ee9990442f86dc1e68ae6f0b04e9fc70a701aba73ccd929248820d28ab03b98"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/05_magical/animations/arm.animation.json"
+hash = "f6f245834a9d661e5ac4682e6a3d5d7cfdf1e6c9e57e27f6407f19aec341834e"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/05_magical/animations/arrow.animation.json"
+hash = "f1200befad28c0e3c601c84eac3ad3ed95b9dc5482eda863eb8c359f52700e46"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/05_magical/animations/carryon.animation.json"
+hash = "5371aee783c07a9d441d3b9a88666c349e692c2461bd07037ecf274423ca376e"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/05_magical/animations/extra.animation.json"
+hash = "48006be2b3033e909174c660bb24b15331b9eac5741cbe4d0b4bcb705c780a6f"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/05_magical/animations/iss.animation.json"
+hash = "7ff885977825c6be761d7c4316df16ac880463ba3e741e14afc729b438d8de44"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/05_magical/animations/main.animation.json"
+hash = "8e753f3925f092d5a085e8f4b2b73ed4085b6039c28c67762bbb7391a2aa4e23"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/05_magical/animations/tac.animation.json"
+hash = "63ee720953376de7948caed9c303c6ca9ba2a054c6afb796e4cdce1fd4ba6859"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/05_magical/animations/tlm.animation.json"
+hash = "71fe3efea5b52c79563e697d4c727d7cfaf7130d0b4b7d3effd9886e12fd52c9"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/05_magical/avatar/xinghai.avif"
+hash = "601923c5fb5ce1bd93baec60fe9fe2991f222079e5431ecd8084a1bd31bce561"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/05_magical/avatar/yll.jpg"
+hash = "858b8cdb54b01518f7f0f296ba855d108946ee5cb4062f99e769a931af0d009a"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/05_magical/controller/wine_fox.animation_controllers.json"
+hash = "6cfffe227e58f254d5001cfc473ef32cafa9cabfd8c6be30ece71add58f5692d"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/05_magical/lang/en_us.json"
+hash = "39434043dc3102bf527aceb0fa3267fe59aa314baf554608bc02d95522591dbc"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/05_magical/lang/zh_cn.json"
+hash = "454fa3c2b3e56baf3ceb5fe74e4e565e1d2e3474e4996478b3538a5a790f33c7"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/05_magical/models/arm.json"
+hash = "a46d1dbe1f183f6f226accc79d4d837ef5ec802613301c7a7e48fe207566089c"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/05_magical/models/arrow.json"
+hash = "21b098d4310ae9844e2c61513719e6991f3161175232f290eb1640d5d784d743"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/05_magical/models/main.json"
+hash = "fcc482912b0d481c8cc2a4b2f07efe3fd771ad480bcaf8073e0a579d7650dd18"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/05_magical/textures/arrow.png"
+hash = "827c7610471c8ae1713f59ecaa8d828a41b3aa6c6ec3ac412d9f9545cb6db330"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/05_magical/textures/blood.png"
+hash = "0a597097dc93883a26f36a5f4909fd37b93699e097ac29339c4b5c198acb8fa1"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/05_magical/textures/flower.png"
+hash = "f3ff3f652ffc00682dcbd33a92c0c625607fcc4bc7cc108e4690fb452305bd2c"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/05_magical/textures/ice.png"
+hash = "d527050be075ecd8b146920f0ff245b7a99bdc3d567dbc7fc564ee8147049ed1"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/05_magical/textures/magic.png"
+hash = "e6570e709ee0e0f6fe4b83291e9899d0afd19929464b89f060da4d5ed981cbb9"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/05_magical/textures/water.png"
+hash = "d81306baaa77c1e026141391bb60af769648d59c2c4179623639a0cb8601cbe5"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/05_magical/textures/winefox.png"
+hash = "7e42022e9ddf7be7489a20e6c521f81faca5180956812fe1de6268c9d9837fd7"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/05_magical/ysm.json"
+hash = "42ca508f78eb3f6dbd6e85d3f6dd115c2fa1e280e9fbce19ac5789cbb5add0ff"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/06_hanfu/animations/carryon.animation.json"
+hash = "5371aee783c07a9d441d3b9a88666c349e692c2461bd07037ecf274423ca376e"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/06_hanfu/animations/main.animation.json"
+hash = "d4838268dd772e1b2e912355e503530bd60c0d9d02822ac3d9e37af9056e96bc"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/06_hanfu/animations/tac.animation.json"
+hash = "204180ac35bf6bd61f6f44cb616e4de49f4fe5a316b0a8813c4535376abee92a"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/06_hanfu/animations/tlm.animation.json"
+hash = "f8d09b38d362cde2f018e28930c586ecce57a55e248015a874018c88ce685b10"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/06_hanfu/avatar/zb.avif"
+hash = "3454087a917e39176ad6c2aa64ea2db80a397b786d6dd91244dee6d34439715c"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/06_hanfu/lang/en_us.json"
+hash = "21c0c4c11beb68049c2c10b16f65181149c25a401981ddc5c3b5ac2aa8c0ced0"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/06_hanfu/lang/zh_cn.json"
+hash = "45f4f2566ee82fe80dc91ba0b523596f29ba14f201594b43bfc72547bdcf2c50"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/06_hanfu/models/arm.json"
+hash = "1b7407b1dc960cb7c06c3e77dd1ca8d71d5947436212c135768102454c98c0b4"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/06_hanfu/models/main.json"
+hash = "580556ac7824cfba08d8c449b91e88863c5f501310089fdc9c7b32b0729e5fb4"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/06_hanfu/textures/default.png"
+hash = "cc6d6e9010b26eb0838903e8a702992a427633dde514a2fd685a1e08b53c8e20"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/06_hanfu/ysm.json"
+hash = "2684976bc75dfb90ee7c04c986f4d09e18741ccac9d389940732ed4d6b659c03"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/07_jk/animations/arrow.animation.json"
+hash = "bc6cff221fc2c751de765c6ffdbd24115bca062b5d19fa4f8f716fdbf6c27389"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/07_jk/animations/carryon.animation.json"
+hash = "5371aee783c07a9d441d3b9a88666c349e692c2461bd07037ecf274423ca376e"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/07_jk/animations/extra.animation.json"
+hash = "07d1462680e33baa8a4204deb5664ac9daba169ba30ffb369003b5764867bafd"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/07_jk/animations/main.animation.json"
+hash = "3a3280f62782294005d894bdbc913067fef4a744dba85d550ca1194243f74192"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/07_jk/animations/tac.animation.json"
+hash = "204180ac35bf6bd61f6f44cb616e4de49f4fe5a316b0a8813c4535376abee92a"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/07_jk/animations/tlm.animation.json"
+hash = "a8b72ed9d1ecc484f18bc33a9d79e854a6881005b3cab1f5b72a150255081749"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/07_jk/avatar/hl.png"
+hash = "80f61d49f385faf974b8b3e579b6b307b9046992f1d3ae32647e8676102d5fa3"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/07_jk/avatar/mrsy.png"
+hash = "1d5f4b48bda1349a1f5f7ceb5de981dfc4590f6a766574d3db5323290e4010eb"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/07_jk/avatar/nico.png"
+hash = "c4dc33bb154086be5c4ea25c3638257de58713a7ba5e198b05235e4252074f09"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/07_jk/avatar/xy.png"
+hash = "183367b5908d0ed0b931eea2858355b06f3f042a4144dfc8e46133d6ac47fc34"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/07_jk/lang/en_us.json"
+hash = "e47d7a9f876c1653cb40daee0d9dce34007703d250c7e24b38db463a570d564d"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/07_jk/lang/zh_cn.json"
+hash = "9ca91d7e27d3ce25561d2b011045ae664552442a3fa017e4a0d2c563f10c9313"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/07_jk/models/arm.json"
+hash = "b78acc037f26d4d3b48fa7e26e6572d12f827884b1ebb5ec51a4b198015ca506"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/07_jk/models/arrow.json"
+hash = "f44d4592dab26e4e9b48a607a9ab61d3e50716b64066078f57c81de5b0827ecb"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/07_jk/models/main.json"
+hash = "2735bc79842d284dcc9f530f0e22b203c1ddcce2891c742bbfef64ca2ceb8236"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/07_jk/sounds/minuet.ogg"
+hash = "30a88e8e2e97c04b9916a863c54ffb18554e346efd485b1c0128da7d9390beb4"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/07_jk/textures/arrow.png"
+hash = "38b17c6ff0691763a9e56b19672a1f358ab3bca5e7737b4bfeb759ce7da74a74"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/07_jk/textures/skin.png"
+hash = "5af95ca1a34cf477e69c5c6df2ed05a9e7e35e2f7c92ab5aab784a6ef00fce7c"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/07_jk/ysm.json"
+hash = "10d6a2175c7eb2b8ab64d75be1da7c88331f90d91d17e6a367f2a899bc5a340e"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/08_sta/animations/arm.animation.json"
+hash = "bd63f6fd3371f8cbeb52c6c82173de033a88710fc55129a66fc641b789936023"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/08_sta/animations/arrow.animation.json"
+hash = "01902bc329af43baf925d67eb6861c5f4e2dd5355258c96819533ed7d94239ba"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/08_sta/animations/carryon.animation.json"
+hash = "fe28bda145b9a8f8acfd3aa1d85b267a55e5c6538f595161dbd2161bbebd8bda"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/08_sta/animations/extra.animation.json"
+hash = "9cf78350bcaa4f2f5ec1fd8771a0d728765748c631b9d72af1fd69f5282ca6f5"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/08_sta/animations/main.animation.json"
+hash = "cf6a6ab57df9472fbf3e01f6ad367576a90765834f6eb9c136e533b26ed76926"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/08_sta/animations/parcool.animation.json"
+hash = "d3941804d3181a5fa7d0deaa6d1eaf884a20453ddc4f2c80492140bf16876b2c"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/08_sta/animations/swem.animation.json"
+hash = "b0018f5a7e88c21f78b75ff18c98966428ac691c46f716950d2a8f2a0815abb3"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/08_sta/animations/tac.animation.json"
+hash = "df49f5969b5bde361c183579309b85b19d5734e1693c468a019c39e397c8f99c"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/08_sta/avatar/gsl.png"
+hash = "8fee8c95130c07b76955899772876733c1dbe56ed4edfa12df78acaa86ac71a8"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/08_sta/avatar/st.png"
+hash = "8d24134592ed557d4b1a369168c6f8865a2d09d33970b18510c457c486379313"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/08_sta/avatar/ys.png"
+hash = "2c7b76bb2483518430979018331b4b49f23d7037bf44c14aee898f2048cc55ac"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/08_sta/controller/main.animation_controllers.json"
+hash = "51451f32c71b2f8ac524aa86fadd2bae515278e8648811d4ffe26cfe7143fc5a"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/08_sta/lang/en_us.json"
+hash = "582020930d2f3fbe0300b94e6ebe20e951600ef4204b9186d938d7702fe63d7b"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/08_sta/lang/zh_cn.json"
+hash = "88bc3fd5a79086d77774d55665e040e528e8d706ef876d2a4d00796fda25a088"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/08_sta/models/arm.json"
+hash = "ef1172352f46999d418a3aff877fe47203ae55a727f7579e25bae8734a51613e"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/08_sta/models/main.json"
+hash = "646851b2f658a23cc6d7a23415462883bb159938db3cde005dd4c5fbc74f54d0"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/08_sta/sounds/A Cup Of Liber-Tea.ogg"
+hash = "bdc32172e84d3d98310d30601e7e9317993e92c4247ee5b5787c586bb79730ab"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/08_sta/textures/texture.png"
+hash = "641665d1ffbf66369312d4908b9be604efdf08324b623af11eea6866fe4f7fcb"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/08_sta/ysm.json"
+hash = "7fdaa916fde9d14d0063f2314a4fc0faae15d7bbd6433508fa696da122f22e1e"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/09_hailuo/animations/extra.animation.json"
+hash = "9133f09afd40d215681f0bc7c4ca5a5626d63e759bf293df411becd73871349a"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/09_hailuo/animations/main.animation.json"
+hash = "9fabf261a824db5ac17bf40a5deb96589ab0a17bbf0193e8383b0db02637ed61"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/09_hailuo/avatar/zb.avif"
+hash = "3eca1f6d9da6ae80a8dd798b0c8a84df363c39281ed51aae770d015487c51ce7"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/09_hailuo/avatar/星屑海螺.avif"
+hash = "1d9f457907e33a8aedf1186a98506ec02e09afaffe2cd72dcfd046880e173742"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/09_hailuo/avatar/白帆小喵.avif"
+hash = "99f81f37640e1f89bae26d7124213622201f793b361de2fae1e2853c4c57463d"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/09_hailuo/avatar/纸板.avif"
+hash = "91e16853e16bdfae6d5db2c381f2f92da2651ddb0875b79582a862eba3229b55"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/09_hailuo/avatar/雒仁.avif"
+hash = "087dcd5da9ef2479eedd52979959acf5061fa7f04bdfed854201deb7f3dd8cfa"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/09_hailuo/lang/en_us.json"
+hash = "fcdb34552ad26b8f22d9d65a518b65d2b473ad51c640b946fe6723bf8ab2aba9"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/09_hailuo/lang/zh_cn.json"
+hash = "d37ba1c77dfead0b723c53df5220a65f242652b51405551deb159c889df09afb"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/09_hailuo/models/arm.json"
+hash = "edcc08bd5e555e32d54ede575e13a36aca5161faec483786206495c2cfb5ba7f"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/09_hailuo/models/arrow.json"
+hash = "5c58c14c5b3a2c60a168d247f72be1a1c02bbeabf3ee495dd67b0e754a70ddc7"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/09_hailuo/models/main.json"
+hash = "f4e971c39508e520b432f25506fe529bf347726f610c13c26ab5dbc7ee6d602a"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/09_hailuo/textures/arrow.png"
+hash = "7e6f6fbfc1e9fd654dc70e549f9db48607f60608c408a1315369c7f494f93fe2"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/09_hailuo/textures/texture.png"
+hash = "e92351611d0b7960b00c812dcb521d1aaec9f9a3a4e6857f26bad8d0bf9ae46c"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/09_hailuo/ysm.json"
+hash = "da38fa575662905830342a26ca7121f8224cff56291cf7c6bf3f39fae53e4635"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/10_zhiban/animations/extra.animation.json"
+hash = "9423da968fe867762057bcca07d11ee1c76db456cb9b17adb18c3014dfec06d4"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/10_zhiban/animations/main.animation.json"
+hash = "529722bc6a509cf3b1b16b72b8cb88bcc03c68c253f40a34597b51ff9ee7950a"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/10_zhiban/avatar/zb.avif"
+hash = "3eca1f6d9da6ae80a8dd798b0c8a84df363c39281ed51aae770d015487c51ce7"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/10_zhiban/avatar/狱际星芒.avif"
+hash = "e7458e13d325d4b7aa428ba787e988fec26ce72804e0fd8e757d4543c8633455"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/10_zhiban/lang/en_us.json"
+hash = "a3cbe33af3f8e4f65514536328c9a935ba1afeed3b8526993b5b739c933ff851"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/10_zhiban/lang/zh_cn.json"
+hash = "328474119260051b757a0f23450c754ab417c921f3024ddc522bfdbd03ff8078"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/10_zhiban/models/arm.json"
+hash = "3d5d5b789e531025e25e4b9f70c9b815ac54427a3f16832e635c675a0fd3ed30"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/10_zhiban/models/arrow.json"
+hash = "5c58c14c5b3a2c60a168d247f72be1a1c02bbeabf3ee495dd67b0e754a70ddc7"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/10_zhiban/models/main.json"
+hash = "40c004ab7b69ffbd7e867d888e4e2fdfce085846e70b89bfc269b1bfffbb2cee"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/10_zhiban/textures/arrow.png"
+hash = "7e6f6fbfc1e9fd654dc70e549f9db48607f60608c408a1315369c7f494f93fe2"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/10_zhiban/textures/default.png"
+hash = "e7cd7c1e339d1b5f8090a38235b68f9b9d3349b73d28b50bbd23f4d2a5e07e6c"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/10_zhiban/ysm.json"
+hash = "47cfeb2dc3f70abd09af22fad82afc4a35d10ba25c5aa2b9f684bcf47a4f8827"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/11_salesperson/animations/carryon.animation.json"
+hash = "5371aee783c07a9d441d3b9a88666c349e692c2461bd07037ecf274423ca376e"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/11_salesperson/animations/main.animation.json"
+hash = "51c6ffc6fcf62056dd7b9951eb87f6f88b3ee2b251b68cb213554098bf1f0903"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/11_salesperson/animations/tac.animation.json"
+hash = "204180ac35bf6bd61f6f44cb616e4de49f4fe5a316b0a8813c4535376abee92a"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/11_salesperson/animations/tlm.animation.json"
+hash = "3cde1a5efa28941acc20079c8ee77b20f2a3254cb46abc0f554a1cedf4fa72d6"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/11_salesperson/avatar/mr_cheese.avif"
+hash = "2e93cd81c82c1f5b377fc5db0eee4ad29efd9330c932dfaac54aa4197ca69bc5"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/11_salesperson/lang/en_us.json"
+hash = "67c827677c988902b57f6180bc7781c61dca371e62281ea451f1ac26e064bc0f"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/11_salesperson/lang/zh_cn.json"
+hash = "67cca28265fab3c46140567be27e0d2d9a07e138e21c6601f9f06f5720b29b1e"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/11_salesperson/models/arm.json"
+hash = "b879b9d647b6a9ec8ced256ebf97555688eb0af5a9e48b1c5b7053f346a3b4e8"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/11_salesperson/models/main.json"
+hash = "131d5b7eb0cd149e37f4a451646a49c0514ee7d4d175311bfecfcfc7a543a40b"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/11_salesperson/textures/blue.png"
+hash = "d512f1c526af9ece158f9bb60d44148cd9f57c4bd52181fa7ec9bfb586ab2dca"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/11_salesperson/textures/default.png"
+hash = "171bcd655b6469ee60b4d8262eb2148f8ffa335ece8554133e2fb8ef0610c88b"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/11_salesperson/textures/pbr/texture_s.png"
+hash = "ba05918b5db855c5eb387adc77e3a8957cab64389463bb09fae488d12fe08fe0"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/11_salesperson/ysm.json"
+hash = "62fe06327d68a59519a9e5a2afe8c2aa2a3d937088d70fb4ce920aa62447a950"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/12_little/animations/arrow.animation.json"
+hash = "bc6cff221fc2c751de765c6ffdbd24115bca062b5d19fa4f8f716fdbf6c27389"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/12_little/animations/carryon.animation.json"
+hash = "1142b1af3ab37bc436240190b46f578a8e38f8f84c955a42e023583c22a71b12"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/12_little/animations/extra.animation.json"
+hash = "f9d6fcc69ded1d7421432a2996c0ee012147f6bb363da2290ff9f0a850b55a6b"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/12_little/animations/main.animation.json"
+hash = "7c533c7579ff6435030375ae998ef1f6a69a6beb7ecaa638da5449bf7369a64a"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/12_little/animations/tac.animation.json"
+hash = "204180ac35bf6bd61f6f44cb616e4de49f4fe5a316b0a8813c4535376abee92a"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/12_little/animations/tlm.animation.json"
+hash = "2242ccda2cacb8422f1eacdcf60992b912383b70947aad038dd1120501e922df"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/12_little/avatar/hl.png"
+hash = "80f61d49f385faf974b8b3e579b6b307b9046992f1d3ae32647e8676102d5fa3"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/12_little/avatar/ry.png"
+hash = "38676f6ab126383b35b05846fec4f3f0d0012c06d0ff0a841fa01df0ae1aa3ac"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/12_little/avatar/wmdj.jpg"
+hash = "ffabb00e0bb3328749e1d5ac542a8d2f36ce8dba291469976068e36b6fb9b8c7"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/12_little/lang/en_us.json"
+hash = "bacd8030da58f5c0e0669192d0435609b48bace1f7f05465be881cc19b294899"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/12_little/lang/zh_cn.json"
+hash = "a9c8cfe9131417745a07c42b4d03f430e8cb4904423b63ca62f77f92c3c738b2"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/12_little/models/arm.json"
+hash = "324205dfc410c8146438ddba86df36c9e65377ee4b78bf4b937f50ec6dcddf5a"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/12_little/models/arrow.json"
+hash = "13fd9a38830571238aa6a45338b188d9626229dbc1a73f81aefd04af53b36d5a"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/12_little/models/main.json"
+hash = "595d44f2aa5ee78acb3a91458f9d5279159694f80021ba538bdba2ac42292fe8"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/12_little/textures/arrow.png"
+hash = "0d4435fe0620372d92279e07af771b1e96cdd5d6c3e1628a538336195d47eaaf"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/12_little/textures/skin.png"
+hash = "ebfb0c55c96328cacd80ec02790419cde59c16d95bb1d95ec779a52d15f9bd1a"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/12_little/ysm.json"
+hash = "cc46d764c6d01d476c427421a8c402a0bfb33fc41175e068da3974b72d40f368"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/13_matured/animations/arm.animation.json"
+hash = "afa4b8f08f83439a58e727958bc5d58d1fdfa981b1e5befe47b89626d0504625"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/13_matured/animations/extra.animation.json"
+hash = "39afc3a0705db00f68cc14d6260a5abe9dd7b5018dfff36f0f67665cafb347ee"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/13_matured/animations/main.animation.json"
+hash = "b3a59084335f6d7c1f823724c138a2fe7f18ed9878599741d3eb78acad216cba"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/13_matured/animations/slashblade.animation.json"
+hash = "f83f6d38019ef7bf2163d527aa1bf33a61f71012e12ef362713a7e57b1289e38"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/13_matured/animations/tac.animation.json"
+hash = "204180ac35bf6bd61f6f44cb616e4de49f4fe5a316b0a8813c4535376abee92a"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/13_matured/animations/tlm.animation.json"
+hash = "7ecdbb5f221cf08642031c9d678bfbee69d9544690ee0b7b94b1c2fb69968047"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/13_matured/avatar/sbl.webp"
+hash = "6e988ee86303ae42b594b2d47ccfcecc37585acef535eb844ca5176cc5b5a290"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/13_matured/lang/en_us.json"
+hash = "e9024202c3c2503ff8ea9dfac9799bdc442838162ea7d5ca516faa06f3fdd3ab"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/13_matured/lang/zh_cn.json"
+hash = "8d908d66095ebfaf89e19a6be246c529ff45efc3b22d7bf5afdf6b4b1426824a"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/13_matured/models/arm.json"
+hash = "3077113627044cd99b12af9418548ffdfa50f054bac06b343fdcf4fb0688439e"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/13_matured/models/main.json"
+hash = "d838bc83c6312ef96f73a1f71987742638528b412e5891f987743fae3c5a4148"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/13_matured/textures/default.png"
+hash = "7cbd2dd552b13a6e055f5de3ce26b7c5e1a0a61753b1f8723cfa183631386b47"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/13_matured/ysm.json"
+hash = "60228a5fe493050e96d397377e548a217af4cc954f155d25b5d4b3e5ec7a9a8f"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/14_momo/animations/arm.animation.json"
+hash = "0e5144cb3e5df0f9175e7c984773f581d6d334d8ba18195858f4a8ab3828425d"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/14_momo/animations/carryon.animation.json"
+hash = "b50bc3d4c9c41dacc1b5729cf5f2ca5c5d8fc589b7a9e57062735114d9381e04"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/14_momo/animations/extra.animation.json"
+hash = "6091d56108ae525a320521af45db16a870440e2a16040ea44bc62308ce3c0568"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/14_momo/animations/main.animation.json"
+hash = "d23dbee05be27b0b874c2f60ccdd5644c360a3c87d6515f61411b1fc828e118a"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/14_momo/animations/tac.animation.json"
+hash = "204180ac35bf6bd61f6f44cb616e4de49f4fe5a316b0a8813c4535376abee92a"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/14_momo/animations/tlm.animation.json"
+hash = "362f2d08322d8d20ca1d79b9f4de297f5b2fe9019cc6b29afd0fbbb63bd74481"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/14_momo/avatar/tex.png"
+hash = "641a25abda731450258cbda8aa8e4aade7549a769ec2f59aec3bc2a665dc9410"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/14_momo/avatar/zljjxmm.png"
+hash = "ffeaec10e0bbfcf3614667efae4d7515ef6742cf6293e4bd8654901ce1b2ae97"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/14_momo/controller/armor.animation_controllers.json"
+hash = "aeffb6b377e98b2697ceb838b4d7843154f9c807cfa936b0aa54e22866a19580"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/14_momo/controller/parallel.animation_controllers.json"
+hash = "bce17e2f3866909dc8c8094bbe47d508d30a6929536a91221db309fedacc85d4"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/14_momo/lang/en_us.json"
+hash = "dbd85e61fd9346204871917e9d4c8f8da622f26095c109dbfdfb09e4b324a1bd"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/14_momo/lang/zh_cn.json"
+hash = "f3e4b94f7fc7eb3769975d4d9a3194d5e661040bbc276e56c26776ec8881fda4"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/14_momo/models/arm.json"
+hash = "01e209174d68e538ab0b26428f4ff71b468300f14e5885b61b1d765c12230e96"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/14_momo/models/main.json"
+hash = "04b03f56f666396948b4199150aad5a1471a10ad14e7bf8add3cc9a9fd9fd354"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/14_momo/sounds/dooble.ogg"
+hash = "bf8796d94c65cefcc10b42136858e1b6ce976065db61ed7b24690bb7eb7412bd"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/14_momo/sounds/fly_on.ogg"
+hash = "489ffe58f34a949964c264f6f26e430ae7ca1ed6668df1f72e08ceeb91521612"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/14_momo/sounds/owo.ogg"
+hash = "925b6e87fd87d0173a14f9f9bb9595cffba3d84ce7bd48105e639718f9298769"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/14_momo/sounds/sfmb.ogg"
+hash = "4b382d4926b83a16f58263d9f59203821b0d0f9a26fbf3805c831eae983d6171"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/14_momo/textures/skin_green.png"
+hash = "014b00e3a6cb72ae4f61028daf76e508989510d33fc250595426effe9c3a1313"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/14_momo/textures/skin_pink.png"
+hash = "70a486ea637dc33f0df04923ce0434c1e08dc63227ef8fae17ce0f38ee9e97a1"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/14_momo/ysm.json"
+hash = "1cba4288670a4ac49504707081fbce4fa331c7e827440e469a3e2da212f7536e"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/15_kluonoa/LICENSE"
+hash = "567f59efdd839f6b0971b0edf373f826106632d75f0821ba321e475446ce139d"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/15_kluonoa/animations/TAC动画.json"
+hash = "4594de398c4d34311d540caa2c1b314f631307fd68d810dfc84a8ac1552b3e88"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/15_kluonoa/animations/主动画.json"
+hash = "665c54a3fd2bb090d5f38ab4232c54df9b4901851688dafb4a2c5eb76be5b886"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/15_kluonoa/animations/女仆动画.json"
+hash = "b05cb0fcb0f71c430113d715cee0641272db9b8a8759860c7aa27d21bbc55e2c"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/15_kluonoa/animations/手臂动画.json"
+hash = "9305eadbb87fa59436b4f435bfc16535f2c6f7c1aff9312a19c564550489049f"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/15_kluonoa/animations/搬运动画.json"
+hash = "dc45059b4b65ef05da967c54c2f2d084fc3e532c1adb4e4633fc82c60ae04818"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/15_kluonoa/animations/跑酷动画.json"
+hash = "e18daf135fbff6ba53630bbf7c3fe9251574fe5b693e7946f09682ef9a6e5134"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/15_kluonoa/animations/轮盘动画.json"
+hash = "0f1fd23ffb3365d886239eb49000eea182675fbd80a775c834405d6d81640486"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/15_kluonoa/animations/马术动画.json"
+hash = "b0018f5a7e88c21f78b75ff18c98966428ac691c46f716950d2a8f2a0815abb3"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/15_kluonoa/avatar/12ssssss.avif"
+hash = "67b20a7bd14373088ae5cc663ec3e9e9a9f60aa13e1eb5458bc6249160b13520"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/15_kluonoa/avatar/Dumnheint.avif"
+hash = "801729562ddcf13efaa0f917720078bc2be56a7cda2d405f29d2d856566f363d"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/15_kluonoa/avatar/Maks怜悯.avif"
+hash = "4909706e5432337f71cc93e410716d6280dba4f51f954ba9058162515d63adc7"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/15_kluonoa/avatar/MasaneMiyaPA.avif"
+hash = "903adb3ee0f85c36f520c4bb68df7cd119eb40753bb3b5f7e11947bfd3cfe842"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/15_kluonoa/avatar/NEWKluoCat.avif"
+hash = "87de77478001f3168dfdf6db4ff283f302d98327972f43b09af48bc39c1bf518"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/15_kluonoa/avatar/Nona.avif"
+hash = "96013fdc1e95cdde38a5c2335771300df67a3c427206eca6b891607465c3b1e7"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/15_kluonoa/avatar/Sangjam.avif"
+hash = "83f2bd5c2c5b983f40c4647be44fd92939f071ab937004c190b890860eafe91c"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/15_kluonoa/avatar/TKYHJ.avif"
+hash = "6aeb9c19c5e3b5e621c12b3baa37c788658000318518d7542eacdc563f44dec8"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/15_kluonoa/avatar/咖啡鱼.avif"
+hash = "e9b34a0e5eaea1f48aba2cc3d20be3fc80b19df0d1333ce6cf80e24c139bd818"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/15_kluonoa/avatar/星屑海螺.avif"
+hash = "c8a05d54046f102db8f97ade841a971e23845a18a825bf41589259bc3d497a17"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/15_kluonoa/avatar/秋风.avif"
+hash = "36a4be0008d7d90e8079e09c8d9d24448e105fc929b94b7bdfe2b96193c91d5a"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/15_kluonoa/avatar/自动服务网络.avif"
+hash = "def6a918cab63c71aad1753a39bfbc45219696f74a0e6b95b9c71c67cbc0c19d"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/15_kluonoa/controller/主动画修改.json"
+hash = "172bbae987b9f13bd3ff73e871cb94557c597c85ffd93e7c3a0c40679c8c857e"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/15_kluonoa/controller/并行动画修改.json"
+hash = "ac49b424e38e6d1fe6a03cb448eec28359c47d947f1843f88b446193de121e2c"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/15_kluonoa/functions/@player_ctrl_pre_main.molang"
+hash = "4136f1f88c85907874e6f577bfcc19020a4ed813ae1c3b360b1306030732473d"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/15_kluonoa/functions/car_stuff@player_ctrl_parallel_6.molang"
+hash = "f2a9c52053d45ed37f8c027c151ee04e4ff1fb3fcbc59ec7cd65d004bf2389b6"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/15_kluonoa/functions/eventsubscriber@sync.molang"
+hash = "abcb2127740663a0b4cdd407a006094c8d84ba6b2cda859d8201c95c2630d723"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/15_kluonoa/lang/en_us.json"
+hash = "a24ff64f3452c448c0b053592446a908edb84cc5d51da43f46e98b116c7feb43"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/15_kluonoa/lang/zh_cn.json"
+hash = "29522e339b2ddd7c137ce64e790fa116aaf581cc7ace9ce2e807426e24e783ef"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/15_kluonoa/models/arm.json"
+hash = "ea369dd0827746e014403e4804d79be2d091fa28522aa34edc874dab3e7dbdcd"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/15_kluonoa/models/main.json"
+hash = "b72d70852ca2899c7af9bd8df8a9ad6e55c6a61f2b8544be928e42ccc31dc44c"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/15_kluonoa/sounds/A Cup Of Liber-Tea.ogg"
+hash = "d43178e88072a6c56a87045a837ae6753c26394ce0a64ba8227318d43c715ea8"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/15_kluonoa/sounds/horn.ogg"
+hash = "a053609bfd5f7adf7ff9bc32d914deb1ab977ce14596450cf04277353c75662f"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/15_kluonoa/sounds/horn_long.ogg"
+hash = "0814c97bcfbf1f0bc187ab0c8a5b4a871375c2fc78c5e2b9ce9c18a2c3013766"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/15_kluonoa/sounds/萝莉摇.ogg"
+hash = "5a49bf44036d981664e89c2ab1970f05de469bb0fa4d8cb33f9da29d04a23ac6"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/15_kluonoa/textures/pbr/blue_s.png"
+hash = "3f1b4e53b7c20bde8cee2eb6888ef3e6b68ed6d1019cbaa4c3eb44c4da688dbb"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/15_kluonoa/textures/texture.png"
+hash = "8e82e545275b5ef0126ef2ebf45608f32b706d6677ee8c3c1c9156afb6f627a2"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/15_kluonoa/ysm.json"
+hash = "653f8dba018c5aaf5bdf66b0468d48a00653877126d363d77606e0df57b78d6d"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/ysm-pack.json"
+hash = "dddab7cafdc5fe13b5a796534da9ab081c8909b0e3fd10d7944e1e02c40969e9"
+
+[[files]]
+file = "config/yes_steve_model/builtin/wine_fox/ysm-pack.png"
+hash = "77c064397290dd4fc13ba5f5fc6543cfd28fd0aa66bbc3e733b1fa659c0a660d"
+
+[[files]]
 file = "config/yungscavebiomes-fabric-1_20_1.toml"
 hash = "17ae165475207f045d6102dc6113d8547209919d30cf5fdc546cd80a84f2302a"
 
@@ -2041,6 +3597,11 @@ metafile = true
 [[files]]
 file = "mods/chat-heads.pw.toml"
 hash = "a5f056e7c75be2ee7290e72aa8ffd880f7e130e559d02b0395a0a3aabf413000"
+metafile = true
+
+[[files]]
+file = "mods/chimes.pw.toml"
+hash = "d4ae097969fada0d14b65362b07260771f7749629628b0d240186f8c0dc040f0"
 metafile = true
 
 [[files]]
@@ -2311,11 +3872,6 @@ metafile = true
 [[files]]
 file = "mods/fix-gpu-memory-leak.pw.toml"
 hash = "f589af424489f99ee6310a9f7b29e2f03151522efcb181038e8bd18529f3c187"
-metafile = true
-
-[[files]]
-file = "mods/flan.pw.toml"
-hash = "1e7e4408dbd4dc1494e097721a858282f1ddb8ae48b07c414def7beb9db88510"
 metafile = true
 
 [[files]]
@@ -2602,6 +4158,11 @@ file = "mods/luckperms/yaml-storage/groups/default.yml"
 hash = "ae795c66506f1dd532562e78856f3848fd6505cc217ff518b90c361be79d818d"
 
 [[files]]
+file = "mods/ly-graves.pw.toml"
+hash = "a62f40c75bcefc80e1705c1669bd7ea9b795c78bf7eca52337dde0701498f547"
+metafile = true
+
+[[files]]
 file = "mods/macaws-bridges.pw.toml"
 hash = "f5f134844b199b78f07b6f58ded80ee7b6a786d509a95687a2abb48e8dffee6b"
 metafile = true
@@ -2654,6 +4215,11 @@ metafile = true
 [[files]]
 file = "mods/macu-lib.pw.toml"
 hash = "117d08952827ca6c010f783453ab39de901916561d4255f0782eeda78cb683c3"
+metafile = true
+
+[[files]]
+file = "mods/mcqoy.pw.toml"
+hash = "21e7b044769bec86617cb335296c1ab8c44b2ff374a8c3b214fea8e23466786b"
 metafile = true
 
 [[files]]
@@ -2769,6 +4335,11 @@ metafile = true
 [[files]]
 file = "mods/observable.pw.toml"
 hash = "44f1ed305b7a592bb399132cd9790ef0c78123d9ffd3306f2e08a7d1f1c11252"
+metafile = true
+
+[[files]]
+file = "mods/open-parties-and-claims.pw.toml"
+hash = "f23ce0cd1c62a49f63431cc552766d1c5a9dc6b2e05e8c806113f164205dc8b2"
 metafile = true
 
 [[files]]
@@ -3002,6 +4573,11 @@ hash = "049c8ef911313123973beba0a9331406e642a46997918a568dce3aad26e292b7"
 metafile = true
 
 [[files]]
+file = "mods/surveyor.pw.toml"
+hash = "e9f69ba1846ad87fbc1b30c067bc7f296bf394dbb38353f5497158376383bb83"
+metafile = true
+
+[[files]]
 file = "mods/tcdcommons.pw.toml"
 hash = "ffa71e1ce188b71291daa8bb67e8094ff7d0ef695add362200591c28e75cf457"
 metafile = true
@@ -3082,11 +4658,6 @@ hash = "860812150cb54f0d9ee1bce7b72798b6cc5f752bb05709f0c60231d054ec281d"
 metafile = true
 
 [[files]]
-file = "mods/universal-graves.pw.toml"
-hash = "695176ca996e639044d0d526cd6c56a95c9897e85e7a8119a2d14a712f755733"
-metafile = true
-
-[[files]]
 file = "mods/universal-shops.pw.toml"
 hash = "6b1e2140887555afae9381ea360f56430253957c03d7cbbc31433bfa7a30d18f"
 metafile = true
@@ -3149,6 +4720,11 @@ metafile = true
 [[files]]
 file = "mods/yacl.pw.toml"
 hash = "af20070dd9497817a83162c17b181a0a44f7213ea302d059a81c5aed02d0c877"
+metafile = true
+
+[[files]]
+file = "mods/yes-steve-model.pw.toml"
+hash = "c15c4a6050aa4c2a0bfabce22585556aa18ca6d79fe01812fca088d7287be995"
 metafile = true
 
 [[files]]
@@ -9728,7 +11304,7 @@ hash = "a8cd9d4338c7d3d1fffecc4525348a31ea3d219ef31382c51d5ddc3b4b0114e1"
 
 [[files]]
 file = "start.sh"
-hash = "bc077ec6334a04d4a6a045998e2b944277daa512b486f0ce8ea54aac0b87a919"
+hash = "6bc0738a256b77a788a932897fd8cc777e641f51a33ee103b43937268aaf6b79"
 
 [[files]]
 file = "tlm_custom_pack/touhou_little_maid-1.0.0/assets/authors_and_credits/animation/arm.js"

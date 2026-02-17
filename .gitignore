@@ -61,6 +61,11 @@ usercache.json
 !GEMINI.md
 !.gitignore
 
+# 即使整体纳管 config，也排除 Yes Steve Model 的运行时缓存
+config/yes_steve_model/cache/
+config/yes_steve_model/cache/server/
+config/yes_steve_model/cache/server_index
+
 # 排除操作系统临时文件
 .DS_Store
 Thumbs.db
