@@ -27,7 +27,7 @@ jobs:
       - name: Add Go bin to PATH
         run: echo "$HOME/go/bin" >> "$GITHUB_PATH"
 
-      - name: Export .mrpack (metadata links: Modrinth + CurseForge)
+      - name: "Export .mrpack (metadata links: Modrinth + CurseForge)"
         run: |
           chmod +x scripts/export-mrpack.sh
           scripts/export-mrpack.sh
