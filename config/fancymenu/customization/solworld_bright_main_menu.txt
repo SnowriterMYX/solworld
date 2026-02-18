@@ -1,0 +1,275 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = title_screen
+  is_enabled = true
+  render_custom_elements_behind_vanilla = false
+  layout_index = 0
+}
+
+menu_background {
+  instance_identifier = solworld_bg
+  background_type = color_fancymenu
+  color = #F4F8FF
+}
+
+element {
+  element_type = shape
+  instance_identifier = solworld_panel_left
+  anchor_point = mid-centered
+  x = -238
+  y = -12
+  width = 226
+  height = 168
+  shape = rectangle
+  color = #E8F0FF
+  base_opacity = 0.92
+}
+
+element {
+  element_type = shape
+  instance_identifier = solworld_panel_right
+  anchor_point = mid-centered
+  x = 12
+  y = -12
+  width = 226
+  height = 168
+  shape = rectangle
+  color = #EDF3FF
+  base_opacity = 0.9
+}
+
+element {
+  element_type = text_v2
+  instance_identifier = solworld_title
+  anchor_point = top-centered
+  x = -124
+  y = 24
+  width = 248
+  height = 22
+  source_mode = direct
+  source = SOLWORLD
+  shadow = false
+  scale = 1.25
+  base_color = #415173
+}
+
+element {
+  element_type = text_v2
+  instance_identifier = solworld_subtitle
+  anchor_point = top-centered
+  x = -170
+  y = 48
+  width = 340
+  height = 16
+  source_mode = direct
+  source = 明亮主页 / 官方服务器入口
+  shadow = false
+  scale = 0.82
+  base_color = #6A7891
+}
+
+element {
+  element_type = text_v2
+  instance_identifier = solworld_group_game
+  anchor_point = mid-centered
+  x = -210
+  y = -2
+  width = 176
+  height = 14
+  source_mode = direct
+  source = 游戏入口
+  shadow = false
+  scale = 0.86
+  base_color = #5A6A86
+}
+
+element {
+  element_type = text_v2
+  instance_identifier = solworld_group_system
+  anchor_point = mid-centered
+  x = 40
+  y = -2
+  width = 176
+  height = 14
+  source_mode = direct
+  source = 系统与设置
+  shadow = false
+  scale = 0.86
+  base_color = #5A6A86
+}
+
+element {
+  element_type = custom_button
+  instance_identifier = solworld_btn_connect
+  anchor_point = mid-centered
+  x = -210
+  y = 20
+  width = 180
+  height = 20
+  label = 连接Solworld
+  description = 服务器直连: solworld.snowriter.top
+  button_element_executable_block_identifier = blk_connect
+  [executable_action_instance:act_connect][action_type:joinserver] = solworld.snowriter.top
+  [executable_block:blk_connect][type:generic] = [executables:act_connect;]
+}
+
+element {
+  element_type = custom_button
+  instance_identifier = solworld_btn_single
+  anchor_point = mid-centered
+  x = -210
+  y = 45
+  width = 180
+  height = 20
+  label = 单人游戏
+  button_element_executable_block_identifier = blk_single
+  [executable_action_instance:act_single][action_type:mimicbutton] = title_screen:mc_titlescreen_singleplayer_button
+  [executable_block:blk_single][type:generic] = [executables:act_single;]
+}
+
+element {
+  element_type = custom_button
+  instance_identifier = solworld_btn_multi
+  anchor_point = mid-centered
+  x = -210
+  y = 70
+  width = 180
+  height = 20
+  label = 多人游戏
+  button_element_executable_block_identifier = blk_multi
+  [executable_action_instance:act_multi][action_type:mimicbutton] = title_screen:mc_titlescreen_multiplayer_button
+  [executable_block:blk_multi][type:generic] = [executables:act_multi;]
+}
+
+element {
+  element_type = custom_button
+  instance_identifier = solworld_btn_options
+  anchor_point = mid-centered
+  x = 40
+  y = 20
+  width = 180
+  height = 20
+  label = 选项设置
+  button_element_executable_block_identifier = blk_options
+  [executable_action_instance:act_options][action_type:mimicbutton] = title_screen:mc_titlescreen_options_button
+  [executable_block:blk_options][type:generic] = [executables:act_options;]
+}
+
+element {
+  element_type = custom_button
+  instance_identifier = solworld_btn_lang
+  anchor_point = mid-centered
+  x = 40
+  y = 45
+  width = 180
+  height = 20
+  label = 语言
+  button_element_executable_block_identifier = blk_lang
+  [executable_action_instance:act_lang][action_type:mimicbutton] = title_screen:mc_titlescreen_language_button
+  [executable_block:blk_lang][type:generic] = [executables:act_lang;]
+}
+
+element {
+  element_type = custom_button
+  instance_identifier = solworld_btn_accessibility
+  anchor_point = mid-centered
+  x = 40
+  y = 70
+  width = 180
+  height = 20
+  label = 辅助功能
+  button_element_executable_block_identifier = blk_accessibility
+  [executable_action_instance:act_accessibility][action_type:mimicbutton] = title_screen:mc_titlescreen_accessibility_button
+  [executable_block:blk_accessibility][type:generic] = [executables:act_accessibility;]
+}
+
+element {
+  element_type = custom_button
+  instance_identifier = solworld_btn_quit
+  anchor_point = mid-centered
+  x = 40
+  y = 95
+  width = 180
+  height = 20
+  label = 退出游戏
+  button_element_executable_block_identifier = blk_quit
+  [executable_action_instance:act_quit][action_type:mimicbutton] = title_screen:mc_titlescreen_quit_button
+  [executable_block:blk_quit][type:generic] = [executables:act_quit;]
+}
+
+element {
+  element_type = text_v2
+  instance_identifier = solworld_author
+  anchor_point = bottom-left
+  x = 14
+  y = -14
+  width = 320
+  height = 32
+  source_mode = direct
+  source = 整合包作者 Snowriter%n%Snowriter@outlook.com
+  shadow = false
+  scale = 0.72
+  base_color = #7B879B
+  base_opacity = 0.55
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_singleplayer_button
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_multiplayer_button
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_options_button
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_quit_button
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_language_button
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_accessibility_button
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_realms_button
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_playdemo_button
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = modmenu_titlescreen_mods_button
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = forge_titlescreen_mods_button
+  is_hidden = true
+}

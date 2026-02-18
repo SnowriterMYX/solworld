@@ -33,3 +33,5 @@ key_key.xaeroworldmap.open_world_map:key.keyboard.m
 key_key.voicechat.settings:key.keyboard.v
 soundCategory_master:1.0
 soundCategory_music:0.5
+resourcePacks:["vanilla","file/Reimagined GUI - Light - 1.20.2-1.21.x.zip","file/solworld-zh-fix"]
+incompatibleResourcePacks:[]
