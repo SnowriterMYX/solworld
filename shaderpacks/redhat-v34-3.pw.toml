@@ -1,0 +1,13 @@
+name = "RedHat_v34.3"
+filename = "RedHat_v34.3.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/ZvitaqQh/versions/dx5Ym5oe/RedHat_v34.3.zip"
+hash-format = "sha512"
+hash = "e8446ef749ab0d59384aeec52f1d938215d9c198b63b37eb26cd0ba34a6631334c6fd5b78ebb702d1caf691f1b148d60b1dd712079bd93085a9aa93867c1269b"
+
+[update]
+[update.modrinth]
+mod-id = "ZvitaqQh"
+version = "dx5Ym5oe"

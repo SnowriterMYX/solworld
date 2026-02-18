@@ -1,0 +1,13 @@
+name = "§d§lHide Armor§8§o §8v1.4.0"
+filename = "§d§lHide Armor§8§o §8v1.4.0.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/HzbPDpv8/versions/TwE4mRUx/%C2%A7d%C2%A7lHide%20Armor%C2%A78%C2%A7o%20%C2%A78v1.4.0.zip"
+hash-format = "sha512"
+hash = "19c2b5afb45d9f45024162f859b7d3611c9104ee2fff75370020457ae76b7b06d6c3c4b0fc97d8332f5c08e0fb3559518fcd8aadcfc9e5c2cfcb200ef7866be3"
+
+[update]
+[update.modrinth]
+mod-id = "HzbPDpv8"
+version = "TwE4mRUx"

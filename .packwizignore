@@ -20,6 +20,8 @@ output/
 .tmp/
 server.properties
 eula.txt
+fabric-server-launcher.properties
+start.sh
 usercache.json
 ops.json
 whitelist.json
@@ -44,5 +46,9 @@ README.md
 *.tar.gz
 mods/luckperms/yaml-storage/uuidcache.txt
 scripts/switch-level-name.sh
+scripts/export-mrpack.sh
+scripts/strip-server-only-mods.sh
+shaderpacks/*.zip.txt
+tlm_custom_pack/touhou_little_maid-1.0.0/assets/
 
 云服务器与实际玩家日志
