@@ -1,0 +1,11 @@
+{
+  "options": {
+    "CACHE_MODEL_LOADER": false
+  },
+  "compression": 3,
+  "maxCaches": 5,
+  "customSplashLines": [],
+  "addDefaultSplashLines": true,
+  "singleThreadedReading": false,
+  "showCachingToast": true
+}

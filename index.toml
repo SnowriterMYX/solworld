@@ -597,6 +597,10 @@ file = "config/cupboard.json"
 hash = "08bda8a4a20d302cb97d06bf11c4991e152a3a9e04c17302ea3b42aa77e6b028"
 
 [[files]]
+file = "config/dashloader.json"
+hash = "2c8d3091a046c1b1fc2ba19abf1f0270e245d96933f84ddb06b15613695b0482"
+
+[[files]]
 file = "config/defaultoptions/options.txt"
 hash = "810ab854f708cd8ecc70f46e412f800419ff0f357140bd6daaaecd1d358dc280"
 
@@ -1134,7 +1138,7 @@ hash = "b4e8eb71c8dcb560d01a3f88a7aad5dba58c5816c12850eecca4befdce138df3"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "c88c51a93577cb7d23a759b8ee0373a044b21a1b4c62483938814706d82da417"
+hash = "3144edd6b54432c94e9fd8a234cc7e897b5d75796ae2f16108a454b92f31552c"
 
 [[files]]
 file = "config/modmenu.json"
@@ -1309,10 +1313,6 @@ file = "config/pl3xmap/web/images/icon/players.png"
 hash = "2a16106c664611227774899b3ff390b766e4301aa7febedb15ebca6616483f5d"
 
 [[files]]
-file = "config/pl3xmap/web/images/icon/registered/nether_basic.png"
-hash = "551cff0c0c8d7dfa5499f8c19dec868cb61fc27464715d537bdeb56c5c4b72f6"
-
-[[files]]
 file = "config/pl3xmap/web/images/icon/registered/overworld_basic.png"
 hash = "cfd1219f6b5b396f07e89391a2f56b572b1d1afb85724abe99490d6f44b67c72"
 
@@ -1323,10 +1323,6 @@ hash = "0be72e9375a3e992768a372921f72ae3e97392313a52258780c9f3b26cb9cd34"
 [[files]]
 file = "config/pl3xmap/web/images/icon/registered/spawn.png"
 hash = "9eb8295f8636d67b843cf62b526cebea0e25d90a2650cd54ecd6b063d2d6c0dc"
-
-[[files]]
-file = "config/pl3xmap/web/images/icon/registered/the_end_basic.png"
-hash = "2ed4ad73bbf425c6c6ab3569303d3b9ac17853441366439c246ca40c5e9226ac"
 
 [[files]]
 file = "config/pl3xmap/web/images/icon/spawn.png"
@@ -1450,7 +1446,7 @@ hash = "209ef74751243270cca3056ce85f90f55791f45b35e9bc1a06000ad681211abe"
 
 [[files]]
 file = "config/scalablelux.properties"
-hash = "06aa2f76cc5d35b991f7591f4556634c5fbd0c2479ceeaeffe6bc18b6377e577"
+hash = "d5a6f454b1810dc7e8445d1a3413749b0974c1510cb60600bfed3556b04ec775"
 
 [[files]]
 file = "config/sereneseasons/fertility.toml"
@@ -1515,10 +1511,6 @@ hash = "cbe41dbce7f779c8f90ab0df83a3f013dee79c3dea2aba6d5fe212e93f858768"
 [[files]]
 file = "config/smallships-common.toml"
 hash = "0e491e204c34161b788ba9cfc4955a0d68c941f25d9f8d6809e7755afc8ef9dd"
-
-[[files]]
-file = "config/smoothboot.json"
-hash = "f12faa150cb54f565b8c26a4538650f9fb45d33dc39000b1149548a4670cce37"
 
 [[files]]
 file = "config/snowyspirit-client.json"
@@ -3361,6 +3353,10 @@ file = "config/yungsmenutweaks-fabric-1_21.toml"
 hash = "eb1dfe20f3cb1ee88f21381f2f7825f83d3f60123c42975d3959dfb41345e986"
 
 [[files]]
+file = "datapacks/BlazeandCave's Advancements Pack 1.17.2.zip"
+hash = "2df9b3928c960814187d6b54da904dbce05b54818801a675c7b56d101922d510"
+
+[[files]]
 file = "datapacks/blazeandcaves-advancements-pack.pw.toml"
 hash = "5c6a762d84b87b19b50e3e9ab89a0d0e446f7d915e9b1f7ee40379a90826e929"
 metafile = true
@@ -4461,11 +4457,6 @@ metafile = true
 [[files]]
 file = "mods/smartbrainlib.pw.toml"
 hash = "825ecf59448980e4e284139fe8c86a0473664a037e924e826c1ef818130b9430"
-metafile = true
-
-[[files]]
-file = "mods/smooth-boot.pw.toml"
-hash = "253cc58c6ed1e62c39fcf762f92d259d3bb67840fe2aa51e42adce2aeffd5fda"
 metafile = true
 
 [[files]]
