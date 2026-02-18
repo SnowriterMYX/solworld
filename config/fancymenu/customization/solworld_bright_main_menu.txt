@@ -15,7 +15,7 @@ customization {
 menu_background {
   instance_identifier = solworld_bg
   background_type = image
-  image_path = local:config/fancymenu/assets/backgrounds/pixabay-trees-7646958.jpg
+  image_path = [source:local]config/fancymenu/assets/backgrounds/pixabay-trees-7646958.jpg
   repeat_texture = false
   parallax = true
   parallax_intensity = 0.012
