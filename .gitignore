@@ -77,3 +77,4 @@ Thumbs.db
 
 云服务器与实际玩家日志
 *.mrpack
+.console_history
