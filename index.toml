@@ -753,6 +753,26 @@ file = "config/fallingtree.json"
 hash = "07ab7f96b936c7b25542100e14f4400f3886270c3c50dfb627687a84b49e283c"
 
 [[files]]
+file = "config/fancymenu/assets/backgrounds/pixabay-light-2723428.jpg"
+hash = "1793994783ff751ebe6abfcd8a4781acd17373f4db4203c9c4f133945dcf14cb"
+
+[[files]]
+file = "config/fancymenu/assets/backgrounds/pixabay-trees-7646958.jpg"
+hash = "b4336a81020027635114586e4d10412ab3537b85f64c65c49702a6f7f6f2f3b3"
+
+[[files]]
+file = "config/fancymenu/customizablemenus.txt"
+hash = "d6959e42a3b48b6e791da6ce8dbeb25d6796f7eb5dee672599f3d212ea1de75b"
+
+[[files]]
+file = "config/fancymenu/customization/solworld_bright_main_menu.txt"
+hash = "edd527a7f96fec533bb4ebb89d98569a0d37d8bb9c4f11db914f1ad8d044612a"
+
+[[files]]
+file = "config/fancymenu/options.txt"
+hash = "26fdc679e8ab6d0b8557f49f4bca5e0a9ee7017365f34125b86f606997f94e45"
+
+[[files]]
 file = "config/farm_and_charm.json"
 hash = "6e1e9104a603088cd97fe92dce2a5197f4b020b32ca9164fcbd50c56568cdfd2"
 
