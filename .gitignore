@@ -2,69 +2,70 @@
 *.jar
 *.db
 *.mv.db
-libraries/
-versions/
-.fabric/
-.mixin.out/
+/libraries/
+/versions/
+/.fabric/
+/.mixin.out/
 
 # 忽略服务器运行时数据（但纳管 world/datapacks）
-world/*
-!world/datapacks/
-!world/datapacks/**
-logs/
-backup/
-backups/
-world_ab_clean/
-debug/
-database.db
-EasyAuth/
+/world/*
+!/world/datapacks/
+!/world/datapacks/**
+/logs/
+/backup/
+/backups/
+/world_ab_clean/
+/debug/
+/database.db
+/EasyAuth/
 
 # mods 目录处理：忽略内容但允许特定路径
-mods/*
-!mods/*.pw.toml
-!mods/luckperms/
-mods/luckperms/*
-!mods/luckperms/yaml-storage/
-!mods/luckperms/contexts.json
+/mods/*
+!/mods/*.pw.toml
+!/mods/luckperms/
+/mods/luckperms/*
+!/mods/luckperms/yaml-storage/
+!/mods/luckperms/contexts.json
 
 # 忽略插件生成的动态内容和缓存
-better-fabric-console/
-dynamic-data-pack-cache/
-.packwiz/
-.pack_hash
-scripts/switch-level-name.sh
-config/bStats/
-config/spark/
-config/xaero/world-map/server_profiles/
-config/pl3xmap/web/
+/better-fabric-console/
+/dynamic-data-pack-cache/
+/.packwiz/
+/.pack_hash
+/scripts/switch-level-name.sh
+/config/pl3xmap/web/
 
 # 忽略服务器环境文件 (保留核心定义，忽略缓存)
-server.properties
-eula.txt
-fabric-server-launcher.properties
-usercache.json
-!ops.json
-!whitelist.json
-!banned-ips.json
-!banned-players.json
+/server.properties
+/eula.txt
+/fabric-server-launcher.properties
+/usercache.json
+!/ops.json
+!/whitelist.json
+!/banned-ips.json
+!/banned-players.json
 
 # 允许追踪的文件 (核心配置)
-!pack.toml
-!index.toml
-!config/
-!config/EasyAuth/*.conf
-!shaderpacks/
-!resourcepacks/
-!server.properties
-!start.sh
-!README.md
-!GEMINI.md
-!.gitignore
+!/pack.toml
+!/index.toml
+!/config/
+!/config/EasyAuth/*.conf
+!/shaderpacks/
+!/resourcepacks/
+!/server.properties
+!/start.sh
+!/README.md
+!/GEMINI.md
+!/.gitignore
 
 # 即使整体纳管 config，也排除 Yes Steve Model 的运行时缓存
-config/yes_steve_model/cache/
-config/yes_steve_model/cache/server/
-config/yes_steve_model/cache/server_index
+/config/yes_steve_model/cache/
+/config/yes_steve_model/cache/server/
+/config/yes_steve_model/cache/server_index
+
+# config 下的备份文件继续忽略
+/config/**/backup/
+/config/**/*.bak
 
 # 排除操作系统临时文件
 .DS_Store
