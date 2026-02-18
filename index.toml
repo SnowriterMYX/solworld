@@ -1178,7 +1178,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/openpartiesandclaims-server.toml"
-hash = "af46bd4123759552ac36a5589dd496c55767bd3d5f14ed62f2c1261db52c0bcd"
+hash = "5638c953ba1beb0a87ee609b48670c09f63c15fa9a1dcf77b249aa80ce3bb1dd"
 
 [[files]]
 file = "config/packetfixer.properties"
@@ -1450,7 +1450,7 @@ hash = "209ef74751243270cca3056ce85f90f55791f45b35e9bc1a06000ad681211abe"
 
 [[files]]
 file = "config/scalablelux.properties"
-hash = "74f886e6b9aada9f9c6c2033cd62a443cfe6925a74573ed4a5bcde47b95af60d"
+hash = "06aa2f76cc5d35b991f7591f4556634c5fbd0c2479ceeaeffe6bc18b6377e577"
 
 [[files]]
 file = "config/sereneseasons/fertility.toml"
@@ -1810,7 +1810,7 @@ hash = "7554c46f486062f6f649d6754bd8d305bc6ca75a706e2f2d3b3a9bfab9b020d2"
 
 [[files]]
 file = "config/yes_steve_model-server.toml"
-hash = "425f14fd9a92da577118cdeb3aef41f3797e5948fca177d5100b50bd82c4b6d0"
+hash = "99636b44ec7e5555e795854dd75f75490af2fdf8a6f528b20a608154fa2290dc"
 
 [[files]]
 file = "config/yes_steve_model/blacklist.txt"
@@ -3565,7 +3565,7 @@ metafile = true
 
 [[files]]
 file = "mods/chimes.pw.toml"
-hash = "d4ae097969fada0d14b65362b07260771f7749629628b0d240186f8c0dc040f0"
+hash = "4ca38abe34ac37a7f60a36deaaa553a9359adc88f626ec6a32676648f5a047cc"
 metafile = true
 
 [[files]]
@@ -3615,7 +3615,7 @@ metafile = true
 
 [[files]]
 file = "mods/connectivity.pw.toml"
-hash = "b2e116a7b6991e03668f2cfddd84084daf267c37c7282b03bcac97f800bc0f71"
+hash = "206194c0fe6adcaf762aa4c139a6914c5205ba7ca43e89dc08d78b831463996c"
 metafile = true
 
 [[files]]
@@ -3665,7 +3665,7 @@ metafile = true
 
 [[files]]
 file = "mods/cupboard.pw.toml"
-hash = "9e444b3cfef7e5874823dc34c529c3ab322fda7ec56d96a06dd3c763bad238df"
+hash = "469e5dc578ef8ad594d5b2bd523950559b41c93924d8f0d7a59cca3b9ce371c9"
 metafile = true
 
 [[files]]
@@ -3700,7 +3700,7 @@ metafile = true
 
 [[files]]
 file = "mods/do-api.pw.toml"
-hash = "066cfdcfdb06e14a64d9819e09d2b3941fe78de224e3bd9a0584e21501583702"
+hash = "7ec740ab8c8c9fffaba81c7e15dea37b2dd35804e8dda804ef01c6c077263d9c"
 metafile = true
 
 [[files]]
@@ -3835,7 +3835,7 @@ metafile = true
 
 [[files]]
 file = "mods/fix-gpu-memory-leak.pw.toml"
-hash = "f589af424489f99ee6310a9f7b29e2f03151522efcb181038e8bd18529f3c187"
+hash = "d7448bd6c221afd62b5184be7e3a499687c0da7e2a9e941a09c834739d03ffc2"
 metafile = true
 
 [[files]]
@@ -3845,7 +3845,7 @@ metafile = true
 
 [[files]]
 file = "mods/framework.pw.toml"
-hash = "73ba52fce9064dfb0a3b78f1d96354b79c52db7e2a3e8ecc713da6429b4c5723"
+hash = "d576f97b03549fb05818d6eeed08ee874b8e1f043bb677e6e984eabd2e4f51c3"
 metafile = true
 
 [[files]]
@@ -3875,7 +3875,7 @@ metafile = true
 
 [[files]]
 file = "mods/goblin-traders.pw.toml"
-hash = "f272388b6a0b00e9ce7ddc5fbb029e9ad77afb5eb3925c020de42707e495ffe8"
+hash = "c92099e0b8dcab3b2aa402e1d8f3afcf1837fa2de1d4384b11bda00f6a342de5"
 metafile = true
 
 [[files]]
@@ -4030,7 +4030,7 @@ metafile = true
 
 [[files]]
 file = "mods/lets-do-camping.pw.toml"
-hash = "d6c674f0c6318f0706bb657ce5e5c2917462cd3ce3c52ace492dbb7560103b96"
+hash = "c2ae153519371d7ead389126a15403a7c88b89f127e773aa0a72ad233d35aaeb"
 metafile = true
 
 [[files]]
@@ -4203,7 +4203,7 @@ metafile = true
 
 [[files]]
 file = "mods/mighty-mail.pw.toml"
-hash = "be23f8e39be6368729dc085d3443c8739092ad42df2740dca396b3914733c74c"
+hash = "972dbeed473197fe1bd41daa5746ce9345e13ff4e905e25d5711cefd1ee3d531"
 metafile = true
 
 [[files]]
@@ -4830,6 +4830,10 @@ metafile = true
 [[files]]
 file = "resourcepacks/§d§lHide Armor§8§o §8v1.4.0.zip"
 hash = "0105e155d3113c4621ba441dbb9c6fdf40d8604b426b9df98662627430b7ee6d"
+
+[[files]]
+file = "scripts/export-mrpack.sh"
+hash = "c3b2a7afcc409b68316c496d514bc7c4bbc0ad3fec08fd02ebc32522221b6915"
 
 [[files]]
 file = "scripts/strip-server-only-mods.sh"
@@ -11278,7 +11282,7 @@ hash = "a8cd9d4338c7d3d1fffecc4525348a31ea3d219ef31382c51d5ddc3b4b0114e1"
 
 [[files]]
 file = "start.sh"
-hash = "6bc0738a256b77a788a932897fd8cc777e641f51a33ee103b43937268aaf6b79"
+hash = "96fa7f1cf11bace8f2aec4a6874087fd99efe519d160124fad40783f116cdbd5"
 
 [[files]]
 file = "tlm_custom_pack/touhou_little_maid-1.0.0/assets/authors_and_credits/animation/arm.js"

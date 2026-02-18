@@ -33,6 +33,7 @@ config/xaero/world-map/server_profiles/
 config/yes_steve_model/cache/
 config/yes_steve_model/cache/server/
 config/yes_steve_model/cache/server_index
+config/yes_steve_model/custom/
 .pack_hash
 GEMINI.md
 README.md

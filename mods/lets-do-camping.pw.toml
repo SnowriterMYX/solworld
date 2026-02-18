@@ -3,11 +3,11 @@ filename = "camping-fabric-1.21.1-2.1.3.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "6e66acd50af6b13988197ff3e1fcf2d617be6b93"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/uJXTNuf0/versions/gtuupulE/camping-fabric-1.21.1-2.1.3.jar"
+hash-format = "sha512"
+hash = "8f2a428abf85ee6384352a2dbb603d18e71b3f4d59e4e58181f8d202942014bd0bc0304f83f5b24aebfd08964064261c3c64814789b6162035e85396cf5d0b8f"
 
 [update]
-[update.curseforge]
-file-id = 7535868
-project-id = 1072398
+[update.modrinth]
+mod-id = "uJXTNuf0"
+version = "gtuupulE"

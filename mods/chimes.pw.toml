@@ -5,7 +5,7 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "c27f98b4ac87d266db78822d5b8bb0828e1b296d"
-mode = "metadata:curseforge"
+url = "https://www.curseforge.com/api/v1/mods/350464/files/7573393/download"
 
 [update]
 [update.curseforge]

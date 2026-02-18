@@ -24,20 +24,23 @@ jobs:
       - name: Install packwiz
         run: go install github.com/packwiz/packwiz@latest
 
-      - name: Export .mrpack
+      - name: Add Go bin to PATH
+        run: echo "$HOME/go/bin" >> "$GITHUB_PATH"
+
+      - name: Export .mrpack (metadata links: Modrinth + CurseForge)
         run: |
-          VERSION=$(grep '^version =' pack.toml | cut -d '"' -f 2)
-          ~/go/bin/packwiz modrinth export -o "Solworld-${VERSION}.mrpack"
+          chmod +x scripts/export-mrpack.sh
+          scripts/export-mrpack.sh
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
           name: modpack-mrpack
-          path: Solworld-*.mrpack
+          path: output/Solworld-*.mrpack
 
       - name: Create Release
         uses: softprops/action-gh-release@v2
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          files: Solworld-*.mrpack
+          files: output/Solworld-*.mrpack
           generate_release_notes: true

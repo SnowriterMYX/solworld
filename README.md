@@ -433,7 +433,9 @@ git push origin master
 
 ## 💻 客户端安装指南
 
-1. **导出：** 开发者在目录运行 `packwiz modrinth export`。
+1. **导出：** 开发者在目录运行 `scripts/export-mrpack.sh`。
+   - 等价命令：`packwiz modrinth export --restrictDomains=false -o "Solworld-<version>.mrpack"`（保留 Modrinth + CurseForge 元数据下载链接）。
+   - 默认输出目录：`output/`（示例：`output/Solworld-0.1.0.73.mrpack`）。
 2. **分发：** 将得到的 `solworld.mrpack` 发给玩家。
 3. **导入：** 
    - **XMCL:** 点击“导入整合包” -> 选择文件。
