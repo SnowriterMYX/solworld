@@ -353,14 +353,14 @@ chmod +x start.sh
 
 ### 1.1 JVM（Generational ZGC）内存策略
 `start.sh` 默认采用 Java 21 的分代 ZGC，并使用“硬上限 + 软上限”模型：
-- `SOLWORLD_MAX_HEAP_MB=16384`：硬上限（对应 `-Xmx`）
+- `SOLWORLD_MAX_HEAP_MB=10240`：硬上限（对应 `-Xmx`）
 - `SOLWORLD_SOFT_HEAP_MB=6144`：软上限（对应 `-XX:SoftMaxHeapSize`）
 - `SOLWORLD_INIT_HEAP_MB=1024`：初始堆（对应 `-Xms`）
 - `SOLWORLD_RESERVED_MB=2048`：系统保留内存（避免吃满宿主机）
 
-示例（16G 硬上限 + 6G 软上限）：
+示例（10G 硬上限 + 6G 软上限）：
 ```bash
-SOLWORLD_MAX_HEAP_MB=16384 \
+SOLWORLD_MAX_HEAP_MB=10240 \
 SOLWORLD_SOFT_HEAP_MB=6144 \
 SOLWORLD_INIT_HEAP_MB=1024 \
 ./start.sh

@@ -319,13 +319,13 @@ calculate_max_heap() {
     fi
 
     local min_heap_mb="${SOLWORLD_MIN_HEAP_MB:-2048}"
-    local max_heap_mb="${SOLWORLD_MAX_HEAP_MB:-16384}"
+    local max_heap_mb="${SOLWORLD_MAX_HEAP_MB:-10240}"
     local reserved_mb="${SOLWORLD_RESERVED_MB:-2048}"
     local heap_percent="${SOLWORLD_HEAP_PERCENT:-80}"
     local hard_floor_mb="${SOLWORLD_HARD_FLOOR_MB:-512}"
 
     [[ "$min_heap_mb" =~ ^[0-9]+$ ]] || min_heap_mb=2048
-    [[ "$max_heap_mb" =~ ^[0-9]+$ ]] || max_heap_mb=16384
+    [[ "$max_heap_mb" =~ ^[0-9]+$ ]] || max_heap_mb=10240
     [[ "$reserved_mb" =~ ^[0-9]+$ ]] || reserved_mb=2048
     [[ "$heap_percent" =~ ^[0-9]+$ ]] || heap_percent=80
     [[ "$hard_floor_mb" =~ ^[0-9]+$ ]] || hard_floor_mb=512
