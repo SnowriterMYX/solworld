@@ -155,16 +155,91 @@ backup_on_update() {
     fi
 }
 
+collect_unmanaged_nonjar_files() {
+    local -A managed=()
+    if [[ -f "index.toml" ]]; then
+        while IFS= read -r file_path; do
+            [[ -n "$file_path" ]] && managed["$file_path"]=1
+        done < <(awk -F'"' '/^file = "/ {print $2}' index.toml)
+    fi
+
+    # 优先使用 git 跟踪文件，避免误扫世界存档等大目录。
+    if command -v git &> /dev/null && git rev-parse --is-inside-work-tree &> /dev/null; then
+        while IFS= read -r file_path; do
+            [[ -n "$file_path" ]] || continue
+            [[ -f "$file_path" ]] || continue
+            [[ "$file_path" == *.jar ]] && continue
+            [[ -n "${managed[$file_path]:-}" ]] && continue
+            printf '%s\n' "$file_path"
+        done < <(git ls-files)
+        return 0
+    fi
+
+    # 非 git 环境下的兜底保护。
+    for file_path in start.sh scripts/strip-server-only-mods.sh; do
+        [[ -f "$file_path" ]] || continue
+        [[ -n "${managed[$file_path]:-}" ]] && continue
+        printf '%s\n' "$file_path"
+    done
+
+    while IFS= read -r file_path; do
+        [[ -n "$file_path" ]] || continue
+        [[ -n "${managed[$file_path]:-}" ]] && continue
+        printf '%s\n' "$file_path"
+    done < <(find shaderpacks -maxdepth 1 -type f -name "*.zip.txt" 2>/dev/null || true)
+}
+
+backup_unmanaged_nonjar_files() {
+    local backup_root="$1"
+    local list_file="$backup_root/files.list"
+    : > "$list_file"
+
+    while IFS= read -r file_path; do
+        [[ -n "$file_path" ]] || continue
+        mkdir -p "$backup_root/$(dirname "$file_path")"
+        cp -p "$file_path" "$backup_root/$file_path"
+        printf '%s\n' "$file_path" >> "$list_file"
+    done < <(collect_unmanaged_nonjar_files)
+}
+
+restore_deleted_nonjar_files() {
+    local backup_root="$1"
+    local list_file="$backup_root/files.list"
+    local restored_count=0
+
+    [[ -f "$list_file" ]] || return 0
+
+    while IFS= read -r file_path; do
+        [[ -n "$file_path" ]] || continue
+        if [[ ! -e "$file_path" && -f "$backup_root/$file_path" ]]; then
+            mkdir -p "$(dirname "$file_path")"
+            cp -p "$backup_root/$file_path" "$file_path"
+            echo "↩️ 恢复同步误删文件: $file_path"
+            restored_count=$((restored_count + 1))
+        fi
+    done < "$list_file"
+
+    if [[ $restored_count -gt 0 ]]; then
+        echo "✅ 已恢复 $restored_count 个非JAR文件。"
+    fi
+}
+
 sync_mods() {
     backup_on_update
     echo "--- 正在同步资源 (Packwiz) ---"
     if [[ ! -f "$BOOTSTRAP_JAR" ]]; then
         wget -q -O "$BOOTSTRAP_JAR" https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar
     fi
-    
+
+    local preserve_dir
+    preserve_dir="$(mktemp -d ./.packwiz-preserve.XXXXXX)"
+    backup_unmanaged_nonjar_files "$preserve_dir"
+
     java -jar "$BOOTSTRAP_JAR" -no-gui -s server pack.toml
     local sync_status=$?
-    
+    restore_deleted_nonjar_files "$preserve_dir"
+    rm -rf "$preserve_dir"
+
     if [ $sync_status -ne 0 ]; then
         echo "❌ [关键错误] Packwiz 同步失败！"
         echo "为了保护存档，服务器将不会启动。1分钟后重试..."

@@ -1,0 +1,13 @@
+name = "FastBoot"
+filename = "fastboot-1.21.x-v1.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ecf33449e8cca5a062595e4970c30e4648327073"
+url = "https://mediafilez.forgecdn.net/files/6392/137/fastboot-1.21.x-v1.3.jar"
+
+[update]
+[update.curseforge]
+file-id = 6392137
+project-id = 1030285

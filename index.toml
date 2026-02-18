@@ -1770,7 +1770,7 @@ hash = "2c34f12a80c2a543d43002bb25e689d85a0d9e54d910bb8b2f6b80547ab0e217"
 
 [[files]]
 file = "config/waystones-common.toml"
-hash = "b8beb283dd0d740318764c52933214b288fed2994f064cda21a11fb498403a53"
+hash = "e23dd316ace2d291d3c2dcb87f89a495232368fe4c0ce01b4ddf3885dad0fef2"
 
 [[files]]
 file = "config/wildernature.json"
@@ -3661,6 +3661,11 @@ hash = "469e5dc578ef8ad594d5b2bd523950559b41c93924d8f0d7a59cca3b9ce371c9"
 metafile = true
 
 [[files]]
+file = "mods/dashloader.pw.toml"
+hash = "d5cf6e8f1f0963a1b0bbaf54f3afe9a429706572f47a86c30fa4f23b72d04594"
+metafile = true
+
+[[files]]
 file = "mods/debugify.pw.toml"
 hash = "7cb9e98526468233fbec6f949c78a8afc5ef29447868e1d11cb71293237966a2"
 metafile = true
@@ -3813,6 +3818,11 @@ metafile = true
 [[files]]
 file = "mods/fastback.pw.toml"
 hash = "e6b82bbc11d7ac465b320d630a99f2f7c0ad8fea744927285fb93ec5cdca6854"
+metafile = true
+
+[[files]]
+file = "mods/fastboot.pw.toml"
+hash = "1acd759b5006cb9f61237ef7b5e68bbb9b9bae1a879898c3ebcc3f57afef858d"
 metafile = true
 
 [[files]]
@@ -4451,6 +4461,11 @@ metafile = true
 [[files]]
 file = "mods/smartbrainlib.pw.toml"
 hash = "825ecf59448980e4e284139fe8c86a0473664a037e924e826c1ef818130b9430"
+metafile = true
+
+[[files]]
+file = "mods/smooth-boot.pw.toml"
+hash = "253cc58c6ed1e62c39fcf762f92d259d3bb67840fe2aa51e42adce2aeffd5fda"
 metafile = true
 
 [[files]]
