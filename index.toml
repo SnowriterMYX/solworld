@@ -1,34 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "automodpack/.private/automodpack-known-hosts.json"
-hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
-
-[[files]]
-file = "automodpack/.private/automodpack-secrets.json"
-hash = "67013ba21de44f2c0df77c125c8ca0308f3c9ab9843f9fac3884f4f08890a6dd"
-
-[[files]]
-file = "automodpack/.private/cert.crt"
-hash = "d09b9ace1007f145c49fbbc02e051e75c1dc5b52a012c5243c6633fb2b2faec0"
-
-[[files]]
-file = "automodpack/.private/key.pem"
-hash = "98697e7347ddd8b07d6eff49438ddd821c705adb039569a8156e6fd35d060b7d"
-
-[[files]]
-file = "automodpack/automodpack-client.json"
-hash = "13b9d1eed40b46efbf62d1111f199681fab22cd5b7eebb836a8edfeb9e56c017"
-
-[[files]]
-file = "automodpack/automodpack-server.json"
-hash = "1123a6dc43200d27b6f5aecf9b345ade132950858f1b44df2545aa4b3bc98469"
-
-[[files]]
-file = "automodpack/host-modpack/automodpack-content.json"
-hash = "4a842e87ab3c7d28c0111a633dfc1742bea07ce6847cfa6514f559927aa95f56"
-
-[[files]]
 file = "config/DistantHorizons.toml"
 hash = "00220889ba75e39311aec81a7cb097bd5980d96743da39bf0c765a25d824ee3d"
 
@@ -11335,3 +11307,4 @@ hash = "11f2fccae849052ff31f6d0edb511dbab10701e730118670214c47a0753b6f63"
 [[files]]
 file = "tlm_custom_pack/touhou_little_maid-1.0.0/pack.png"
 hash = "af1714bb66a877021ede496e61f35d2358fb69b8878eda7b553f07fb4588075f"
+
