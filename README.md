@@ -433,11 +433,23 @@ git push origin master
 
 ## 💻 客户端安装指南
 
-1. **导出：** 开发者在目录运行 `scripts/export-mrpack.sh`。
-   - 等价命令：`packwiz modrinth export --restrictDomains=false -o "Solworld-<version>.mrpack"`（保留 Modrinth + CurseForge 元数据下载链接）。
-   - 默认输出目录：`output/`（示例：`output/Solworld-0.1.0.77.mrpack`）。
-2. **分发：** 将得到的 `solworld.mrpack` 发给玩家。
-3. **导入：** 
-   - **XMCL:** 点击“导入整合包” -> 选择文件。
-   - **Prism Launcher:** 点击“添加实例” -> “从 mrpack 导入”。
-4. **自动：** 启动器会自动安装 Java 21 并下载所有 Mod。
+### 推荐分发模式（稳定）
+- **首次安装**：使用与 `pack.toml` 版本一致的 `mrpack` 完整安装客户端。
+- **后续更新**：通过 AutoModpack 进行进服时的增量校验与补齐（含服务端必需项 + 客户端专用项）。
+- **客户端保护**：`automodpack/automodpack-client.json` 已设置 `"allowRemoteNonModpackDeletions": false`，避免误删本地纯客户端增强模组。
+- **服务端预热**：`start.sh` 每次 `packwiz` 同步后会自动执行 `scripts/sync-automodpack-client-mods.sh`，把 `side = "client"` 的模组镜像到 `automodpack/host-modpack/main/mods/`，供 AutoModpack 下发。
+- **手动同步（可选）**：`bash scripts/sync-automodpack-client-mods.sh`
+
+### 发版流程（维护者）
+1. 更新 `pack.toml` 版本号，完成模组/配置改动后执行 `packwiz refresh`。
+2. 运行 `scripts/export-mrpack.sh` 导出对应版本 `mrpack`（输出到 `output/`）。
+3. 重启服务器，让启动脚本自动完成 `packwiz` 同步、客户端专用模组镜像同步、AutoModpack 清单重建。
+4. 检查启动日志中 `client-only mods processed` / `downloaded/updated` 数值是否正常。
+5. 分发 `output/Solworld-<version>.mrpack` 给新玩家；老玩家通过进服自动增量同步。
+
+### 玩家安装步骤
+1. 导入 `mrpack`：
+   - **XMCL**：点击“导入整合包”并选择文件。
+   - **Prism Launcher**：点击“添加实例” -> “从 mrpack 导入”。
+2. 启动游戏并进服，AutoModpack 会自动校验并补齐缺失内容。
+3. 后续版本更新时，保持同一实例直接进服即可完成增量同步。

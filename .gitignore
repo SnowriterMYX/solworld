@@ -31,7 +31,12 @@
 /better-fabric-console/
 /dynamic-data-pack-cache/
 # AutoModpack 运行时产物（含私钥/证书等敏感文件）
-/automodpack/
+# AutoModpack: keep configs tracked, ignore secrets/runtime outputs
+/automodpack/*
+!/automodpack/automodpack-client.json
+!/automodpack/automodpack-server.json
+/automodpack/.private/
+/automodpack/host-modpack/
 /.packwiz/
 /.pack_hash
 /scripts/switch-level-name.sh

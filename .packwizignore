@@ -48,8 +48,11 @@ mods/luckperms/yaml-storage/uuidcache.txt
 scripts/switch-level-name.sh
 scripts/export-mrpack.sh
 scripts/strip-server-only-mods.sh
+scripts/sync-automodpack-client-mods.sh
 shaderpacks/*.zip.txt
 tlm_custom_pack/touhou_little_maid-1.0.0/assets/
-automodpack/
+# AutoModpack: include config files in mrpack, exclude secrets/runtime payload
+automodpack/.private/**
+automodpack/host-modpack/**
 
 云服务器与实际玩家日志
