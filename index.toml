@@ -3381,10 +3381,6 @@ file = "config/yungsmenutweaks-fabric-1_21.toml"
 hash = "eb1dfe20f3cb1ee88f21381f2f7825f83d3f60123c42975d3959dfb41345e986"
 
 [[files]]
-file = "datapacks/BlazeandCave's Advancements Pack 1.17.2.zip"
-hash = "2df9b3928c960814187d6b54da904dbce05b54818801a675c7b56d101922d510"
-
-[[files]]
 file = "datapacks/blazeandcaves-advancements-pack.pw.toml"
 hash = "5c6a762d84b87b19b50e3e9ab89a0d0e446f7d915e9b1f7ee40379a90826e929"
 metafile = true
@@ -4816,10 +4812,6 @@ metafile = true
 file = "mods/zoomify.pw.toml"
 hash = "fb253ea8917107392ccd80685bd04afeb7ca1d82a81118d1821df30f4aa750c8"
 metafile = true
-
-[[files]]
-file = "resourcepacks/Reimagined GUI - Light - 1.20.2-1.21.x.zip"
-hash = "94e7dc7cc35207a771f66a2c265923fc2dbafbe77ea87933df4ddfb80ced9d3a"
 
 [[files]]
 file = "resourcepacks/bacap-language-pack.pw.toml"

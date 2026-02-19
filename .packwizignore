@@ -50,6 +50,8 @@ scripts/export-mrpack.sh
 scripts/strip-server-only-mods.sh
 scripts/sync-automodpack-client-mods.sh
 shaderpacks/*.zip.txt
+datapacks/*.zip
+resourcepacks/*.zip
 tlm_custom_pack/touhou_little_maid-1.0.0/assets/
 # AutoModpack: include config files in mrpack, exclude secrets/runtime payload
 automodpack/.private/**
