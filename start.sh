@@ -297,26 +297,6 @@ prune_unindexed_mods() {
     fi
 }
 
-# --- 4.2 预热 AutoModpack 客户端专用 MOD 镜像 ---
-sync_automodpack_client_mods() {
-    local enabled="${SOLWORLD_AUTOMODPACK_CLIENT_SYNC:-1}"
-    if [[ "$enabled" != "1" ]]; then
-        echo "ℹ️ 已跳过 AutoModpack 客户端专用 MOD 镜像同步 (SOLWORLD_AUTOMODPACK_CLIENT_SYNC=$enabled)"
-        return 0
-    fi
-
-    local mirror_script="scripts/sync-automodpack-client-mods.sh"
-    if [[ ! -f "$mirror_script" ]]; then
-        echo "⚠️ 未找到 $mirror_script，跳过客户端专用 MOD 镜像同步。"
-        return 0
-    fi
-
-    echo "--- 正在同步 AutoModpack 客户端专用 MOD 镜像 ---"
-    if ! bash "$mirror_script"; then
-        echo "⚠️ 客户端专用 MOD 镜像同步失败，将继续启动服务器（保留现有镜像内容）。"
-    fi
-}
-
 # --- 5. 内存与 GC 自动调优 ---
 get_total_physical_memory_mb() {
     local total_kb=""
@@ -490,7 +470,6 @@ run_server() {
         install_server_core
         if ! sync_mods; then continue; fi
         prune_unindexed_mods
-        sync_automodpack_client_mods
 
         local mem_total_mb mem_avail_mb cgroup_avail_mb
         mem_total_mb=$(get_total_physical_memory_mb)

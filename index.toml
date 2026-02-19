@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "automodpack/automodpack-client.json"
-hash = "2122a60d192266785c69ba7304033be41cdefb931c537920941841432a860eb6"
+hash = "e055d1ff00b7156484d7da50ba6b137c227678b3d2feacca3c75022a133a5364"
 
 [[files]]
 file = "automodpack/automodpack-server.json"
-hash = "742f4816919e545d9e85e36545a86e861fd85231b83243fc3daa1985f9db073d"
+hash = "d91610a5985de7330b13b3d4f9736f421a1ab4a1f49dc6365e04a6e9b12e0a2b"
 
 [[files]]
 file = "config/DistantHorizons.toml"
@@ -1474,7 +1474,7 @@ hash = "209ef74751243270cca3056ce85f90f55791f45b35e9bc1a06000ad681211abe"
 
 [[files]]
 file = "config/scalablelux.properties"
-hash = "8eed0f4aa0b707a80175f64af384800ebe0e0a3a4db7b7515a2e4226386916a5"
+hash = "926fba5f5927677dc5ef93dd70f3217bcc80b0186d8d6014d8bc8d3cc7031a7e"
 
 [[files]]
 file = "config/sereneseasons/fertility.toml"
@@ -3452,11 +3452,6 @@ metafile = true
 [[files]]
 file = "mods/auto-third-person.pw.toml"
 hash = "ca1f12662b9f6034f9ad858337a49fec2b4423b9eacf38fa6654d0afa97bf4b8"
-metafile = true
-
-[[files]]
-file = "mods/automodpack.pw.toml"
-hash = "ac9f1a200349252d4a9fd2d2d527f1ea6013a27bc431160ccc3cd6634c8ba60c"
 metafile = true
 
 [[files]]
