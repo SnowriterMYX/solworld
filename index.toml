@@ -3965,6 +3965,7 @@ file = "mods/iris.pw.toml"
 hash = "5284f6d141a990f4ea021c12b851e07102f5cb22743cf7b33be6ad2eb4c8d3f5"
 metafile = true
 
+[[files]]
 file = "mods/item-descriptions.pw.toml"
 hash = "08cbbf5f9c5b7609f5e43f03005dd258fabb9a57e6eb33f9f192d70edc4462e0"
 metafile = true
