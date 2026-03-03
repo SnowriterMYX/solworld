@@ -5,7 +5,7 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "b8b2e0df693cb7c4aa2338dd916a7066f988109a"
-url = "https://www.curseforge.com/api/v1/mods/363703/files/6427511/download"
+url = "https://mediafilez.forgecdn.net/files/6427/511/goblintraders-fabric-1.21.1-1.11.2.jar"
 
 [update]
 [update.curseforge]

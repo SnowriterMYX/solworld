@@ -3577,7 +3577,7 @@ metafile = true
 
 [[files]]
 file = "mods/chimes.pw.toml"
-hash = "4ca38abe34ac37a7f60a36deaaa553a9359adc88f626ec6a32676648f5a047cc"
+hash = "ff064105e582e0702d49343521a6bbbc2b1bcd4cbb81021dabf28db20e922687"
 metafile = true
 
 [[files]]
@@ -3627,7 +3627,7 @@ metafile = true
 
 [[files]]
 file = "mods/connectivity.pw.toml"
-hash = "206194c0fe6adcaf762aa4c139a6914c5205ba7ca43e89dc08d78b831463996c"
+hash = "fd86101d1836c472ee6a181c300981fe76e03714791f0e6b246deb9983cad7ef"
 metafile = true
 
 [[files]]
@@ -3677,7 +3677,7 @@ metafile = true
 
 [[files]]
 file = "mods/cupboard.pw.toml"
-hash = "469e5dc578ef8ad594d5b2bd523950559b41c93924d8f0d7a59cca3b9ce371c9"
+hash = "ca450e851db3ad395d1b05e3f54e4283aa767d0390e03120b32981bfbefddf50"
 metafile = true
 
 [[files]]
@@ -3717,7 +3717,7 @@ metafile = true
 
 [[files]]
 file = "mods/do-api.pw.toml"
-hash = "7ec740ab8c8c9fffaba81c7e15dea37b2dd35804e8dda804ef01c6c077263d9c"
+hash = "7e42e67ac7ed6d55c2fe3652d5ba15fba17b7e2667b047f5d4d2e45679f45769"
 metafile = true
 
 [[files]]
@@ -3862,7 +3862,7 @@ metafile = true
 
 [[files]]
 file = "mods/fix-gpu-memory-leak.pw.toml"
-hash = "d7448bd6c221afd62b5184be7e3a499687c0da7e2a9e941a09c834739d03ffc2"
+hash = "f90d51e725c618700377913945fca5e0d7c12f4eb2ca21040743a13c978d0cba"
 metafile = true
 
 [[files]]
@@ -3872,7 +3872,7 @@ metafile = true
 
 [[files]]
 file = "mods/framework.pw.toml"
-hash = "d576f97b03549fb05818d6eeed08ee874b8e1f043bb677e6e984eabd2e4f51c3"
+hash = "df876ae9c1ec12e26ea4146c77c6cdfd10c939328fc11352c7c1ba61421cb7e5"
 metafile = true
 
 [[files]]
@@ -3902,7 +3902,7 @@ metafile = true
 
 [[files]]
 file = "mods/goblin-traders.pw.toml"
-hash = "c92099e0b8dcab3b2aa402e1d8f3afcf1837fa2de1d4384b11bda00f6a342de5"
+hash = "e2dd43cebaccec755cfd1f01516bd8366cff5912b9dc17c2c656515e9b7a5ee3"
 metafile = true
 
 [[files]]
@@ -4240,7 +4240,7 @@ metafile = true
 
 [[files]]
 file = "mods/mighty-mail.pw.toml"
-hash = "972dbeed473197fe1bd41daa5746ce9345e13ff4e905e25d5711cefd1ee3d531"
+hash = "dcdd4893fc6960ae8ea863f9b62df67f18eeadacafe627d45f57707b3915fb8b"
 metafile = true
 
 [[files]]
