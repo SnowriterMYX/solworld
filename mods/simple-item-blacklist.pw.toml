@@ -1,0 +1,13 @@
+name = "Item Blacklist"
+filename = "item_blacklist-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8c54603bcb5a156d4a9e1ac82253d5587b81400a"
+url = "https://www.curseforge.com/api/v1/mods/1334905/files/6931947/download"
+
+[update]
+[update.curseforge]
+file-id = 6931947
+project-id = 1334905

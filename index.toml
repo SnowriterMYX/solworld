@@ -3965,7 +3965,6 @@ file = "mods/iris.pw.toml"
 hash = "5284f6d141a990f4ea021c12b851e07102f5cb22743cf7b33be6ad2eb4c8d3f5"
 metafile = true
 
-[[files]]
 file = "mods/item-descriptions.pw.toml"
 hash = "08cbbf5f9c5b7609f5e43f03005dd258fabb9a57e6eb33f9f192d70edc4462e0"
 metafile = true
@@ -4466,6 +4465,11 @@ metafile = true
 [[files]]
 file = "mods/servercore.pw.toml"
 hash = "509a129f843e72b23f7269fb940bbd757a78716d6f2350f33ebe751c40bb77f8"
+metafile = true
+
+[[files]]
+file = "mods/simple-item-blacklist.pw.toml"
+hash = "1ad13ae4f8f22978b794f3fbd32ff71a81b01fcde5a5de19fff9eb7aa438c808"
 metafile = true
 
 [[files]]
