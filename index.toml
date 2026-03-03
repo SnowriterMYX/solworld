@@ -4470,7 +4470,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-item-blacklist.pw.toml"
-hash = "1ad13ae4f8f22978b794f3fbd32ff71a81b01fcde5a5de19fff9eb7aa438c808"
+hash = "10c23de6ad712e7682a76ee2916d747e8f85b065ac557090171087f8909433ec"
 metafile = true
 
 [[files]]

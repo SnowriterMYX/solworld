@@ -5,7 +5,7 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "8c54603bcb5a156d4a9e1ac82253d5587b81400a"
-url = "https://www.curseforge.com/api/v1/mods/1334905/files/6931947/download"
+url = "https://mediafilez.forgecdn.net/files/6931/947/item_blacklist-1.0.2.jar"
 
 [update]
 [update.curseforge]
