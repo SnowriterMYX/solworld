@@ -1113,10 +1113,6 @@ file = "config/luckperms/translations/repository/sr_CS.properties"
 hash = "912c0aff4bb5bf77bf907c6ccb072fae19948311d8cb8f4f5d2f97c94adb5533"
 
 [[files]]
-file = "config/luckperms/translations/repository/status.json"
-hash = "c45418f40666505936b2c2ab3356510980117a4530216abfbf98cb437b3808d5"
-
-[[files]]
 file = "config/luckperms/translations/repository/sv_SE.properties"
 hash = "4a0d1b26ef14040333044bfdec7ca6c32d81251c2f0d3b8006d409dac392f454"
 
@@ -1295,10 +1291,6 @@ hash = "14e4fe1ded11fa49bfc3479a8e7efdda0e5bc7333d6c9723b44c87306619d8ab"
 [[files]]
 file = "config/resourceful-config-web.json"
 hash = "209ef74751243270cca3056ce85f90f55791f45b35e9bc1a06000ad681211abe"
-
-[[files]]
-file = "config/scalablelux.properties"
-hash = "926fba5f5927677dc5ef93dd70f3217bcc80b0186d8d6014d8bc8d3cc7031a7e"
 
 [[files]]
 file = "config/sereneseasons/fertility.toml"
@@ -1651,10 +1643,6 @@ hash = "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e"
 [[files]]
 file = "config/yes_steve_model-client.toml"
 hash = "7554c46f486062f6f649d6754bd8d305bc6ca75a706e2f2d3b3a9bfab9b020d2"
-
-[[files]]
-file = "config/yes_steve_model-server.toml"
-hash = "99636b44ec7e5555e795854dd75f75490af2fdf8a6f528b20a608154fa2290dc"
 
 [[files]]
 file = "config/yes_steve_model/blacklist.txt"
