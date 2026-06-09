@@ -394,13 +394,13 @@ calculate_max_heap() {
     fi
 
     local min_heap_mb="${SOLWORLD_MIN_HEAP_MB:-2048}"
-    local max_heap_mb="${SOLWORLD_MAX_HEAP_MB:-10240}"
+    local max_heap_mb="${SOLWORLD_MAX_HEAP_MB:-8192}"
     local reserved_mb="${SOLWORLD_RESERVED_MB:-2048}"
     local heap_percent="${SOLWORLD_HEAP_PERCENT:-80}"
     local hard_floor_mb="${SOLWORLD_HARD_FLOOR_MB:-512}"
 
     [[ "$min_heap_mb" =~ ^[0-9]+$ ]] || min_heap_mb=2048
-    [[ "$max_heap_mb" =~ ^[0-9]+$ ]] || max_heap_mb=10240
+    [[ "$max_heap_mb" =~ ^[0-9]+$ ]] || max_heap_mb=8192
     [[ "$reserved_mb" =~ ^[0-9]+$ ]] || reserved_mb=2048
     [[ "$heap_percent" =~ ^[0-9]+$ ]] || heap_percent=80
     [[ "$hard_floor_mb" =~ ^[0-9]+$ ]] || hard_floor_mb=512
@@ -438,8 +438,8 @@ calculate_max_heap() {
 
 calculate_soft_heap() {
     local xmx_mb="$1"
-    local soft_heap_mb="${SOLWORLD_SOFT_HEAP_MB:-6144}"
-    [[ "$soft_heap_mb" =~ ^[0-9]+$ ]] || soft_heap_mb=6144
+    local soft_heap_mb="${SOLWORLD_SOFT_HEAP_MB:-5120}"
+    [[ "$soft_heap_mb" =~ ^[0-9]+$ ]] || soft_heap_mb=5120
     [ "$soft_heap_mb" -lt 512 ] && soft_heap_mb=512
     [ "$soft_heap_mb" -gt "$xmx_mb" ] && soft_heap_mb="$xmx_mb"
     echo "$soft_heap_mb"
@@ -519,7 +519,7 @@ run_server() {
             "-XX:+ExitOnOutOfMemoryError"
             "-XX:+PerfDisableSharedMem"
         )
-        if [[ "${SOLWORLD_REGISTRY_DEBUG:-1}" == "1" ]]; then
+        if [[ "${SOLWORLD_REGISTRY_DEBUG:-0}" == "1" ]]; then
             registry_debug_opts=(
                 "-Dfabric.registry.debug=true"
                 "-Dfabric.registry.debug.writeContentsAsCsv=true"

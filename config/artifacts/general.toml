@@ -43,11 +43,11 @@ entityEquipmentChance = 0.0015
 	#Whether Artifacts should add slots to the Accessories menu,
 	#and allow artifacts to be equipped in them
 	#Allowed Values: true, false
-	enableAccessoriesCompat = true
+	enableAccessoriesCompat = false
 	#Whether Artifacts should add slots to the Curios menu,
 	#and allow artifacts to be equipped in them
 	#Allowed Values: true, false
-	enableCuriosCompat = true
+	enableCuriosCompat = false
 	#Whether Artifacts should add slots to the Trinket menu,
 	#and allow artifacts to be equipped in them
 	#Allowed Values: true, false

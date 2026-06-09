@@ -48,7 +48,19 @@
     "block_in_protected_area": {
       "flan:provider": false
     },
-    "blacklisted_worlds": [],
+    "blacklisted_worlds": [
+      "minecraft:overworld",
+      "minecraft:the_nether",
+      "minecraft:the_end",
+      "aether:the_aether",
+      "uf_data:data",
+      "dimdoors:limbo",
+      "dimdoors:personal_pockets",
+      "dimdoors:dungeon_pockets",
+      "dimdoors:public_pockets",
+      "minecraft:server_faucet_test_level",
+      "minecraft:server_projectile_test_level"
+    ],
     "blacklisted_areas": {},
     "creation_default_failure_text": "<red><lang:'text.graves.creation_failed':'<gold>${position}':'<yellow>${world}'>",
     "creation_claim_failure_text": "<red><lang:'text.graves.creation_failed_claim':'<gold>${position}':'<yellow>${world}'>"

@@ -75,7 +75,7 @@
 		// Prevents backpack disappearing in void, spawns floating backpack above minimum Y when player dies in void
 		"voidProtection": true,
 		// Places backpack at place where player died
-		"backpackDeathPlace": true,
+		"backpackDeathPlace": false,
 		// Places backpack at place where player died, replacing all blocks that are breakable and do not have inventory (backpackDeathPlace must be true in order to work)
 		"backpackForceDeathPlace": false,
 		// Allows sleeping in a sleeping bag without the need to unequip and place the backpack on the ground
@@ -271,7 +271,7 @@
 		// Whether the backpack icon should be visible in player's inventory
 		"showBackpackIconInInventory": true,
 		// Sends a message to the player on death with backpack coordinates
-		"sendBackpackCoordinatesMessage": true,
+		"sendBackpackCoordinatesMessage": false,
 		// Depreciated - see allowToolSwapping instead
 		"enableToolCycling": true,
 		// Depreciated
