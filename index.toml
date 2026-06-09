@@ -1,14 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "automodpack/automodpack-client.json"
-hash = "e055d1ff00b7156484d7da50ba6b137c227678b3d2feacca3c75022a133a5364"
-
-[[files]]
-file = "automodpack/automodpack-server.json"
-hash = "d91610a5985de7330b13b3d4f9736f421a1ab4a1f49dc6365e04a6e9b12e0a2b"
-
-[[files]]
 file = "config/DistantHorizons.toml"
 hash = "00220889ba75e39311aec81a7cb097bd5980d96743da39bf0c765a25d824ee3d"
 

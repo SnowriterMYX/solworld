@@ -30,13 +30,7 @@
 # 忽略插件生成的动态内容和缓存
 /better-fabric-console/
 /dynamic-data-pack-cache/
-# AutoModpack 运行时产物（含私钥/证书等敏感文件）
-# AutoModpack: keep configs tracked, ignore secrets/runtime outputs
-/automodpack/*
-!/automodpack/automodpack-client.json
-!/automodpack/automodpack-server.json
-/automodpack/.private/
-/automodpack/host-modpack/
+/automodpack/
 /.packwiz/
 /.pack_hash
 /scripts/switch-level-name.sh
