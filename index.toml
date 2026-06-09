@@ -1486,7 +1486,7 @@ hash = "499d188162ddcf7fcf450cdcdc96bd41ac582501ecad5ed4a74dd9ed6b01990a"
 
 [[files]]
 file = "config/textile_backup.json5"
-hash = "c4e24f55062fb2c63603366f3ebc6fa3ea26b87a23144f42d207cdd2b6fc2070"
+hash = "6677be6d6398f7a68efec7d2ab464ebe993f6d75ddac2a92acb0c5454289734d"
 
 [[files]]
 file = "config/toms_storage.json"
