@@ -170,7 +170,7 @@ hash = "285f55d00f7e50b3e6191e22fc02083dd3648e1fe717da6a20a59bfc84044fab"
 
 [[files]]
 file = "config/better-fabric-console.conf"
-hash = "7f74925194b4ffd9a985b5371d9e0e050620f88aa09e1729b8326682c82b97ed"
+hash = "5f82fc7c394bbb25cd9320b51a41170311cd3d5986a200793ca462d1cc35a8a5"
 
 [[files]]
 file = "config/bettercombat/client.json5"
